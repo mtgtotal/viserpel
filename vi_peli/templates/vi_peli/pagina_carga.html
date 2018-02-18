@@ -1,0 +1,70 @@
+{% extends 'vi_peli/base.html' %}
+    {% block menu %}
+        {% if proveedor %}
+            <li class="menu-item"><a href="{% url 'guarda_total' proveedor %}" class="menu_item"><span class="glyphicon glyphicon-save" ></span>Guardar en BBDD</a></li>
+        {% endif %}
+        <li class="menu-item"><a href="/" class="menu_item">Otros Elementos</a></li>
+    {% endblock %}
+    {% block content %}
+    <section class="Carga">
+        <div class="dropdown">
+            <form class="form-inline" action="." method="GET">
+
+                <div class="form-group">
+                  <label for="prov">Proveedor:</label>
+                  <select class="form-control" id="prov" name ="prov" value = "{{ proveedor|escape }}">
+                    <option></option>
+                    <option value = "NewPct1" selected>NewPct1</option>
+                    <option value = "NewPct1_HD">NewPct1_HD</option>
+                    <option value = "MejorTorrent">MejorTorrent</option>
+                    <option value = "MejorTorrent_HD">MejorTorrent_HD</option>
+                    <option value = "MejorTorrent_Todo">MejorTorrent_Todo</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="tipoCarga">Tipo de Carga:</label>
+                  <select class="form-control" id="tipoCarga"  name ="tipoC" value = "{{ tipoCarga|escape }}">
+                    <option ></option>
+                    <option>Web</option>
+                    <option selected>JSon</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="pagina">Páginas:</label>
+                  <input type="text" class="form-control" id="pagina" name="pag" placeholder="Nº Paginas" pattern="[0-9]*" value = "{{ paginas|escape }}">
+                  <label for="letra">Letras:</label>
+                  <input type="text" class="form-control" id="letra" name="let" placeholder="Letras Mayusculas o 0-9 u otros" value = "{{ letras|escape }}">
+                </div>
+                <input type="submit" value="Busqueda">
+            </form>
+        </div>
+    </section>
+    {% if proveedor and tipoCarga %}
+    <h2>Carga para el proveedor: {{proveedor}} y desde {{tipoCarga}}</h2>
+    {% endif %}
+    <section class="container">
+        <div class="lista_pelis">
+
+             <ul class = "pelilist">
+
+                 {% for peli in pelisjson %}
+
+                    <li>
+                        <a href="{% url 'guarda_pelicula' proveedor peli.indice%}" name = 'pelicula' value = "{{peli|escape}}">
+                            <img src="{{ peli.imagen }}" width="130" height="180">
+                            <h2>{{ peli.titulo.capitalize }}</h2>
+                            <span>{{ peli.calidad }} - {{peli.indice}}</span>
+
+
+                        </a>
+
+                    </li>
+
+                 {% empty %}
+                    <h2><b>No hay películas todavía</b></h2>
+                 {% endfor %}
+            </ul>
+        </div>
+
+     </section>
+    {% endblock %}

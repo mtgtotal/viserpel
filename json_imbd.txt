@@ -1,0 +1,57 @@
+API IMBD
+
+request-->
+
+{u'Plot': u'Thomas is deposited in a community of boys after his memory is erased, soon learning they\'re all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.', 
+ u'Rated': u'PG-13', 
+ u'Title': u'The Maze Runner', 
+ u'Ratings': [{u'Source': u'Internet Movie Database', u'Value': u'6.8/10'}, {u'Source': u'Rotten Tomatoes', u'Value': u'65%'}, {u'Source': u'Metacritic', u'Value': u'57/100'}], 
+ u'DVD': u'16 Dec 2014', 
+ u'Writer': u'Noah Oppenheim (screenplay by), Grant Pierce Myers (screenplay by), T.S. Nowlin (screenplay by), James Dashner (based upon the novel by)', 
+ u'Production': u'20th Century Fox', 
+ u'Actors': u"Dylan O'Brien, Aml Ameen, Ki Hong Lee, Blake Cooper", 
+ u'Type': u'movie', 
+ u'imdbVotes': u'349,494', 
+ u'Website': u'http://themazerunnermovie.com/', 
+ u'Poster': u'https://images-na.ssl-images-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_SX300.jpg', 
+ u'Director': u'Wes Ball', 
+ u'Released': u'19 Sep 2014', 
+ u'Awards': u'4 wins & 11 nominations.', 
+ u'Genre': u'Action, Mystery, Sci-Fi', 
+ u'imdbRating': u'6.8', 
+ u'Language': u'English', 
+ u'Country': u'USA, UK', 
+ u'BoxOffice': u'$98,537,272', 
+ u'Runtime': u'113 min', 
+ u'imdbID': u'tt1790864', 
+ u'Metascore': u'57', 
+ u'Response': u'True', 
+ u'Year': u'2014'}
+ 
+ title(title, **params)	Get by title	Item
+ 
+ Item(
+ {'metascore': u'57', 
+ 'year': u'2014', 
+ 'plot': u'Thomas is deposited in a community of boys after his memory is erased, soon learning they\'re all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.', 
+ 'rated': u'PG-13', 
+ 'title': u'The Maze Runner', 
+ 'writer': u'Noah Oppenheim (screenplay by), Grant Pierce Myers (screenplay by), T.S. Nowlin (screenplay by), James Dashner (based upon the novel by)', 
+ 'production': u'20th Century Fox', 
+ 'actors': u"Dylan O'Brien, Aml Ameen, Ki Hong Lee, Blake Cooper", 
+ 'imdb_votes': u'349,494', 
+ 'type': u'movie', 
+ 'website': u'http://themazerunnermovie.com/', 
+ 'poster': u'https://images-na.ssl-images-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_SX300.jpg', 
+ 'imdb_id': u'tt1790864', 
+ 'director': u'Wes Ball', 
+ 'released': u'19 Sep 2014', 
+ 'awards': u'4 wins & 11 nominations.', 
+ 'genre': u'Action, Mystery, Sci-Fi', 
+ 'response': u'True', 
+ 'language': u'English', 
+ 'dvd': u'16 Dec 2014', 
+ 'imdb_rating': u'6.8', 
+ 'country': u'USA, UK', 
+ 'runtime': u'113 min', 
+ 'box_office': u'$98,537,272'})

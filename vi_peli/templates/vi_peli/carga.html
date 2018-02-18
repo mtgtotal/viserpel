@@ -1,0 +1,49 @@
+{% extends 'vi_peli/base.html' %}
+    {% block menu %}
+        <li class="menu-item"><a href="{% url 'guarda_total' %}" class="menu_item"><span class="glyphicon glyphicon-save" ></span>Guardar en BBDD</a></li>
+        <li class="menu-item"><a href="/" class="menu_item">Otros Elementos</a></li>
+    {% endblock %}
+    {% block content %}
+    <section class="tipoCarga">
+        <div class="dropdown">
+            <form action="." method="GET">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Proveedores
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">NewPct1-HD</a></li>
+                    <li><a href="#">NewPct1</a></li>
+                </ul>
+
+        </div>
+    </section>
+    <section class="container">
+        <div class="lista_pelis">
+            <style type="text/css">
+                ul.movies-widget div.info {color:#000;}
+                ul.movies-widget div.info strong {color:#000;}
+                ul.programas-widget div.info p {color:#000;}
+                ul.pelilist                { width: 1500px; height: auto; float: left; margin: 15px 0 0 0; text-align: center;}
+                ul.pelilist  li            { height: 250px; float: left; padding: 0 0 0 15px;margin:0px;}
+                ul.pelilist  li img        { width: 130px; height: 180px; border: 1px solid #d5d6d8; padding: 2px;}
+                ul.pelilist  li img:hover  { opacity: 0.7;}
+                ul.pelilist  li h2         { width:130px;font-size: 13px;margin:0px; font-weight: 600; line-height: 14px; padding: 0px 0 0px 0;}
+                ul.pelilist  li span       { font-size: 10px; color: #555; line-height: 4px;font-weight: normal; font-style: italic; }
+            </style>
+             <ul class = "pelilist">
+        {% for peli in pelisjson %}
+                    <li>
+                        <a href={{ peli.torrent }}>
+                            <img src={{ peli.imagen }} width="130" height="180">
+                            <h2>{{ peli.titulo }}</h2>
+                            <span>{{ peli.calidad }}</span>
+                        </a>
+
+                    </li>
+        {% empty %}
+            <h2><b>No hay películas todavía</b></h2>
+        {% endfor %}
+            </ul>
+        </div>
+
+     </section>
+    {% endblock %}

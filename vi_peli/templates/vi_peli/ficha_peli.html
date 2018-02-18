@@ -1,0 +1,88 @@
+{% extends 'vi_peli/base.html' %}
+{% load staticfiles %}
+    {% block menu %}
+        <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
+        <li class="menu-item"><a href="/" class="menu_item">Otros Elementos</a></li>
+    {% endblock %}
+    {% block content %}
+
+            <section class="Peli">
+                <div class="titulo">
+                    <p style="color:white">{{peli.titulo}}</p>
+                </div>
+                <div class="poster">
+                    <img src="{% static peli.imagen %}" width="100%">
+                </div>
+                <div class="ficha">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class = "tit" width = 18%>Titulo:</td>
+                                <td class = "des" width = 82%>{{peli.titulo.capitalize}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Titulo Original:</td>
+                                <td class = "des">{{peli.titulo_orig}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Año:</td>
+                                <td class = "des">{{peli.year}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Generos:</td>
+                                <td class = "des">{{peli.generos}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Director:</td>
+                                <td class = "des">{{peli.director}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Actores:</td>
+                                <td class = "des">{{peli.actores}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Sinopsis:</td>
+                                <td class = "des">{{peli.sinopsis_es}}</td>
+                            </tr>
+                            <tr>
+                                <td class = "tit">Id:</td>
+                                <td class = "des">{{peli.idFicha}}</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="enlaces">
+
+                  <table class="table table-bordered t_enlaces">
+                    <thead >
+                      <tr>
+                        <th class ="tenlace">Proveedor</th>
+                        <th class ="tenlace">Calidad</th>
+                        <th class ="tenlace">Torrent</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    {% for link in enlaces %}
+                      <tr>
+                        <td>{{ link.proveedor }}</td>
+                        <td>{{ link.calidad }}</td>
+                          <td><a href="{{ link.torrent }}"><span class="glyphicon glyphicon-download-alt"></span></a></td>
+                      </tr>
+
+                    {% empty %}
+                      <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+                    {% endfor %}
+
+                    </tbody>
+                  </table>
+                </div>
+
+            </section>
+
+    {% endblock %}

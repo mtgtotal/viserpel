@@ -1,0 +1,96 @@
+{% extends 'vi_peli/base.html' %}
+{% load staticfiles %}
+    {% block menu %}
+        <li class="menu-item"><a href="/" class="menu_item">Listado</a></li>
+        <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
+        <li class="menu-item"><a href="/" class="menu_item">Configuración</a></li>
+    {% endblock %}
+    {% block content %}
+    <section class="contenedor">
+        <div class = "busqueda">
+            <h3> Busqueda de Películas </h3>
+            <form class="form-horizontal" action="." method="GET">
+                <div class="input-group">
+                  <span class="input-group-addon">Titulo</span>
+                  <input type="text" class="form-control" placeholder="Search" name = "titulo" value="{{titulo|escape}}">
+
+
+                  <span class="input-group-addon">Año</span>
+                  <input type="text" class="form-control" name = "anio" value="{{anio|escape}}">
+                  <span class="input-group-addon" width = "20%">Letra</span>
+                  <select class="form-control" id="letra" name ="letra" value = "{{ letra|escape }}">
+                    <option></option>
+                    <option value = "0-9">0-9</option>
+                    <option value = "A">A</option>
+                    <option value = "B">B</option>
+                    <option value = "C">C</option>
+                    <option value = "D">D</option>
+                    <option value = "E">E</option>
+                    <option value = "F">F</option>
+                    <option value = "G">G</option>
+                    <option value = "H">H</option>
+                    <option value = "I">I</option>
+                    <option value = "J">J</option>
+                    <option value = "K">K</option>
+                    <option value = "L">L</option>
+                    <option value = "M">M</option>
+                    <option value = "N">N</option>
+                    <option value = "O">O</option>
+                    <option value = "P">P</option>
+                    <option value = "Q">Q</option>
+                    <option value = "R">R</option>
+                    <option value = "S">S</option>
+                    <option value = "T">T</option>
+                    <option value = "U">U</option>
+                    <option value = "V">V</option>
+                    <option value = "W">W</option>
+                    <option value = "X">X</option>
+                    <option value = "Y">Y</option>
+                    <option value = "Z">Z</option>
+                    <option value = "otros">otros</option>
+
+                  </select>
+
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon">Generos</span>
+                  <select class="form-control" id="Generos"  name ="Generos" value = "{{ generos|escape }}">
+                      <option></option>
+                      {% for g in lista_generos %}
+                        <option value = "{{g.id_gen}}">{{g.nom_genero}}</option>
+                      {% endfor %}
+                  </select>
+                  <span class="input-group-addon">Calidad</span>
+                  <select class="form-control" id="Calidad"  name ="Calidad" value = "{{ calidad|escape }}">
+                    <option ></option>
+                    <option>Web</option>
+                    <option>JSon</option>
+                  </select>
+                </div>
+
+                <br><br>
+                <input type="submit" value="Busqueda"><input type="reset" value="Borrar">
+            </form>
+
+        </div>
+    </section>
+    <section class="container">
+
+        <div class="resultados">
+            <h1 class = "resul"> Resultados </h1>
+            <ul class = "resultados pelires">
+            {% for peli in pelis_busqueda %}
+                <li>
+                    <a href="{% url 'ficha' pk=peli.pk %}">
+                        <img src="{% static peli.imagen %}"   width="130" height="180">
+                        <h2>{{ peli.titulo.capitalize }}</h2>
+                        <!--<span>{{ peli.calidad }}</span>-->
+                    </a>
+                </li>
+            {% empty %}
+                <h3> No se han encontrado resultados </h3>
+            {% endfor %}
+            <ul>
+        </div>
+    </section>
+    {% endblock %}

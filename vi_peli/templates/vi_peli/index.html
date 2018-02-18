@@ -1,0 +1,29 @@
+{% extends 'vi_peli/base.html' %}
+{% load staticfiles %}
+    {% block menu %}
+        <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
+        <li class="menu-item"><a href="/" class="menu_item">Otros Elementos</a></li>
+    {% endblock %}
+    {% block content %}
+
+    <section class="container">
+        <div class="lista_pelis">
+            <CENTER><h2>LISTA DE PELICULAS</h2></CENTER>
+             <ul class = "pelilist">
+        {% for peli in pelis %}
+                    <li>
+
+                        <a href="{% url 'ficha' pk=peli.pk %}">
+                            <img src="{% static peli.imagen %}"   width="130" height="180">
+                            <h2>{{ peli.titulo.capitalize }}</h2>
+                            <!--<span>{{ peli.calidad }}</span>-->
+                        </a>
+
+                    </li>
+        {% empty %}
+            <h2><b>No hay películas todavía</b></h2>
+        {% endfor %}
+            </ul>
+
+    </section>
+    {% endblock %}
