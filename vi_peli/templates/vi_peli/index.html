@@ -2,7 +2,7 @@
 {% load staticfiles %}
     {% block menu %}
         <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
-        <li class="menu-item"><a href="/" class="menu_item">Otros Elementos</a></li>
+        <li class="menu-item"><a href="{% url 'listar_pelis' %}" class="menu_item">Lista Peliculas</a></li>
     {% endblock %}
     {% block content %}
 

@@ -1,0 +1,278 @@
+2018-02-19 17:09:55,819 : DEBUG : ALIEN COVENANT
+2018-02-19 17:09:55,819 : DEBUG : None
+2018-02-19 17:09:55,819 : DEBUG : http://newpct1.com/descargar-torrent/98783_alien-covenant-4k-uhd-2160p-hevc-x265-dts-5-1-castellano-dts-7-1-ingles-subs-es-en
+2018-02-19 17:09:55,819 : DEBUG : ALIEN COVENANT
+2018-02-19 17:09:55,819 : DEBUG : Alien- Covenant 
+2018-02-19 17:09:55,819 : DEBUG : Buscamos la peli pq no existe
+2018-02-19 18:56:50,323 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 18:56:50,323 : DEBUG : None
+2018-02-19 18:56:50,323 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 18:56:50,323 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 18:56:50,323 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:03:20,884 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:03:20,963 : DEBUG : None
+2018-02-19 19:03:20,963 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 19:03:20,964 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:03:20,964 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:04:18,344 : DEBUG : 100 CALLES
+2018-02-19 19:04:18,345 : DEBUG : Imdb-tt2990126,movdb-334532
+2018-02-19 19:04:18,345 : DEBUG : http://newpct1.com/descargar-torrent/94454_100-calles-bluray-rip-ac3-5-1-espaa-ol-castellano-2017
+2018-02-19 19:04:18,345 : DEBUG : 100 CALLES
+2018-02-19 19:04:18,345 : DEBUG : None
+2018-02-19 19:06:05,772 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:06:05,773 : DEBUG : None
+2018-02-19 19:06:05,773 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 19:06:05,773 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:06:05,773 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:06:05,775 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:06:05,776 : DEBUG : None
+2018-02-19 19:06:05,776 : DEBUG : 1302
+2018-02-19 19:06:05,776 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:06:05,776 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x077A4878>)
+2018-02-19 19:11:10,960 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:11:10,960 : DEBUG : None
+2018-02-19 19:11:10,961 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 19:11:10,961 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:11:10,961 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:11:10,963 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:11:10,963 : DEBUG : None
+2018-02-19 19:11:10,963 : DEBUG : 50SOMBRASMASOSCURAS
+2018-02-19 19:11:10,964 : DEBUG : 1302
+2018-02-19 19:11:10,967 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:11:10,967 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x0704DA58>)
+2018-02-19 19:27:25,553 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:27:25,553 : DEBUG : None
+2018-02-19 19:27:25,553 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 19:27:25,553 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:27:25,553 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:27:25,553 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:27:25,553 : DEBUG : None
+2018-02-19 19:27:25,553 : DEBUG : 50SOMBRASMASOSCURAS
+2018-02-19 19:27:25,553 : DEBUG : 1302
+2018-02-19 19:27:25,553 : ERROR : Error en existe_peli
+2018-02-19 19:27:25,553 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x062F7BE8>)
+2018-02-19 19:27:25,553 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:27:25,553 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'existe_peli' referenced before assignment",), <traceback object at 0x062F7D00>)
+2018-02-19 19:30:00,640 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:30:00,640 : DEBUG : None
+2018-02-19 19:30:00,640 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 19:30:00,640 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:30:00,640 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:30:00,640 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:30:00,640 : DEBUG : None
+2018-02-19 19:30:00,640 : DEBUG : 50SOMBRASMASOSCURAS
+2018-02-19 19:30:00,640 : DEBUG : 1302
+2018-02-19 19:30:00,640 : ERROR : Error en existe_peli
+2018-02-19 19:30:00,640 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x06ECB080>)
+2018-02-19 19:30:00,654 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:30:00,654 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'existe_peli' referenced before assignment",), <traceback object at 0x06EB0030>)
+2018-02-19 19:33:41,716 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:33:41,716 : DEBUG : None
+2018-02-19 19:33:41,716 : DEBUG : http://newpct1.com/descargar-torrent/101299_50-sombras-mas-oscuras-remux-4k-uhd-2160p-hevc-hdr-dts-5-1-castellano-dts-5-1-ingles-subs-es-en
+2018-02-19 19:33:41,716 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:33:41,716 : DEBUG : Fifty Shades Darker 
+2018-02-19 19:33:41,730 : DEBUG : 50 SOMBRAS MAS OSCURAS
+2018-02-19 19:33:41,730 : DEBUG : None
+2018-02-19 19:33:41,730 : DEBUG : 50SOMBRASMASOSCURAS
+2018-02-19 19:33:41,730 : DEBUG : 1302
+2018-02-19 19:33:41,730 : ERROR : Error en existe_peli
+2018-02-19 19:33:41,730 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x06EA0E68>)
+2018-02-19 19:33:41,730 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:33:41,730 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'existe_peli' referenced before assignment",), <traceback object at 0x06EA05D0>)
+2018-02-19 19:36:06,914 : DEBUG : 6 DIAS
+2018-02-19 19:36:06,914 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:36:06,914 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:36:06,914 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:36:06,914 : DEBUG : 6 DIAS
+2018-02-19 19:36:06,914 : DEBUG : None
+2018-02-19 19:36:06,930 : DEBUG : 6 DIAS
+2018-02-19 19:36:06,930 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:36:06,930 : DEBUG : 6DIAS
+2018-02-19 19:36:06,930 : DEBUG : 92
+2018-02-19 19:36:06,930 : DEBUG : 6DIAS
+2018-02-19 19:36:06,930 : DEBUG : <QuerySet [<Pelicula: 6 DIAS>]>
+2018-02-19 19:36:06,930 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:36:06,930 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'QuerySet' object has no attribute 'idFicha'",), <traceback object at 0x07563D00>)
+2018-02-19 19:38:11,272 : DEBUG : 6 DIAS
+2018-02-19 19:38:11,272 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:38:11,272 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:38:11,272 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:38:11,272 : DEBUG : 6 DIAS
+2018-02-19 19:38:11,272 : DEBUG : None
+2018-02-19 19:38:11,272 : DEBUG : 6 DIAS
+2018-02-19 19:38:11,272 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:38:11,272 : DEBUG : 6DIAS
+2018-02-19 19:38:11,272 : DEBUG : 92
+2018-02-19 19:38:11,272 : DEBUG : 6DIAS
+2018-02-19 19:38:11,272 : DEBUG : <QuerySet [<Pelicula: 6 DIAS>]>
+2018-02-19 19:38:11,288 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:38:11,288 : ERROR : (<type 'exceptions.TypeError'>, TypeError(), <traceback object at 0x06F452D8>)
+2018-02-19 19:40:07,512 : DEBUG : 6 DIAS
+2018-02-19 19:40:07,512 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:40:07,512 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:40:07,512 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:40:07,512 : DEBUG : 6 DIAS
+2018-02-19 19:40:07,512 : DEBUG : None
+2018-02-19 19:40:07,512 : DEBUG : 6 DIAS
+2018-02-19 19:40:07,512 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:40:07,512 : DEBUG : 6DIAS
+2018-02-19 19:40:07,512 : DEBUG : 92
+2018-02-19 19:40:07,512 : DEBUG : 6DIAS
+2018-02-19 19:40:07,512 : DEBUG : <QuerySet [<Pelicula: 6 DIAS>]>
+2018-02-19 19:40:07,528 : ERROR : Error en existe_peli
+2018-02-19 19:40:07,528 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'QuerySet' object has no attribute 'id'",), <traceback object at 0x06CAAF80>)
+2018-02-19 19:40:07,528 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:40:07,528 : ERROR : (<type 'exceptions.TypeError'>, TypeError(), <traceback object at 0x072D0328>)
+2018-02-19 19:42:34,348 : DEBUG : Lista_Pelis object
+2018-02-19 19:42:34,348 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:42:34,348 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:42:34,348 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:42:34,348 : DEBUG : 6 DIAS
+2018-02-19 19:42:34,348 : DEBUG : None
+2018-02-19 19:42:34,348 : DEBUG : Lista_Pelis object
+2018-02-19 19:42:34,348 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:42:34,348 : DEBUG : 6DIAS
+2018-02-19 19:42:34,348 : DEBUG : 92
+2018-02-19 19:42:34,348 : DEBUG : 6DIAS
+2018-02-19 19:42:34,348 : DEBUG : <QuerySet [<Pelicula: Pelicula object>]>
+2018-02-19 19:42:34,364 : ERROR : Error en existe_peli
+2018-02-19 19:42:34,364 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'QuerySet' object has no attribute 'id'",), <traceback object at 0x06E2FDC8>)
+2018-02-19 19:42:34,364 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:42:34,364 : ERROR : (<type 'exceptions.TypeError'>, TypeError(), <traceback object at 0x07476558>)
+2018-02-19 19:48:03,868 : DEBUG : Lista_Pelis object
+2018-02-19 19:48:03,868 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:48:03,868 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:48:03,868 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:48:03,868 : DEBUG : 6 DIAS
+2018-02-19 19:48:03,868 : DEBUG : None
+2018-02-19 19:48:03,868 : DEBUG : Lista_Pelis object
+2018-02-19 19:48:03,868 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:48:03,868 : DEBUG : 6DIAS
+2018-02-19 19:48:03,868 : DEBUG : 92
+2018-02-19 19:48:03,868 : DEBUG : 6DIAS
+2018-02-19 19:48:03,884 : DEBUG : Pelicula object
+2018-02-19 19:48:03,884 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:48:03,884 : ERROR : Error en existe_peli
+2018-02-19 19:48:03,884 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Pelicula' object has no attribute '__getitem__'",), <traceback object at 0x0765B418>)
+2018-02-19 19:48:03,884 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:48:03,884 : ERROR : (<type 'exceptions.TypeError'>, TypeError("object of type 'Pelicula' has no len()",), <traceback object at 0x0765B620>)
+2018-02-19 19:49:15,996 : DEBUG : Lista_Pelis object
+2018-02-19 19:49:15,996 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:49:15,996 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:49:15,996 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:49:15,996 : DEBUG : 6 DIAS
+2018-02-19 19:49:15,996 : DEBUG : None
+2018-02-19 19:49:15,996 : DEBUG : Lista_Pelis object
+2018-02-19 19:49:15,996 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:49:15,996 : DEBUG : 6DIAS
+2018-02-19 19:49:15,996 : DEBUG : 92
+2018-02-19 19:49:15,996 : DEBUG : 6DIAS
+2018-02-19 19:49:16,012 : DEBUG : Pelicula object
+2018-02-19 19:49:16,012 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:49:16,012 : DEBUG : 88
+2018-02-19 19:49:16,012 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:49:16,012 : ERROR : (<type 'exceptions.TypeError'>, TypeError("object of type 'Pelicula' has no len()",), <traceback object at 0x06A3EBE8>)
+2018-02-19 19:51:21,023 : DEBUG : Lista_Pelis object
+2018-02-19 19:51:21,023 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:51:21,023 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:51:21,023 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:51:21,023 : DEBUG : 6 DIAS
+2018-02-19 19:51:21,023 : DEBUG : None
+2018-02-19 19:51:21,023 : DEBUG : Lista_Pelis object
+2018-02-19 19:51:21,023 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:51:21,023 : DEBUG : 6DIAS
+2018-02-19 19:51:21,023 : DEBUG : 92
+2018-02-19 19:51:21,023 : DEBUG : 6DIAS
+2018-02-19 19:51:21,023 : DEBUG : Pelicula object
+2018-02-19 19:51:21,023 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:51:21,023 : DEBUG : 88
+2018-02-19 19:51:21,023 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:51:21,023 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'Lista_Pelis' object has no attribute 'anio'",), <traceback object at 0x06F8BCD8>)
+2018-02-19 19:53:31,644 : DEBUG : 6 DIAS
+2018-02-19 19:53:31,644 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:53:31,644 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:53:31,644 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:53:31,644 : DEBUG : 6 DIAS
+2018-02-19 19:53:31,644 : DEBUG : None
+2018-02-19 19:53:31,644 : DEBUG : 6 DIAS
+2018-02-19 19:53:31,644 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:53:31,644 : DEBUG : 6DIAS
+2018-02-19 19:53:31,644 : DEBUG : 92
+2018-02-19 19:53:31,644 : DEBUG : 6DIAS
+2018-02-19 19:53:31,644 : DEBUG : 6 DIAS
+2018-02-19 19:53:31,644 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:53:31,644 : DEBUG : 88
+2018-02-19 19:53:32,640 : DEBUG : PELI
+2018-02-19 19:53:32,780 : DEBUG : FICHA
+2018-02-19 19:53:32,780 : DEBUG : FICHA_IMBD
+2018-02-19 19:53:32,890 : DEBUG : {'anio': u'2017', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0NjgzOTktMmU1OS00MmU2LWJkMzgtMzlkMWY4ZWRmZTY5XkEyXkFqcGdeQXVyNTEzMzUyNDI@._V1_SX300.jpg', 'escritor': u'Glenn Standring', 'director': u'Toa Fraser', 'titulo': u'6 D\xedas', 'actores': u'Jamie Bell, Mark Strong, Abbie Cornish, Martin Shaw', 'pais': u'UK, New Zealand', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980, armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of ...', 'sinopsis_es': u'En abril de 1980, seis hombres armados irrumpieron en la embajada iran\xed de Londres tomando a 26 personas como rehenes. Durante los seis d\xedas siguientes se produjo un tenso enfrentamiento, mientras que un grupo de soldados altamente entrenados del SAS se preparaban para una incursi\xf3n como el mundo nunca antes hab\xeda visto.', 'generos': u'Acci\xf3n', 'duracion': 94, 'idFicha': 'Imdb-tt4703048,movdb-347984'}
+2018-02-19 19:53:33,765 : DEBUG : {'anio': u'2017', 'imagen': 'https://pics.filmaffinity.com/6_days-793428532-mmed.jpg', 'escritor': None, 'director': u'Toa Fraser', 'titulo': u'6 d\xedas', 'actores': u"Jamie Bell, Abbie Cornish, Mark Strong, Emun Elliott, Jared Turner, Martin Shaw, Tim Pigott-Smith, Ronan Vibert, Kenneth Collard, Tim Downie, Martin Hancock, Nicholas Boulton, John Henshaw, Emma Campbell-Jones, Robert Portal, Xavier Horan, Ben Turner, Aymen Hamdouchi, Andrew Grainger, Colin Garlick, Te Kohe Tuhaka, William Chubb, Sam Snedden, Matthew Sunderland, Calum Gittins, Ryan O'Kane, Fayssal Bazzi, Michael Denkha", 'pais': u'Nueva Zelanda', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980 armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of highly trained soldiers from the SAS prepared for a raid the world had never seen the likes of and which would change the world forever.\n', 'sinopsis_es': u'En abril de 1980, un grupo de terroristas armados toma la embajada iran\xed en Londres con 26 rehenes, exigiendo que su secuestro se retransmita en directo y que se libere a 91 presos. Comienza as\xed una tensa cuenta atr\xe1s de 6 d\xedas mientas un grupo de Operaciones Especiales del ej\xe9rcito, altamente entrenados, se prepara para asaltar la embajada en el caso de que las negociaciones entre las autoridades y los secuestradores no lleguen a un acuerdo. (FILMAFFINITY)', 'generos': u'Acci\xf3n', 'duracion': u'94 min.', 'idFicha': 'Film-502943'}
+2018-02-19 19:53:33,765 : ERROR : No hay parámetros para la busqueda
+2018-02-19 19:53:33,765 : DEBUG : None
+2018-02-19 19:53:33,765 : DEBUG : Ficha Encontrada -->
+2018-02-19 19:53:33,765 : DEBUG : {'anio': u'2017', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0NjgzOTktMmU1OS00MmU2LWJkMzgtMzlkMWY4ZWRmZTY5XkEyXkFqcGdeQXVyNTEzMzUyNDI@._V1_SX300.jpg', 'escritor': u'Glenn Standring', 'director': u'Toa Fraser', 'titulo': u'6 D\xedas', 'actores': u'Jamie Bell, Mark Strong, Abbie Cornish, Martin Shaw', 'pais': u'UK, New Zealand', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980, armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of ...', 'sinopsis_es': u'En abril de 1980, seis hombres armados irrumpieron en la embajada iran\xed de Londres tomando a 26 personas como rehenes. Durante los seis d\xedas siguientes se produjo un tenso enfrentamiento, mientras que un grupo de soldados altamente entrenados del SAS se preparaban para una incursi\xf3n como el mundo nunca antes hab\xeda visto.', 'generos': u'Acci\xf3n', 'duracion': 94, 'idFicha': 'Imdb-tt4703048,movdb-347984,Film-502943'}
+2018-02-19 19:53:33,765 : DEBUG : <QuerySet []>
+2018-02-19 19:53:33,967 : DEBUG : /Imagenes/Imdb-tt4703048,movdb-347984,Film-502943.jpg
+2018-02-19 19:53:34,046 : DEBUG : Grabo imagen --> Imdb-tt4703048,movdb-347984,Film-502943
+2018-02-19 19:53:34,046 : DEBUG : Voy a grabar la Ficha
+2018-02-19 19:53:34,046 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:53:34,046 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x07C120D0>)
+2018-02-19 19:56:48,542 : DEBUG : 6 DIAS
+2018-02-19 19:56:48,542 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:56:48,542 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 19:56:48,542 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 19:56:48,542 : DEBUG : 6 DIAS
+2018-02-19 19:56:48,542 : DEBUG : None
+2018-02-19 19:56:48,542 : DEBUG : 6 DIAS
+2018-02-19 19:56:48,542 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:56:48,542 : DEBUG : 6DIAS
+2018-02-19 19:56:48,542 : DEBUG : 92
+2018-02-19 19:56:48,542 : DEBUG : 6DIAS
+2018-02-19 19:56:48,559 : DEBUG : 6 DIAS
+2018-02-19 19:56:48,559 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:56:48,559 : DEBUG : 88
+2018-02-19 19:56:49,506 : DEBUG : PELI
+2018-02-19 19:56:49,615 : DEBUG : FICHA
+2018-02-19 19:56:49,631 : DEBUG : FICHA_IMBD
+2018-02-19 19:56:49,678 : DEBUG : {'anio': u'2017', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0NjgzOTktMmU1OS00MmU2LWJkMzgtMzlkMWY4ZWRmZTY5XkEyXkFqcGdeQXVyNTEzMzUyNDI@._V1_SX300.jpg', 'escritor': u'Glenn Standring', 'director': u'Toa Fraser', 'titulo': u'6 D\xedas', 'actores': u'Jamie Bell, Mark Strong, Abbie Cornish, Martin Shaw', 'pais': u'UK, New Zealand', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980, armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of ...', 'sinopsis_es': u'En abril de 1980, seis hombres armados irrumpieron en la embajada iran\xed de Londres tomando a 26 personas como rehenes. Durante los seis d\xedas siguientes se produjo un tenso enfrentamiento, mientras que un grupo de soldados altamente entrenados del SAS se preparaban para una incursi\xf3n como el mundo nunca antes hab\xeda visto.', 'generos': u'Acci\xf3n', 'duracion': 94, 'idFicha': 'Imdb-tt4703048,movdb-347984'}
+2018-02-19 19:56:50,410 : DEBUG : {'anio': u'2017', 'imagen': 'https://pics.filmaffinity.com/6_days-793428532-mmed.jpg', 'escritor': None, 'director': u'Toa Fraser', 'titulo': u'6 d\xedas', 'actores': u"Jamie Bell, Abbie Cornish, Mark Strong, Emun Elliott, Jared Turner, Martin Shaw, Tim Pigott-Smith, Ronan Vibert, Kenneth Collard, Tim Downie, Martin Hancock, Nicholas Boulton, John Henshaw, Emma Campbell-Jones, Robert Portal, Xavier Horan, Ben Turner, Aymen Hamdouchi, Andrew Grainger, Colin Garlick, Te Kohe Tuhaka, William Chubb, Sam Snedden, Matthew Sunderland, Calum Gittins, Ryan O'Kane, Fayssal Bazzi, Michael Denkha", 'pais': u'Nueva Zelanda', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980 armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of highly trained soldiers from the SAS prepared for a raid the world had never seen the likes of and which would change the world forever.\n', 'sinopsis_es': u'En abril de 1980, un grupo de terroristas armados toma la embajada iran\xed en Londres con 26 rehenes, exigiendo que su secuestro se retransmita en directo y que se libere a 91 presos. Comienza as\xed una tensa cuenta atr\xe1s de 6 d\xedas mientas un grupo de Operaciones Especiales del ej\xe9rcito, altamente entrenados, se prepara para asaltar la embajada en el caso de que las negociaciones entre las autoridades y los secuestradores no lleguen a un acuerdo. (FILMAFFINITY)', 'generos': u'Acci\xf3n', 'duracion': u'94 min.', 'idFicha': 'Film-502943'}
+2018-02-19 19:56:50,410 : ERROR : No hay parámetros para la busqueda
+2018-02-19 19:56:50,410 : DEBUG : None
+2018-02-19 19:56:50,410 : DEBUG : Ficha Encontrada -->
+2018-02-19 19:56:50,410 : DEBUG : {'anio': u'2017', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0NjgzOTktMmU1OS00MmU2LWJkMzgtMzlkMWY4ZWRmZTY5XkEyXkFqcGdeQXVyNTEzMzUyNDI@._V1_SX300.jpg', 'escritor': u'Glenn Standring', 'director': u'Toa Fraser', 'titulo': u'6 D\xedas', 'actores': u'Jamie Bell, Mark Strong, Abbie Cornish, Martin Shaw', 'pais': u'UK, New Zealand', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980, armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of ...', 'sinopsis_es': u'En abril de 1980, seis hombres armados irrumpieron en la embajada iran\xed de Londres tomando a 26 personas como rehenes. Durante los seis d\xedas siguientes se produjo un tenso enfrentamiento, mientras que un grupo de soldados altamente entrenados del SAS se preparaban para una incursi\xf3n como el mundo nunca antes hab\xeda visto.', 'generos': u'Acci\xf3n', 'duracion': 94, 'idFicha': 'Imdb-tt4703048,movdb-347984,Film-502943'}
+2018-02-19 19:56:50,410 : DEBUG : Imdb-tt4703048,movdb-347984,Film-502943
+2018-02-19 19:56:50,410 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 19:56:50,410 : ERROR : No se ha encontrado la idfichaImdb-tt4703048,movdb-347984,Film-502943
+2018-02-19 19:56:50,410 : ERROR : Error en busqueda de pelicula
+2018-02-19 19:56:50,410 : ERROR : (<type 'exceptions.TypeError'>, TypeError("object of type 'NoneType' has no len()",), <traceback object at 0x07F3A148>)
+2018-02-19 22:39:55,305 : DEBUG : 6 DIAS
+2018-02-19 22:39:55,305 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 22:39:55,305 : DEBUG : http://newpct1.com/descargar-torrent/103362_6-dias-blurayrip-ac3-51.html
+2018-02-19 22:39:55,305 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-19 22:39:55,305 : DEBUG : 6 DIAS
+2018-02-19 22:39:55,305 : DEBUG : None
+2018-02-19 22:39:55,305 : DEBUG : 6 DIAS
+2018-02-19 22:39:55,305 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 22:39:55,305 : DEBUG : 6DIAS
+2018-02-19 22:39:55,321 : DEBUG : 92
+2018-02-19 22:39:55,321 : DEBUG : 6DIAS
+2018-02-19 22:39:55,321 : DEBUG : 6 DIAS
+2018-02-19 22:39:55,321 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 22:39:55,321 : DEBUG : 88
+2018-02-19 22:39:56,372 : DEBUG : PELI
+2018-02-19 22:40:02,197 : DEBUG : FICHA
+2018-02-19 22:40:02,197 : DEBUG : FICHA_IMBD
+2018-02-19 22:40:02,276 : DEBUG : {'anio': u'2017', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0NjgzOTktMmU1OS00MmU2LWJkMzgtMzlkMWY4ZWRmZTY5XkEyXkFqcGdeQXVyNTEzMzUyNDI@._V1_SX300.jpg', 'escritor': u'Glenn Standring', 'director': u'Toa Fraser', 'titulo': u'6 D\xedas', 'actores': u'Jamie Bell, Mark Strong, Abbie Cornish, Martin Shaw', 'pais': u'UK, New Zealand', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980, armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of ...', 'sinopsis_es': u'En abril de 1980, seis hombres armados irrumpieron en la embajada iran\xed de Londres tomando a 26 personas como rehenes. Durante los seis d\xedas siguientes se produjo un tenso enfrentamiento, mientras que un grupo de soldados altamente entrenados del SAS se preparaban para una incursi\xf3n como el mundo nunca antes hab\xeda visto.', 'generos': u'Acci\xf3n', 'duracion': 94, 'idFicha': 'Imdb-tt4703048,movdb-347984'}
+2018-02-19 22:40:03,131 : DEBUG : {'anio': u'2017', 'imagen': 'https://pics.filmaffinity.com/6_days-793428532-mmed.jpg', 'escritor': None, 'director': u'Toa Fraser', 'titulo': u'6 d\xedas', 'actores': u"Jamie Bell, Abbie Cornish, Mark Strong, Emun Elliott, Jared Turner, Martin Shaw, Tim Pigott-Smith, Ronan Vibert, Kenneth Collard, Tim Downie, Martin Hancock, Nicholas Boulton, John Henshaw, Emma Campbell-Jones, Robert Portal, Xavier Horan, Ben Turner, Aymen Hamdouchi, Andrew Grainger, Colin Garlick, Te Kohe Tuhaka, William Chubb, Sam Snedden, Matthew Sunderland, Calum Gittins, Ryan O'Kane, Fayssal Bazzi, Michael Denkha", 'pais': u'Nueva Zelanda', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980 armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of highly trained soldiers from the SAS prepared for a raid the world had never seen the likes of and which would change the world forever.\n', 'sinopsis_es': u'En abril de 1980, un grupo de terroristas armados toma la embajada iran\xed en Londres con 26 rehenes, exigiendo que su secuestro se retransmita en directo y que se libere a 91 presos. Comienza as\xed una tensa cuenta atr\xe1s de 6 d\xedas mientas un grupo de Operaciones Especiales del ej\xe9rcito, altamente entrenados, se prepara para asaltar la embajada en el caso de que las negociaciones entre las autoridades y los secuestradores no lleguen a un acuerdo. (FILMAFFINITY)', 'generos': u'Acci\xf3n', 'duracion': u'94 min.', 'idFicha': 'Film-502943'}
+2018-02-19 22:40:03,131 : ERROR : No hay parámetros para la busqueda
+2018-02-19 22:40:03,131 : DEBUG : None
+2018-02-19 22:40:03,131 : DEBUG : Ficha Encontrada -->
+2018-02-19 22:40:03,131 : DEBUG : {'anio': u'2017', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0NjgzOTktMmU1OS00MmU2LWJkMzgtMzlkMWY4ZWRmZTY5XkEyXkFqcGdeQXVyNTEzMzUyNDI@._V1_SX300.jpg', 'escritor': u'Glenn Standring', 'director': u'Toa Fraser', 'titulo': u'6 D\xedas', 'actores': u'Jamie Bell, Mark Strong, Abbie Cornish, Martin Shaw', 'pais': u'UK, New Zealand', 'titulo_orig': u'6 Days', 'sinopsis': u'In April 1980, armed gunmen stormed the Iranian Embassy in Princes Gate, London and took all inside hostage. Over the next six days a tense standoff took place, all the while a group of ...', 'sinopsis_es': u'En abril de 1980, seis hombres armados irrumpieron en la embajada iran\xed de Londres tomando a 26 personas como rehenes. Durante los seis d\xedas siguientes se produjo un tenso enfrentamiento, mientras que un grupo de soldados altamente entrenados del SAS se preparaban para una incursi\xf3n como el mundo nunca antes hab\xeda visto.', 'generos': u'Acci\xf3n', 'duracion': 94, 'idFicha': 'Imdb-tt4703048,movdb-347984,Film-502943'}
+2018-02-19 22:40:03,131 : DEBUG : Imdb-tt4703048,movdb-347984,Film-502943
+2018-02-19 22:40:03,131 : DEBUG : Imdb-tt4703048,movdb-347984
+2018-02-19 22:40:03,131 : DEBUG : <QuerySet []>
+2018-02-19 22:40:03,194 : DEBUG : /Imagenes/Imdb-tt4703048,movdb-347984,Film-502943.jpg
+2018-02-19 22:40:03,288 : DEBUG : Grabo imagen --> Imdb-tt4703048,movdb-347984,Film-502943
+2018-02-19 22:40:03,288 : DEBUG : Voy a grabar la Ficha
+2018-02-19 22:40:03,288 : ERROR : Error en busqueda de pelicula
+2018-02-19 22:40:03,288 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x07CD8120>)

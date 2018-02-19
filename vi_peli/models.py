@@ -21,9 +21,11 @@ class Lista_Pelis (models.Model):
     sinopsis = models.TextField(null=True)
     tamanio =  models.CharField(max_length=15, null=True)
     idFicha = models.CharField(max_length=50,null=True) #Nombre del proveedor (Imbd, Film, tmdb, ...) - Id del proveedor.
+    titulo_bes = models.CharField(max_length=200,null=True) #Titulo sin espacios ni ningún caracter <> numeros en español
+    titulo_ben = models.CharField(max_length=200,null=True) # Titulo sin espacios ni ningún caracter <> numeros en original
 
     def __str__(self):
-        return self.enlace
+        return self.titulo
 
 class Pelicula(models.Model):
     idFicha = models.CharField(max_length=50,null=True) #Nombre del proveedor (Imbd, Film, tmdb, ...) - Id del proveedor.
@@ -40,6 +42,10 @@ class Pelicula(models.Model):
     duracion = models.CharField(max_length=15, null=True) #Runtime
     sinopsis = models.TextField(null=True) #Plot
     sinopsis_es = models.TextField(null=True)  # Sinopsis
+    f_alta = models.DateTimeField(default=timezone.now)
+    titulo_bes = models.CharField(max_length=200,null=True) #Titulo sin espacios ni ningún caracter <> numeros en español
+    titulo_ben = models.CharField(max_length=200,null=True) # Titulo sin espacios ni ningún caracter <> numeros en original
+
 
     def __str__(self):
 
@@ -47,9 +53,10 @@ class Pelicula(models.Model):
 
 class MisPelis(models.Model):
     titulo = models.CharField(max_length=200)  # Titulo en español
-    titulo_orig = models.CharField(max_length=200)  # Title
-    idPeli = models.ForeignKey('vi_peli.Pelicula', related_name='mipeli')
+    titulo_orig = models.CharField(max_length=200, null=True)  # Title
+    idPeli = models.ForeignKey('vi_peli.Pelicula', related_name='mipeli', null=True)
     calidad = models.CharField(max_length=50, null=True)
+    tipo =  models.CharField(max_length=50, null=True)
     directorio = models.TextField()
 
     def __str__(self):
@@ -65,4 +72,13 @@ class Generos(models.Model):
     def __str__(self):
         return self.id_gen
 
+class Calidades(models.Model):
+    nombre = models.CharField(max_length=200)
+    otros_nombres = models.TextField(null=True)
+    descripcion = models.TextField(null=True)
+    calidad = models.CharField(max_length=50, null=True)
+    audio = models.CharField(max_length=50, null=True)
+
+    def __str__(self):
+        return self.id_gen
 # Create your models here.

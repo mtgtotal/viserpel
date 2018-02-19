@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="4a69d9ca-0be4-4db9-97d9-5887f63eea64" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" readonly="true" id="4a69d9ca-0be4-4db9-97d9-5887f63eea64" name="Default" comment="a">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-192.jpg" afterPath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-192.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Json_filmaffinity.txt" afterPath="$PROJECT_DIR$/Json_filmaffinity.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viserpel/settings.py" afterPath="$PROJECT_DIR$/Viserpel/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py" afterPath="$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/busquedas.py" afterPath="$PROJECT_DIR$/vi_peli/busquedas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/guardar_datos.py" afterPath="$PROJECT_DIR$/vi_peli/guardar_datos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/json/generos.json" afterPath="$PROJECT_DIR$/vi_peli/json/generos.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/log/vi_peli.log" afterPath="$PROJECT_DIR$/vi_peli/log/vi_peli.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/models.py" afterPath="$PROJECT_DIR$/vi_peli/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/urls.py" afterPath="$PROJECT_DIR$/vi_peli/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/views.py" afterPath="$PROJECT_DIR$/vi_peli/views.py" />
     </list>
     <ignored mask="*.pyc" />
     <ignored path="viserpel.sqlite3" />
@@ -22,12 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="busqueda.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="-51">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,30 +50,62 @@
       <file leaf-file-name="pagina_carga.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="765">
               <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="busquedas.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/busquedas.py">
+      <file leaf-file-name="guardar_datos.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="331">
+              <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
               <folding>
-                <element signature="e#14#97#0" expanded="true" />
+                <element signature="e#14#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guardar_datos.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="168" column="47" lean-forward="true" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
+            <state relative-caret-position="434">
+              <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
+              <folding>
+                <element signature="e#326#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lista_pelis.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
               <folding>
                 <element signature="e#14#53#0" expanded="true" />
               </folding>
@@ -69,8 +116,8 @@
       <file leaf-file-name="Provider_MejorTorrent.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="186" column="42" lean-forward="false" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
+            <state relative-caret-position="553">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#15#54#0" expanded="true" />
               </folding>
@@ -78,56 +125,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="156" column="31" lean-forward="false" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carga.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/carga.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vi_peli/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Provider_NewPct1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/Provider_NewPct1.py">
+      <file leaf-file-name="ficha_peli.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="230" column="20" lean-forward="false" selection-start-line="230" selection-start-column="20" selection-end-line="230" selection-end-column="39" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vi_peli/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="210" column="21" lean-forward="false" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="816">
+              <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,8 +150,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -155,8 +168,10 @@
       <find>Error en busqueda de pelicula</find>
       <find>renombra</find>
       <find>reemplaza</find>
-      <find>print</find>
       <find>titulo_orig</find>
+      <find>pelis_tot</find>
+      <find>print</find>
+      <find>peli_ins.idFicha</find>
     </findStrings>
     <replaceStrings>
       <replace>uprint</replace>
@@ -187,24 +202,25 @@
         <option value="$PROJECT_DIR$/vi_peli/PeliculasNewPct1.py" />
         <option value="$PROJECT_DIR$/vi_peli/ProvNewPct1.py" />
         <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html" />
-        <option value="$PROJECT_DIR$/vi_peli/urls.py" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" />
         <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html" />
         <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html" />
         <option value="$PROJECT_DIR$/vi_peli/peliculas_datos.py" />
-        <option value="$PROJECT_DIR$/vi_peli/models.py" />
         <option value="$PROJECT_DIR$/vi_peli/static/css/blog.css" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" />
-        <option value="$PROJECT_DIR$/vi_peli/busquedas.py" />
         <option value="$PROJECT_DIR$/vi_peli/Provider_NewPct1.py" />
         <option value="$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" />
+        <option value="$PROJECT_DIR$/vi_peli/busquedas.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" />
+        <option value="$PROJECT_DIR$/vi_peli/urls.py" />
         <option value="$PROJECT_DIR$/Viserpel/settings.py" />
-        <option value="$PROJECT_DIR$/vi_peli/guardar_datos.py" />
         <option value="$PROJECT_DIR$/vi_peli/views.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" />
+        <option value="$PROJECT_DIR$/vi_peli/models.py" />
+        <option value="$PROJECT_DIR$/vi_peli/guardar_datos.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -482,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516127571665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="a">
+      <created>1518961815343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518961815343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -497,9 +520,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588486" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -573,6 +596,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../djangogirls" />
     </ignored-roots>
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -595,18 +620,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/templates/blog/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../djangogirls/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -812,28 +830,11 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.542/geckodriver" />
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-810270721/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1027">
           <caret line="5018" column="8" lean-forward="false" selection-start-line="5018" selection-start-column="8" selection-end-line="5018" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,24 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -889,22 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/carga.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -913,66 +880,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/Provider_NewPct1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="230" column="20" lean-forward="false" selection-start-line="230" selection-start-column="20" selection-end-line="230" selection-end-column="39" />
+        <state relative-caret-position="1802">
+          <caret line="106" column="29" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="29" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py">
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="186" column="42" lean-forward="false" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="156" column="31" lean-forward="false" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+        <state relative-caret-position="646">
+          <caret line="92" column="24" lean-forward="false" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/busquedas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="766">
+          <caret line="81" column="6" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
           <folding>
             <element signature="e#14#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="168" column="47" lean-forward="true" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
+        <state relative-caret-position="765">
+          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
           <folding>
-            <element signature="e#14#53#0" expanded="true" />
+            <element signature="e#326#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="210" column="21" lean-forward="false" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
+        <state relative-caret-position="332">
+          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>

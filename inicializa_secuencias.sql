@@ -1,0 +1,1 @@
+update sqlite_sequence set seq = 0 where name in ('vi_peli_lista_pelis','vi_peli_pelicula')

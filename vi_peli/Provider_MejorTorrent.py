@@ -102,7 +102,7 @@ class enviar_datos:
             self.valores.append(valor_variables)
         for variable, valor in zip(self.variables, self.valores):
             self.datos['%s' % variable] = valor
-        print (self.datos)
+        logger.debug (self.datos)
         try:
             return urllib.urlopen(self.host, urllib.urlencode(self.datos)).read()
         except:
@@ -121,7 +121,7 @@ class MejorTorrent():
         self.letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0-9', 'otros']
 
     def busca_pelis(self, url, ultima_peli, paginas):
-        print ('busca_pelis')
+        logger.debug ('busca_pelis')
 
         resultados = []
         if paginas <> None:
@@ -153,18 +153,14 @@ class MejorTorrent():
             # Cogemos todos por letras
             indice = 0
             for let in misletras:
-                print (let)
+
                 """
                 parametros = urllib.urlencode({'campo': 'letra', 'valor': '', 'valor2': '', 'valor3': let, 'valor4': ''})
-                print (parametros)
                 cabeceras = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain"}
-                print ('0')
                 abrir_conexion = httplib.HTTPConnection("www.mejortorrent.com:80")
-                print ('1')
                 abrir_conexion.request("POST", '/peliculas-buscador.html', parametros, cabeceras)
-                print ('2')
                 respuesta = abrir_conexion.getresponse()
-                print ('3')
+                
                 """
                 url = 'http://www.mejortorrent.com/peliculas-buscador.html'
                 variables = "campo:valor:valor2:valor3:valor4:"

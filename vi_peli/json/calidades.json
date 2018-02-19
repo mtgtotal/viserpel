@@ -1,0 +1,62 @@
+<select class="busqueda-av" id="calidad" name="calidad">
+					<option value="">Seleccione calidad del contenido</option>					
+                    <option value="HDTV">HDTV</option>
+					<option value="HDTV 720p">HDTV 720p</option>
+					<option value="HDTV 1080p">HDTV 1080p</option>
+					<option value="DVDRIP">DVDRip</option>
+					<option value="BLuRayRip">BLuRayRip</option>
+					<option value="BluRayRip AC3 5.1">BluRayRip AC3 5.1</option>
+					<option value="BluRay 720p">BluRay 720p</option>
+					<option value="BluRay 1080p">BluRay 1080p</option>
+					<option value="BluRay MicroHD">BluRay MicroHD</option>
+					<option value="BluRay 3D 1080p">BluRay 3D 1080p</option>
+					<option value="HDTV-Screener">HDTV-Screener</option>
+					<option value="TS-Screener">TS-Screener</option>
+					<option value="CAMRIP">CAMRIP</option>								
+					<option value="DVD-Screener">DVD-Screener</option>
+					<option value="BluRay-Screeener">BluRay-Screeener</option>
+
+                </select>
+                <option value="HDRip">HDRip</option>
+                <option value="DVDRip">DVDRip</option>
+                <option value="BRRip">MP3</option>
+                <option value="MP3">MP3</option>
+                
+                
+                
+                
+                #var = connection.cursor()
+                #var.execute("select * from vi_peli_pelicula where upper(substr(titulo,1,1)) in ('0','1','2','3','4','5','6','7','8','9')")
+                #var2 = var.fetchall()
+Cam -- Una película grabada en el cine con una cámara de vídeo, audio malo                
+Telesync (TS) -- Se graba también con cámara, pero esta vez con algo más de calidad, audio regular
+VHS-Screener, VHS-Rip -- Suelen ser películas digitalizadas desde una cinta VHS
+TVRip, TDTrip, EDTV, SatRip, HDTV -- El origen de la grabación es la televisión, y su calidad depende de la calidad de la emisión
+Telecine (TC) -- La calidad es prácticamente la de un DVD
+Screener (SCR, DVDSCR, DVD-Screener, BDScreener) --- grabación directa de un DVD o Blu-ray original -- versión promocional o para los críticos
+DVDRip -- Ripeo de un DVD
+DVD, DVD Full, DVD-R, DVD5, DVD9 -- Una copia exacta del DVD comercial
+BR-Line  --La fuente del vídeo es un Blu-Ray, pero han utilizado un audio grabado en cine
+HDRip, MicroHD -- Aunque su fuente original es un Blu-ray o unWebRip de gran calidad, es una versión con algo menos de calidad y un menor bitrate que éstas
+WebRip, WebDL -- Su fuente original es de una web comercial de vídeos como Amazon, iTunes o similar. Una calidad excelente muy parecido al BDRip
+BDRip, BRRip -- Se hace la copia directamente desde un Blu-ray con encodificador h.264
+
+
+[                
+{'id':'1', 'nombre':'CAMRip', 'otros_nombres':'CAMRip,CAM,CAMRIP', 'descripcion':'Una película grabada en el cine con una cámara de vídeo', 'calidad':'Mala 0', 'audio':'Mala 0'}
+{'id':'1', 'nombre':'TS', 'otros_nombres':'TS,Telesync,TS-Rip,TS-Screener,TSRip', 'descripcion':'Se graba con cámara y tripode, pero con algo más de calidad que CAM', 'calidad':'Mala 1', 'audio':'Mala 1'}
+{'id':'1', 'nombre':'VHS-Screener', 'otros_nombres':'VHS-Screener,VHSScreen', 'descripcion':'películas digitalizadas desde una cinta VHS', 'calidad':'Mala 2', 'audio':'Regular'}
+{'id':'1', 'nombre':'VHSRip', 'otros_nombres':'VHS-Rip,VHSRip,VHSR', 'descripcion':'películas digitalizadas desde una cinta VHS con buena calidad', 'calidad':'Regular', 'audio':'Regular'}
+{'id':'1', 'nombre':'TVRip', 'otros_nombres':'TVRip,TDTrip,EDTV,SatRip', 'descripcion':'El origen de la grabación es la televisión', 'calidad':'Buena 0', 'audio':'Buena 0'}
+{'id':'1', 'nombre':'HDTV', 'otros_nombres':'HDTV', 'descripcion':'El origen de la grabación es la televisión en HD', 'calidad':'Buena 3', 'audio':'Buena'}
+{'id':'1', 'nombre':'HDTV-Screener', 'otros_nombres':'HDTV-Screener,HDTV-Screen', 'descripcion':'El origen de la grabación es la televisión en HD, audio grabado en cine', 'calidad':'Buena', 'audio':'Mala'}
+{'id':'1', 'nombre':'DVDRip', 'otros_nombres':'DVDRip', 'descripcion':'Ripeo de un DVD', 'calidad':'Buena 4', 'audio':'Buena'}
+{'id':'1', 'nombre':'DVD', 'otros_nombres':'DVD,DVD Full,DVD-R,DVD5,DVD9', 'descripcion':'Una copia exacta del DVD comercial', 'calidad':'Muy Buena', 'audio':'Muy Buena'}
+{'id':'1', 'nombre':'BR-Line', 'otros_nombres':'BR-Line', 'descripcion':'La fuente del vídeo es un Blu-Ray, pero han utilizado un audio grabado en cine', 'calidad':'Muy Buena', 'audio':'Mala'}
+{'id':'1', 'nombre':'HDRip', 'otros_nombres':'HDRip,MicroHD', 'descripcion':'fuente original es un Blu-ray o unWebRip de gran calidad', 'calidad':'Muy Buena', 'audio':'Buena'}
+{'id':'1', 'nombre':'WebRip', 'otros_nombres':'WebRip,WebDL', 'descripcion':'Su fuente original es de una web comercial de vídeos como Amazon, iTunes o similar. Una calidad excelente muy parecido al BDRip', 'calidad':'Muy Buena', 'audio':'Muy Buena'}
+{'id':'1', 'nombre':'BRRip', 'otros_nombres':'BDRip,BRRip,BluRay', 'descripcion':'Se hace la copia directamente desde un Blu-ray con encodificador h.264', 'calidad':'Excelente', 'audio':'Excelente'}
+{'id':'1', 'nombre':'BluRay 3D', 'otros_nombres':'BluRay 3D,', 'descripcion':'Se hace la copia directamente desde un Blu-ray para 3D', 'calidad':'Excelente', 'audio':'Excelente'}
+
+
+]

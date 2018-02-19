@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 #encoding:utf-8
 
 import os
+import time
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -143,7 +144,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(APP_DIR, 'log', 'vi_peli.log'),
+            'filename': os.path.join(APP_DIR, 'log', 'vi_peli'+str(time.strftime("%Y%m%d"))+'.log'),
             'formatter': 'normal'
         },
         'consola': {
@@ -154,7 +155,7 @@ LOGGING = {
     },
     'loggers': {
         'vi_peli': {
-            'handlers': ['file'],
+            'handlers': ['file', 'consola'],
             'level': 'DEBUG',
             'propagate': False,
         },

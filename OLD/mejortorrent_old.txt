@@ -1,0 +1,265 @@
+#coding=utf-8
+
+from __future__ import unicode_literals
+from requests.compat import urljoin
+import requests
+import json
+from Viserpel.settings import JSON_ROOT, BASE_DIR
+from time import timezone
+import sys
+from bs4 import BeautifulSoup
+import re
+import logging.config
+from Viserpel.settings import LOGGING
+import httplib, urllib
+
+logging.config.dictConfig(LOGGING)
+#fichero_log = os.path.join(APP_DIR, 'log', 'vi_peli.log')
+logger = logging.getLogger(__name__)
+
+# Create your views here.
+
+def reemplaza (texto):
+    a = texto
+    a = a.replace(u'\xc3\xb1', u'ñ')
+    a = a.replace(u'\xc3\u2018', u'Ñ')
+    a = a.replace(u'\xc3\xa1', u'á')
+    a = a.replace(u'\xc3\xa9', u'é')
+    a = a.replace(u'\xc3\xad', u'í')
+    a = a.replace(u'\xc3\xb3', u'ó')
+    a = a.replace(u'\xc3\xba', u'ú')
+    a = a.replace(u'\xc3\x81', u'Á')
+    a = a.replace(u'\xc3\u2030', u'É')
+    a = a.replace(u'\xc3\x8d', u'Í')
+    a = a.replace(u'\xc3\u201c', u'Ó')
+    a = a.replace(u'\xc3\u0161', u'Ú')
+    a = a.replace(u'\xc3\xa0', u' ')
+
+    return a
+
+def renombra(fila_ini):
+
+    source = fila_ini
+    source = source.replace(u'|', '-')
+    source = source.replace(u'\/', '-')
+    source = source.replace(u'\\', '-')
+    source = source.replace(u':', '-')
+    source = source.replace(u'?', '')
+    source = source.replace(u'*', '-')
+    source = source.replace(u'<', '')
+    source = source.replace(u'>', '')
+    source = source.replace(u'"', '')
+
+    source = source.replace(u'ñ', 'n')
+    source = source.replace(u'á', 'a')
+    source = source.replace(u'é', 'e')
+    source = source.replace(u'í', 'i')
+    source = source.replace(u'ó', 'o')
+    source = source.replace(u'ú', 'u')
+    source = source.replace(u'Á', 'A')
+    source = source.replace(u'É', 'E')
+    source = source.replace(u'Í', 'I')
+    source = source.replace(u'Ó', 'O')
+    source = source.replace(u'Ú', 'U')
+    source = source.replace(u'/x93', '')
+    source = source.replace(u'/x94', '')
+    # os.renamestr (fila_ini, source)
+    return source
+
+class MejorTorrent():
+    def __init__(self):
+
+        base = "http://www.mejortorrent.com"
+        self.url = 'http://www.mejortorrent.com'
+        self.urls = {'search': urljoin(self.url, '/secciones.php?sec=descargas&ap=peliculas&p='),
+                     'search_hd': urljoin(self.url, '/secciones.php?sec=descargas&ap=peliculas_hd&p='),
+                     'todas': '/peliculas-buscador.html',}
+
+        self.letras = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0-9','otros']
+
+    def run(self):
+        datos = self.busca_pelis(self.urls['search_hd'], None, 1)
+        nombre = 'NewPct1_hd'
+        with open('/json/'+ nombre +'.json', 'w') as file:
+            json.dump(datos, file)
+
+    def busca_pelis(self, url, ultima_peli, paginas):
+
+        resultados = []
+        pg_max = 50
+        if url == 'MejorTorrent':
+            xurl = self.urls["search"]
+        elif url == 'MejorTorrent_HD':
+            xurl = self.urls["search_hd"]
+
+        if paginas == None:
+            # Cogemos todos por letras
+            indice = 1
+            for let in self.letras:
+                parametros = urllib.urlencode({'campo': 'letra', 'valor': '', 'valor2': '', 'valor3': let, 'valor4': ''})
+                cabeceras = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain"}
+                abrir_conexion = httplib.HTTPConnection(self.url+":80")
+                abrir_conexion.request("POST", self.urls['todas'], parametros, cabeceras)
+                respuesta = abrir_conexion.getresponse()
+                if respuesta.status == 200:
+                    ver_source = respuesta.read()
+                    html_t = BeautifulSoup(ver_source, "html.parser")
+                    abrir_conexion.close()
+                    tabla = html_t.find('table', {'width': '90%', 'align': 'center', 'cellspacing': '0', 'cellpadding': '0', 'border': '0'})
+                    enlaces = tabla.find_all('a')
+                    for link in enlaces:
+                        idioma = re.search(r'\[Subs. integrados\]', str(link))
+                        if not idioma:
+                            enlace = urljoin(self.url,link.get('href'))
+                            peli = self.datos_pelis(enlace, indice)
+                            if peli <> None:
+                                resultados.append(peli)
+        else:
+            # Descargamos sólo las páginas indicadas de las paginas principales.
+            if paginas > 50:
+                paginas = 50
+            indice = 0
+            for pag in range(1, paginas):
+
+                req = requests.get(xurl+str(pag))
+                html_t = BeautifulSoup(req.text, "html.parser")
+
+                enlaces = html_t.find_all('a')
+                # print (enlaces)
+                for link in enlaces:
+                    peli = True
+                    try:
+                        imagen = urljoin(self.url, link.find('img').get('src'))
+                        logger.debug ('Imagen --> ' + imagen)
+                    except:
+                        peli = False
+                    if peli:
+                        indice = indice +1
+                        # print link
+                        enlace = urljoin(self.url, link.get('href'))
+                        logger.debug('enlace--> ' + enlace)
+                        peli = self.datos_pelis(enlace, indice)
+                        if peli <> None:
+                            resultados.append(peli)
+
+
+        return resultados
+    def datos_pelis (self, url, indice):
+
+
+        req = requests.get(url)
+
+        html_t = BeautifulSoup(req.text, "html.parser")
+
+        imagen = html_t.find('img', {'width': '120', 'height': '165'})
+        imagen = imagen.get('src')
+        logger.info(imagen)
+
+        tablas = html_t.find_all('table', {'width': '450'})
+        # print (enlaces)
+        for tabla in tablas:
+            peli = True
+            tabla = reemplaza(tabla)
+            tabla = renombra(tabla)
+
+            enlace = tabla.find('a', {'style': 'font-size:12px;'})
+            pag_torrent = urljoin(self.url, enlace.get('href'))
+            # texto = reemplaza(tabla)
+            # texto = renombra(str(tabla))
+            # 'nero:</b>\s+([a-zA-Z\s&0-9\-]+)\.'
+            titu = tabla.find('span', {'style': 'font-size:18px; color:#0A3A86;'})
+            titulo = titu.find('b').text
+            logger.info(titulo)
+
+            generos = re.search(r'nero:</b>(.+)\.', str(tabla))
+            if not generos:
+                generos = None
+                logger.warning ("Generos no encontrados")
+            else:
+                generos = unicode(generos.group(1))
+                #generos = generos.replace(u"\xc2\xa0 ", "")
+                generos = generos.replace(" - ", ",")
+                logger.info(generos)
+
+            anio = re.search(r'<b>Año:</b>.*([0-9]{4})', str(tabla))
+            if not anio:
+                anio = None
+                logger.warning("Año no encontrado")
+            else:
+                anio = anio.group(1)
+                anio = anio.replace("  ", "")
+                logger.info(anio)
+
+            director = re.search(r'<b>Director:</b>(.+)', str(tabla))
+            if not director:
+                director = None
+                logger.warning("director no encontrado")
+            else:
+                director = director.group(1)
+                director = director.replace("  ", "")
+                logger.info(director)
+
+            actores = re.search(r'<b>Actores:</b>(.+)\.', str(tabla))
+            if not actores:
+                actores = None
+                logger.warning("actores no encontrado")
+            else:
+                actores = actores.group(1)
+                actores = actores.replace("  ", "")
+                logger.info(actores)
+
+            formato = re.search(r'<b>Formato:</b>(.+)', str(tabla))
+            if not formato:
+                formato = None
+                logger.warning("formato no encontrado")
+            else:
+                formato = formato.group(1)
+                formato = formato.replace("  ", "")
+                logger.info(formato)
+
+            fecha = re.search(r'<b>Fecha:</b>(.+)', str(tabla))
+            if not fecha:
+                fecha = None
+                logger.error("fecha no encontrado")
+            else:
+                fecha = fecha.group(1)
+                fecha = fecha.replace("  ", "")
+                logger.info(fecha)
+
+            tamanio = re.search(r'<b>Tamaño:</b>(.+)<img', str(tabla))
+            if not tamanio:
+                tamanio = None
+                logger.error("tamanio no encontrado")
+            else:
+                tamanio = tamanio.group(1)
+                tamanio = tamanio.replace("  ", "")
+                logger.info(tamanio)
+
+            sinopsis = tabla.find('div', {'align': 'justify'})
+            logger.info(sinopsis.getText())
+
+            logger.debug ('Pagina del torrent -->' + pag_torrent)
+            req1 = requests.get(pag_torrent)
+            html = BeautifulSoup(req1.text, "html.parser")
+            tab_tor = html.find('table', {'width': '550', 'bgcolor': '#E4E4E4'})
+
+            xtorrent = tab_tor.find('a')
+            torrent = urljoin(self.url, xtorrent.get('href'))
+
+            item = {
+                'titulo': unicode(titulo),
+                'titulo_orig': None,
+                'anio': anio,
+                'enlace': pag_torrent,
+                'calidad': formato,
+                'imagen': imagen,
+                'torrent': torrent,
+                'sinopsis': unicode(sinopsis),
+                'tamanio': tamanio,
+                'fecha': fecha,
+                'indice': indice
+
+                }
+
+
+

@@ -54,3 +54,23 @@ SEARCH
                 'author': u'Andrew Barker: Variety '}], 
  'directors': [u'Wes Ball'], 
  'actors': [u"Dylan O'Brien", u'Thomas Brodie-Sangster', u'Kaya Scodelario', u'Ki Hong Lee', u'Giancarlo Esposito', u'Aidan Gillen', u'Patricia Clarkson', u'Rosa Salazar', u'Nathalie Emmanuel', u'Jacob Lofland', u'Dexter Darden', u'Alan Tudyk', u'Alexander Flores', u'Gary Hood', u'Lili Taylor', u'Barry Pepper']}
+
+ 
+ 
+ 
+ 
+ {'rating': '5.9', 
+ 'description': u'A\xf1o 2024. Cuando el joven Thomas despierta, se encuentra en un ascensor y no recuerda qui\xe9n es. De pronto, el ascensor se detiene, las puertas se abren y una multitud de chicos lo recibe. Ha llegado al Claro, un lugar rodeado de alt\xedsimos muros con dos portones que todas las ma\xf1anas se abren y dan paso a un inmenso laberinto. De noche, las puertas se cierran y por el laberinto circulan unas aterradoras criaturas llamadas laceradores. Todo lo que ocurre en el Claro sigue unas pautas: al abrirse las puertas, algunos chicos salen a correr al laberinto para buscar una salida. Una vez al mes, el ascensor sube con un nuevo chico, nunca una chica... hasta ahora. Tras la llegada de Thomas, suena una alarma y el ascensor trae a otra persona. Es una chica, y en la nota que la acompa\xf1a pone: "Ella es la \xfaltima. No llegar\xe1n m\xe1s". Las cosas en el Claro empiezan a cambiar, y lo \xfanico en lo que Thomas puede pensar es en lo mucho que desea ser un corredor. (FILMAFFINITY)', 
+ 'poster': 'https://pics.filmaffinity.com/the_maze_runner-377064363-mmed.jpg', 
+ 'genre': [u'Ciencia ficci\xf3n'], 
+ 'awards': [], 
+ 'year': u'2014', 
+ 'duration': u'113 min.', 
+ 'id': '127451', 
+ 'votes': 29200, 
+ 'title': u'El corredor del laberinto', 
+ 'country': u'Estados Unidos', 
+ 'reviews': [{'url': u'http://cultura.elpais.com/cultura/2014/09/18/actualidad/1411052346_956954.html', 'review': u'"Estupenda (...) entretenida sin tener que acudir a continuas escenas de acci\xf3n, hay unos excelentes desarrollo de personajes y retrato de grupo, y los j\xf3venes int\xe9rpretes est\xe1n magn\xedficos."\xa0', 'author': u'Javier Oca\xf1a: Diario El Pa\xeds '}, {'url': u'http://hoycinema.abc.es/critica/20140919/abci-corredor-laberinto-opiniones-201409181849.html', 'review': u'"No tiene principio, tiene un planteamiento sospechosamente parecido a \xabLos juegos del hambre\xbb y secuelas similares y, sobre todo, no tiene final (...) Puntuaci\xf3n: \u2605\u2605 (sobre 5)"\xa0', 'author': u'Jos\xe9 Manuel Cu\xe9llar: Diario ABC '}, {'url': u'http://www.lavanguardia.com/cine/20140919/54416131106/el-corredor-del-laberinto-critica-de-cine.html', 'review': u'"La sensaci\xf3n de d\xe9j\xe0 vu resulta inevitable, pero el entramado se sostiene con un plantel del que surgir\xe1 alguna estrella (fugaz o no) (...) Puntuaci\xf3n: \u2605\u2605\u2605 (sobre 5)"\xa0', 'author': u'Llu\xeds Bonet Mojica: Diario La Vanguardia '}, {'url': u'http://cinemania.es/peliculas/el-corredor-del-laberinto/?post_type=pc', 'review': u'"Tiene todos los defectos de las pel\xedculas a cuyo grupo intenta sumarse y pr\xe1cticamente ninguna de las virtudes con las que, ocasionalmente, algunas de ellas escapan de la rutina (...) Puntuaci\xf3n: \u2605\xbd (sobre 5)"\xa0', 'author': u'Manuel Pi\xf1\xf3n: Cineman\xeda '}, {'url': u'http://variety.com/2014/film/reviews/film-review-the-maze-runner-1201301782/', 'review': u'"Una s\xf3lida adaptaci\xf3n (...) \'El corredor del laberinto\' resulta refrescante por su sencillez tecnol\xf3gica y una historia bien narrada"\xa0', 'author': u'Ella Taylor: Variety '}, {'url': u'http://www.thewrap.com/the-maze-runner-review-dylan-obrien-james-dashner-ya/', 'review': u'"Este rompecabezas se vuelve menos interesante a medida que nos enteramos m\xe1s de lo que est\xe1 pasando (...) En su primera parte, \'El corredor del laberinto\' cuenta una cautivadora f\xe1bula de supervivencia y sugiere un misterio potencialmente interesante"\xa0', 'author': u'Alonso Duralde: The Wrap '}, {'url': u'http://www.hollywoodreporter.com/movie/maze-runner/review/731801', 'review': u'"Ball parece estar implementando una estrategia m\xe1s enfocada a lanzar r\xe1pidamente una franquicia que a desarrollar una historia sustanciosa (...) es interesante, pero nunca totalmente desafiante"\xa0', 'author': u'Justin Lowe: The Hollywood Reporter '}], 
+ 'directors': [u'Wes Ball'], 
+ 'actors': [u"Dylan O'Brien", u'Thomas Brodie-Sangster', u'Kaya Scodelario', u'Will Poulter', u'Ki Hong Lee', u'Blake Cooper', u'Aml Ameen', u'Jacob Latimore', u'Dexter Darden', u'Chris Sheffield', u'Joe Adler', u'Alexander Flores', u'Randall D. Cunningham', u'Patricia Clarkson', u'Don McManus']}
+ 

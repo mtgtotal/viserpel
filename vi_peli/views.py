@@ -4,7 +4,7 @@ from django.shortcuts import render
 import json
 from django.shortcuts import redirect, render_to_response,  get_object_or_404
 from Viserpel.settings import JSON_ROOT, BASE_DIR, STATIC_ROOT, MEDIA_ROOT, APP_DIR
-from models import Lista_Pelis, Pelicula, Generos
+from models import Lista_Pelis, Pelicula, Generos, Calidades
 import os
 from Provider_NewPct1 import NewPct, renombra, reemplaza
 from Provider_MejorTorrent import MejorTorrent
@@ -38,32 +38,15 @@ def index(request):
     imagen_ant = ""
     misprov = []
     mispelis = []
-    """for peli in pelisbd:
-        print (peli)
-        tit_peli = peli.titulo
-        if peli_ant == "" or peli_ant <> tit_peli:
-            if peli_ant <> "":
-                mipeli = {'titulo': peli_ant, 'imagen':imagen_ant, 'datos':misprov}
-                mispelis.append(mipeli)
-            peli_ant = peli.titulo
-            imagen_ant = peli.imagen
-            prov = {'proveedor':peli.proveedor, 'torrent': peli.torrent, 'calidad':peli.calidad}
-            misprov = misprov.append(prov)
-        else:
-            prov = {'proveedor': peli.proveedor, 'torrent': peli.torrent, 'calidad': peli.calidad}
-            misprov = misprov.append(prov)
-        #ultima peli
-        mipeli = {'titulo': peli_ant, 'imagen': imagen_ant, 'datos': misprov}
-        mispelis.append(mipeli)
-        print (mispelis)
-    """
+
     mispelis = pelisbd
     return render(request, 'vi_peli/index.html', {'pelis': mispelis})
 
 def busqueda (request):
     lista_generos =  Generos.objects.order_by('nom_genero')
-    #lista_calidad = llena_calidad()
+    lista_calidad =  Calidades.objects.order_by('id')
     logger.debug ('entro en busqueda')
+
     titulo = None
     generos = None
     calidad = None
@@ -103,22 +86,19 @@ def busqueda (request):
         anio = anio.strip()
     else:
         anio = None
-    print ('titulo, letra, año, generos, calidad')
-    print (titulo)
-    print (letra)
-    print (anio)
-    print (generos)
-    print (calidad)
+
     if titulo or letra or anio or generos or calidad:
         resultados = C_Busqueda().busca_bbdd(vtitulo=titulo, vletra=letra, vyear=anio, lgeneros=generos, lcalidad=calidad)
     else:
         resultados = None
 
-    return render_to_response("vi_peli/busqueda.html", {"pelis_busqueda": resultados, "lista_generos":lista_generos})
+    print (resultados)
+    return render_to_response("vi_peli/busqueda.html", {"pelis_busqueda": resultados, "lista_generos":lista_generos, "lista_calidad":lista_calidad})
     #return render("vi_peli/busqueda.html", {"pelis_busqueda": resultados})
 
 
 def pagina_carga(request):
+
     logger.debug ("Pagina de Carga")
     proveedor = request.GET.get('prov', '')
     logger.debug ('Proveedor' + str(proveedor))
@@ -126,6 +106,7 @@ def pagina_carga(request):
         tipoCarga = request.GET.get('tipoC','')
         npaginas = request.GET.get('pag', '')
         letras = request.GET.get('let', '')
+
         logger.debug(tipoCarga)
         logger.debug("Paginas antes --> " + str(npaginas))
 
@@ -172,7 +153,7 @@ def pagina_carga(request):
                         npag = None
 
 
-                print("Paginas antes --> " + str(npag))
+                logger.debug("Paginas antes --> " + str(npag))
 
                 #ultimaPeli = Busca_ultima_peli(proveedor) #Buscamos la url de la última peli cargada
 
@@ -206,10 +187,11 @@ def guarda_total(request, proveedor):
     if os.path.isfile(archivo):
         with open(archivo, 'r') as file:
             data = json.load(file)
-            #t = threading.Thread(target=BBDD().guardar_hilo, args=(data,proveedor))
-            #t.start()
-            guarda = BBDD().guardar_hilo(data,proveedor)
+            t = threading.Thread(target=BBDD().guardar_hilo, args=(data,proveedor))
+            t.start()
+            #BBDD().guardar_hilo(data,proveedor)
             #for peli in data:
+            #    BBDD().insertar_peli (peli, proveedor)
             #    BBDD().insertar_peli (peli, proveedor)
 
 
@@ -226,10 +208,10 @@ def guarda_pelicula(request, proveedor, indice):
         with open(archivo, 'r') as file:
             data = json.load(file)
         logger.debug('Indice --> '+ str(indice))
-        print('Indice --> ' + str(indice))
+
 
         peli = data[int(indice)]
-        print (peli)
+
         logger.debug(peli)
         BBDD().insertar_peli(peli, proveedor)
 
@@ -248,3 +230,25 @@ def ficha (request, pk):
         enlaces = None
 
     return render(request, 'vi_peli/ficha_peli.html', {'peli': peli, 'enlaces': enlaces})
+
+def listar_pelis (request):
+    lpelis = Lista_Pelis.objects.order_by('titulo')
+
+    return render(request, 'vi_peli/lista_pelis.html', {'lpelis': lpelis})
+
+def actualiza_pelis (request):
+    lpelis = Lista_Pelis.objects.all()
+    return redirect('/')
+
+def act_peli (request, pk):
+    print ("entro en act_peli para la pk--> " + str(pk))
+
+    lpelis = Lista_Pelis.objects.get(id=pk)
+    logger.debug (lpelis)
+    logger.debug (lpelis.idFicha)
+    logger.debug(lpelis.torrent)
+
+    BBDD().inserta_ficha(lpelis)
+    enlaces = None
+    #return render(request, 'vi_peli/lista_pelis.html', {'lpelis': None})
+    return render(request, 'vi_peli/ficha_peli.html', {'peli': lpelis, 'enlaces': enlaces})
