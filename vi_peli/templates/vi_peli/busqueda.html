@@ -1,14 +1,14 @@
 {% extends 'vi_peli/base.html' %}
 {% load staticfiles %}
     {% block menu %}
-        <li class="menu-item"><a href="/" class="menu_item">Listado</a></li>
-        <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
-        <li class="menu-item"><a href="/" class="menu_item">Configuración</a></li>
+
     {% endblock %}
     {% block content %}
     <section class="contenedor">
         <div class = "busqueda">
+            <header>
             <h3> Busqueda de Películas </h3>
+            </header>
             <form class="form-horizontal" action="." method="GET">
                 <div class="input-group">
                   <span class="input-group-addon">Titulo</span>
@@ -72,15 +72,17 @@
                 <br><br>
                 <input type="submit" value="Busqueda"><input type="reset" value="Borrar">
             </form>
-
         </div>
     </section>
-    <section class="container">
+    <section class="container" >
 
         <div class="resultados">
+        <header>
             <h1 class = "resul"> Resultados </h1>
+        </header>
+        <article>
             <ul class = "resultados pelires">
-            {% for peli in pelis_busqueda %}
+            {% for peli in page.object_list %}
                 <li>
                     <a href="{% url 'ficha' pk=peli.pk %}">
                         <img src="{% static peli.imagen %}"   width="130" height="180">
@@ -92,6 +94,45 @@
                 <h3> No se han encontrado resultados </h3>
             {% endfor %}
             <ul>
+        </article>
+        <footer>
+            <div class="pagination">
+
+                <ul class="pagination">
+                {% if page.has_previous %}
+                    <li><a href="?page=1&{{parametros.urlencode}}" class="prev" style="width:40px"> << </a></li>
+                    <li><a href="?page={{page.previous_page_number}}&{{parametros.urlencode}}" class="prev" style="width:40px"> < </a></li>
+                {% else %}
+                    <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> << </a></li>
+                    <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> < </a></li>
+                {% endif %}
+                {% for page in page.pages %}
+
+                    {% if page %}
+                        {% if page_act == page %}
+                            <li class="active"><a href="?page={{ page }}&{{parametros.urlencode}}" class="current page">{{ page }}</a></li>
+                        {% else %}
+
+                            <li><a href="?{{ page.querystring }}&{{parametros.urlencode}}" class="page">{{ page }}</a></li>
+                        {% endif %}
+                    {% else %}
+                        <li class="disabled"><a href="#" class="page">...</a></li>
+                    {% endif %}
+                {% endfor %}
+
+                {% if page.has_next %}
+                    <li><a href="?page={{page.next_page_number }}&{{parametros.urlencode}}" class="next" style="width:40px"> > </a></li>
+                    <li><a href="?page={{page.paginator.num_pages}}&{{parametros.urlencode}}" class="next" style="width:40px"> >> </a></li>
+                {% else %}
+                    <li class="disabled"><a href="#" class="disabled next" style="width:40px"> > </a></li>
+                    <li class="disabled"><a href="#" class="disabled next" style="width:40px"> >> </a></li>
+                {% endif %}
+                </ul>
+            </div>
+
+
+        </footer>
         </div>
+
     </section>
     {% endblock %}

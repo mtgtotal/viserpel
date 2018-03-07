@@ -1,29 +1,27 @@
 {% extends 'vi_peli/base.html' %}
 {% load staticfiles %}
-    {% block menu %}
-        <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
-        <li class="menu-item"><a href="{% url 'actualiza_pelis' %}:" class="menu_item">Actualizar Todo</a></li>
-    {% endblock %}
+
     {% block content %}
 
     <section class="container">
         <div class="lista_pelis">
             <CENTER><h2>LISTA DE PELICULAS</h2></CENTER>
+            {% include 'vi_peli/letras.html' %}
+            {% include 'vi_peli/pagination.html' %}
              <ul class = "pelilist">
-        {% for peli in lpelis %}
-                    <li>
+        {% for peli in page.object_list  %}
+            <li>
+                <a href="{% url 'act_peli' pk=peli.id %}">
 
-                        <a href="{% url 'act_peli' pk=peli.pk %}">
-
-                            <h2>{{ peli.titulo.capitalize }}</h2>
+                            <h2>{{ peli.titulo.capitalize }} - {{peli.id}}</h2>
                             <span>{{ peli.calidad }}</span>
-                        </a>
-
-                    </li>
+                </a>
+            </li>
         {% empty %}
             <h2><b>No hay películas todavía</b></h2>
         {% endfor %}
             </ul>
-
+        {% include 'vi_peli/pagination.html' %}
     </section>
+
     {% endblock %}

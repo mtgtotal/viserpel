@@ -1,0 +1,29 @@
+        <div class="pagination">
+                <ul class="pagination  pagination-lg">
+
+                {% if pelis.has_previous %}
+                    <li><a href="?page=1"> << </a></li>
+                    <li><a href="?page={{ pelis.previous_page_number }}"> < </a></li>
+                {% else %}
+                    <li class="disabled"><a href="?page=1"><b> << </b></a></li>
+                    <li class="disabled"><a href="#"><b> < </b></a></li>
+                {% endif %}
+
+                {% for pag in pelis.paginator.page_range %}
+                        {% if  pelis.number == pag  %}
+                          <li class="active"><a href="?page={{ pag }}">{{pag}}</a></li>
+                        {% else %}
+                          <li><a href="?page={{ pag }}">{{pag}}</a></li>
+                        {% endif %}
+
+                 {% endfor%}
+                 {% if pelis.has_next %}
+                    <li><a href="?page={{ pelis.next_page_number }}"> <b> > </b> </a></li>
+                    <li><a href="?page={{pelis.paginator.num_pages}}"><b> >> </b></a></li>
+                 {% else %}
+                    <li class="disabled"><a href="#"> > </a></li>
+                    <li class="disabled"><a href="?page={{pelis.paginator.num_pages}}"> >> </a></li>
+                 {% endif %}
+
+                </ul>
+        </div>

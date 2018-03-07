@@ -1,0 +1,11 @@
+        <div class="letras">
+                <ul class="pagination letra">
+                {% for let in letras %}
+                    {% if letra_act == let %}
+                      <li class = "active"><a href="?letra={{ let }}">{{let}}</a></li>
+                    {% else %}
+                      <li ><a href="?letra={{ let }}">{{let}}</a></li>
+                    {% endif %}
+                {% endfor%}
+                </ul>
+        </div>

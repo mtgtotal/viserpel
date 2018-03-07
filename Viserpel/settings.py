@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'vi_peli',
+    'djcelery',
+    'djkombu',
+    'pure_pagination',
 ]
 
 MIDDLEWARE = [
@@ -161,5 +164,36 @@ LOGGING = {
         },
     },
 }
+#Si queremos usar la base de datos como backend:
+#CELERY_RESULT_BACKEND='djcelery.backends.database:DatabaseBackend'
 
+#Si queremos usar la cache como backend:
+#CELERY_RESULT_BACKEND='djcelery.backends.cache:CacheBackend'
 
+# ----------------------------------------------------------------------------
+# CELERY
+# ----------------------------------------------------------------------------
+"""
+CELERY_BROKER_URL = 'amqp://guest:{}@localhost:5672//'
+CELERY_TASK_SERIALIZER = "json"
+CELERY_ACCEPT_CONTENT = ["application/json"]
+
+CELERY_TASK_DEFAULT_QUEUE = "Viserpel_celery"
+CELERY_TASK_DEFAULT_EXCHANGE = "Viserpel_celery"
+CELERY_TASK_DEFAULT_ROUTING_KEY = "Viserpel_celery"
+CELERY_TIMEZONE = 'Europe/Madrid'
+
+CELERY_DEFAULT_EXCHANGE = Exchange(CELERY_TASK_DEFAULT_EXCHANGE, type='direct')
+
+task_queues = (
+    Queue(CELERY_TASK_DEFAULT_QUEUE, CELERY_DEFAULT_EXCHANGE, routing_key=CELERY_TASK_DEFAULT_ROUTING_KEY),
+)
+"""
+
+#--------------------- PAGINACION -----------------------
+PAGINATION_SETTINGS = {
+    'PAGE_RANGE_DISPLAYED': 30,
+    'MARGIN_PAGES_DISPLAYED': 2,
+
+    'SHOW_FIRST_PAGE_WHEN_INVALID': True,
+}

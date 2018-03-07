@@ -2,19 +2,392 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4a69d9ca-0be4-4db9-97d9-5887f63eea64" name="Default" comment="a">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-192.jpg" afterPath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-192.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Viserpel/celery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/Paginacion_vi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/auxiliar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/task.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/letras.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templatetags/Paginacion_vi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templatetags/paginator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vi_peli/templatetags/render_paginator.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/json/MejorTorrent_Letra.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Ana, mon amour.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-106002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-107500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-109290.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-112409.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-114195.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-115549.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-123168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-133853.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-142470.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-150729.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-151633.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-158164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-159774.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-163038.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-166103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-166700.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-174548.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-196914.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-208443.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-208877.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-228017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-230532.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-232128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-236046.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-236626.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-238079.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-251225.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-251597.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-274926.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-285133.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-288924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-292185.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-292503.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-304838.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-320443.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-333605.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-333834.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-333894.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-343491.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-353842.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-355405.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-374263.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-382702.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-389673.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-392219.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-398349.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-398539.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-401222.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-413606.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-433529.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-434295.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-453490.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-459632.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-463533.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-465256.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-472895.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-477425.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-483982.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-502943.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-511586.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-527997.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-534819.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-566028.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-576389.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-592267.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-609895.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-615279.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-615513.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-623938.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-632559.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-647292.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-652266.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-663390.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-671331.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-678961.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-689705.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-691961.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-699016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-702634.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-725081.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-741036.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-746937.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-759721.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-761604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-761848.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-774348.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-774513.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-778915.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-781224.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-788112.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-793260.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-796355.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-805562.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-826380.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-828541.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-834124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-834864.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-840909.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-845465.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-846539.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-846657.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-856700.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-857324.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-859936.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-863829.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-867296.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-882279.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-893369.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-907364.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-919191.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-926401.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-929762.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-939138.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-954055.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Film-971873.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Godzilla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0025488,movdb-115029,Film-105104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0044112,movdb-217948,Film-257050.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0057012,movdb-935,Film-479847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0075860,movdb-840,Film-716150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0083908,movdb-4193,Film-883000.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0107048,movdb-137,Film-611908.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0109830,movdb-13,Film-223577.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0113497,movdb-8844,Film-434111.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0120201,movdb-563,Film-196310.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0120912,movdb-608,Film-717057.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0209163,movdb-1734,Film-178815.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0228912,movdb-477332,Film-447664.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0258463,movdb-2501,Film-668232.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0298814,movdb-9341,Film-110500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0338526,movdb-7131,Film-645972.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0372183,movdb-2502,Film-517569.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0379786,movdb-16320,Film-255371.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0385752,movdb-2268,Film-567194.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0400391,movdb-66976,Film-895384.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0407304,movdb-74,Film-593256.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0460890,movdb-95608,Film-195791.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0816462,movdb-37430,Film-599360.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0816692,movdb-157336,Film-704416.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt0974015,movdb-141052,Film-696795.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1024648,movdb-68734,Film-917469.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1034385,movdb-428399,Film-166700.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1060277,movdb-7191,Film-778915.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1082807,movdb-341006,Film-236046.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1131724,movdb-269795,Film-495950.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1179933,movdb-333371,Film-101022.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1194173,movdb-49040,Film-434614.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1201607,movdb-12445,Film-392189.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1206543,movdb-164457.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1343092,movdb-64682,Film-373234.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1375666,movdb-27205,Film-491164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1396484,movdb-346364,Film-610683.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1653665,movdb-418680,Film-351121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1659619,movdb-332794,Film-477425.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1706598,movdb-258284,Film-835799.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1734493,movdb-291276,Film-663390.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1753383,movdb-381289,Film-632559.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1758810,movdb-372343,Film-564460.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1764651,movdb-76163,Film-431343.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1785635,movdb-416160,Film-746937.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1790885,movdb-97630,Film-961277.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1856101,movdb-335984,Film-236626.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1959563,movdb-390043,Film-882279.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt1981128,movdb-274855,Film-433529.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2039338,movdb-400710,Film-846539.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2066048,movdb-256690.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2078660,movdb-167444,Film-973662.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2114504,movdb-462883,Film-702634.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2209300,movdb-143800,Film-434295.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2226597,movdb-290512,Film-745227.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2239822,movdb-339964,Film-288924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2293640,movdb-211672,Film-297030.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2333784,movdb-138103,Film-740275.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2378507,movdb-336000,Film-961699.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2380307,movdb-354912,Film-893369.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2380307.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2417712,movdb-336890,Film-527997.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2449638,movdb-188924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2548396,movdb-384521,Film-778915.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2560792,movdb-472921,Film-333894.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2582426,movdb-278632,Film-840909.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2622672,movdb-309013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2660888,movdb-188927,Film-301557.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2674358,movdb-302150,Film-971873.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2674454,movdb-399790,Film-333834.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2796792,movdb-243543,Film-761604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2820852,movdb-168259,Film-274822.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2872518,movdb-345938,Film-930218.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2872518.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2917484,movdb-289708,Film-509939.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt2932536,movdb-403119,Film-774513.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3014284,movdb-274862,Film-483982.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3014866,movdb-302156,Film-815613.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3037164,movdb-393695,Film-389673.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3266284,movdb-317091,Film-304838.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3286052,movdb-334536,Film-378096.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3412784,movdb-447664,Film-112409.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3450958,movdb-281338,Film-261787.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3453648,movdb-421259,Film-581849.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3469046,movdb-324852,Film-572937.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3486626,movdb-335777,Film-699016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3486626.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3524346,movdb-382638,Film-511066.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3527772,movdb-419548,Film-919191.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3564472,movdb-417870,Film-115549.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3564574,movdb-382501,Film-741036.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3631112,movdb-346685,Film-767332.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3717490,movdb-305470,Film-576386.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3783958,movdb-313369,Film-689956.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3830302,movdb-468316,Film-566028.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3847642,movdb-487620,Film-291456.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3896102,movdb-452773,Film-446901.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3914332,movdb-305342,Film-292185.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4049416,movdb-378380.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4481514,movdb-345914,Film-274926.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4554212,movdb-494282,Film-788112.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4572792,movdb-382614,Film-678961.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4623856,movdb-345909,Film-158164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4649466,movdb-343668,Film-828541.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4687358,movdb-397981,Film-709352.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4693612,movdb-434273,Film-423715.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4699444,movdb-392788,Film-166103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4703048,movdb-347984,Film-502943.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4720702,movdb-430354,Film-238079.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4818804,movdb-390357,Film-392219.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4819560,movdb-362154,Film-463533.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4935158,movdb-356191.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4960934,movdb-337556.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4963830,movdb-378932,Film-729178.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt4985848,movdb-422471,Film-845465.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5029668,movdb-406302,Film-856700.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5048716,movdb-388092,Film-761848.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5052448,movdb-419430,Film-642856.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5066056,movdb-470472,Film-815441.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5078214,movdb-377275,Film-692449.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5084170,movdb-426284,Film-320443.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5112578,movdb-396940,Film-511586.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5117876,movdb-417320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5143700,movdb-366656,Film-671331.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5157682,movdb-421447,Film-826380.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5170810,movdb-365995,Film-374263.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5170810.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5176252,movdb-426338,Film-592267.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5226984,movdb-405204,Film-355405.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5247022,movdb-370755.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5267472,movdb-431072,Film-459632.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5286268,movdb-426830,Film-343491.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5301662,movdb-392982,Film-865128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5351458,movdb-448847,Film-749712.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5362988,movdb-395834,Film-834864.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5390504,movdb-407448,Film-150729.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5464234,movdb-423988,Film-691961.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5537686,movdb-437302,Film-890702.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5539052,movdb-419472,Film-413606.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5566790,movdb-391710,Film-107500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5638642,movdb-433808,Film-759721.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5655222,movdb-425751,Film-497757.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5657846,movdb-419680,Film-859936.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5690472,movdb-455783.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5693136,movdb-421560,Film-610629.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5707304,movdb-438463,Film-163038.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5719700,movdb-427900,Film-761604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5783956,movdb-433310,Film-867296.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5816682,movdb-423899,Film-796355.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5817022,movdb-426054,Film-345484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5829040,movdb-432787,Film-232128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5897636,movdb-438634,Film-382702.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5912052,movdb-429005,Film-781224.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5913786,movdb-459166,Film-230532.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5923962,movdb-396263,Film-251225.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5979874,movdb-449574,Film-846657.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt5991948,movdb-437035,Film-689705.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6047298,movdb-440374,Film-774348.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6058136,movdb-461777,Film-983493.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6060156,movdb-437033,Film-142470.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6133130,movdb-420622,Film-151633.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6137734,movdb-435921,Film-401222.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6142314,movdb-464882,Film-615513.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6191390,movdb-436496,Film-834124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6262764,movdb-457262,Film-123168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6287174,movdb-431296,Film-208443.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6288694,movdb-445954,Film-333605.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6367558,movdb-451955,Film-907364.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6408226,movdb-434203,Film-725081.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6511676,movdb-443993,Film-251597.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6597454,movdb-445840,Film-472895.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6727816,movdb-483863,Film-939138.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt6846128,movdb-457710.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt7167630,movdb-471474,Film-929762.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt7578566,movdb-484862,Film-453490.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt7608028,movdb-485774,Film-465256.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Logo_Viserpel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1021.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1055.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1057.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1065.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1096.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1097.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1114.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1130.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1131.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1132.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1133.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1134.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1136.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1137.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1138.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1140.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1141.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1142.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1143.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1144.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1146.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1148.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1149.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-1150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-180.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-221.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-281.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-282.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-297.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-321.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-322.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-323.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-393.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-459.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-491.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-493.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-533.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-537.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-559.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-584.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-623.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-633.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-644.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-706.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-735.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-791.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-798.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-845.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-858.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-861.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-938.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-956.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-957.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-987.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Non-988.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Wind river.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/imagen.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3910814,movdb-389630.jpg" afterPath="$PROJECT_DIR$/vi_peli/static/Imagenes/Imdb-tt3910814,movdb-389630.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Json_filmaffinity.txt" afterPath="$PROJECT_DIR$/Json_filmaffinity.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viserpel/__init__.py" afterPath="$PROJECT_DIR$/Viserpel/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viserpel/settings.py" afterPath="$PROJECT_DIR$/Viserpel/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py" afterPath="$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/busquedas.py" afterPath="$PROJECT_DIR$/vi_peli/busquedas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/Provider_NewPct1.py" afterPath="$PROJECT_DIR$/vi_peli/Provider_NewPct1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/guardar_datos.py" afterPath="$PROJECT_DIR$/vi_peli/guardar_datos.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/json/generos.json" afterPath="$PROJECT_DIR$/vi_peli/json/generos.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/log/vi_peli.log" afterPath="$PROJECT_DIR$/vi_peli/log/vi_peli.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/json/NewPct1.json" afterPath="$PROJECT_DIR$/vi_peli/json/NewPct1.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/models.py" afterPath="$PROJECT_DIR$/vi_peli/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/peliculas_datos.py" afterPath="$PROJECT_DIR$/vi_peli/peliculas_datos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/static/css/blog.css" afterPath="$PROJECT_DIR$/vi_peli/static/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html" afterPath="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/urls.py" afterPath="$PROJECT_DIR$/vi_peli/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vi_peli/views.py" afterPath="$PROJECT_DIR$/vi_peli/views.py" />
     </list>
@@ -35,80 +408,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagina_carga.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guardar_datos.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-              <folding>
-                <element signature="e#326#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lista_pelis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vi_peli/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+            <state relative-caret-position="6698">
+              <caret line="419" column="8" lean-forward="false" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
               <folding>
                 <element signature="e#14#53#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Provider_NewPct1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/Provider_NewPct1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,8 +443,8 @@
       <file leaf-file-name="Provider_MejorTorrent.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#15#54#0" expanded="true" />
               </folding>
@@ -125,21 +452,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/urls.py">
+      <file leaf-file-name="busquedas.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/busquedas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="e#14#97#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ficha_peli.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html">
+      <file leaf-file-name="guardar_datos.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+            <state relative-caret-position="544">
+              <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+              <folding>
+                <element signature="e#14#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="peliculas_datos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/peliculas_datos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auxiliar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/auxiliar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="e#14#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lista_pelis.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,8 +515,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -165,18 +530,35 @@
       <find>ñ</find>
       <find>�</find>
       <find>requests</find>
-      <find>Error en busqueda de pelicula</find>
       <find>renombra</find>
       <find>reemplaza</find>
       <find>titulo_orig</find>
       <find>pelis_tot</find>
       <find>print</find>
       <find>peli_ins.idFicha</find>
+      <find>menu</find>
+      <find>nav</find>
+      <find>subm</find>
+      <find>right</find>
+      <find>lista</find>
+      <find>conta</find>
+      <find>contenido</find>
+      <find>lista_pelis</find>
+      <find>pelilist</find>
+      <find>peli</find>
+      <find>ficha</find>
+      <find>bbdd</find>
+      <find>json</find>
+      <find>Error en busqueda de pelicula</find>
+      <find>#muestra_datos</find>
+      <find>muestra_datos</find>
     </findStrings>
     <replaceStrings>
       <replace>uprint</replace>
       <replace>vprint</replace>
       <replace>logger.debug</replace>
+      <replace>muestra_datos</replace>
+      <replace>log_datos</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -201,30 +583,67 @@
         <option value="$PROJECT_DIR$/vi_peli/tests.py" />
         <option value="$PROJECT_DIR$/vi_peli/PeliculasNewPct1.py" />
         <option value="$PROJECT_DIR$/vi_peli/ProvNewPct1.py" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html" />
+        <option value="$PROJECT_DIR$/vi_peli/busquedas.py" />
         <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html" />
-        <option value="$PROJECT_DIR$/vi_peli/peliculas_datos.py" />
+        <option value="$PROJECT_DIR$/vi_peli/celery.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html" />
+        <option value="$PROJECT_DIR$/vi_peli/__init__.py" />
+        <option value="$PROJECT_DIR$/Viserpel/__init__.py" />
+        <option value="$PROJECT_DIR$/Viserpel/celery.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/vi_peli/task.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/letras.html" />
         <option value="$PROJECT_DIR$/vi_peli/static/css/blog.css" />
+        <option value="$PROJECT_DIR$/Viserpel/settings.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/index2.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templatetags/paginator.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templatetags/Paginacion_vi.py" />
+        <option value="$PROJECT_DIR$/vi_peli/Paginacion_vi.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion_new.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion2.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templatetags/render_paginator.py" />
+        <option value="$PROJECT_DIR$/vi_peli/urls.py" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagination.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html" />
+        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" />
+        <option value="$PROJECT_DIR$/vi_peli/views.py" />
         <option value="$PROJECT_DIR$/vi_peli/Provider_NewPct1.py" />
         <option value="$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html" />
-        <option value="$PROJECT_DIR$/vi_peli/busquedas.py" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html" />
-        <option value="$PROJECT_DIR$/vi_peli/urls.py" />
-        <option value="$PROJECT_DIR$/Viserpel/settings.py" />
-        <option value="$PROJECT_DIR$/vi_peli/views.py" />
-        <option value="$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html" />
+        <option value="$PROJECT_DIR$/vi_peli/peliculas_datos.py" />
+        <option value="$PROJECT_DIR$/vi_peli/auxiliar.py" />
         <option value="$PROJECT_DIR$/vi_peli/models.py" />
         <option value="$PROJECT_DIR$/vi_peli/guardar_datos.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyRaisingNewStyleClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,8 +661,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,8 +696,7 @@
               <item name="Viserpel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Viserpel" type="462c0819:PsiDirectoryNode" />
               <item name="vi_peli" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="vi_peli" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Viserpel" type="b2602c69:ProjectViewProjectNode" />
@@ -291,10 +707,17 @@
               <item name="Viserpel" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="Viserpel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7.14 virtualenv at D:\Proyectos\MisVirtualEnvs\env_viserpel &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,6 +727,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proyectos\Viserpel\vi_peli\static\css" />
       <recent name="D:\Proyectos\Viserpel\vi_peli" />
       <recent name="D:\Proyectos\Viserpel\vi_peli\templates\vi_peli" />
     </key>
@@ -520,19 +944,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588486" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11673774" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877572" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14765458" sideWeight="0.5056543" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07995736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.057036247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,24 +966,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30877572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30877572" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15671642" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14765458" sideWeight="0.5056543" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.057036247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -620,139 +1044,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="e#641#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/mysite/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/mysite/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Viserpel/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/templates/blog/post_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/templates/blog/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="e#641#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../djangogirls/blog/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../djangogirls/blog/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -772,13 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -807,34 +1096,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Viserpel/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/PeliculasNewPct1.py" />
-    <entry file="file://$PROJECT_DIR$/vi_peli/PeliculasNewPct1_x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="46" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/ProvNewPct1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/PeliculasNewPct1_x.py" />
+    <entry file="file://$PROJECT_DIR$/vi_peli/ProvNewPct1.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.542/geckodriver" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-810270721/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1027">
           <caret line="5018" column="8" lean-forward="false" selection-start-line="5018" selection-start-column="8" selection-end-line="5018" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,156 +1118,264 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viserpel/celery" />
+    <entry file="file://$PROJECT_DIR$/vi_peli/celery.py" />
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/carga.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viserpel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viserpel/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/letras.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="297" column="26" lean-forward="false" selection-start-line="297" selection-start-column="26" selection-end-line="297" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/peliculas_datos.py">
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2899">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templatetags/paginator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/Paginacion_vi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templatetags/Paginacion_vi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/paginacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templatetags/render_paginator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="17" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="84" column="43" lean-forward="false" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6698">
+          <caret line="419" column="8" lean-forward="false" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
           <folding>
-            <element signature="e#14#25#0" expanded="true" />
+            <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/carga.html">
+    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/Provider_NewPct1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="29" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/busqueda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="92" column="24" lean-forward="false" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/busquedas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="81" column="6" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
-          <folding>
-            <element signature="e#14#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/pagina_carga.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Viserpel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-          <folding>
-            <element signature="e#326#335#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/Provider_MejorTorrent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#15#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/views.py">
+    <entry file="file://$PROJECT_DIR$/vi_peli/auxiliar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/ficha_peli.html">
+    <entry file="file://$PROJECT_DIR$/vi_peli/peliculas_datos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vi_peli/templates/vi_peli/lista_pelis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vi_peli/busquedas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <element signature="e#14#53#0" expanded="true" />
+            <element signature="e#14#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vi_peli/guardar_datos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        <state relative-caret-position="544">
+          <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>

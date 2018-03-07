@@ -7,54 +7,37 @@ from Viserpel.settings import LOGGING
 import http.client
 import json
 
+#from auxiliar import log_datos
+from bs4 import BeautifulSoup
+from requests.compat import urljoin
+import requests
+import re
 logging.config.dictConfig(LOGGING)
 #fichero_log = os.path.join(APP_DIR, 'log', 'vi_peli.log')
 logger = logging.getLogger(__name__)
 
+
+
+def log_datos(peli):
+
+    try:
+        for key, value in peli.iteritems():
+            try:
+                logger.debug(key + ' --> ' + value)
+            except:
+                logger.debug(key + ' --> None')
+    except:
+        try:
+            for key, value in peli.viewitems():
+                try:
+                    logger.debug(key + ' --> ' + value)
+                except:
+                    logger.debug(key + ' --> None')
+        except:
+            logger.debug ('>-- Pelicula --<')
+            logger.debug (peli)
+
 class Peliculas_ficha():
-
-    def transforma(self,texto):
-        a = texto
-        a = a.replace(u' ', u'%20')
-        a = a.replace(u'ñ', u'%C3%B1')
-        a = a.replace(u'+', u'%2B')
-        a = a.replace(u':', u'%3A')
-        a = a.replace(u'(', u'%28')
-        a = a.replace(u')', u'%29')
-        a = a.replace(u',', u'')
-        a = a.replace(u'¡', u'%C2%A1')
-        a = a.replace(u'!', u'%21')
-        a = a.replace(u'¿', u'%C2%BF')
-        a = a.replace(u'?', u'%3F')
-        a = a.replace(u'á', u'%C3%A1')
-        a = a.replace(u'é', u'%C3%A9')
-        a = a.replace(u'í', u'%C3%AD')
-        a = a.replace(u'ó', u'%C3%B3')
-        a = a.replace(u'ú', u'%C3%BA')
-        a = a.replace(u'Á', u'%C3%81')
-        a = a.replace(u'É', u'%C3%89')
-        a = a.replace(u'Í', u'%C3%8D')
-        a = a.replace(u'Ó', u'%C3%93')
-        a = a.replace(u'Ú', u'%C3%9A')
-        return a
-
-    def sinacento(self, fila_ini):
-
-        source = fila_ini
-
-        source = source.replace(u'ñ', 'n')
-        source = source.replace(u'á', 'a')
-        source = source.replace(u'é', 'e')
-        source = source.replace(u'í', 'i')
-        source = source.replace(u'ó', 'o')
-        source = source.replace(u'ú', 'u')
-        source = source.replace(u'Á', 'A')
-        source = source.replace(u'É', 'E')
-        source = source.replace(u'Í', 'I')
-        source = source.replace(u'Ó', 'O')
-        source = source.replace(u'Ú', 'U')
-
-        return source
 
     def fichas_pelis(self, p_titulo=None, p_titulo_es=None, p_idFicha=None, p_anio=None, p_sinopsis=None):
 
@@ -76,10 +59,22 @@ class Peliculas_ficha():
 
         elif peli_imbd <> None:
             peli = peli_imbd
+            nomb = []
+            logger.debug(peli.titulo)
+            logger.debug(peli.anio)
+            nomb = self.nombre_imdb(peli.idFicha)
+            logger.log(nomb)
+            peli.titulo = nomb["nombre"]
+            if peli.anio == "":
+                peli.anio = nomb["anio"]
+
+            logger.debug (peli.titulo)
+            logger.debug (peli.anio)
         else:
             logger.warning("No se ha encontrado")
             logger.debug(p_titulo)
             logger.debug(p_titulo_es)
+
             if p_titulo == None and p_titulo_es <> None:
                 v_titulo = p_titulo_es
                 v_titulo_orig = None
@@ -117,14 +112,13 @@ class Peliculas_ficha():
 
                         }
 
-        print ("***************************************************")
-        for key, value in peli.iteritems():
-            print (key, value)
+        print ("***************** PELICULA ENCONTRADA FINAL ************************")
+        log_datos(peli)
 
         return peli
 
     def datos_peli_moviedb(self, titulo=None, idFicha=None, anio=None, sinopsis=None, titulo_es=None, **kwargs):
-
+        logger.debug ('-------------- BUSCAMOS EN MOVIEDB --------------------')
         ruta_img = "https://image.tmdb.org/t/p/w300_and_h450_bestv2"
         conn = http.client.HTTPSConnection("api.themoviedb.org")
         print ('Entro en datos_peli_mviedb')
@@ -166,7 +160,7 @@ class Peliculas_ficha():
             if resultados == 0:
                 print ("Sin resultados")
                 return None
-            print (resultados)
+            print ('Nº de Resultados --> ' + str(resultados))
             pelis = cadena_json["results"]
             print (pelis)
             logger.debug('PELI')
@@ -175,6 +169,7 @@ class Peliculas_ficha():
                 # print (pelic)
 
                 if self.sinacento(v_titulo).upper() == self.sinacento(pelic["title"]).upper():
+                    logger.debug ('Titulo = al encontrado')
                     encontrado = True
                     v_idFicha = str(pelic['id'])
                     conn.request("GET", "/3/movie/" + v_idFicha + "?language=es-ES&api_key=" + clave, payload)
@@ -182,14 +177,14 @@ class Peliculas_ficha():
                     data2 = res2.read()
                     peli = json.loads(data2)
                     logger.debug('FICHA')
-                    for key, value in pelic.iteritems():
-                        print (key, value)
+                    log_datos(pelic)
+
                     vapikey = 'c3ca59d0'
+
                     omdb.set_default('apikey', vapikey)
                     logger.debug('FICHA_IMBD')
                     peli_imbd = omdb.imdbid(peli["imdb_id"])
-                    for key, value in peli_imbd.iteritems():
-                        print (key, value)
+                    log_datos(peli_imbd)
                     break
                 if encontrado == False and numero == 1 and pelic["overview"] <> "":
                     logger.debug('Guardamos el primer registro encontrado')
@@ -199,15 +194,14 @@ class Peliculas_ficha():
                     data2 = res2.read()
                     peli1 = json.loads(data2)
                     logger.debug(peli1)
-                    for key, value in peli1.iteritems():
-                        print (key, value)
+                    log_datos(peli1)
+
                     vapikey = 'c3ca59d0'
                     omdb.set_default('apikey', vapikey)
                     logger.debug('FICHA_IMBD')
                     print (peli1["imdb_id"])
                     peli_imbd1 = omdb.imdbid(peli1["imdb_id"])
-                    for key, value in peli_imbd1.iteritems():
-                        print (key, value)
+                    log_datos(peli_imbd1)
                     numero = numero + 1
 
             if encontrado == False:
@@ -246,13 +240,17 @@ class Peliculas_ficha():
                     'idFicha': 'Imdb-' + str(peli["imdb_id"]) + "," + "movdb-" + str(peli["id"]),
 
                     }
+
+            logger.debug('Finalmente nos queda ')
+            log_datos(item)
+
         else:
             return None
 
         return item
 
     def datos_peli_imbd(self, titulo=None, idFicha=None, anio=None, sinopsis=None, titulo_es=None):
-        # type: (object, object, object) -> object
+        logger.debug('-------------- BUSCAMOS EN IMBD --------------------')
         vapikey = 'c3ca59d0'
         omdb.set_default('apikey', vapikey)
         pelicula = []
@@ -269,6 +267,8 @@ class Peliculas_ficha():
                 pelicula = omdb.get(title=titulo, year=anio)
 
         if pelicula:
+            log_datos(pelicula)
+
             item = {'titulo': titulo_es,
                     'titulo_orig': pelicula.title,
                     'anio': pelicula.year,
@@ -284,13 +284,16 @@ class Peliculas_ficha():
                     'idFicha': 'Imdb-' + pelicula.imdb_id,
 
                     }
+
+            logger.debug('Finalmente nos queda ')
+            log_datos(item)
         else:
             return None
 
         return item
 
     def datos_peli_film(self, titulo=None, idFicha=None, anio=None, sinopsis=None, titulo_es=None):
-        # type: (object, object, object) -> object
+        logger.debug('-------------- BUSCAMOS EN FILMAFFINITY --------------------')
         service = python_filmaffinity.FilmAffinity(lang='es')
         service2 = python_filmaffinity.FilmAffinity(lang='en')
         pelicula = []
@@ -341,6 +344,12 @@ class Peliculas_ficha():
                     for peli in busqueda:
                         pelicula2 = service2.get_movie(title=peli['title'], images=True)
                         pelicula = service.get_movie(id=pelicula2['id'], images=True)
+
+                        logger.debug('Pelicula Español')
+                        log_datos(pelicula)
+                        logger.debug('Pelicula Ingles')
+                        log_datos(pelicula2)
+
                         break
                 except:
                     logger.error("Error en la búsqueda en original")
@@ -354,6 +363,13 @@ class Peliculas_ficha():
                     for x in resul:
                         pelicula2 = service2.get_movie(id=x['id'], images=True)
                         pelicula = service.get_movie(id=x['id'], images=True)
+
+                        logger.debug('Pelicula Español')
+                        log_datos(pelicula)
+                        logger.debug('Pelicula Ingles')
+                        log_datos(pelicula2)
+
+
                         break
                 except:
                     logger.error("Error en la búsqueda en original")
@@ -376,6 +392,8 @@ class Peliculas_ficha():
                     'idFicha': 'Film-' + pelicula['id'],
 
                     }
+            logger.debug('Finalmente nos queda ')
+            log_datos(item)
         else:
             return None
 
@@ -383,4 +401,60 @@ class Peliculas_ficha():
         return item
 
 
+    def tituloes_moviedb(self, idFicha=None, **kwargs):
+        # conn.request("GET", "/3/find/%7Bexternal_id%7D?external_source=imdb_id&language=en-US&api_key=%3C%3Capi_key%3E%3E", payload)
+        ruta_img = "https://image.tmdb.org/t/p/w300_and_h450_bestv2"
+        conn = http.client.HTTPSConnection("api.themoviedb.org")
+        print ('Entro en datos_peli_mviedb')
+        payload = "{}"
+        clave = '6954e616bbca6eb84ea9de73788e6e5f'
+        pelicula = []
+        idFicha = idFicha.replace('Imdb-', '')
+        conn.request("GET", "/3/find/" + idFicha + "?external_source=imdb_id&language=es-ES&api_key=" + clave, payload)
+        res = conn.getresponse()
+        data = res.read()
 
+        ##    print (peli)
+        ##    for p in peli:
+        ##        #print (p)
+        ##        print ('----------------------------------------')
+        ##        for key, value in p.iteritems():
+        ##
+        ##            print (key,value)
+        if data:
+            pelic = json.loads(data)
+            peli = pelic["movie_results"]
+            return peli[0]["title"]
+        else:
+            return None
+
+
+    def nombre_imdb(self, idFicha):
+
+        urlx = "https://www.imdb.com/title/" + idFicha + "/?ref_=nv_sr_1"
+
+        req = requests.get(urlx)
+
+        html_t = BeautifulSoup(req.text, "html.parser")
+
+        enlaces = html_t.find('div', {'class': 'title_wrapper'})
+        nombre = enlaces.find('h1', {'itemprop': 'name'})
+        print (nombre.text)
+        anio = nombre.find('a').text
+        nombre_mio = re.search(r'(.+)(\([0-9]{4}\))', unicode(nombre.text))
+        if not nombre_mio:
+            nombre_mio = None
+            logger.warning("nombre_mio no encontrado")
+        else:
+            nombre_mio = nombre_mio.group(1)
+            nombre_mio = nombre_mio.replace(u"Â ", "")
+            nombre_es = nombre_mio.strip()
+        logger.debug("=========================")
+        logger.debug(nombre_mio.strip())
+        logger.debug(anio)
+        logger.debug("=========================")
+
+        item = {"nombre": nombre_es,
+                "anio": anio}
+
+        return item

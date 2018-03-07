@@ -12,6 +12,9 @@ import re
 import logging.config
 from Viserpel.settings import LOGGING
 import httplib, urllib
+from .models import Lista_Pelis
+from auxiliar import reemplaza,renombra
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -20,74 +23,6 @@ logging.config.dictConfig(LOGGING)
 logger = logging.getLogger(__name__)
 
 # Create your views here.
-
-def reemplaza(texto):
-    a = texto
-    a = a.replace(u'\xc3\xb1', u'ñ')
-    a = a.replace(u'\xc3\u2018', u'Ñ')
-    a = a.replace(u'\xc3\xa1', u'á')
-    a = a.replace(u'\xc3\xa9', u'é')
-    a = a.replace(u'\xc3\xad', u'í')
-    a = a.replace(u'\xc3\xb3', u'ó')
-    a = a.replace(u'\xc3\xba', u'ú')
-    a = a.replace(u'\xc3\x81', u'Á')
-    a = a.replace(u'\xc3\u2030', u'É')
-    a = a.replace(u'\xc3\x8d', u'Í')
-    a = a.replace(u'\xc3\u201c', u'Ó')
-    a = a.replace(u'\xc3\u0161', u'Ú')
-    a = a.replace(u'\xc3\xa0', u' ')
-
-    return a
-
-
-def renombra_archivo(fila_ini):
-    source = fila_ini
-    source = source.replace(u'|', '-')
-    source = source.replace(u'\/', '-')
-    source = source.replace(u'\\', '-')
-    source = source.replace(u':', '-')
-    source = source.replace(u'?', '')
-    source = source.replace(u'*', '-')
-    source = source.replace(u'<', '')
-    source = source.replace(u'>', '')
-    source = source.replace(u'"', '')
-
-    source = source.replace(u'ñ', 'n')
-    source = source.replace(u'á', 'a')
-    source = source.replace(u'é', 'e')
-    source = source.replace(u'í', 'i')
-    source = source.replace(u'ó', 'o')
-    source = source.replace(u'ú', 'u')
-    source = source.replace(u'Á', 'A')
-    source = source.replace(u'É', 'E')
-    source = source.replace(u'Í', 'I')
-    source = source.replace(u'Ó', 'O')
-    source = source.replace(u'Ú', 'U')
-    source = source.replace(u'/x93', '')
-    source = source.replace(u'/x94', '')
-    # os.renamestr (fila_ini, source)
-    return source
-
-
-def renombra(fila_ini):
-    source = fila_ini
-
-    # source = source.replace(u'ñ', 'n')
-    source = source.replace(u'á', 'a')
-    source = source.replace(u'é', 'e')
-    source = source.replace(u'í', 'i')
-    source = source.replace(u'ó', 'o')
-    source = source.replace(u'ú', 'u')
-    source = source.replace(u'Á', 'A')
-    source = source.replace(u'É', 'E')
-    source = source.replace(u'Í', 'I')
-    source = source.replace(u'Ó', 'O')
-    source = source.replace(u'Ú', 'U')
-    source = source.replace(u'/x93', '')
-    source = source.replace(u'/x94', '')
-    # os.renamestr (fila_ini, source)
-    return source
-
 
 class enviar_datos:
     def conectar(self, host, campo, valor):
@@ -178,10 +113,12 @@ class MejorTorrent():
                         idioma = re.search(r'\[Subs. integrados\]', str(link))
                         if not idioma:
                             enlace = urljoin(self.url, link.get('href'))
-                            peli = self.datos_pelis(enlace, indice)
-                            if peli <> None:
-                                resultados.append(peli)
-                                indice +=1
+                            busca_enlace = Lista_Pelis.objects.get(enlace = enlace)
+                            if not busca_enlace:
+                                peli = self.datos_pelis(enlace, indice)
+                                if peli <> None:
+                                    resultados.append(peli)
+                                    indice +=1
         else:
 
             # Descargamos sólo las páginas indicadas de las paginas principales.
@@ -200,6 +137,7 @@ class MejorTorrent():
                 logger.debug ('Nº de Enlaces encontrados --> ' + str(len(enlaces)))
                 print ('Nº de Enlaces encontrados --> ' + str(len(enlaces)))
                 for link in enlaces:
+
                     peli = True
                     try:
                         imagen = urljoin(self.url, link.find('img').get('src'))
@@ -209,11 +147,13 @@ class MejorTorrent():
                     if peli:
 
                         enlace = urljoin(self.url, link.get('href'))
-                        logger.debug('enlace--> ' + enlace)
-                        pelicula = self.datos_pelis(enlace, indice)
-                        if pelicula <> None:
-                            resultados.append(pelicula)
-                            indice = indice + 1
+                        busca_enlace = Lista_Pelis.objects.get(enlace=enlace)
+                        if not busca_enlace:
+                            logger.debug('enlace--> ' + enlace)
+                            pelicula = self.datos_pelis(enlace, indice)
+                            if pelicula <> None:
+                                resultados.append(pelicula)
+                                indice = indice + 1
 
         return resultados
 

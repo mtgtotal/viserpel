@@ -1,16 +1,18 @@
 {% extends 'vi_peli/base.html' %}
 {% load staticfiles %}
     {% block menu %}
-        <li class="menu-item"><a href="{% url 'pagina_carga' %}" class="menu_item">Cargar Películas</a></li>
-        <li class="menu-item"><a href="{% url 'listar_pelis' %}" class="menu_item">Lista Peliculas</a></li>
     {% endblock %}
     {% block content %}
 
-    <section class="container">
+    <section class="container" >
         <div class="lista_pelis">
             <CENTER><h2>LISTA DE PELICULAS</h2></CENTER>
+
+        </div>
+        {% include 'vi_peli/letras.html' %}
+        {% include 'vi_peli/pagination.html' %}
              <ul class = "pelilist">
-        {% for peli in pelis %}
+        {% for peli in page.object_list %}
                     <li>
 
                         <a href="{% url 'ficha' pk=peli.pk %}">
@@ -25,5 +27,7 @@
         {% endfor %}
             </ul>
 
+        {% include 'vi_peli/pagination.html' %}
     </section>
     {% endblock %}
+

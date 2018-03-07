@@ -1,9 +1,9 @@
 {% extends 'vi_peli/base.html' %}
-    {% block menu %}
+    {% block submenu1 %}
         {% if proveedor %}
             <li class="menu-item"><a href="{% url 'guarda_total' proveedor %}" class="menu_item"><span class="glyphicon glyphicon-save" ></span>Guardar en BBDD</a></li>
         {% endif %}
-        <li class="menu-item"><a href="/" class="menu_item">Otros Elementos</a></li>
+
     {% endblock %}
     {% block content %}
     <section class="Carga">
@@ -47,7 +47,7 @@
 
              <ul class = "pelilist">
 
-                 {% for peli in pelisjson %}
+                 {% for peli in page.object_list %}
 
                     <li>
                         <a href="{% url 'guarda_pelicula' proveedor peli.indice%}" name = 'pelicula' value = "{{peli|escape}}">
@@ -65,6 +65,6 @@
                  {% endfor %}
             </ul>
         </div>
-
+     {% include 'vi_peli/pagination.html' %}
      </section>
     {% endblock %}

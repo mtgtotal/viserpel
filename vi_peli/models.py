@@ -20,7 +20,8 @@ class Lista_Pelis (models.Model):
     proveedor = models.CharField(max_length=50, null=True)
     sinopsis = models.TextField(null=True)
     tamanio =  models.CharField(max_length=15, null=True)
-    idFicha = models.CharField(max_length=50,null=True) #Nombre del proveedor (Imbd, Film, tmdb, ...) - Id del proveedor.
+    #idFicha = models.ForeignKey('vi_peli.Pelicula', related_name='miid', null=True)
+    idFicha = models.IntegerField(null=True)
     titulo_bes = models.CharField(max_length=200,null=True) #Titulo sin espacios ni ningún caracter <> numeros en español
     titulo_ben = models.CharField(max_length=200,null=True) # Titulo sin espacios ni ningún caracter <> numeros en original
 
