@@ -23,5 +23,6 @@ from django.contrib.auth import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include('vi_peli.urls')),
+    url(r'', include('vi_peli.urls', namespace='vi_peli')),
+    #url(r'^django_popup_view_field/', include('django_popup_view_field.urls', namespace="django_popup_view_field")),
 ]

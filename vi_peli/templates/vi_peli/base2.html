@@ -1,26 +1,15 @@
 {% load staticfiles %}
-
-<!DOCTYPE html>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
         <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-        <link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.dataTables.min.css'  %}"/>
-        <title>VISERPEL - Peliculas</title>
-
-        <script type="text/javascript" src="{% static 'js/jquery.js' %}" charset="UTF-8"></script>
-        <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}" charset="UTF-8"></script>
-        <script type="text/javascript" src="{% static 'js/jquery-ui.js' %}"></script>
-        <script type="text/javascript" src="{% static 'js/jquery.dataTables.min.js' %}"></script>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>VISERPEL - Peliculas</title>
+
     </head>
 
     <body>
@@ -38,16 +27,16 @@
                       <li class="menu-item"><a class="menu-item" href="/">Inicio</a></li>
                       <li class="dropdown menu-item"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Busquedas <span class="caret"></span></a>
                         <ul class="dropdown-menu submenu">
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:busqueda' %}">Busqueda BBDD</a></li>
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:busqueda' %}">Busqueda MejorTorrent</a></li>
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:busqueda' %}">Busqueda NewPct1</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'busqueda' %}">Busqueda BBDD</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'busqueda' %}">Busqueda MejorTorrent</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'busqueda' %}">Busqueda NewPct1</a></li>
                         </ul>
                       </li>
                       <li class="dropdown menu-item"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cargas <span class="caret"></span></a>
                         <ul class="dropdown-menu submenu">
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:pagina_carga' %}">Carga Proveedor</a></li>
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:actualiza_pelis' %}">Actualizar Fichas</a></li>
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:listar_pelis' %}">Peliculas sin Ficha</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'pagina_carga' %}">Carga Proveedor</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'actualiza_pelis' %}">Actualizar Fichas</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'listar_pelis' %}">Peliculas sin Ficha</a></li>
                           {% block submenu1 %}
                           {% endblock %}
                         </ul>
@@ -56,12 +45,26 @@
                         <ul class="dropdown-menu submenu">
                           <li class="menu-item"><a  class="menu-item" href="#">General</a></li>
                           <li class="menu-item"><a  class="menu-item" href="#">Otras opciones</a></li>
-                          <li class="menu-item"><a  class="menu-item" href="{% url 'vi_peli:limpia_imagenes' %}">Limpiar Imagenes</a></li>
+                          <li class="menu-item"><a  class="menu-item" href="{% url 'limpia_imagenes' %}">Limpiar Imagenes</a></li>
                           {% block submenu2 %}
                           {% endblock %}
                         </ul>
                       </li>
 
+
+                <!--
+                <nav class="menu right">
+                    <ul>
+                        <div class="menu-mobile">
+                            <li class="menu-item"><a href="/" class="menu_item">Inicio</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Busquedas <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="{% url 'busqueda' %}">Busqueda BBDD</a></li>
+                                  <li><a href="{% url 'busqueda' %}">Busqueda MejorTorrent</a></li>
+                                  <li><a href="{% url 'busqueda' %}">Busqueda NewPct1</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="{% url 'busqueda' %}" class="menu_item">Busqueda</a></li>-->
                             {% block menu %}
                             {% endblock %}
                          </ul>

@@ -1,0 +1,59 @@
+<style type="text/css">
+.modal-body {
+	height: 400px;
+
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+}
+
+</style>
+<div class="modal-dialog modal-lg">
+	<div class="modal-content">
+		<form role="form" action="{% url 'vi_peli:modificar_ficha' object.pk %}" method="post" class = "form-inline">
+			<div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">x</button>
+                <h3>Modificar Ficha de la Pelicula</h3>
+            </div>
+            <div class="modal-body" >
+				{% csrf_token %}
+				<div class="panel panel-default">
+					<div class="panel-body">
+						{{ form.as_p }}
+					</div>
+				</div>
+				<table>
+    				{{ form.as_table }}
+    			</table>
+				<!--
+				<div class="panel panel-default">
+					<div class="panel-body form-group">
+
+						<fieldset class="module aligned ">
+							<table>
+							{% for field in form %}
+    							<div class="form-row">
+									<tr>
+									<td style="width:30%">{{ field.label_tag }}</td><td style="width:70%">{{ field }}</td>
+									</tr>
+    							</div>
+							{% endfor %}
+							</table>
+						</fieldset>
+
+					</div>
+				</div>
+				-->
+			</div>
+			<div class="modal-footer">
+				<div class="col-lg-12 text-right">
+					<input type="submit" class="btn btn-primary" name="submit" value="Guardar">
+					<button type="button" class="btn btn-default" onclick="return cerrar_modal()">
+						Cancelar
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+

@@ -1,85 +1,175 @@
 {% extends 'vi_peli/base.html' %}
 {% load staticfiles %}
 
-    {% block content %}
+{% block content %}
 
-            <section class="Peli">
-                <div class="titulo">
-                    <p style="color:white">{{peli.titulo}}</p>
-                </div>
-                <div class="poster">
-                    <img src="{% static peli.imagen %}" width="100%">
-                </div>
-                <div class="ficha">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class = "tit" width = 18%>Titulo:</td>
-                                <td class = "des" width = 82%>{{peli.titulo.capitalize}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Titulo Original:</td>
-                                <td class = "des">{{peli.titulo_orig}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Año:</td>
-                                <td class = "des">{{peli.year}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Generos:</td>
-                                <td class = "des">{{peli.generos}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Director:</td>
-                                <td class = "des">{{peli.director}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Actores:</td>
-                                <td class = "des">{{peli.actores}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Sinopsis:</td>
-                                <td class = "des">{{peli.sinopsis_es}}</td>
-                            </tr>
-                            <tr>
-                                <td class = "tit">Id:</td>
-                                <td class = "des">{{peli.idFicha}}</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                </div>
-                <div class="enlaces">
-
-                  <table class="table table-bordered t_enlaces">
-                    <thead >
-                      <tr>
-                        <th class ="tenlace">Proveedor</th>
-                        <th class ="tenlace">Calidad</th>
-                        <th class ="tenlace">Torrent</th>
-                      </tr>
-                    </thead>
+        <section class="Peli">
+            <!-- Modal -->
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            </div><!-- /.modal -->
+            <div class="titulo">
+                <p style="color:white">{{peli.titulo | upper }}</p>
+            </div>
+            <div class="poster">
+                <img src="{% static peli.imagen %}" width="100%">
+            </div>
+            {% if tabla == 'Ficha' %}
+            <div class="ficha">
+                <table>
                     <tbody>
-                    {% for link in enlaces %}
-                      <tr>
-                        <td>{{ link.proveedor }}</td>
-                        <td>{{ link.calidad }}</td>
-                          <td><a href="{{ link.torrent }}"><span class="glyphicon glyphicon-download-alt"></span></a></td>
-                      </tr>
+                        <tr>
+                            <td class = "tit" width = 18%>Titulo:</td>
+                            <td class = "des" width = 82%>{{peli.titulo.capitalize}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Titulo Original:</td>
+                            <td class = "des">{{peli.titulo_orig}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Año:</td>
+                            <td class = "des">{{peli.year}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Generos:</td>
+                            <td class = "des">{{peli.generos}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Director:</td>
+                            <td class = "des">{{peli.director}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Actores:</td>
+                            <td class = "des">{{peli.actores}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Sinopsis:</td>
+                            <td class = "des">{{peli.sinopsis_es}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Id:</td>
+                            <td class = "des">{{peli.idFicha}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit"> </td>
+                            <td class = "des"> </td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Actualizar:</span></a></td>
 
-                    {% empty %}
-                      <tr>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                      </tr>
-                    {% endfor %}
+                            <td class="text-center">
+                                <a onclick="return abrir_modal('{% url 'vi_peli:modificar_ficha' pk=peli.pk %}')" class="btn">
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class = "tit">Buscar Ficha:</span></a></td>
+                            <td class = "des"><a onclick="return abrir_modal('{% url 'vi_peli:ficha_edit' pk=peli.pk %}')" class="btn"><span class="glyphicon glyphicon-search"></span></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="enlaces">
+
+              <table class="table table-bordered t_enlaces">
+                <thead >
+                  <tr>
+                    <th class ="tenlace">Proveedor</th>
+                    <th class ="tenlace">Calidad</th>
+                    <th class ="tenlace">Torrent</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for link in peli.lista_pelis_set.values %}
+                  <tr>
+                    <td>{{ link.proveedor }}</td>
+                    <td>{{ link.calidad }}</td>
+                      <td><a href="{{ link.torrent }}"><span class="glyphicon glyphicon-download-alt"></span></a></td>
+                  </tr>
+
+                {% empty %}
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                {% endfor %}
+
+                </tbody>
+              </table>
+            </div>
+            {% else %}
+            <div class="ficha">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class = "tit" width = 18%>Titulo:</td>
+                            <td class = "des" width = 82%>{{peli.titulo.capitalize}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Titulo Original:</td>
+                            <td class = "des">{{peli.titulo_orig}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Año:</td>
+                            <td class = "des">{{peli.anyo}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Calidad:</td>
+                            <td class = "des">{{peli.calidad}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Proveedor:</td>
+                            <td class = "des">{{peli.proveedor}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Enlace:</td>
+                            <td class = "des">{{peli.enlace}}</td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Torrent:</td>
+                            <td class = "des"><a href="{{ peli.torrent }}"><span class="glyphicon glyphicon-download-alt"></span></a></td>
+                        </tr>
+                        <tr>
+                            <td class = "tit">Ficha:</td>
+                            <td class = "des"><a href="{{ peli.idFicha }}">{{ peli.idFicha }}</a></td>
+                        </tr>
 
                     </tbody>
-                  </table>
-                </div>
+                </table>
 
-            </section>
+            </div>
+            {% endif %}
 
-    {% endblock %}
+        </section>
+
+        <div id="popup" class="modal fade" role="dialog">
+
+        <script>
+            function abrir_modal(url)
+            {
+                $('#popup').load(url, function()
+                {
+                    $(this).modal('show');
+                });
+                return false;
+            }
+
+            function cerrar_modal()
+            {
+                $('#popup').modal('hide');
+                return false;
+            }
+
+            $(document).ready(function()
+            {
+                var table = $('#tabla').dataTable( {
+                    "language": {
+                        url: "/static/localizacion/es_ES.json"
+                    }
+                } );
+            });
+        </script>
+{% endblock %}

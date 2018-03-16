@@ -6,15 +6,9 @@ from django.shortcuts import redirect, render_to_response,  get_object_or_404
 from Viserpel.settings import JSON_ROOT, BASE_DIR, STATIC_ROOT, MEDIA_ROOT, APP_DIR
 from models import Lista_Pelis, Pelicula, Generos, Calidades
 import os
-from Provider_NewPct1 import NewPct, renombra, reemplaza
+from Provider_NewPct1 import NewPct
 from Provider_MejorTorrent import MejorTorrent
 from busquedas import C_Busqueda
-from peliculas_datos import Peliculas_ficha
-import sys
-from PIL import Image
-from urllib import urlopen
-from StringIO import StringIO
-import logging
 from guardar_datos import BBDD
 import logging.config
 from Viserpel.settings import LOGGING
@@ -22,12 +16,15 @@ import threading
 from task import guardar_hilo
 from django.db.models import Q
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-#from pure_pagination.paginator import Paginator as Paginator2, EmptyPage as EmptyPage2, PageNotAnInteger as PageNotAnInteger2
 from pure_pagination.paginator import Paginator as Paginator2, Page
-from django.views.generic import ListView
+from django.views.generic import ListView, TemplateView
+from .forms import FichaForm, PeliForm
 
-
-
+from django.views.generic.edit import UpdateView, CreateView
+from django.views.generic.list import ListView
+from django.core.urlresolvers import reverse_lazy
+from django.views.generic.detail import DetailView
+from django.http.response import HttpResponseRedirect
 
 
 
@@ -87,6 +84,7 @@ def index(request):
     page = p.page(page_num)
     page_act = page.number
 
+
     parametros = request.GET.copy()
     print (parametros)
 
@@ -94,14 +92,6 @@ def index(request):
         del parametros['page']
 
     return render_to_response('vi_peli/index.html', {"page": page, "letras":letras, "letra_act":letra, "page_act":page_act, "parametros":parametros})
-
-  #  peli_ant = ""
-  #  imagen_ant = ""
-  #  misprov = []
-  #  mispelis = []
-
-   # mispelis = pelisbd
-   # return render(request, 'vi_peli/index.html', {'pelis': mispelis})
 
 
 def listar_pelis (request):
@@ -113,15 +103,16 @@ def listar_pelis (request):
     logger.debug ('listar pelis')
     parametros = None
     if letra == '0-9':
-        lpelis = Lista_Pelis.objects.filter(reduce(lambda x, y: x | y, [Q(titulo__startswith=item) for item in numeros])).order_by("titulo")
+        lpelis = Lista_Pelis.objects.filter(reduce(lambda x, y: x | y, [Q(titulo__startswith=item) for item in numeros]),idFicha__isnull=True).order_by("titulo")
         # q = q.filter((Q(titulo__startswith="0") | Q(titulo__startswith="1") | Q(titulo__startswith="2") | Q(titulo__startswith="3") | Q(titulo__startswith="4") | Q(titulo__startswith="5") | Q(titulo__startswith="6") | Q(titulo__startswith="7") | Q(titulo__startswith="8") | Q(titulo__startswith="9")))
     elif letra == 'Otros':
-        lpelis = Lista_Pelis.objects.filter((Q(titulo__startswith=u"¿") | Q(titulo__startswith=u"¡") | Q(titulo__startswith=u"#"))).order_by("titulo")
+        lpelis = Lista_Pelis.objects.filter((Q(titulo__startswith=u"¿") | Q(titulo__startswith=u"¡") | Q(titulo__startswith=u"#")), idFicha__isnull=True).order_by("titulo")
     elif letra <> "Todas" and letra <> '0-9' and letra <> 'Otros':
         print (letra)
-        lpelis = Lista_Pelis.objects.filter(titulo__startswith = letra).order_by("titulo")
+        lpelis = Lista_Pelis.objects.filter(titulo__startswith = letra, idFicha__isnull=True).order_by("titulo")
     else:
-        lpelis = Lista_Pelis.objects.order_by('titulo', 'anyo')
+        #lpelis = Lista_Pelis.objects.order_by('titulo', 'anyo')
+        lpelis = Lista_Pelis.objects.filter(idFicha__isnull=True).order_by('titulo', 'anyo')
 
     try:
         page_num = request.GET.get('page', 1)
@@ -400,21 +391,32 @@ def guarda_pelicula(request, proveedor, indice):
     return redirect  ('/')
     #return render("vi_peli/pagina_carga.html",{})
 
-def ficha (request, pk):
+def ficha (request, pk, tabla):
     logger.info('Ficha')
-    peli = get_object_or_404(Pelicula, pk=pk)
-    logger.debug(peli.id)
-    enlaces = Lista_Pelis.objects.filter(idFicha__exact=peli.id)
-    logger.info (enlaces)
-    if len(enlaces) == 0:
-        logger.error("No hay enlaces")
-        enlaces = None
+    if tabla == 'Ficha':
+        peli = get_object_or_404(Pelicula, pk=pk)
+    else:
+        peli = get_object_or_404(Lista_Pelis, pk=pk)
 
-    return render(request, 'vi_peli/ficha_peli.html', {'peli': peli, 'enlaces': enlaces})
+    logger.debug(peli.id)
+    #enlaces = Lista_Pelis.objects.filter(idFicha__exact=peli.id)
+    #logger.info (enlaces)
+    #if len(enlaces) == 0:
+    #    logger.error("No hay enlaces")
+    #    enlaces = None
+
+    return render(request, 'vi_peli/ficha_peli.html', {'peli': peli, 'tabla': tabla}) #, 'enlaces': enlaces})
 
 
 def actualiza_pelis (request):
-    lpelis = Lista_Pelis.objects.all()
+    lpelis = Lista_Pelis.objects.filter(idFicha__isnull=True).order_by('titulo', 'anyo')
+    for peli in lpelis:
+        try:
+            BBDD().inserta_ficha(peli)
+        except:
+            logger.debug ('Fallo al insertar la ficha ')
+            logger.debug (peli)
+            continue
     return redirect('/')
 
 def act_peli (request, pk):
@@ -428,9 +430,9 @@ def act_peli (request, pk):
     logger.debug (lpelis.torrent)
 
     BBDD().inserta_ficha(lpelis)
-    enlaces = None
     #return render(request, 'vi_peli/lista_pelis.html', {'lpelis': None})
-    return render(request, 'vi_peli/ficha_peli.html', {'peli': lpelis, 'enlaces': enlaces})
+    tabla = 'peli'
+    return render(request, 'vi_peli/ficha_peli.html', {'peli': lpelis, 'tabla': tabla})
 
 def limpia_imagenes(request):
     rootDir = MEDIA_ROOT
@@ -447,3 +449,65 @@ def limpia_imagenes(request):
 
 
     return redirect('/')
+
+def Modificar_Ficha (request, pk):
+
+    print ("entro en act_peli para la pk--> " + str(pk))
+
+    lpelis = Lista_Pelis.objects.get(id=pk)
+
+    logger.debug (lpelis)
+    logger.debug (lpelis.idFicha)
+    logger.debug (lpelis.torrent)
+
+    BBDD().inserta_ficha(lpelis)
+    #return render(request, 'vi_peli/lista_pelis.html', {'lpelis': None})
+    tabla = 'peli'
+    return render(request, 'vi_peli/ficha_peli.html', {'peli': lpelis, 'tabla': tabla})
+
+
+class ModificarFicha(UpdateView):
+    model = Pelicula
+    template_name = 'vi_peli/prueba.html'
+    form_class = FichaForm
+    success_url = reverse_lazy('vi_peli:index')
+
+class Prueba(TemplateView):
+    template_name = 'vi_peli/prueba.html'
+
+"""
+def ficha_edit(request, pk):
+
+    ficha = get_object_or_404(Pelicula, pk=pk)
+    if request.method == "POST":
+        form = FichaForm(request.POST, instance=ficha)
+        if form.is_valid():
+            ficha = form.save(commit=False)
+            ficha.save()
+            return redirect('ficha_edit', pk=ficha.pk)
+    else:
+        form = FichaForm(instance=ficha)
+    return render('vi_peli/act_ficha.html', {'form': form})
+"""
+
+def ficha_edit (request, pk):
+
+    print ("entro en act_peli para la pk--> " + str(pk))
+    print ('vi_peli/act_ficha.html')
+    ficha = Pelicula.objects.get(id=pk)
+    logger.debug(ficha)
+
+    if request.method == "POST":
+        print ('Metodo POST')
+        form = FichaForm(request.POST, instance=ficha)
+        if form.is_valid():
+            ficha = form.save(commit=False)
+            ficha.save()
+            return redirect('ficha_edit', pk=ficha.pk)
+        else:
+            print ("Form invalido")
+    else:
+        print ('Metodo GET')
+        form = FichaForm(instance=ficha)
+
+    return render(request, 'vi_peli/act_ficha.html', {'form': form})

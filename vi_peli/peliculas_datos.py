@@ -1,41 +1,18 @@
 #coding=utf-8
+from __future__ import unicode_literals
 import omdb
 import python_filmaffinity
-import logging
-import logging.config
-from Viserpel.settings import LOGGING
 import http.client
 import json
-
-#from auxiliar import log_datos
 from bs4 import BeautifulSoup
-from requests.compat import urljoin
 import requests
 import re
+from auxiliar import renombra, reemplaza, log_datos, transforma, sinacento, log_info
+import logging.config
+from Viserpel.settings import LOGGING
+
 logging.config.dictConfig(LOGGING)
-#fichero_log = os.path.join(APP_DIR, 'log', 'vi_peli.log')
 logger = logging.getLogger(__name__)
-
-
-
-def log_datos(peli):
-
-    try:
-        for key, value in peli.iteritems():
-            try:
-                logger.debug(key + ' --> ' + value)
-            except:
-                logger.debug(key + ' --> None')
-    except:
-        try:
-            for key, value in peli.viewitems():
-                try:
-                    logger.debug(key + ' --> ' + value)
-                except:
-                    logger.debug(key + ' --> None')
-        except:
-            logger.debug ('>-- Pelicula --<')
-            logger.debug (peli)
 
 class Peliculas_ficha():
 
@@ -112,8 +89,8 @@ class Peliculas_ficha():
 
                         }
 
-        print ("***************** PELICULA ENCONTRADA FINAL ************************")
-        log_datos(peli)
+        logger.info ("***************** PELICULA ENCONTRADA FINAL ************************")
+        log_info(peli)
 
         return peli
 
@@ -142,19 +119,21 @@ class Peliculas_ficha():
             else:
                 v_titulo = titulo
                 v_idioma = 'en-US'
-            tit = self.transforma(v_titulo)
+            print (v_titulo)
+            tit = transforma(v_titulo)
+            print (tit)
             if anio <> None:
                 year = "year=" + str(anio) + "&"
             else:
                 year = ""
-
+            print (u'año:'+  str(year))
             conn.request("GET",
                          "/3/search/movie?" + year + "include_adult=false&page=1&query=" + tit + "&language=" + v_idioma + "&api_key=" + clave,
                          payload)
             res = conn.getresponse()
             data = res.read()
 
-            print (data)
+            #print (data)
             cadena_json = json.loads(data)
             resultados = int(cadena_json["total_results"])
             if resultados == 0:
@@ -162,30 +141,37 @@ class Peliculas_ficha():
                 return None
             print ('Nº de Resultados --> ' + str(resultados))
             pelis = cadena_json["results"]
-            print (pelis)
+            #print (pelis)
             logger.debug('PELI')
             numero = 1
             for pelic in pelis:
                 # print (pelic)
+                logger.debug('FICHA ' + str(numero))
+                log_datos(pelic)
 
-                if self.sinacento(v_titulo).upper() == self.sinacento(pelic["title"]).upper():
+                if (sinacento(v_titulo).upper() == sinacento(pelic["title"]).upper()) or (sinacento(v_titulo).upper() == sinacento(pelic["original_title"]).upper()):
                     logger.debug ('Titulo = al encontrado')
                     encontrado = True
                     v_idFicha = str(pelic['id'])
+                    print ('ID de la Ficha -->' + str(v_idFicha))
                     conn.request("GET", "/3/movie/" + v_idFicha + "?language=es-ES&api_key=" + clave, payload)
                     res2 = conn.getresponse()
                     data2 = res2.read()
                     peli = json.loads(data2)
-                    logger.debug('FICHA')
-                    log_datos(pelic)
-
-                    vapikey = 'c3ca59d0'
-
-                    omdb.set_default('apikey', vapikey)
-                    logger.debug('FICHA_IMBD')
-                    peli_imbd = omdb.imdbid(peli["imdb_id"])
-                    log_datos(peli_imbd)
+                    logger.debug('FICHA QUE COINCIDE EL TITULO COMPLETO')
+                    log_datos(peli)
+                    print (peli["imdb_id"])
+                    if peli["imdb_id"] <> None:
+                        vapikey = 'c3ca59d0'
+                        omdb.set_default('apikey', vapikey)
+                        logger.debug('FICHA_IMBD')
+                        peli_imdb = omdb.imdbid(peli["imdb_id"])
+                        log_datos(peli_imdb)
+                    else:
+                        print ('No tiene imbd')
+                        peli_imdb = None
                     break
+                """
                 if encontrado == False and numero == 1 and pelic["overview"] <> "":
                     logger.debug('Guardamos el primer registro encontrado')
                     v_idFicha = str(pelic['id'])
@@ -193,7 +179,7 @@ class Peliculas_ficha():
                     res2 = conn.getresponse()
                     data2 = res2.read()
                     peli1 = json.loads(data2)
-                    logger.debug(peli1)
+                    logger.debug("peli1")
                     log_datos(peli1)
 
                     vapikey = 'c3ca59d0'
@@ -202,28 +188,46 @@ class Peliculas_ficha():
                     print (peli1["imdb_id"])
                     peli_imbd1 = omdb.imdbid(peli1["imdb_id"])
                     log_datos(peli_imbd1)
-                    numero = numero + 1
+                """
+                numero = numero + 1
 
             if encontrado == False:
                 logger.warning('CUIDADO!! Quizás no coicida la pelicula')
-                peli = peli1
-                peli_imbd = peli_imbd1
+                peli = None
+                peli_imdb = None
 
-        generos = ""
-        anio = peli_imbd.year
-        imagen = peli_imbd.poster
-        if imagen == None or imagen == "":
-            imagen = ruta_img + peli["poster_path"]
-        escritor = peli_imbd.writer
-        director = peli_imbd.director
-        actores = peli_imbd.actors
-        sinopsis_en = peli_imbd.plot
-        pais = peli_imbd.country
-        for g in peli["genres"]:
-            generos = generos + "," + unicode(g["name"])
-        generos = generos[1:]
-
+        print ('vamos a preparar la Ficha')
         if peli:
+
+            generos = ""
+            if peli_imdb == None:
+                imagen = None
+                escritor = None
+                director = None
+                actores = None
+                sinopsis_en = None
+                pais = None
+            else:
+                anio = peli_imdb.year
+                imagen = peli_imdb.poster
+                escritor = peli_imdb.writer
+                director = peli_imdb.director
+                actores = peli_imdb.actors
+                sinopsis_en = peli_imdb.plot
+                pais = peli_imdb.country
+
+            if imagen == None or imagen == "":
+                imagen = ruta_img + peli["poster_path"]
+
+            for g in peli["genres"]:
+                generos = generos + "," + unicode(g["name"])
+            generos = generos[1:]
+            v_Ficha = ""
+            if peli_imdb:
+                v_Ficha = 'Imdb-' + str(peli["imdb_id"]) + "," + "movdb-" + str(peli["id"])
+            else:
+                v_Ficha = "movdb-" + str(peli["id"])
+            print ('a x el item')
 
             item = {'titulo': unicode(peli["title"]),
                     'titulo_orig': unicode(peli["original_title"]),
@@ -237,7 +241,7 @@ class Peliculas_ficha():
                     'duracion': peli["runtime"],
                     'sinopsis': unicode(sinopsis_en),
                     'sinopsis_es': unicode(peli["overview"]),
-                    'idFicha': 'Imdb-' + str(peli["imdb_id"]) + "," + "movdb-" + str(peli["id"]),
+                    'idFicha': v_Ficha,
 
                     }
 

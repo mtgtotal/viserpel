@@ -15,7 +15,7 @@
         {% for peli in page.object_list %}
                     <li>
 
-                        <a href="{% url 'ficha' pk=peli.pk %}">
+                        <a href="{% url 'vi_peli:ficha' pk=peli.pk tabla='Ficha' %}">
                             <img src="{% static peli.imagen %}"   width="130" height="180">
                             <h2>{{ peli.titulo.capitalize }}</h2>
                             <!--<span>{{ peli.calidad }}</span>-->

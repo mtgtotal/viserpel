@@ -1,20 +1,32 @@
 #coding=utf-8
 from __future__ import unicode_literals
 from Viserpel.settings import JSON_ROOT, BASE_DIR, STATIC_ROOT, MEDIA_ROOT, APP_DIR
-from models import Lista_Pelis, Pelicula, MisPelis
-from peliculas_datos import Peliculas_ficha
-import sys
-from PIL import Image
-from urllib import urlopen
-from StringIO import StringIO
-import logging
 import logging.config
 from Viserpel.settings import LOGGING
-import os
+from django.utils.encoding import iri_to_uri
+
 
 logging.config.dictConfig(LOGGING)
 logger = logging.getLogger(__name__)
 
+def log_info(peli):
+
+    try:
+        for key, value in peli.iteritems():
+            try:
+                logger.info(key + ' --> ' + value)
+            except:
+                logger.info(key + ' --> None')
+    except:
+        try:
+            for key, value in peli.viewitems():
+                try:
+                    logger.info(key + ' --> ' + value)
+                except:
+                    logger.info(key + ' --> None')
+        except:
+            logger.info ('>-- Pelicula --<')
+            logger.info (peli)
 
 def log_datos(peli):
 
@@ -110,7 +122,7 @@ def renombra_archivo(fila_ini):
     # os.renamestr (fila_ini, source)
     return source
 
-def prepara_titu (self, titulo):
+def prepara_titu (titulo):
     source = titulo
     source = source.replace(u'|', '')
     source = source.replace(u'\/', '')
@@ -162,8 +174,9 @@ def prepara_titu (self, titulo):
     source = source.upper()
     return source
 
-def transforma(self,texto):
-    a = texto
+def transforma(texto):
+    a = iri_to_uri(texto)
+    """
     a = a.replace(u' ', u'%20')
     a = a.replace(u'ñ', u'%C3%B1')
     a = a.replace(u'+', u'%2B')
@@ -185,9 +198,10 @@ def transforma(self,texto):
     a = a.replace(u'Í', u'%C3%8D')
     a = a.replace(u'Ó', u'%C3%93')
     a = a.replace(u'Ú', u'%C3%9A')
+    """
     return a
 
-def sinacento(self, fila_ini):
+def sinacento(fila_ini):
 
     source = fila_ini
 

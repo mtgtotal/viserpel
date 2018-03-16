@@ -12,9 +12,9 @@
         {% for peli in page.object_list  %}
             <li>
                 <a href="{% url 'act_peli' pk=peli.id %}">
-
-                            <h2>{{ peli.titulo.capitalize }} - {{peli.id}}</h2>
-                            <span>{{ peli.calidad }}</span>
+                    <img src="{{ peli.imagen }}"   width="130" height="180">
+                    <h2>{{ peli.titulo.capitalize }} - {{peli.id}}</h2>
+                    <span>{{ peli.calidad }}</span>
                 </a>
             </li>
         {% empty %}

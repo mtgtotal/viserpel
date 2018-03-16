@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'djcelery',
     'djkombu',
     'pure_pagination',
+    'bootstrap3',
+    'django_popup_view_field',
 ]
 
 MIDDLEWARE = [
