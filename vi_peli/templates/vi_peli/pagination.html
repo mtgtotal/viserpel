@@ -1,9 +1,7 @@
 {% load i18n %}
-
-
+{% if not parametros %}
 <div class="pagination">
-
-    <ul class="pagination">
+    <ul class="pagination" >
     {% if page.has_previous %}
         <li><a href="?page=1" class="prev" style="width:40px"> {% trans "<<" %}</a></li>
         <li><a href="?page={{page.previous_page_number}}" class="prev" style="width:40px"> {% trans "<" %}</a></li>
@@ -34,3 +32,37 @@
     {% endif %}
     </ul>
 </div>
+{% else %}
+<div class="pagination">
+    <ul class="pagination">
+    {% if page.has_previous %}
+        <li><a href="?page=1&{{parametros.urlencode}}" class="prev" style="width:40px"> << </a></li>
+        <li><a href="?page={{page.previous_page_number}}&{{parametros.urlencode}}" class="prev" style="width:40px"> < </a></li>
+    {% else %}
+        <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> << </a></li>
+        <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> < </a></li>
+    {% endif %}
+    {% for page in page.pages %}
+
+        {% if page %}
+            {% if page_act == page %}
+                <li class="active"><a href="?page={{ page }}&{{parametros.urlencode}}" class="current page">{{ page }}</a></li>
+            {% else %}
+
+                <li><a href="?{{ page.querystring }}" class="page">{{ page }}</a></li>
+            {% endif %}
+        {% else %}
+            <li class="disabled"><a href="#" class="page">...</a></li>
+        {% endif %}
+    {% endfor %}
+
+    {% if page.has_next %}
+        <li><a href="?page={{page.next_page_number }}&{{parametros.urlencode}}" class="next" style="width:40px"> > </a></li>
+        <li><a href="?page={{page.paginator.num_pages}}&{{parametros.urlencode}}" class="next" style="width:40px"> >> </a></li>
+    {% else %}
+        <li class="disabled"><a href="#" class="disabled next" style="width:40px"> > </a></li>
+        <li class="disabled"><a href="#" class="disabled next" style="width:40px"> >> </a></li>
+    {% endif %}
+    </ul>
+</div>
+{% endif %}

@@ -1,19 +1,32 @@
-**********************************************
-
-{% if page_obj.has_previous %}
-  <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
-{% endif %}
-{% for page in page_numbers %}
-  {% if page %}
-    {% ifequal page page_obj.number %}
-      <strong>{{ page }}</strong>
+<div class="pagination">
+    <ul class="pagination">
+    {% if page.has_previous %}
+        <li><a href="?page=1&{{parametros.urlencode}}" class="prev" style="width:40px"> << </a></li>
+        <li><a href="?page={{page.previous_page_number}}&{{parametros.urlencode}}" class="prev" style="width:40px"> < </a></li>
     {% else %}
-      <a href="?page={{ page }}">{{ page }}</a>
-    {% endifequal %}
-  {% else %}
-    ...
-  {% endif %}
-{% endfor %}
-{% if page_obj.has_next %}
-  <a href="?page={{ page_obj.next_page_number }}">Next</a>
-{% endif %}
+        <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> << </a></li>
+        <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> < </a></li>
+    {% endif %}
+    {% for page in page.pages %}
+
+        {% if page %}
+            {% if page_act == page %}
+                <li class="active"><a href="?page={{ page }}&{{parametros.urlencode}}" class="current page">{{ page }}</a></li>
+            {% else %}
+
+                <li><a href="?{{ page.querystring }}&{{parametros.urlencode}}" class="page">{{ page }}</a></li>
+            {% endif %}
+        {% else %}
+            <li class="disabled"><a href="#" class="page">...</a></li>
+        {% endif %}
+    {% endfor %}
+
+    {% if page.has_next %}
+        <li><a href="?page={{page.next_page_number }}&{{parametros.urlencode}}" class="next" style="width:40px"> > </a></li>
+        <li><a href="?page={{page.paginator.num_pages}}&{{parametros.urlencode}}" class="next" style="width:40px"> >> </a></li>
+    {% else %}
+        <li class="disabled"><a href="#" class="disabled next" style="width:40px"> > </a></li>
+        <li class="disabled"><a href="#" class="disabled next" style="width:40px"> >> </a></li>
+    {% endif %}
+    </ul>
+</div>

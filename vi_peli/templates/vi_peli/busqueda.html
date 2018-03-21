@@ -1,10 +1,12 @@
 {% extends 'vi_peli/base.html' %}
+{% load bootstrap3 %}
 {% load staticfiles %}
     {% block menu %}
 
     {% endblock %}
     {% block content %}
     <section class="contenedor">
+
         <div class = "busqueda">
             <header>
             <h3> Busqueda de Películas </h3>
@@ -68,9 +70,11 @@
                       {% endfor %}
                   </select>
                 </div>
-
-                <br><br>
-                <input type="submit" value="Busqueda"><input type="reset" value="Borrar">
+                <br>
+                <div class="w3-container">
+                    <button type="submit" class="btn btn-primary" value="Busqueda">Buscar</button>
+                    <button href="{% url 'vi_peli:busqueda' %}" class="btn btn-primary">Reset</button>
+                </div>
             </form>
         </div>
     </section>
@@ -84,7 +88,8 @@
             <ul class = "resultados pelires">
             {% for peli in page.object_list %}
                 <li>
-                    <a href="{% url 'ficha' pk=peli.pk %}">
+
+                    <a href="{% url 'vi_peli:ficha' pk=peli.pk tabla='Ficha'%}">
                         <img src="{% static peli.imagen %}"   width="130" height="180">
                         <h2>{{ peli.titulo.capitalize }}</h2>
                         <span>{{ peli.calidad }}</span>
@@ -96,41 +101,7 @@
             <ul>
         </article>
         <footer>
-            <div class="pagination">
-
-                <ul class="pagination">
-                {% if page.has_previous %}
-                    <li><a href="?page=1&{{parametros.urlencode}}" class="prev" style="width:40px"> << </a></li>
-                    <li><a href="?page={{page.previous_page_number}}&{{parametros.urlencode}}" class="prev" style="width:40px"> < </a></li>
-                {% else %}
-                    <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> << </a></li>
-                    <li class="disabled"><a href="#" class="disabled prev" style="width:40px"> < </a></li>
-                {% endif %}
-                {% for page in page.pages %}
-
-                    {% if page %}
-                        {% if page_act == page %}
-                            <li class="active"><a href="?page={{ page }}&{{parametros.urlencode}}" class="current page">{{ page }}</a></li>
-                        {% else %}
-
-                            <li><a href="?{{ page.querystring }}&{{parametros.urlencode}}" class="page">{{ page }}</a></li>
-                        {% endif %}
-                    {% else %}
-                        <li class="disabled"><a href="#" class="page">...</a></li>
-                    {% endif %}
-                {% endfor %}
-
-                {% if page.has_next %}
-                    <li><a href="?page={{page.next_page_number }}&{{parametros.urlencode}}" class="next" style="width:40px"> > </a></li>
-                    <li><a href="?page={{page.paginator.num_pages}}&{{parametros.urlencode}}" class="next" style="width:40px"> >> </a></li>
-                {% else %}
-                    <li class="disabled"><a href="#" class="disabled next" style="width:40px"> > </a></li>
-                    <li class="disabled"><a href="#" class="disabled next" style="width:40px"> >> </a></li>
-                {% endif %}
-                </ul>
-            </div>
-
-
+            {% include 'vi_peli/pagination.html' %}
         </footer>
         </div>
 

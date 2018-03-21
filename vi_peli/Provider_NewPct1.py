@@ -46,6 +46,12 @@ class NewPct():
         resultados = []
         pg_max = 1
 
+        if url == 'NewPct1_hd':
+            url = self.urls['search_hd']
+        else:
+            url = self.urls['search']
+
+        logger.debug ('url -->' + url)
         if paginas == None:
             pg_max = self.busca_paginas(url)
         else:

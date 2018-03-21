@@ -1,12 +1,13 @@
 {% extends 'vi_peli/base.html' %}
     {% block submenu1 %}
         {% if proveedor %}
-            <li class="menu-item"><a href="{% url 'guarda_total' proveedor %}" class="menu_item"><span class="glyphicon glyphicon-save" ></span>Guardar en BBDD</a></li>
+            <li class="menu-item"><a href="{% url 'vi_peli:guarda_total' proveedor %}" class="menu_item"><span class="glyphicon glyphicon-save" ></span>Guardar en BBDD</a></li>
         {% endif %}
 
     {% endblock %}
-    {% block content %}
-    <section class="Carga">
+    {% block cabecera %}
+    <section class="Carga text-center">
+
         <div class="dropdown">
             <form class="form-inline" action="." method="GET">
 
@@ -35,36 +36,43 @@
                   <label for="letra">Letras:</label>
                   <input type="text" class="form-control" id="letra" name="let" placeholder="Letras Mayusculas o 0-9 u otros" value = "{{ letras|escape }}">
                 </div>
-                <input type="submit" value="Busqueda">
+
+                <button type="submit" class="btn btn-default" value="Busqueda"> Buscar </button>
             </form>
+
         </div>
     </section>
-    {% if proveedor and tipoCarga %}
-    <h2>Carga para el proveedor: {{proveedor}} y desde {{tipoCarga}}</h2>
-    {% endif %}
-    <section class="container">
-        <div class="lista_pelis">
+    <div class="alert alert-danger text-center">
+         <h3>Peliculas Encontradas</h3>
+    </div>
+    {% endblock %}
+    {% block content %}
+            {% if page.object_list %}
+                <ul class = "pelilist">
+                {% for peli in page.object_list %}
 
-             <ul class = "pelilist">
-
-                 {% for peli in page.object_list %}
-
-                    <li>
-                        <a href="{% url 'guarda_pelicula' proveedor peli.indice%}" name = 'pelicula' value = "{{peli|escape}}">
-                            <img src="{{ peli.imagen }}" width="130" height="180">
-                            <h2>{{ peli.titulo.capitalize }}</h2>
-                            <span>{{ peli.calidad }} - {{peli.indice}}</span>
+                        <li>
+                            <a href="{% url 'vi_peli:guarda_pelicula' proveedor peli.indice%}" name = 'pelicula' value = "{{peli|escape}}">
+                                <img src="{{ peli.imagen }}" width="130" height="180">
+                                <h2>{{ peli.titulo.capitalize }}</h2>
+                                <span>{{ peli.calidad }} - {{peli.indice}}</span>
 
 
-                        </a>
+                            </a>
 
-                    </li>
+                        </li>
 
-                 {% empty %}
+                {% endfor %}
+                </ul>
+            {% else %}
+                 <div class="alert alert-danger text-center">
                     <h2><b>No hay películas todavía</b></h2>
-                 {% endfor %}
-            </ul>
-        </div>
-     {% include 'vi_peli/pagination.html' %}
-     </section>
+                 </div>
+            {% endif %}
+
+    {% endblock %}
+
+    {% block pie %}
+        {% include 'vi_peli/pagination.html' %}
+
     {% endblock %}

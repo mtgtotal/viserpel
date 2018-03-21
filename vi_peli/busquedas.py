@@ -56,7 +56,7 @@ class C_Busqueda():
 
             cal = Calidades.objects.get(nombre = lcalidad)
             l_gen = cal.otros_nombres.split(',')
-            print l_gen
+            logger.debug (l_gen)
             cuantos = len(l_gen)
             print (cuantos)
             lq = lq.filter(reduce(lambda x, y: x | y, [Q(calidad__contains = item) for item in l_gen]))

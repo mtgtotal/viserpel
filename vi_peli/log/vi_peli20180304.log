@@ -1,0 +1,196 @@
+2018-03-04 17:53:01,371 : DEBUG : listar pelis
+2018-03-04 17:53:16,710 : DEBUG : listar pelis
+2018-03-04 17:53:29,292 : DEBUG : listar pelis
+2018-03-04 17:53:41,200 : DEBUG : listar pelis
+2018-03-04 17:53:43,107 : DEBUG : listar pelis
+2018-03-04 17:54:46,042 : DEBUG : entro en busqueda
+2018-03-04 17:54:53,114 : DEBUG : entro en busqueda
+2018-03-04 17:54:53,114 : DEBUG : anio: 2017
+2018-03-04 17:54:53,114 : DEBUG : entra anio
+2018-03-04 17:54:58,216 : DEBUG : entro en busqueda
+2018-03-04 17:54:58,216 : DEBUG : anio: 2017
+2018-03-04 17:54:58,216 : DEBUG : entra anio
+2018-03-04 17:55:30,075 : INFO : Ficha
+2018-03-04 17:55:30,075 : DEBUG : Imdb-tt2250912,movdb-315635
+2018-03-04 20:30:17,881 : INFO : Ficha
+2018-03-04 20:30:17,966 : DEBUG : Imdb-tt7713204,movdb-490156
+2018-03-04 20:42:11,013 : INFO : Ficha
+2018-03-04 20:42:11,134 : DEBUG : 104
+2018-03-04 20:42:11,134 : INFO : <QuerySet [<Lista_Pelis: Super Dark Times>, <Lista_Pelis: Super Dark Times>]>
+2018-03-04 20:52:50,040 : DEBUG : listar pelis
+2018-03-04 20:53:07,137 : DEBUG : listar pelis
+2018-03-04 20:53:09,811 : DEBUG : listar pelis
+2018-03-04 20:53:19,446 : DEBUG : listar pelis
+2018-03-04 20:53:22,486 : DEBUG : listar pelis
+2018-03-04 20:53:27,463 : DEBUG : IRON MAN 1 HDR
+2018-03-04 20:53:27,464 : DEBUG : IRON MAN 1 HDR
+2018-03-04 20:53:27,466 : DEBUG : http://newpct1.com/descargar-torrent/100306_iron-man-1-hdr-remux-4k-uhd-2160p-hevc-x265-truehd-5-1-castellano-dts-hd-5-1-ingles-subs-es-en
+2018-03-04 20:53:27,466 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-04 20:53:27,467 : DEBUG : IRON MAN 1 HDR
+2018-03-04 20:53:27,470 : DEBUG : Comprobamos si existe la ficha.
+2018-03-04 20:53:27,470 : DEBUG : IRONMAN1HDR
+2018-03-04 20:53:27,471 : DEBUG : intento nº--> 1
+2018-03-04 20:53:27,471 : DEBUG : 1375
+2018-03-04 20:53:27,473 : ERROR : Error en existe_ficha
+2018-03-04 20:53:27,473 : ERROR : (<type 'exceptions.TypeError'>, TypeError("int() argument must be a string or a number, not 'Pelicula'",), <traceback object at 0x06DEB990>)
+2018-03-04 20:53:29,966 : DEBUG : None
+2018-03-04 20:53:31,144 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 20:53:31,357 : DEBUG : {'anio': u'2008', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg', 'escritor': u'Mark Fergus (screenplay), Hawk Ostby (screenplay), Art Marcum (screenplay), Matt Holloway (screenplay), Stan Lee (characters), Don Heck (characters), Larry Lieber (characters), Jack Kirby (characters)', 'director': u'Jon Favreau', 'titulo': u'IRON MAN 1 HDR', 'actores': u'Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow', 'pais': u'USA', 'titulo_orig': u'Iron Man', 'sinopsis': u'After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.', 'sinopsis_es': u'', 'generos': u'Action, Adventure, Sci-Fi', 'duracion': u'126 min', 'idFicha': u'Imdb-tt0371746'}
+2018-03-04 20:53:31,421 : DEBUG : Ficha Encontrada -->
+2018-03-04 20:53:31,421 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 20:53:31,421 : DEBUG : Film-201496
+2018-03-04 20:53:31,421 : DEBUG : IRON MAN 1 HDR
+2018-03-04 20:53:31,421 : DEBUG : [u'Film-201496']
+2018-03-04 20:53:31,423 : DEBUG : 1
+2018-03-04 20:53:31,423 : DEBUG : Film-201496
+2018-03-04 20:53:31,423 : ERROR : No se ha encontrado la idfichaFilm-201496
+2018-03-04 20:53:31,424 : DEBUG : intento nº--> 5
+2018-03-04 20:53:31,473 : DEBUG : /Imagenes/Film-201496.jpg
+2018-03-04 20:53:32,471 : DEBUG : Grabo imagen --> Film-201496
+2018-03-04 20:53:32,471 : DEBUG : Voy a grabar la Ficha
+2018-03-04 20:53:32,473 : ERROR : Error en busqueda de pelicula
+2018-03-04 20:53:32,473 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x0AAD8030>)
+2018-03-04 20:53:32,473 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-04 20:53:32,473 : ERROR : Error al actualizar las imagenes.
+2018-03-04 20:53:32,473 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06DD9080>)
+2018-03-04 21:05:02,293 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:05:02,293 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:05:02,293 : DEBUG : http://newpct1.com/descargar-torrent/100306_iron-man-1-hdr-remux-4k-uhd-2160p-hevc-x265-truehd-5-1-castellano-dts-hd-5-1-ingles-subs-es-en
+2018-03-04 21:05:02,293 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-04 21:05:02,293 : DEBUG : Peli que buscamos:
+2018-03-04 21:05:02,293 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:05:02,293 : DEBUG : Lista Pelis Get id -->
+2018-03-04 21:05:02,293 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:05:02,293 : DEBUG : Comprobamos si existe la ficha.
+2018-03-04 21:05:02,293 : DEBUG : IRONMAN1HDR
+2018-03-04 21:05:02,293 : DEBUG : intento nº--> 1
+2018-03-04 21:05:02,293 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:05:02,293 : ERROR : Error en existe_ficha
+2018-03-04 21:05:02,293 : ERROR : (<type 'exceptions.TypeError'>, TypeError("int() argument must be a string or a number, not 'Pelicula'",), <traceback object at 0x0740B238>)
+2018-03-04 21:05:03,391 : DEBUG : None
+2018-03-04 21:05:04,562 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 21:05:04,625 : DEBUG : {'anio': u'2008', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg', 'escritor': u'Mark Fergus (screenplay), Hawk Ostby (screenplay), Art Marcum (screenplay), Matt Holloway (screenplay), Stan Lee (characters), Don Heck (characters), Larry Lieber (characters), Jack Kirby (characters)', 'director': u'Jon Favreau', 'titulo': u'IRON MAN 1 HDR', 'actores': u'Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow', 'pais': u'USA', 'titulo_orig': u'Iron Man', 'sinopsis': u'After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.', 'sinopsis_es': u'', 'generos': u'Action, Adventure, Sci-Fi', 'duracion': u'126 min', 'idFicha': u'Imdb-tt0371746'}
+2018-03-04 21:05:04,640 : DEBUG : Ficha Encontrada -->
+2018-03-04 21:05:04,640 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 21:05:04,655 : DEBUG : Film-201496
+2018-03-04 21:05:04,655 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:05:04,655 : DEBUG : [u'Film-201496']
+2018-03-04 21:05:04,655 : DEBUG : 1
+2018-03-04 21:05:04,655 : DEBUG : Film-201496
+2018-03-04 21:05:04,655 : ERROR : No se ha encontrado la idfichaFilm-201496
+2018-03-04 21:05:04,655 : DEBUG : intento nº--> 5
+2018-03-04 21:05:04,703 : DEBUG : /Imagenes/Film-201496.jpg
+2018-03-04 21:05:04,703 : DEBUG : Grabo imagen --> Film-201496
+2018-03-04 21:05:04,703 : DEBUG : Voy a grabar la Ficha
+2018-03-04 21:05:04,703 : ERROR : Error en busqueda de pelicula
+2018-03-04 21:05:04,703 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x0740B260>)
+2018-03-04 21:05:04,717 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-04 21:05:04,717 : ERROR : Error al actualizar las imagenes.
+2018-03-04 21:05:04,717 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x089CBF58>)
+2018-03-04 21:11:19,404 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:11:19,418 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:11:19,418 : DEBUG : http://newpct1.com/descargar-torrent/100306_iron-man-1-hdr-remux-4k-uhd-2160p-hevc-x265-truehd-5-1-castellano-dts-hd-5-1-ingles-subs-es-en
+2018-03-04 21:11:19,418 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-04 21:11:19,418 : DEBUG : Peli que buscamos:
+2018-03-04 21:11:19,418 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:11:19,418 : DEBUG : Lista Pelis Get id -->
+2018-03-04 21:11:19,418 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:11:19,418 : DEBUG : Comprobamos si existe la ficha.
+2018-03-04 21:11:19,418 : DEBUG : IRONMAN1HDR
+2018-03-04 21:11:19,418 : DEBUG : intento nº--> 1
+2018-03-04 21:11:19,418 : DEBUG : 822
+2018-03-04 21:11:19,418 : ERROR : Error en existe_ficha
+2018-03-04 21:11:19,418 : ERROR : (<type 'exceptions.TypeError'>, TypeError("int() argument must be a string or a number, not 'Pelicula'",), <traceback object at 0x0718F238>)
+2018-03-04 21:11:20,523 : DEBUG : None
+2018-03-04 21:11:21,700 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 21:11:21,732 : DEBUG : {'anio': u'2008', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg', 'escritor': u'Mark Fergus (screenplay), Hawk Ostby (screenplay), Art Marcum (screenplay), Matt Holloway (screenplay), Stan Lee (characters), Don Heck (characters), Larry Lieber (characters), Jack Kirby (characters)', 'director': u'Jon Favreau', 'titulo': u'IRON MAN 1 HDR', 'actores': u'Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow', 'pais': u'USA', 'titulo_orig': u'Iron Man', 'sinopsis': u'After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.', 'sinopsis_es': u'', 'generos': u'Action, Adventure, Sci-Fi', 'duracion': u'126 min', 'idFicha': u'Imdb-tt0371746'}
+2018-03-04 21:11:21,779 : DEBUG : Ficha Encontrada -->
+2018-03-04 21:11:21,793 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 21:11:21,793 : DEBUG : Film-201496
+2018-03-04 21:11:21,793 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:11:21,793 : DEBUG : [u'Film-201496']
+2018-03-04 21:11:21,793 : DEBUG : 1
+2018-03-04 21:11:21,793 : DEBUG : Film-201496
+2018-03-04 21:11:21,793 : ERROR : No se ha encontrado la idfichaFilm-201496
+2018-03-04 21:11:21,793 : DEBUG : intento nº--> 5
+2018-03-04 21:11:21,841 : DEBUG : /Imagenes/Film-201496.jpg
+2018-03-04 21:11:21,869 : DEBUG : Grabo imagen --> Film-201496
+2018-03-04 21:11:21,869 : DEBUG : Voy a grabar la Ficha
+2018-03-04 21:11:21,869 : ERROR : Error en busqueda de pelicula
+2018-03-04 21:11:21,871 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x0718F260>)
+2018-03-04 21:11:21,871 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-04 21:11:21,871 : ERROR : Error al actualizar las imagenes.
+2018-03-04 21:11:21,871 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x08C1BAA8>)
+2018-03-04 21:12:54,464 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:12:54,464 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:12:54,464 : DEBUG : http://newpct1.com/descargar-torrent/100306_iron-man-1-hdr-remux-4k-uhd-2160p-hevc-x265-truehd-5-1-castellano-dts-hd-5-1-ingles-subs-es-en
+2018-03-04 21:12:54,464 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-04 21:12:54,464 : DEBUG : Peli que buscamos:
+2018-03-04 21:12:54,464 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:12:54,464 : DEBUG : Lista Pelis Get id -->
+2018-03-04 21:12:54,464 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:12:54,464 : DEBUG : Comprobamos si existe la ficha.
+2018-03-04 21:12:54,464 : DEBUG : IRONMAN1HDR
+2018-03-04 21:12:54,464 : DEBUG : intento nº--> 1
+2018-03-04 21:12:54,464 : DEBUG : 822
+2018-03-04 21:12:54,464 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:12:54,480 : DEBUG : La ficha de la peli ya existe, grabamos en Lista_Pelis el idFicha = ficha.id822
+2018-03-04 21:12:54,480 : ERROR : Error en existe_ficha
+2018-03-04 21:12:54,480 : ERROR : (<type 'exceptions.ValueError'>, ValueError(u'Cannot assign "\'822\'": "Lista_Pelis.idFicha" must be a "Pelicula" instance.',), <traceback object at 0x06864E68>)
+2018-03-04 21:12:55,581 : DEBUG : None
+2018-03-04 21:12:56,559 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 21:12:56,591 : DEBUG : {'anio': u'2008', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg', 'escritor': u'Mark Fergus (screenplay), Hawk Ostby (screenplay), Art Marcum (screenplay), Matt Holloway (screenplay), Stan Lee (characters), Don Heck (characters), Larry Lieber (characters), Jack Kirby (characters)', 'director': u'Jon Favreau', 'titulo': u'IRON MAN 1 HDR', 'actores': u'Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow', 'pais': u'USA', 'titulo_orig': u'Iron Man', 'sinopsis': u'After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.', 'sinopsis_es': u'', 'generos': u'Action, Adventure, Sci-Fi', 'duracion': u'126 min', 'idFicha': u'Imdb-tt0371746'}
+2018-03-04 21:12:56,591 : DEBUG : Ficha Encontrada -->
+2018-03-04 21:12:56,591 : DEBUG : {'anio': u'2008', 'imagen': 'https://pics.filmaffinity.com/iron_man-108960873-mmed.jpg', 'escritor': None, 'director': u'Jon Favreau', 'titulo': u'Iron Man', 'actores': u'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow, Jeff Bridges, Stan Lee, Leslie Bibb, Clark Gregg, Shaun Toub, Faran Tahir, Samuel L. Jackson', 'pais': u'Estados Unidos', 'titulo_orig': u'Iron Man', 'sinopsis': u'Tony Stark is a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man. ', 'sinopsis_es': u'El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado despu\xe9s de sufrir un accidente con una de sus armas. Equipado con una armadura de \xfaltima generaci\xf3n tecnol\xf3gica, se convierte en "El hombre de hierro", un h\xe9roe que se dedica a combatir el mal en todo el mundo. (FILMAFFINITY)', 'generos': u'Fant\xe1stico', 'duracion': u'126 min.', 'idFicha': 'Film-201496'}
+2018-03-04 21:12:56,621 : DEBUG : Film-201496
+2018-03-04 21:12:56,625 : DEBUG : IRON MAN 1 HDR
+2018-03-04 21:12:56,625 : DEBUG : [u'Film-201496']
+2018-03-04 21:12:56,625 : DEBUG : 1
+2018-03-04 21:12:56,625 : DEBUG : Film-201496
+2018-03-04 21:12:56,625 : ERROR : No se ha encontrado la idfichaFilm-201496
+2018-03-04 21:12:56,625 : DEBUG : intento nº--> 5
+2018-03-04 21:12:56,664 : DEBUG : /Imagenes/Film-201496.jpg
+2018-03-04 21:12:56,680 : DEBUG : Grabo imagen --> Film-201496
+2018-03-04 21:12:56,680 : DEBUG : Voy a grabar la Ficha
+2018-03-04 21:12:56,680 : ERROR : Error en busqueda de pelicula
+2018-03-04 21:12:56,680 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x06864B98>)
+2018-03-04 21:12:56,680 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-06 15:50:53,891 : DEBUG : listar pelis
+2018-03-06 15:51:04,275 : DEBUG : 24 HOURS
+2018-03-06 15:51:04,275 : DEBUG : None
+2018-03-06 15:51:04,275 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-06 15:51:04,275 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-06 15:51:04,275 : DEBUG : Peli que buscamos:
+2018-03-06 15:51:04,275 : DEBUG : 24 HOURS
+2018-03-06 15:51:04,275 : DEBUG : Lista Pelis Get id -->
+2018-03-06 15:51:04,275 : DEBUG : 24 HOURS
+2018-03-06 15:51:04,275 : DEBUG : Comprobamos si existe la ficha.
+2018-03-06 15:51:04,275 : DEBUG : 24HOURS
+2018-03-06 15:51:04,275 : DEBUG : intento nº--> 2
+2018-03-06 15:51:04,711 : ERROR : Error en existe_ficha
+2018-03-06 15:51:04,711 : ERROR : (<class 'vi_peli.models.DoesNotExist'>, DoesNotExist('Pelicula matching query does not exist.',), <traceback object at 0x08330FD0>)
+2018-03-06 15:51:05,293 : DEBUG : PELI
+2018-03-06 15:51:05,293 : DEBUG : Guardamos el primer registro encontrado
+2018-03-06 15:51:05,450 : DEBUG : {u'poster_path': u'/3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg', u'production_countries': [{u'iso_3166_1': u'PY', u'name': u'Paraguay'}, {u'iso_3166_1': u'ES', u'name': u'Spain'}, {u'iso_3166_1': u'AR', u'name': u'Argentina'}, {u'iso_3166_1': u'CO', u'name': u'Colombia'}, {u'iso_3166_1': u'PE', u'name': u'Peru'}], u'revenue': 0, u'overview': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', u'video': False, u'id': 357156, u'genres': [{u'id': 99, u'name': u'Documental'}], u'title': u'Chicas nuevas 24horas', u'tagline': u'doble o nada', u'vote_count': 0, u'homepage': u'', u'belongs_to_collection': None, u'original_language': u'es', u'status': u'Released', u'spoken_languages': [{u'iso_639_1': u'es', u'name': u'Espa\xf1ol'}], u'imdb_id': u'tt4718872', u'adult': False, u'backdrop_path': None, u'production_companies': [{u'name': u'Televisi\xf3n Espa\xf1ola (TVE)', u'id': 6639}, {u'name': u'Aleph Media', u'id': 10188}, {u'name': u'Puatarara Films', u'id': 62220}, {u'name': u'Mafalda Entertainment', u'id': 62222}, {u'name': u'7Arte Vital', u'id': 62223}, {u'name': u'Hangar Films', u'id': 62224}], u'release_date': u'2015-09-01', u'popularity': 0.225666, u'original_title': u'Chicas nuevas 24horas', u'budget': 0, u'vote_average': 0.0, u'runtime': 0}
+2018-03-06 15:51:05,497 : DEBUG : FICHA_IMBD
+2018-03-06 15:51:05,700 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-06 15:51:05,700 : DEBUG : {'anio': u'2015', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg', 'escritor': u'Susana Fern\xe1ndez, Mabel Lozano, Alicia Luna', 'director': u'Mabel Lozano', 'titulo': u'Chicas nuevas 24horas', 'actores': u'N/A', 'pais': u'Argentina, Colombia, Paraguay, Peru, Spain', 'titulo_orig': u'Chicas nuevas 24horas', 'sinopsis': u'A documentary investigation across five countries on the big business of sexual slavery.', 'sinopsis_es': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', 'generos': u'Documental', 'duracion': 0, 'idFicha': 'Imdb-tt4718872,movdb-357156'}
+2018-03-06 15:51:06,763 : DEBUG : {'anio': u'2015', 'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', 'escritor': None, 'director': u'Timothy Woodward Jr.', 'titulo': u'24 Hours', 'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', 'pais': u'Estados Unidos', 'titulo_orig': u'24 Hours', 'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', 'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', 'generos': u'Thriller', 'duracion': u'96 min.', 'idFicha': 'Film-849196'}
+2018-03-06 15:51:06,990 : DEBUG : {'anio': u'2015\u2013', 'imagen': u'N/A', 'escritor': u'N/A', 'director': u'N/A', 'titulo': u'24 HOURS', 'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', 'pais': u'N/A', 'titulo_orig': u'24 Hours in the Past', 'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', 'sinopsis_es': u'', 'generos': u'Documentary', 'duracion': u'60 min', 'idFicha': u'Imdb-tt4649322'}
+2018-03-06 15:51:06,990 : DEBUG : Ficha Encontrada -->
+2018-03-06 15:51:06,990 : DEBUG : {'anio': u'2015', 'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg', 'escritor': u'Susana Fern\xe1ndez, Mabel Lozano, Alicia Luna', 'director': u'Mabel Lozano', 'titulo': u'Chicas nuevas 24horas', 'actores': u'N/A', 'pais': u'Argentina, Colombia, Paraguay, Peru, Spain', 'titulo_orig': u'Chicas nuevas 24horas', 'sinopsis': u'A documentary investigation across five countries on the big business of sexual slavery.', 'sinopsis_es': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', 'generos': u'Documental', 'duracion': 0, 'idFicha': 'Imdb-tt4718872,movdb-357156,Film-849196'}
+2018-03-06 15:51:06,990 : DEBUG : Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-06 15:51:06,990 : DEBUG : None
+2018-03-06 15:51:06,990 : DEBUG : [u'Imdb-tt4718872', u'movdb-357156', u'Film-849196']
+2018-03-06 15:51:06,990 : DEBUG : 3
+2018-03-06 15:51:06,990 : DEBUG : Imdb-tt4718872
+2018-03-06 15:51:06,990 : ERROR : No se ha encontrado la idfichaImdb-tt4718872,movdb-357156,Film-849196
+2018-03-06 15:51:06,990 : DEBUG : intento nº--> 5
+2018-03-06 15:51:07,275 : DEBUG : /Imagenes/Imdb-tt4718872,movdb-357156,Film-849196.jpg
+2018-03-06 15:51:07,305 : DEBUG : Grabo imagen --> Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-06 15:51:07,305 : DEBUG : Voy a grabar la Ficha
+2018-03-06 15:51:07,305 : ERROR : Error en busqueda de pelicula
+2018-03-06 15:51:07,322 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x0832C1E8>)
+2018-03-06 15:51:07,322 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-06 15:51:07,322 : ERROR : Error al actualizar las imagenes.
+2018-03-06 15:51:07,322 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0659DA58>)

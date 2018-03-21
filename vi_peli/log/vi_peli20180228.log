@@ -1,0 +1,555 @@
+2018-02-28 13:42:59,262 : DEBUG : Pagina de Carga
+2018-02-28 13:42:59,278 : DEBUG : Proveedor
+2018-02-28 13:43:07,469 : DEBUG : Pagina de Carga
+2018-02-28 13:43:07,469 : DEBUG : ProveedorNewPct1
+2018-02-28 13:43:07,469 : DEBUG : Web
+2018-02-28 13:43:07,483 : DEBUG : Paginas antes --> 1
+2018-02-28 13:43:07,483 : DEBUG : Antes de Busca Pelis
+2018-02-28 13:43:07,483 : DEBUG : Paginas antes --> 1
+2018-02-28 13:43:07,483 : DEBUG : Paginas: 1
+2018-02-28 13:43:07,483 : DEBUG : http://newpct1.com/peliculas/pg/1
+2018-02-28 13:43:08,078 : DEBUG : Pagina actual: 1
+2018-02-28 13:43:08,078 : DEBUG : ---------------------------------------------------
+2018-02-28 13:43:08,078 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/american-assassin-/blurayrip-ac3-5-1/
+2018-02-28 13:48:26,286 : DEBUG : Pagina de Carga
+2018-02-28 13:48:26,582 : DEBUG : Proveedor
+2018-02-28 13:48:32,655 : DEBUG : Pagina de Carga
+2018-02-28 13:48:32,655 : DEBUG : ProveedorNewPct1
+2018-02-28 13:48:32,655 : DEBUG : Web
+2018-02-28 13:48:32,655 : DEBUG : Paginas antes --> 1
+2018-02-28 13:48:32,655 : DEBUG : Antes de Busca Pelis
+2018-02-28 13:48:32,655 : DEBUG : Paginas antes --> 1
+2018-02-28 13:48:32,655 : DEBUG : Paginas: 1
+2018-02-28 13:48:32,655 : DEBUG : http://newpct1.com/peliculas/pg/1
+2018-02-28 13:48:33,312 : DEBUG : Pagina actual: 1
+2018-02-28 13:48:33,312 : DEBUG : ---------------------------------------------------
+2018-02-28 13:48:33,312 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/american-assassin-/blurayrip-ac3-5-1/
+2018-02-28 13:48:33,312 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/american-assassin-/blurayrip-ac3-5-1/
+2018-02-28 13:48:46,332 : DEBUG : 0
+2018-02-28 13:48:46,332 : DEBUG : American Assassin
+2018-02-28 13:48:46,348 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:46,348 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104926_-1519818117-american-assassin--blurayrip-ac3-5-1.jpg
+2018-02-28 13:48:53,546 : DEBUG : http://descargas2020.com/descargar-torrent/104926_-1519818117-american-assassin--blurayrip-ac3-5-1
+2018-02-28 13:48:53,546 : DEBUG : Titulo Original: American Assassin  
+2018-02-28 13:48:53,546 : DEBUG : titulo:American Assassin   Indice:0  Url: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/american-assassin-/blurayrip-ac3-5-1/  Titulo Original: American Assassin  
+2018-02-28 13:48:53,578 : INFO : <_sre.SRE_Match object at 0x06904860>
+2018-02-28 13:48:53,592 : DEBUG : =======================================================================
+2018-02-28 13:48:53,592 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/the-lovers-/blurayrip-ac3-5-1/
+2018-02-28 13:48:53,592 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/the-lovers-/blurayrip-ac3-5-1/
+2018-02-28 13:48:53,625 : DEBUG : 0
+2018-02-28 13:48:53,625 : DEBUG : The Lovers
+2018-02-28 13:48:53,625 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:53,625 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104900_-1519769846-the-lovers--blurayrip-ac3-5-1.jpg
+2018-02-28 13:48:53,796 : DEBUG : http://descargas2020.com/descargar-torrent/104900_-1519769846-the-lovers--blurayrip-ac3-5-1
+2018-02-28 13:48:53,796 : DEBUG : Titulo Original: The Lovers  
+2018-02-28 13:48:53,796 : DEBUG : titulo:The Lovers   Indice:1  Url: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/the-lovers-/blurayrip-ac3-5-1/  Titulo Original: The Lovers  
+2018-02-28 13:48:53,796 : INFO : <_sre.SRE_Match object at 0x0692DD60>
+2018-02-28 13:48:53,822 : DEBUG : =======================================================================
+2018-02-28 13:48:53,822 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/bye-bye-germany-/blurayrip-ac3-5-1/
+2018-02-28 13:48:53,822 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/bye-bye-germany-/blurayrip-ac3-5-1/
+2018-02-28 13:48:53,884 : DEBUG : 0
+2018-02-28 13:48:53,884 : DEBUG : Bye Bye Germany
+2018-02-28 13:48:53,884 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:53,884 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104890_-1519754675-bye-bye-germany--blurayrip-ac3-5-1.jpg
+2018-02-28 13:48:54,084 : DEBUG : http://descargas2020.com/descargar-torrent/104890_-1519754675-bye-bye-germany--blurayrip-ac3-5-1
+2018-02-28 13:48:54,084 : DEBUG : Titulo Original: Es war einmal
+2018-02-28 13:48:54,084 : DEBUG : titulo:Bye Bye Germany   Indice:2  Url: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/bye-bye-germany-/blurayrip-ac3-5-1/  Titulo Original: Es war einmal
+2018-02-28 13:48:54,084 : INFO : <_sre.SRE_Match object at 0x0692DE20>
+2018-02-28 13:48:54,084 : DEBUG : =======================================================================
+2018-02-28 13:48:54,084 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/amor-a-la-siciliana/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,084 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/amor-a-la-siciliana/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,147 : DEBUG : 0
+2018-02-28 13:48:54,147 : DEBUG : Amor A La Siciliana
+2018-02-28 13:48:54,147 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:54,147 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104888_-1519749374-amor-a-la-siciliana--blurayrip-ac3-51.jpg
+2018-02-28 13:48:54,334 : DEBUG : http://descargas2020.com/descargar-torrent/104888_-1519749374-amor-a-la-siciliana--blurayrip-ac3-51
+2018-02-28 13:48:54,334 : DEBUG : Titulo Original: In guerra per amore  
+2018-02-28 13:48:54,334 : DEBUG : titulo:Amor A La Siciliana   Indice:3  Url: http://descargas2020.com/descargar-pelicula/amor-a-la-siciliana/blurayrip-ac3-5-1/  Titulo Original: In guerra per amore  
+2018-02-28 13:48:54,334 : INFO : <_sre.SRE_Match object at 0x06904860>
+2018-02-28 13:48:54,349 : DEBUG : =======================================================================
+2018-02-28 13:48:54,349 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/the-crucifixion/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,349 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/the-crucifixion/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,401 : DEBUG : 0
+2018-02-28 13:48:54,403 : DEBUG : The Crucifixion
+2018-02-28 13:48:54,403 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:54,403 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104870_-1519685389-the-crucifixion--blurayrip-ac3-51.jpg
+2018-02-28 13:48:54,565 : DEBUG : http://descargas2020.com/descargar-torrent/104870_-1519685389-the-crucifixion--blurayrip-ac3-51
+2018-02-28 13:48:54,566 : DEBUG : No titulo original
+2018-02-28 13:48:54,566 : INFO : None
+2018-02-28 13:48:54,569 : DEBUG : 
+The Crucifixion  [Bluray Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:48:54,569 : DEBUG : 
+The Crucifixion  [Bluray Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:48:54,569 : INFO : No se ha encontrado año
+2018-02-28 13:48:54,572 : DEBUG : =======================================================================
+2018-02-28 13:48:54,572 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/al-lado-del-enemigo/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,572 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/al-lado-del-enemigo/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,617 : DEBUG : 0
+2018-02-28 13:48:54,617 : DEBUG : Al Lado Del Enemigo
+2018-02-28 13:48:54,618 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:54,618 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104865_-1519683947-al-lado-del-enemigo--blurayrip-ac3-51.jpg
+2018-02-28 13:48:54,792 : DEBUG : http://descargas2020.com/descargar-torrent/104865_-1519683947-al-lado-del-enemigo--blurayrip-ac3-51
+2018-02-28 13:48:54,792 : DEBUG : Titulo Original: Walking with the Enemy  
+2018-02-28 13:48:54,792 : DEBUG : titulo:Al Lado Del Enemigo   Indice:5  Url: http://descargas2020.com/descargar-pelicula/al-lado-del-enemigo/blurayrip-ac3-5-1/  Titulo Original: Walking with the Enemy  
+2018-02-28 13:48:54,792 : INFO : <_sre.SRE_Match object at 0x0692DE20>
+2018-02-28 13:48:54,796 : DEBUG : =======================================================================
+2018-02-28 13:48:54,796 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/cambio-de-planes/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,796 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/cambio-de-planes/blurayrip-ac3-5-1/
+2018-02-28 13:48:54,842 : DEBUG : 0
+2018-02-28 13:48:54,842 : DEBUG : Cambio De Planes
+2018-02-28 13:48:54,844 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:54,844 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104863_-1519683202-cambio-de-planes--blurayrip-ac3-51.jpg
+2018-02-28 13:48:55,568 : DEBUG : http://descargas2020.com/descargar-torrent/104863_-1519683202-cambio-de-planes--blurayrip-ac3-51
+2018-02-28 13:48:55,568 : DEBUG : Titulo Original: The Layover  
+2018-02-28 13:48:55,568 : DEBUG : titulo:Cambio De Planes   Indice:6  Url: http://descargas2020.com/descargar-pelicula/cambio-de-planes/blurayrip-ac3-5-1/  Titulo Original: The Layover  
+2018-02-28 13:48:55,569 : INFO : <_sre.SRE_Match object at 0x06904860>
+2018-02-28 13:48:55,575 : DEBUG : =======================================================================
+2018-02-28 13:48:55,578 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/renegados/blurayrip/
+2018-02-28 13:48:55,578 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/renegados/blurayrip/
+2018-02-28 13:48:55,640 : DEBUG : 0
+2018-02-28 13:48:55,640 : DEBUG : Renegados
+2018-02-28 13:48:55,640 : DEBUG : BLuRayRip
+2018-02-28 13:48:55,640 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104861_-1519682169-renegados--blurayrip.jpg
+2018-02-28 13:48:57,812 : DEBUG : http://descargas2020.com/descargar-torrent/104861_-1519682169-renegados--blurayrip
+2018-02-28 13:48:57,832 : DEBUG : Titulo Original: Renegades  
+2018-02-28 13:48:57,832 : DEBUG : titulo:Renegados   Indice:7  Url: http://descargas2020.com/descargar-pelicula/renegados/blurayrip/  Titulo Original: Renegades  
+2018-02-28 13:48:57,832 : INFO : <_sre.SRE_Match object at 0x07CCEC60>
+2018-02-28 13:48:57,835 : DEBUG : =======================================================================
+2018-02-28 13:48:57,836 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/novitiate/blurayrip-ac3-5-1/
+2018-02-28 13:48:57,836 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/novitiate/blurayrip-ac3-5-1/
+2018-02-28 13:48:57,910 : DEBUG : 0
+2018-02-28 13:48:57,910 : DEBUG : Novitiate
+2018-02-28 13:48:57,910 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:57,910 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104833_-1519583891-novitiate--blurayrip-ac3-51.jpg
+2018-02-28 13:48:59,252 : DEBUG : http://descargas2020.com/descargar-torrent/104833_-1519583891-novitiate--blurayrip-ac3-51
+2018-02-28 13:48:59,252 : DEBUG : Titulo Original: Novitiate  
+2018-02-28 13:48:59,267 : DEBUG : titulo:Novitiate   Indice:8  Url: http://descargas2020.com/descargar-pelicula/novitiate/blurayrip-ac3-5-1/  Titulo Original: Novitiate  
+2018-02-28 13:48:59,267 : INFO : <_sre.SRE_Match object at 0x07CCEDA0>
+2018-02-28 13:48:59,267 : DEBUG : =======================================================================
+2018-02-28 13:48:59,267 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/nuestra-vida-en-la-borgoa-a/blurayrip-ac3-5-1/
+2018-02-28 13:48:59,267 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/nuestra-vida-en-la-borgoa-a/blurayrip-ac3-5-1/
+2018-02-28 13:48:59,315 : DEBUG : 0
+2018-02-28 13:48:59,315 : DEBUG : Nuestra Vida En La BorgoÃ±a
+2018-02-28 13:48:59,315 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:59,315 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104822_-1519509077-nuestra-vida-en-la-borgona--blurayrip-ac3-51.jpg
+2018-02-28 13:48:59,470 : DEBUG : http://descargas2020.com/descargar-torrent/104822_-1519509077-nuestra-vida-en-la-borgona--blurayrip-ac3-51
+2018-02-28 13:48:59,470 : DEBUG : No titulo original
+2018-02-28 13:48:59,470 : INFO : None
+2018-02-28 13:48:59,470 : DEBUG : 
+Nuestra Vida En La Borgoña  [BluRay Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:48:59,470 : DEBUG : 
+Nuestra Vida En La Borgona  [BluRay Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:48:59,470 : INFO : No se ha encontrado año
+2018-02-28 13:48:59,486 : DEBUG : =======================================================================
+2018-02-28 13:48:59,486 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/oro/blurayrip/
+2018-02-28 13:48:59,486 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/oro/blurayrip/
+2018-02-28 13:48:59,517 : DEBUG : 0
+2018-02-28 13:48:59,517 : DEBUG : Oro
+2018-02-28 13:48:59,517 : DEBUG : BLuRayRip
+2018-02-28 13:48:59,517 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104819_-1519496283-oro--blurayrip.jpg
+2018-02-28 13:48:59,690 : DEBUG : http://descargas2020.com/descargar-torrent/104819_-1519496283-oro--blurayrip
+2018-02-28 13:48:59,691 : DEBUG : Titulo Original: Oro  
+2018-02-28 13:48:59,693 : DEBUG : titulo:Oro   Indice:10  Url: http://descargas2020.com/descargar-pelicula/oro/blurayrip/  Titulo Original: Oro  
+2018-02-28 13:48:59,693 : INFO : <_sre.SRE_Match object at 0x06904860>
+2018-02-28 13:48:59,694 : DEBUG : =======================================================================
+2018-02-28 13:48:59,694 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-agente/blurayrip/
+2018-02-28 13:48:59,696 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-agente/blurayrip/
+2018-02-28 13:48:59,743 : DEBUG : 0
+2018-02-28 13:48:59,744 : DEBUG : El Agente
+2018-02-28 13:48:59,746 : DEBUG : BLuRayRip
+2018-02-28 13:48:59,746 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104813_-1519485070-el-agente--blurayrip.jpg
+2018-02-28 13:48:59,908 : DEBUG : http://descargas2020.com/descargar-torrent/104813_-1519485070-el-agente--blurayrip
+2018-02-28 13:48:59,908 : DEBUG : No titulo original
+2018-02-28 13:48:59,908 : INFO : None
+2018-02-28 13:48:59,911 : DEBUG : 
+El Agente  [BluRay Rip][AC3 2.0 Español Castellano][2018]		
+2018-02-28 13:48:59,911 : DEBUG : 
+El Agente  [BluRay Rip][AC3 2.0 Espanol Castellano][2018]		
+2018-02-28 13:48:59,911 : INFO : No se ha encontrado año
+2018-02-28 13:48:59,913 : DEBUG : =======================================================================
+2018-02-28 13:48:59,913 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/thor-ragnarok/blurayrip-ac3-5-1/
+2018-02-28 13:48:59,913 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/thor-ragnarok/blurayrip-ac3-5-1/
+2018-02-28 13:48:59,960 : DEBUG : 0
+2018-02-28 13:48:59,961 : DEBUG : Thor Ragnarok
+2018-02-28 13:48:59,961 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:48:59,961 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104804_-1519459792-thor-ragnarok--blurayrip-ac3-51.jpg
+2018-02-28 13:49:00,107 : DEBUG : http://descargas2020.com/descargar-torrent/104804_-1519459792-thor-ragnarok--blurayrip-ac3-51
+2018-02-28 13:49:00,107 : DEBUG : No titulo original
+2018-02-28 13:49:00,107 : INFO : None
+2018-02-28 13:49:00,108 : DEBUG : 
+Thor Ragnarok  [BluRay Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:00,108 : DEBUG : 
+Thor Ragnarok  [BluRay Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:00,108 : INFO : No se ha encontrado año
+2018-02-28 13:49:00,111 : DEBUG : =======================================================================
+2018-02-28 13:49:00,111 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/patti-cakes/blurayrip-ac3-5-1/
+2018-02-28 13:49:00,111 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/patti-cakes/blurayrip-ac3-5-1/
+2018-02-28 13:49:00,150 : DEBUG : 0
+2018-02-28 13:49:00,151 : DEBUG : Patti Cakes
+2018-02-28 13:49:00,151 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:00,151 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104780_-1519399482-patti-cakes--blurayrip-ac3-51.jpg
+2018-02-28 13:49:00,303 : DEBUG : http://descargas2020.com/descargar-torrent/104780_-1519399482-patti-cakes--blurayrip-ac3-51
+2018-02-28 13:49:00,303 : DEBUG : No titulo original
+2018-02-28 13:49:00,305 : INFO : None
+2018-02-28 13:49:00,306 : DEBUG : 
+Patti Cakes  [BluRay Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:00,308 : DEBUG : 
+Patti Cakes  [BluRay Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:00,308 : INFO : No se ha encontrado año
+2018-02-28 13:49:00,311 : DEBUG : =======================================================================
+2018-02-28 13:49:00,312 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/mudo/blurayrip-ac3-5-1/
+2018-02-28 13:49:00,312 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/mudo/blurayrip-ac3-5-1/
+2018-02-28 13:49:00,351 : DEBUG : 0
+2018-02-28 13:49:00,354 : DEBUG : Mudo
+2018-02-28 13:49:00,355 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:00,355 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104776_-1519384409-mudo--blurayrip-ac3-51.jpg
+2018-02-28 13:49:00,523 : DEBUG : http://descargas2020.com/descargar-torrent/104776_-1519384409-mudo--blurayrip-ac3-51
+2018-02-28 13:49:00,523 : DEBUG : No titulo original
+2018-02-28 13:49:00,523 : INFO : None
+2018-02-28 13:49:00,526 : DEBUG : 
+Mudo  [BluRay Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:00,526 : DEBUG : 
+Mudo  [BluRay Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:00,526 : INFO : No se ha encontrado año
+2018-02-28 13:49:00,529 : DEBUG : =======================================================================
+2018-02-28 13:49:00,529 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/superando-el-limite/blurayrip-ac3-5-1/
+2018-02-28 13:49:00,529 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/superando-el-limite/blurayrip-ac3-5-1/
+2018-02-28 13:49:00,582 : DEBUG : 0
+2018-02-28 13:49:00,582 : DEBUG : Superando El Limite
+2018-02-28 13:49:00,584 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:00,584 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104752_-1519326432-superando-el-limite--blurayrip-ac3-51.jpg
+2018-02-28 13:49:02,822 : DEBUG : http://descargas2020.com/descargar-torrent/104752_-1519326432-superando-el-limite--blurayrip-ac3-51
+2018-02-28 13:49:02,848 : DEBUG : Titulo Original: Your Move  
+2018-02-28 13:49:02,852 : DEBUG : titulo:Superando El Limite   Indice:15  Url: http://descargas2020.com/descargar-pelicula/superando-el-limite/blurayrip-ac3-5-1/  Titulo Original: Your Move  
+2018-02-28 13:49:02,855 : INFO : <_sre.SRE_Match object at 0x07AA01E0>
+2018-02-28 13:49:02,868 : DEBUG : =======================================================================
+2018-02-28 13:49:02,869 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/spark-una-aventura-espacial/blurayrip-ac3-5-1/
+2018-02-28 13:49:02,871 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/spark-una-aventura-espacial/blurayrip-ac3-5-1/
+2018-02-28 13:49:02,986 : DEBUG : 0
+2018-02-28 13:49:02,997 : DEBUG : Spark Una Aventura Espacial
+2018-02-28 13:49:03,019 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:03,020 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104750_-1519321954-spark-una-aventura-espacial--blurayrip-ac3-51.jpg
+2018-02-28 13:49:05,016 : DEBUG : http://descargas2020.com/descargar-torrent/104750_-1519321954-spark-una-aventura-espacial--blurayrip-ac3-51
+2018-02-28 13:49:05,023 : DEBUG : Titulo Original: Spark- A Space Tail  
+2018-02-28 13:49:05,023 : DEBUG : titulo:Spark Una Aventura Espacial   Indice:16  Url: http://descargas2020.com/descargar-pelicula/spark-una-aventura-espacial/blurayrip-ac3-5-1/  Titulo Original: Spark- A Space Tail  
+2018-02-28 13:49:05,025 : INFO : <_sre.SRE_Match object at 0x0692DF60>
+2018-02-28 13:49:05,029 : DEBUG : =======================================================================
+2018-02-28 13:49:05,029 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/ignacio-de-loyola/blurayrip-ac3-5-1/
+2018-02-28 13:49:05,030 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/ignacio-de-loyola/blurayrip-ac3-5-1/
+2018-02-28 13:49:05,138 : DEBUG : 0
+2018-02-28 13:49:05,148 : DEBUG : Ignacio De Loyola
+2018-02-28 13:49:05,167 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:05,167 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104730_-1519243786-ignacio-de-loyola--blurayrip-ac3-51.jpg
+2018-02-28 13:49:06,497 : DEBUG : http://descargas2020.com/descargar-torrent/104730_-1519243786-ignacio-de-loyola--blurayrip-ac3-51
+2018-02-28 13:49:06,509 : DEBUG : Titulo Original: Ignacio de Loyola  
+2018-02-28 13:49:06,510 : DEBUG : titulo:Ignacio De Loyola   Indice:17  Url: http://descargas2020.com/descargar-pelicula/ignacio-de-loyola/blurayrip-ac3-5-1/  Titulo Original: Ignacio de Loyola  
+2018-02-28 13:49:06,510 : INFO : <_sre.SRE_Match object at 0x07CCE060>
+2018-02-28 13:49:06,513 : DEBUG : =======================================================================
+2018-02-28 13:49:06,513 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/the-shanghai-job/blurayrip-ac3-5-1/
+2018-02-28 13:49:06,515 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/the-shanghai-job/blurayrip-ac3-5-1/
+2018-02-28 13:49:06,585 : DEBUG : 0
+2018-02-28 13:49:06,585 : DEBUG : The Shanghai Job
+2018-02-28 13:49:06,585 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:06,585 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104727_-1519231954-the-shanghai-job--blurayrip-ac3-51.jpg
+2018-02-28 13:49:06,805 : DEBUG : http://descargas2020.com/descargar-torrent/104727_-1519231954-the-shanghai-job--blurayrip-ac3-51
+2018-02-28 13:49:06,809 : DEBUG : No titulo original
+2018-02-28 13:49:06,809 : INFO : <_sre.SRE_Match object at 0x080C6CE0>
+2018-02-28 13:49:06,828 : DEBUG : =======================================================================
+2018-02-28 13:49:06,835 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-suerte-de-los-logan/blurayrip/
+2018-02-28 13:49:06,835 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-suerte-de-los-logan/blurayrip/
+2018-02-28 13:49:06,914 : DEBUG : 0
+2018-02-28 13:49:06,914 : DEBUG : La Suerte De Los Logan
+2018-02-28 13:49:06,914 : DEBUG : BLuRayRip
+2018-02-28 13:49:06,914 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104718_-1519211125-la-suerte-de-los-logan--blurayrip.jpg
+2018-02-28 13:49:07,111 : DEBUG : http://descargas2020.com/descargar-torrent/104718_-1519211125-la-suerte-de-los-logan--blurayrip
+2018-02-28 13:49:07,111 : DEBUG : No titulo original
+2018-02-28 13:49:07,111 : INFO : None
+2018-02-28 13:49:07,115 : DEBUG : 
+La Suerte De Los Logan  [BluRay Rip][AC3 2.0 Español Castellano][2018]		
+2018-02-28 13:49:07,117 : DEBUG : 
+La Suerte De Los Logan  [BluRay Rip][AC3 2.0 Espanol Castellano][2018]		
+2018-02-28 13:49:07,117 : INFO : No se ha encontrado año
+2018-02-28 13:49:07,121 : DEBUG : =======================================================================
+2018-02-28 13:49:07,128 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/en-cuerpo-y-alma/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,131 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/en-cuerpo-y-alma/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,209 : DEBUG : 0
+2018-02-28 13:49:07,211 : DEBUG : En Cuerpo y Alma
+2018-02-28 13:49:07,213 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:07,213 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104716_-1519210781-en-cuerpo-y-alma--blurayrip-ac3-51.jpg
+2018-02-28 13:49:07,368 : DEBUG : http://descargas2020.com/descargar-torrent/104716_-1519210781-en-cuerpo-y-alma--blurayrip-ac3-51
+2018-02-28 13:49:07,368 : DEBUG : No titulo original
+2018-02-28 13:49:07,368 : INFO : None
+2018-02-28 13:49:07,368 : DEBUG : 
+En Cuerpo y Alma  [BluRay Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:07,368 : DEBUG : 
+En Cuerpo y Alma  [BluRay Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:07,368 : INFO : No se ha encontrado año
+2018-02-28 13:49:07,368 : DEBUG : =======================================================================
+2018-02-28 13:49:07,368 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-jungla/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,368 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-jungla/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,423 : DEBUG : 0
+2018-02-28 13:49:07,423 : DEBUG : La Jungla
+2018-02-28 13:49:07,423 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:07,423 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104688_-1519164207-la-jungla--blurayrip-ac3-51.jpg
+2018-02-28 13:49:07,578 : DEBUG : http://descargas2020.com/descargar-torrent/104688_-1519164207-la-jungla--blurayrip-ac3-51
+2018-02-28 13:49:07,578 : DEBUG : No titulo original
+2018-02-28 13:49:07,595 : INFO : None
+2018-02-28 13:49:07,595 : DEBUG : 
+La Jungla  [Bluray Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:07,595 : DEBUG : 
+La Jungla  [Bluray Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:07,595 : INFO : No se ha encontrado año
+2018-02-28 13:49:07,611 : DEBUG : =======================================================================
+2018-02-28 13:49:07,612 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/deep/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,612 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/deep/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,644 : DEBUG : 0
+2018-02-28 13:49:07,644 : DEBUG : Deep
+2018-02-28 13:49:07,644 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:07,644 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104685_-1519162745-deep--blurayrip-ac3-51.jpg
+2018-02-28 13:49:07,812 : DEBUG : http://descargas2020.com/descargar-torrent/104685_-1519162745-deep--blurayrip-ac3-51
+2018-02-28 13:49:07,812 : DEBUG : No titulo original
+2018-02-28 13:49:07,812 : INFO : None
+2018-02-28 13:49:07,812 : DEBUG : 
+Deep  [BluRay Rip][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:07,812 : DEBUG : 
+Deep  [BluRay Rip][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:07,812 : INFO : No se ha encontrado año
+2018-02-28 13:49:07,812 : DEBUG : =======================================================================
+2018-02-28 13:49:07,812 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-secreto-de-marrowbone/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,812 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-secreto-de-marrowbone/blurayrip-ac3-5-1/
+2018-02-28 13:49:07,858 : DEBUG : 0
+2018-02-28 13:49:07,858 : DEBUG : El Secreto De Marrowbone
+2018-02-28 13:49:07,858 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:07,858 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104675_-1519148861-el-secreto-de-marrowbone--blurayrip-ac3-51.jpg
+2018-02-28 13:49:08,051 : DEBUG : http://descargas2020.com/descargar-torrent/104675_-1519148861-el-secreto-de-marrowbone--blurayrip-ac3-51
+2018-02-28 13:49:08,052 : DEBUG : Titulo Original: El
+2018-02-28 13:49:08,052 : DEBUG : titulo:El Secreto De Marrowbone   Indice:23  Url: http://descargas2020.com/descargar-pelicula/el-secreto-de-marrowbone/blurayrip-ac3-5-1/  Titulo Original: El
+2018-02-28 13:49:08,053 : INFO : <_sre.SRE_Match object at 0x07CCE060>
+2018-02-28 13:49:08,055 : DEBUG : =======================================================================
+2018-02-28 13:49:08,055 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-leyenda-de-ben-hall/blurayrip/
+2018-02-28 13:49:08,056 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-leyenda-de-ben-hall/blurayrip/
+2018-02-28 13:49:08,111 : DEBUG : 0
+2018-02-28 13:49:08,111 : DEBUG : La Leyenda De Ben Hall
+2018-02-28 13:49:08,111 : DEBUG : BLuRayRip
+2018-02-28 13:49:08,111 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104671_-1519130636-la-leyenda-de-ben-hall--blurayrip.jpg
+2018-02-28 13:49:08,267 : DEBUG : http://descargas2020.com/descargar-torrent/104671_-1519130636-la-leyenda-de-ben-hall--blurayrip
+2018-02-28 13:49:08,267 : DEBUG : Titulo Original: The Legend of Ben Hall  
+2018-02-28 13:49:08,267 : DEBUG : titulo:La Leyenda De Ben Hall   Indice:24  Url: http://descargas2020.com/descargar-pelicula/la-leyenda-de-ben-hall/blurayrip/  Titulo Original: The Legend of Ben Hall  
+2018-02-28 13:49:08,267 : INFO : <_sre.SRE_Match object at 0x080C6CE0>
+2018-02-28 13:49:08,267 : DEBUG : =======================================================================
+2018-02-28 13:49:08,267 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/feliz-dia-de-tu-muerte/blurayrip-ac3-5-1/
+2018-02-28 13:49:08,267 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/feliz-dia-de-tu-muerte/blurayrip-ac3-5-1/
+2018-02-28 13:49:08,315 : DEBUG : 0
+2018-02-28 13:49:08,315 : DEBUG : Feliz Dia De Tu Muerte
+2018-02-28 13:49:08,315 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:08,315 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104669_-1519129978-feliz-dia-de-tu-muerte--blurayrip-ac3-51.jpg
+2018-02-28 13:49:08,487 : DEBUG : http://descargas2020.com/descargar-torrent/104669_-1519129978-feliz-dia-de-tu-muerte--blurayrip-ac3-51
+2018-02-28 13:49:08,487 : DEBUG : Titulo Original: Happy Death Day  
+2018-02-28 13:49:08,487 : DEBUG : titulo:Feliz Dia De Tu Muerte   Indice:25  Url: http://descargas2020.com/descargar-pelicula/feliz-dia-de-tu-muerte/blurayrip-ac3-5-1/  Titulo Original: Happy Death Day  
+2018-02-28 13:49:08,487 : INFO : <_sre.SRE_Match object at 0x086A0F20>
+2018-02-28 13:49:08,503 : DEBUG : =======================================================================
+2018-02-28 13:49:08,503 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/fullmetal-alchemist/blurayrip-ac3-5-1/
+2018-02-28 13:49:08,503 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/fullmetal-alchemist/blurayrip-ac3-5-1/
+2018-02-28 13:49:08,551 : DEBUG : 0
+2018-02-28 13:49:08,551 : DEBUG : Fullmetal Alchemist
+2018-02-28 13:49:08,551 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:08,551 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104644_-1519062230-fullmetal-alchemist--blurayrip-ac3-51.jpg
+2018-02-28 13:49:08,721 : DEBUG : http://descargas2020.com/descargar-torrent/104644_-1519062230-fullmetal-alchemist--blurayrip-ac3-51
+2018-02-28 13:49:08,721 : DEBUG : No titulo original
+2018-02-28 13:49:08,721 : INFO : None
+2018-02-28 13:49:08,721 : DEBUG : 
+Fullmetal Alchemist  [BluRayRIP][AC3 5.1 Español Castellano][2018]		
+2018-02-28 13:49:08,721 : DEBUG : 
+Fullmetal Alchemist  [BluRayRIP][AC3 5.1 Espanol Castellano][2018]		
+2018-02-28 13:49:08,721 : INFO : No se ha encontrado año
+2018-02-28 13:49:08,721 : DEBUG : =======================================================================
+2018-02-28 13:49:08,721 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/santuario/blurayrip/
+2018-02-28 13:49:08,721 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/santuario/blurayrip/
+2018-02-28 13:49:08,769 : DEBUG : 0
+2018-02-28 13:49:08,769 : DEBUG : Santuario
+2018-02-28 13:49:08,769 : DEBUG : BLuRayRip
+2018-02-28 13:49:08,769 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104634_-1519036100-santuario--blurayrip.jpg
+2018-02-28 13:49:08,940 : DEBUG : http://descargas2020.com/descargar-torrent/104634_-1519036100-santuario--blurayrip
+2018-02-28 13:49:08,940 : DEBUG : Titulo Original: Le sanctuaire  
+2018-02-28 13:49:08,940 : DEBUG : titulo:Santuario   Indice:27  Url: http://descargas2020.com/descargar-pelicula/santuario/blurayrip/  Titulo Original: Le sanctuaire  
+2018-02-28 13:49:08,940 : INFO : <_sre.SRE_Match object at 0x080C6CE0>
+2018-02-28 13:49:08,940 : DEBUG : =======================================================================
+2018-02-28 13:49:08,940 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/rescate-en-osiris/blurayrip-ac3-5-1/
+2018-02-28 13:49:08,940 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/rescate-en-osiris/blurayrip-ac3-5-1/
+2018-02-28 13:49:08,987 : DEBUG : 0
+2018-02-28 13:49:08,987 : DEBUG : Rescate En Osiris
+2018-02-28 13:49:08,987 : DEBUG : BluRayRip AC3 5.1
+2018-02-28 13:49:08,987 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104616_-1518955585-rescate-en-osiris--blurayrip-ac3-51.jpg
+2018-02-28 13:49:09,150 : DEBUG : http://descargas2020.com/descargar-torrent/104616_-1518955585-rescate-en-osiris--blurayrip-ac3-51
+2018-02-28 13:49:09,150 : DEBUG : Titulo Original: Science Fiction Volume One- The Osiris Child  
+2018-02-28 13:49:09,150 : DEBUG : titulo:Rescate En Osiris   Indice:28  Url: http://descargas2020.com/descargar-pelicula/rescate-en-osiris/blurayrip-ac3-5-1/  Titulo Original: Science Fiction Volume One- The Osiris Child  
+2018-02-28 13:49:09,150 : INFO : <_sre.SRE_Match object at 0x0897FD60>
+2018-02-28 13:49:09,150 : DEBUG : =======================================================================
+2018-02-28 13:49:09,150 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/sweet-vengeance/blurayrip/
+2018-02-28 13:49:09,150 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/sweet-vengeance/blurayrip/
+2018-02-28 13:49:09,197 : DEBUG : 1
+2018-02-28 13:49:09,197 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/un-golpe-a-la-inglesa/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,197 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/un-golpe-a-la-inglesa/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,259 : DEBUG : 1
+2018-02-28 13:49:09,259 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/handia/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,259 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/handia/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,305 : DEBUG : 1
+2018-02-28 13:49:09,305 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/no-se-decir-adios/blurayrip/
+2018-02-28 13:49:09,305 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/no-se-decir-adios/blurayrip/
+2018-02-28 13:49:09,368 : DEBUG : 1
+2018-02-28 13:49:09,368 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-enviada-del-mal/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,368 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-enviada-del-mal/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,415 : DEBUG : 1
+2018-02-28 13:49:09,415 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/goodbye-christopher-robin/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,415 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/goodbye-christopher-robin/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,463 : DEBUG : 1
+2018-02-28 13:49:09,463 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/solo-se-vive-una-vez/blurayrip/
+2018-02-28 13:49:09,463 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/solo-se-vive-una-vez/blurayrip/
+2018-02-28 13:49:09,525 : DEBUG : 1
+2018-02-28 13:49:09,525 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-entrenador-personal/blurayrip/
+2018-02-28 13:49:09,525 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-entrenador-personal/blurayrip/
+2018-02-28 13:49:09,585 : DEBUG : 1
+2018-02-28 13:49:09,585 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/en-lugar-del-sr-stein/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,585 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/en-lugar-del-sr-stein/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,648 : DEBUG : 1
+2018-02-28 13:49:09,648 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/secretos-de-un-crimen/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,648 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/secretos-de-un-crimen/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,710 : DEBUG : 1
+2018-02-28 13:49:09,710 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-castillo-de-cristal/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,710 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-castillo-de-cristal/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,757 : DEBUG : 1
+2018-02-28 13:49:09,757 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/entre-dos-maridos/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,757 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/entre-dos-maridos/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,789 : DEBUG : 1
+2018-02-28 13:49:09,789 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/marshall/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,789 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/marshall/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,851 : DEBUG : 1
+2018-02-28 13:49:09,851 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/cute-little-buggers/blurayrip/
+2018-02-28 13:49:09,851 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/cute-little-buggers/blurayrip/
+2018-02-28 13:49:09,898 : DEBUG : 1
+2018-02-28 13:49:09,898 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/teresa/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,898 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/teresa/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,944 : DEBUG : 1
+2018-02-28 13:49:09,944 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-poesia-del-duelo/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,944 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-poesia-del-duelo/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,992 : DEBUG : 1
+2018-02-28 13:49:09,992 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/the-hero/blurayrip-ac3-5-1/
+2018-02-28 13:49:09,992 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/the-hero/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,059 : DEBUG : 1
+2018-02-28 13:49:10,059 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/cancion-de-nueva-york/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,061 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/cancion-de-nueva-york/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,111 : DEBUG : 1
+2018-02-28 13:49:10,111 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/pitchfork-/blurayrip/
+2018-02-28 13:49:10,111 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/pitchfork-/blurayrip/
+2018-02-28 13:49:10,184 : DEBUG : 1
+2018-02-28 13:49:10,184 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/la-leyenda-del-gigante-de-la-montana-/blurayrip/
+2018-02-28 13:49:10,184 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/la-leyenda-del-gigante-de-la-montana-/blurayrip/
+2018-02-28 13:49:10,246 : DEBUG : 0
+2018-02-28 13:49:10,246 : DEBUG : La Leyenda Del Gigante De La MontaÃ±a
+2018-02-28 13:49:10,246 : DEBUG : BLuRayRip
+2018-02-28 13:49:10,263 : DEBUG : http://www.descargas2020.com/pictures/f/thumbs/104376_-1518299830-la-leyenda-del-gigante-de-la-montana--blurayrip.jpg
+2018-02-28 13:49:10,423 : DEBUG : http://descargas2020.com/descargar-torrent/104376_-1518299814-la-leyenda-del-gigante-de-la-montana--blurayrip/
+2018-02-28 13:49:10,423 : DEBUG : No titulo original
+2018-02-28 13:49:10,423 : INFO : None
+2018-02-28 13:49:10,423 : DEBUG : 
+La Leyenda Del Gigante De La Montaña  [BluRayRIP][AC3 2.0 Español Castellano][2018]		
+2018-02-28 13:49:10,423 : DEBUG : 
+La Leyenda Del Gigante De La Montana  [BluRayRIP][AC3 2.0 Espanol Castellano][2018]		
+2018-02-28 13:49:10,423 : INFO : No se ha encontrado año
+2018-02-28 13:49:10,437 : DEBUG : =======================================================================
+2018-02-28 13:49:10,437 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/casa-casino/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,437 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/casa-casino/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,484 : DEBUG : 1
+2018-02-28 13:49:10,484 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/coco-/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,484 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/coco-/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,548 : DEBUG : 2
+2018-02-28 13:49:10,548 : DEBUG : enlace: http://descargas2020.com/descargar/peliculas-castellano/peliculas-rip/morir--/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,548 : DEBUG : enlace_old: http://newpct1.com/descargar/peliculas-castellano/peliculas-rip/morir--/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,609 : DEBUG : 1
+2018-02-28 13:49:10,609 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-pajaro-loco-la-pelicula/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,609 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-pajaro-loco-la-pelicula/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,657 : DEBUG : 1
+2018-02-28 13:49:10,657 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-primera-vez-que-nos-vimos/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,657 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-primera-vez-que-nos-vimos/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,720 : DEBUG : 1
+2018-02-28 13:49:10,720 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/the-ritual/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,720 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/the-ritual/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,766 : DEBUG : 1
+2018-02-28 13:49:10,766 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-cabaa-a/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,766 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-cabaa-a/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,828 : DEBUG : 1
+2018-02-28 13:49:10,828 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-piel-fria/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,828 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-piel-fria/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,859 : DEBUG : 1
+2018-02-28 13:49:10,859 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/operacion-cacahuete-2-mision-salvar-el-parque/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,859 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/operacion-cacahuete-2-mision-salvar-el-parque/blurayrip-ac3-5-1/
+2018-02-28 13:49:10,907 : DEBUG : 1
+2018-02-28 13:49:10,907 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/scooby-doo-y-el-intrepido-batman/blurayrip/2018/
+2018-02-28 13:49:10,907 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/scooby-doo-y-el-intrepido-batman/blurayrip/2018/
+2018-02-28 13:49:10,953 : DEBUG : 1
+2018-02-28 13:49:10,953 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/bushwick/blurayrip/
+2018-02-28 13:49:10,953 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/bushwick/blurayrip/
+2018-02-28 13:49:11,000 : DEBUG : 1
+2018-02-28 13:49:11,000 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/julia/blurayrip/
+2018-02-28 13:49:11,000 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/julia/blurayrip/
+2018-02-28 13:49:11,052 : DEBUG : 1
+2018-02-28 13:49:11,052 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-profesor-marston-y-wonder-women/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,052 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-profesor-marston-y-wonder-women/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,094 : DEBUG : 1
+2018-02-28 13:49:11,094 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/dos-padres-por-desigual/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,094 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/dos-padres-por-desigual/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,141 : DEBUG : 1
+2018-02-28 13:49:11,141 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/xmasy/blurayrip/
+2018-02-28 13:49:11,141 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/xmasy/blurayrip/
+2018-02-28 13:49:11,187 : DEBUG : 1
+2018-02-28 13:49:11,187 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/bus-driver/blurayrip/
+2018-02-28 13:49:11,187 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/bus-driver/blurayrip/
+2018-02-28 13:49:11,219 : DEBUG : 1
+2018-02-28 13:49:11,219 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/inside/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,219 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/inside/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,266 : DEBUG : 1
+2018-02-28 13:49:11,266 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/verano-1993/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,266 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/verano-1993/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,296 : DEBUG : 1
+2018-02-28 13:49:11,296 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/kills-on-wheels/blurayrip/
+2018-02-28 13:49:11,296 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/kills-on-wheels/blurayrip/
+2018-02-28 13:49:11,344 : DEBUG : 1
+2018-02-28 13:49:11,344 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/gremlin/blurayrip/
+2018-02-28 13:49:11,344 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/gremlin/blurayrip/
+2018-02-28 13:49:11,391 : DEBUG : 1
+2018-02-28 13:49:11,391 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/paula/blurayrip/
+2018-02-28 13:49:11,391 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/paula/blurayrip/
+2018-02-28 13:49:11,437 : DEBUG : 1
+2018-02-28 13:49:11,437 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/the-cloverfield-paradox/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,437 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/the-cloverfield-paradox/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,512 : DEBUG : 1
+2018-02-28 13:49:11,512 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-tormenta/blurayrip/
+2018-02-28 13:49:11,513 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-tormenta/blurayrip/
+2018-02-28 13:49:11,540 : DEBUG : 1
+2018-02-28 13:49:11,540 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/jacques/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,540 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/jacques/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,588 : DEBUG : 1
+2018-02-28 13:49:11,588 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/el-rey-de-los-belgas/blurayrip/
+2018-02-28 13:49:11,588 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/el-rey-de-los-belgas/blurayrip/
+2018-02-28 13:49:11,635 : DEBUG : 1
+2018-02-28 13:49:11,635 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/the-belko-experiment/blurayrip/
+2018-02-28 13:49:11,635 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/the-belko-experiment/blurayrip/
+2018-02-28 13:49:11,667 : DEBUG : 1
+2018-02-28 13:49:11,667 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/la-niebla-y-la-doncella/blurayrip/
+2018-02-28 13:49:11,667 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/la-niebla-y-la-doncella/blurayrip/
+2018-02-28 13:49:11,730 : DEBUG : 1
+2018-02-28 13:49:11,730 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/tom-of-finland/blurayrip/
+2018-02-28 13:49:11,730 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/tom-of-finland/blurayrip/
+2018-02-28 13:49:11,776 : DEBUG : 1
+2018-02-28 13:49:11,776 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/rescatando-a-mr-wu/blurayrip/
+2018-02-28 13:49:11,776 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/rescatando-a-mr-wu/blurayrip/
+2018-02-28 13:49:11,822 : DEBUG : 1
+2018-02-28 13:49:11,822 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/newness/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,838 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/newness/blurayrip-ac3-5-1/
+2018-02-28 13:49:11,885 : DEBUG : 1
+2018-02-28 13:49:11,885 : DEBUG : enlace: http://descargas2020.com/descargar-pelicula/actos-de-venganza/blurayrip/
+2018-02-28 13:49:11,885 : DEBUG : enlace_old: http://newpct1.com/descargar-pelicula/actos-de-venganza/blurayrip/
+2018-02-28 13:49:11,933 : DEBUG : 1
+2018-02-28 13:49:11,933 : INFO : Fin del Proceso
+2018-02-28 13:49:11,967 : INFO : Guardado JSON
+2018-02-28 13:52:16,632 : DEBUG : Guarda_total- Proveedor: NewPct1

@@ -1,0 +1,208 @@
+2018-03-07 00:02:02,828 : DEBUG : listar pelis
+2018-03-07 00:02:06,171 : DEBUG : 24 HOURS
+2018-03-07 00:02:06,171 : DEBUG : None
+2018-03-07 00:02:06,171 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 00:02:06,171 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 00:02:06,171 : DEBUG : Peli que buscamos:
+2018-03-07 00:02:06,171 : DEBUG : 24 HOURS
+2018-03-07 00:02:06,171 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 00:02:06,171 : DEBUG : sinopsis --> 
+2018-03-07 00:02:06,171 : DEBUG : proveedor --> NewPct1
+2018-03-07 00:02:06,171 : DEBUG : fecha_publicacion --> 19-11-2017
+2018-03-07 00:02:06,171 : DEBUG : imagen --> http://www.newpct1.com/pictures/f/thumbs/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017.jpg
+2018-03-07 00:02:06,171 : DEBUG : idFicha --> None
+2018-03-07 00:02:06,171 : DEBUG : tamanio --> 1.6 GB
+2018-03-07 00:02:06,171 : DEBUG : titulo_bes --> 24HOURS
+2018-03-07 00:02:06,171 : DEBUG : torrent --> http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 00:02:06,171 : DEBUG : anyo --> 2015
+2018-03-07 00:02:06,171 : DEBUG : calidad --> BLuRayRip
+2018-03-07 00:02:06,171 : DEBUG : fecha_busqueda --> None
+2018-03-07 00:02:06,171 : DEBUG : enlace --> http://newpct1.com/descargar-pelicula/24-hours/blurayrip/
+2018-03-07 00:02:06,171 : DEBUG : titulo --> 24 HOURS
+2018-03-07 00:02:06,171 : DEBUG : titulo_orig --> 24 Hours  
+2018-03-07 00:02:06,171 : DEBUG : id --> None
+2018-03-07 00:02:06,171 : DEBUG : titulo_ben --> 24HOURS
+2018-03-07 00:02:06,171 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 00:02:06,171 : DEBUG : 24HOURS
+2018-03-07 00:02:06,171 : ERROR : Error en existe_ficha
+2018-03-07 00:02:06,171 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'dict' object has no attribute 'idFicha'",), <traceback object at 0x06B161C0>)
+2018-03-07 00:02:06,171 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 00:02:06,812 : ERROR : Error en busqueda de pelicula tras el intento 0
+2018-03-07 00:02:06,812 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x06B2D170>)
+2018-03-07 00:02:06,812 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 00:02:06,812 : ERROR : Error al actualizar las imagenes.
+2018-03-07 00:02:06,812 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06B16288>)
+2018-03-07 00:04:43,746 : DEBUG : listar pelis
+2018-03-07 00:04:45,701 : DEBUG : 24 HOURS
+2018-03-07 00:04:45,701 : DEBUG : None
+2018-03-07 00:04:45,701 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 00:04:45,701 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 00:04:45,703 : DEBUG : Peli que buscamos:
+2018-03-07 00:04:45,703 : DEBUG : 24 HOURS
+2018-03-07 00:04:45,703 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 00:04:45,703 : DEBUG : >-- Pelicula --<
+2018-03-07 00:04:45,703 : DEBUG : 24 HOURS
+2018-03-07 00:04:45,703 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 00:04:45,703 : DEBUG : 24HOURS
+2018-03-07 00:04:45,703 : DEBUG : intento nº--> 2
+2018-03-07 00:04:45,704 : DEBUG : 24HOURS
+2018-03-07 00:04:45,710 : ERROR : Error en existe_ficha
+2018-03-07 00:04:45,710 : ERROR : (<class 'vi_peli.models.DoesNotExist'>, DoesNotExist('Pelicula matching query does not exist.',), <traceback object at 0x06EB0440>)
+2018-03-07 00:04:45,710 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 00:04:46,612 : ERROR : Error en busqueda de pelicula tras el intento 2
+2018-03-07 00:04:46,612 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x06EB0580>)
+2018-03-07 00:04:46,612 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 00:04:46,612 : ERROR : Error al actualizar las imagenes.
+2018-03-07 00:04:46,612 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06EB0440>)
+2018-03-07 00:06:43,390 : DEBUG : listar pelis
+2018-03-07 00:06:45,470 : DEBUG : 24 HOURS
+2018-03-07 00:06:45,470 : DEBUG : None
+2018-03-07 00:06:45,470 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 00:06:45,486 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 00:06:45,486 : DEBUG : Peli que buscamos:
+2018-03-07 00:06:45,486 : DEBUG : 24 HOURS
+2018-03-07 00:06:45,486 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 00:06:45,486 : DEBUG : >-- Pelicula --<
+2018-03-07 00:06:45,486 : DEBUG : 24 HOURS
+2018-03-07 00:06:45,486 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 00:06:45,486 : DEBUG : 24HOURS
+2018-03-07 00:06:45,486 : DEBUG : intento nº--> 2
+2018-03-07 00:06:45,486 : DEBUG : 24HOURS
+2018-03-07 00:06:45,486 : DEBUG : intento nº--> 3
+2018-03-07 00:06:45,486 : ERROR : Error en existe_ficha
+2018-03-07 00:06:45,486 : ERROR : (<class 'vi_peli.models.DoesNotExist'>, DoesNotExist('Pelicula matching query does not exist.',), <traceback object at 0x06FE32D8>)
+2018-03-07 00:06:45,486 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 00:06:46,142 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-07 00:06:46,142 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x06FE33A0>)
+2018-03-07 00:06:46,142 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 00:06:46,158 : ERROR : Error al actualizar las imagenes.
+2018-03-07 00:06:46,158 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06FE3418>)
+2018-03-07 00:08:23,109 : DEBUG : listar pelis
+2018-03-07 00:08:24,835 : DEBUG : 24 HOURS
+2018-03-07 00:08:24,835 : DEBUG : None
+2018-03-07 00:08:24,835 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 00:08:24,835 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 00:08:24,835 : DEBUG : Peli que buscamos:
+2018-03-07 00:08:24,835 : DEBUG : 24 HOURS
+2018-03-07 00:08:24,835 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 00:08:24,835 : DEBUG : >-- Pelicula --<
+2018-03-07 00:08:24,835 : DEBUG : 24 HOURS
+2018-03-07 00:08:24,835 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 00:08:24,835 : DEBUG : 24HOURS
+2018-03-07 00:08:24,835 : ERROR : Error en existe_ficha
+2018-03-07 00:08:24,835 : ERROR : (<type 'exceptions.TypeError'>, TypeError("object of type 'NoneType' has no len()",), <traceback object at 0x06B50B20>)
+2018-03-07 00:08:24,835 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 00:08:25,476 : ERROR : Error en busqueda de pelicula tras el intento 0
+2018-03-07 00:08:25,476 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x06B67198>)
+2018-03-07 00:08:25,476 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 00:08:25,476 : ERROR : Error al actualizar las imagenes.
+2018-03-07 00:08:25,476 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06B50170>)
+2018-03-07 21:50:39,737 : INFO : Ficha
+2018-03-07 21:50:39,785 : DEBUG : 248
+2018-03-07 21:50:39,785 : INFO : <QuerySet []>
+2018-03-07 21:50:39,799 : ERROR : No hay enlaces
+2018-03-07 21:50:46,908 : INFO : Ficha
+2018-03-07 21:50:46,924 : DEBUG : 715
+2018-03-07 21:50:46,924 : INFO : <QuerySet []>
+2018-03-07 21:50:46,924 : ERROR : No hay enlaces
+2018-03-07 21:50:50,776 : INFO : Ficha
+2018-03-07 21:50:50,776 : DEBUG : 404
+2018-03-07 21:50:50,776 : INFO : <QuerySet [<Lista_Pelis: Acosada en la red>, <Lista_Pelis: Acosada en la red>]>
+2018-03-07 21:51:02,749 : INFO : Ficha
+2018-03-07 21:51:02,749 : DEBUG : 503
+2018-03-07 21:51:02,749 : INFO : <QuerySet [<Lista_Pelis: Amor destructivo>]>
+2018-03-07 21:52:35,459 : INFO : Ficha
+2018-03-07 21:52:35,473 : DEBUG : 489
+2018-03-07 21:52:38,654 : INFO : Ficha
+2018-03-07 21:52:38,654 : DEBUG : 205
+2018-03-07 21:52:48,783 : INFO : Ficha
+2018-03-07 21:52:48,799 : DEBUG : 458
+2018-03-07 21:52:54,354 : INFO : Ficha
+2018-03-07 21:52:54,354 : DEBUG : 446
+2018-03-07 21:53:01,049 : INFO : Ficha
+2018-03-07 21:53:01,049 : DEBUG : 404
+2018-03-07 21:53:07,598 : INFO : Ficha
+2018-03-07 21:53:07,598 : DEBUG : 175
+2018-03-07 21:53:15,335 : INFO : Ficha
+2018-03-07 21:53:15,335 : DEBUG : 715
+2018-03-07 21:53:54,572 : DEBUG : listar pelis
+2018-03-07 21:54:01,740 : DEBUG : 24 HOURS
+2018-03-07 21:54:01,740 : DEBUG : None
+2018-03-07 21:54:01,740 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 21:54:01,756 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 21:54:01,756 : DEBUG : Peli que buscamos:
+2018-03-07 21:54:01,756 : DEBUG : 24 HOURS
+2018-03-07 21:54:01,756 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 21:54:01,756 : DEBUG : >-- Pelicula --<
+2018-03-07 21:54:01,756 : DEBUG : 24 HOURS
+2018-03-07 21:54:01,756 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 21:54:01,772 : DEBUG : 24HOURS
+2018-03-07 21:54:01,772 : ERROR : Error en existe_ficha
+2018-03-07 21:54:01,772 : ERROR : (<type 'exceptions.TypeError'>, TypeError("object of type 'NoneType' has no len()",), <traceback object at 0x0AAA3530>)
+2018-03-07 21:54:01,772 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 21:54:02,377 : ERROR : Error en busqueda de pelicula tras el intento 0
+2018-03-07 21:54:02,377 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x0AAA35A8>)
+2018-03-07 21:54:02,377 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 21:54:02,377 : ERROR : Error al actualizar las imagenes.
+2018-03-07 21:54:02,377 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0AAA35D0>)
+2018-03-07 21:56:13,378 : DEBUG : 24 HOURS
+2018-03-07 21:56:13,378 : DEBUG : None
+2018-03-07 21:56:13,378 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 21:56:13,378 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 21:56:13,378 : DEBUG : Peli que buscamos:
+2018-03-07 21:56:13,378 : DEBUG : 24 HOURS
+2018-03-07 21:56:13,378 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 21:56:13,378 : DEBUG : >-- Pelicula --<
+2018-03-07 21:56:13,378 : DEBUG : 24 HOURS
+2018-03-07 21:56:13,378 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 21:56:13,378 : DEBUG : 24HOURS
+2018-03-07 21:56:13,378 : ERROR : Error en existe_ficha
+2018-03-07 21:56:13,378 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'NoneType' object has no attribute 'count'",), <traceback object at 0x076FD670>)
+2018-03-07 21:56:13,378 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 21:56:13,815 : ERROR : Error en busqueda de pelicula tras el intento 0
+2018-03-07 21:56:13,815 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x076FD6E8>)
+2018-03-07 21:56:13,815 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 21:56:13,815 : ERROR : Error al actualizar las imagenes.
+2018-03-07 21:56:13,815 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x076FD710>)
+2018-03-07 22:05:53,635 : DEBUG : listar pelis
+2018-03-07 22:05:56,565 : DEBUG : 24 HOURS
+2018-03-07 22:05:56,565 : DEBUG : None
+2018-03-07 22:05:56,565 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-07 22:05:56,565 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-07 22:05:56,565 : DEBUG : Peli que buscamos:
+2018-03-07 22:05:56,565 : DEBUG : 24 HOURS
+2018-03-07 22:05:56,565 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-07 22:05:56,565 : DEBUG : >-- Pelicula --<
+2018-03-07 22:05:56,565 : DEBUG : 24 HOURS
+2018-03-07 22:05:56,565 : DEBUG : Comprobamos si existe la ficha.
+2018-03-07 22:05:56,565 : DEBUG : 24HOURS
+2018-03-07 22:05:56,565 : DEBUG : intento nº--> 2
+2018-03-07 22:05:56,565 : DEBUG : 24HOURS
+2018-03-07 22:05:57,019 : DEBUG : intento nº--> 3
+2018-03-07 22:05:57,019 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-07 22:05:57,499 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-07 22:05:57,499 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'transforma'",), <traceback object at 0x0830EA08>)
+2018-03-07 22:05:57,499 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-07 22:05:57,499 : ERROR : Error al actualizar las imagenes.
+2018-03-07 22:05:57,499 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0830EAF8>)
+2018-03-08 14:13:12,960 : DEBUG : 24 HOURS
+2018-03-08 14:13:12,992 : DEBUG : None
+2018-03-08 14:13:12,992 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:13:12,992 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:13:12,992 : DEBUG : Peli que buscamos:
+2018-03-08 14:13:12,992 : DEBUG : 24 HOURS
+2018-03-08 14:13:12,992 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:13:12,992 : DEBUG : >-- Pelicula --<
+2018-03-08 14:13:12,992 : DEBUG : 24 HOURS
+2018-03-08 14:13:13,007 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:13:13,007 : DEBUG : 24HOURS
+2018-03-08 14:13:13,007 : DEBUG : intento nº--> 2
+2018-03-08 14:13:13,007 : DEBUG : 24HOURS
+2018-03-08 14:13:13,411 : DEBUG : intento nº--> 3
+2018-03-08 14:13:13,411 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:13:14,617 : DEBUG : PELI
+2018-03-08 14:13:14,617 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:13:14,617 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("Peliculas_ficha instance has no attribute 'sinacento'",), <traceback object at 0x0733C8F0>)
+2018-03-08 14:13:14,617 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:13:14,617 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:13:14,617 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0733C8A0>)

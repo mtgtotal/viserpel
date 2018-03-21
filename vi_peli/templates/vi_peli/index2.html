@@ -1,0 +1,17 @@
+{# index2.html #}
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for person in people.object_list %}
+    <div>
+        First name: {{ person }}
+    </div>
+{% endfor %}
+
+{# The following renders the pagination html #}
+<div id="pagination">
+    {{ people.render }}
+</div>
+
+{% endblock %}

@@ -1,0 +1,167 @@
+h1 a {
+        font-family: 'Alegreya';
+    }
+body {
+        background-color: #1a0000;
+     }
+
+.botonera {width: 1500px; background: #FF4;border: 2px solid #000; float: left;}
+
+.menu{
+  font-size: 18pt;
+  font-family:'FontAwesome'!important;}
+
+.submenu {
+  background-color:  #A4A4A4;
+  color:#fff;
+}
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right:55px
+}
+
+.t_enlaces {
+ text-align: center;
+ background-color: #A4A4A4;
+}
+
+.tenlace {text-align: center; background-color: #F7819F; }
+
+div.titulo {
+ background-color: #0B0B3B;
+ height:100px;
+ width:100%;
+ color = white;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ text-align: center;
+ flex-direction: column;
+ font-size: 45px;
+}
+
+div.poster {border:1px solid #808080;
+            width:25%;
+            height: auto !important;
+            heigth:400px;
+            float:left;display:table-cell;vertical-align:middle;}
+div.ficha {border:1px solid #808080;width:75%;
+           min-height: 400px;
+           height: auto !important;
+           heigth:400px;
+           background-color: #BDBDBD;
+           float:left;
+           font-size: 20px;}
+div.enlaces{border:1px solid #808080;;width:100%;height:auto;float:left;font-size: 20px;}
+
+.Peli {
+ background-color: #424242;
+ /*position: absolute;*/
+ /*nos posicionamos en el centro del navegador*/
+ min-height: 800px;
+ height: auto !important;
+ height:800px;
+ width:1100px;
+ margin-left: 200px;
+
+ padding:5px;
+}
+ .container
+{
+ padding-left: 0px;
+ margin: 0px;
+ width: 1500px;
+ min-height: 400px;
+ height: auto !important;
+ height:400px;
+
+}
+
+.lista_pelis {
+width: 100%;
+list-style: fine; background-color: #F7DC6F;
+margin : 5px;
+}
+
+.contenido {
+ background-color: #530606;
+ }
+
+
+ .busqueda {
+ align: center;
+ min-height: 200px;
+ height: auto !important;
+ height:200px;
+ width:1100px;
+ margin-left:200px;
+ margin-top:10px;
+ background-color: #A5DF00;
+
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:4px;
+ padding-bottom:4px;
+ }
+
+ .resultados {
+  align: center;
+  width:1100px;
+  min-height: 300px;
+  height: auto !important;
+  height:300px;
+  background-color: #A9D0F5;
+  margin-left:200px;
+  margin-top:10px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  padding-bottom:8px;
+ }
+
+ h1.resul {
+  background-color: #9FF781;
+  margin-left:0px;
+  margin-top:0px;
+  padding-left:0px;
+  text-align: center
+ }
+
+ul.pelilist                { width: auto; height: auto; float: left; margin: 5px 0px 0px 0px; text-align: center;  background-color:  #530606;}
+ul.pelilist  li            { height: 250px; float: left; padding: 0 0 0 15px;margin:0px; list-style: none;}
+ul.pelilist  li img        { width: 130px; height: 180px; border: 1px solid #d5d6d8; padding: 2px;}
+ul.pelilist  li img:hover  { opacity: 0.7;}
+ul.pelilist  li h2         { width:130px; font-size: 13px;margin:0px; font-weight: 600; line-height: 14px; padding: 0px 0 0px 0;}
+ul.pelilist  li span       { font-size: 10px; color: #555; line-height: 4px;font-weight: normal; font-style: italic; }
+
+ul.pelires                { width: 1100px; height: auto; float: left; margin: 5px 0 0 0; text-align: center;}
+ul.pelires  li            { height: 245px; float: left; padding: 0 0 0 5px; margin:0px;list-style: none;}
+ul.pelires  li img        { width: 130px; height: 180px; border: 1px solid #d5d6d8; padding: 2px;}
+ul.pelires  li img:hover  { opacity: 0.7;}
+ul.pelires  li h2         { width:130px; font-size: 13px;margin:0px; font-weight: 600; line-height: 14px; padding: 0px 0 0px 0; color: #F70105; font-family: 'Alegreya', cursive;}
+ul.pelires  li span       { font-size: 10px; color: #555; font-weight: normal; font-style: italic; }
+
+.tit {width:20%; vertical-align:top; font-weight: bold; color: #08088A}
+.des {width:80%; vertical-align:top; color: #0B6138}
+div.pagination { width:100%; text-align: center; margin: 0px; padding: 0px; border-radius: 0px 0px 0px 0px; background-color:#530606;}
+div.letras { width:100%; text-align: center; border-radius: 0px 0px 0px 0px;}
+div.alert {margin: 0px; padding: 0px; border-radius: 0px 0px 0px 0px;}
+ul.pagination { text-align: center;  margin: 3px; padding: 0px }
+li.pagination { text-align: center;}
+
+ul.letras { text-align: center;}
+li.letras { text-align: center;}
+
+ul.pagination  li a   { width:30px; font-size: 12px;margin:0px; font-weight: 600; line-height: 14px; padding: 0px 0 0px 0;}
+ul.letra  li a   { width:50px; font-size: 12px;margin:0px; font-weight: 600; line-height: 14px; padding: 0px 0 0px 0;}
+
+div.pagination {height:30 px; padding: 0 0 0 0px;}
+.Carga { color: #fff;
+         /*margin-top:10px;
+         margin-bottom:10px;*/
+
+         padding-top:20px;
+         padding-bottom:20px;
+        }

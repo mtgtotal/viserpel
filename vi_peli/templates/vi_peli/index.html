@@ -2,17 +2,20 @@
 {% load staticfiles %}
     {% block menu %}
     {% endblock %}
-    {% block content %}
 
-    <section class="container" >
-        <div class="lista_pelis">
-            <CENTER><h2>LISTA DE PELICULAS</h2></CENTER>
 
-        </div>
-        {% include 'vi_peli/letras.html' %}
-        {% include 'vi_peli/pagination.html' %}
+        {% block cabecera %}
+            <div class="alert alert-info text-center">
+                <h2>LISTA DE PELICULAS</h2>
+            </div>
+            <div class="cab-pag-let">
+                {% include 'vi_peli/letras.html' %}
+                {% include 'vi_peli/pagination.html' %}
+            </div>
+        {% endblock %}
+        {% block content %}
              <ul class = "pelilist">
-        {% for peli in page.object_list %}
+            {% for peli in page.object_list %}
                     <li>
 
                         <a href="{% url 'vi_peli:ficha' pk=peli.pk tabla='Ficha' %}">
@@ -22,12 +25,13 @@
                         </a>
 
                     </li>
-        {% empty %}
-            <h2><b>No hay películas todavía</b></h2>
-        {% endfor %}
+            {% empty %}
+                <h2><b>No hay películas todavía</b></h2>
+            {% endfor %}
             </ul>
+        {% endblock %}
 
-        {% include 'vi_peli/pagination.html' %}
-    </section>
-    {% endblock %}
+        {% block pie %}
+            {% include 'vi_peli/pagination.html' %}
+        {% endblock %}
 

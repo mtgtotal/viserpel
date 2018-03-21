@@ -1,0 +1,49 @@
+<style type="text/css">
+.modal-footer{background-color: lightblue;}
+.modal-header{background-color: lightblue;}
+.panel{background-color: lightblue;}
+.modal-body {
+	height: 400px;
+    background-color: blue;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+
+}
+.form-control{background-color: lightgreen;}
+
+</style>
+<div class="modal-dialog modal-lg">
+	<div class="modal-content">
+		<form role="form" class="form-horizontal" action="{% url 'vi_peli:modificar_ficha' object.pk %}" method="post" >
+			<div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">x</button>
+                <h3>Modificar Ficha</h3>
+            </div>
+            <div class="modal-body">
+				{% csrf_token %}
+				<div class="panel panel-default">
+					<div class="panel-body">
+                        {% for field in form %}
+                        <div class="form-group">
+                            <label class="control-label col-sm-2">{{ field.label_tag }}</label>
+                            <div class="col-sm-10">
+                              {{field}}
+                            </div>
+                        </div>
+                        {% endfor %}
+						<!--{{ form.as_table }}-->
+					</div>
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<div class="col-lg-12 text-right">
+					<input type="submit" class="btn btn-primary" name="submit" value="Guardar">
+					<button type="button" class="btn btn-default" onclick="return cerrar_modal()">
+						Cancelar
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

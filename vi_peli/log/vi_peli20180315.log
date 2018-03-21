@@ -1,0 +1,374 @@
+2018-03-15 13:10:31,167 : INFO : Ficha
+2018-03-15 13:10:31,181 : DEBUG : 836
+2018-03-15 13:24:32,701 : INFO : Ficha
+2018-03-15 13:24:32,720 : DEBUG : 836
+2018-03-15 13:24:36,792 : INFO : Ficha
+2018-03-15 13:24:36,795 : DEBUG : 836
+2018-03-15 13:49:20,849 : INFO : Ficha
+2018-03-15 13:49:20,865 : DEBUG : 836
+2018-03-15 13:51:53,332 : INFO : Ficha
+2018-03-15 13:51:53,332 : DEBUG : 836
+2018-03-15 13:52:52,131 : INFO : Ficha
+2018-03-15 13:52:52,147 : DEBUG : 836
+2018-03-15 13:53:27,099 : INFO : Ficha
+2018-03-15 13:53:27,131 : DEBUG : 836
+2018-03-15 13:54:02,740 : INFO : Ficha
+2018-03-15 13:54:02,756 : DEBUG : 836
+2018-03-15 13:54:09,528 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:09,528 : DEBUG : None
+2018-03-15 13:54:09,528 : DEBUG : http://newpct1.com/descargar-torrent/92233_ya-no-me-siento-a-gusto-en-este-mundo-blurayrip-ac3-5-1-espaa-ol-castellano-2017
+2018-03-15 13:54:09,528 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-15 13:54:09,528 : DEBUG : Peli que buscamos:
+2018-03-15 13:54:09,528 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:09,528 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-15 13:54:09,528 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:09,528 : DEBUG : >-- Pelicula --<
+2018-03-15 13:54:09,528 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:09,528 : DEBUG : Comprobamos si existe la ficha.
+2018-03-15 13:54:09,528 : DEBUG : YANOMESIENTOAGUSTOENESTEMUNDO
+2018-03-15 13:54:09,528 : DEBUG : intento nº--> 2
+2018-03-15 13:54:09,528 : DEBUG : YANOMESIENTOAGUSTOENESTEMUNDO
+2018-03-15 13:54:09,528 : DEBUG : <QuerySet []>
+2018-03-15 13:54:09,589 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-15 13:54:10,647 : DEBUG : PELI
+2018-03-15 13:54:10,647 : DEBUG : FICHA 1
+2018-03-15 13:54:10,647 : DEBUG : poster_path --> /s8eN1gbBLaD4RbXWOCR7O4L2Dy1.jpg
+2018-03-15 13:54:10,647 : DEBUG : title --> Ya no me siento a gusto en este mundo
+2018-03-15 13:54:10,647 : DEBUG : overview --> Cuando una mujer deprimida sufre un robo, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su odioso vecino.
+2018-03-15 13:54:10,647 : DEBUG : release_date --> 2017-01-19
+2018-03-15 13:54:10,647 : DEBUG : popularity --> None
+2018-03-15 13:54:10,647 : DEBUG : original_title --> I Don't Feel at Home in This World Anymore
+2018-03-15 13:54:10,647 : DEBUG : backdrop_path --> /8pXUXMe1LFXvpPFb5CaObacDN9J.jpg
+2018-03-15 13:54:10,647 : DEBUG : vote_count --> None
+2018-03-15 13:54:10,647 : DEBUG : video --> None
+2018-03-15 13:54:10,661 : DEBUG : adult --> None
+2018-03-15 13:54:10,661 : DEBUG : vote_average --> None
+2018-03-15 13:54:10,661 : DEBUG : genre_ids --> None
+2018-03-15 13:54:10,661 : DEBUG : id --> None
+2018-03-15 13:54:10,661 : DEBUG : original_language --> en
+2018-03-15 13:54:10,661 : DEBUG : Titulo = al encontrado
+2018-03-15 13:54:10,918 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-15 13:54:10,918 : DEBUG : poster_path --> /s8eN1gbBLaD4RbXWOCR7O4L2Dy1.jpg
+2018-03-15 13:54:10,918 : DEBUG : production_countries --> None
+2018-03-15 13:54:10,918 : DEBUG : revenue --> None
+2018-03-15 13:54:10,918 : DEBUG : overview --> Cuando una mujer deprimida sufre un robo, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su odioso vecino.
+2018-03-15 13:54:10,918 : DEBUG : video --> None
+2018-03-15 13:54:10,918 : DEBUG : id --> None
+2018-03-15 13:54:10,918 : DEBUG : genres --> None
+2018-03-15 13:54:10,918 : DEBUG : title --> Ya no me siento a gusto en este mundo
+2018-03-15 13:54:10,918 : DEBUG : tagline --> 
+2018-03-15 13:54:10,918 : DEBUG : vote_count --> None
+2018-03-15 13:54:10,918 : DEBUG : homepage --> https://www.netflix.com/title/80100937
+2018-03-15 13:54:10,918 : DEBUG : belongs_to_collection --> None
+2018-03-15 13:54:10,918 : DEBUG : original_language --> en
+2018-03-15 13:54:10,918 : DEBUG : status --> Released
+2018-03-15 13:54:10,918 : DEBUG : spoken_languages --> None
+2018-03-15 13:54:10,918 : DEBUG : imdb_id --> tt5710514
+2018-03-15 13:54:10,918 : DEBUG : adult --> None
+2018-03-15 13:54:10,918 : DEBUG : backdrop_path --> /8pXUXMe1LFXvpPFb5CaObacDN9J.jpg
+2018-03-15 13:54:10,918 : DEBUG : production_companies --> None
+2018-03-15 13:54:10,918 : DEBUG : release_date --> 2017-01-19
+2018-03-15 13:54:10,918 : DEBUG : popularity --> None
+2018-03-15 13:54:10,918 : DEBUG : original_title --> I Don't Feel at Home in This World Anymore
+2018-03-15 13:54:10,918 : DEBUG : budget --> None
+2018-03-15 13:54:10,918 : DEBUG : vote_average --> None
+2018-03-15 13:54:10,918 : DEBUG : runtime --> None
+2018-03-15 13:54:10,918 : DEBUG : FICHA_IMBD
+2018-03-15 13:54:11,138 : DEBUG : metascore --> 75
+2018-03-15 13:54:11,138 : DEBUG : year --> 2017
+2018-03-15 13:54:11,138 : DEBUG : plot --> When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.
+2018-03-15 13:54:11,138 : DEBUG : rated --> TV-MA
+2018-03-15 13:54:11,138 : DEBUG : title --> I Don't Feel at Home in This World Anymore.
+2018-03-15 13:54:11,138 : DEBUG : writer --> Macon Blair
+2018-03-15 13:54:11,138 : DEBUG : production --> Film Science
+2018-03-15 13:54:11,138 : DEBUG : actors --> Melanie Lynskey, Chris Doubek, Marilyn Faith Hickey, Jared Roylance
+2018-03-15 13:54:11,138 : DEBUG : imdb_votes --> 25,934
+2018-03-15 13:54:11,138 : DEBUG : type --> movie
+2018-03-15 13:54:11,153 : DEBUG : website --> http://www.filmscience.com/
+2018-03-15 13:54:11,153 : DEBUG : poster --> https://images-na.ssl-images-amazon.com/images/M/MV5BYmM5Zjg5ZWEtYmQwOS00NmFmLTgxYzktYTJkZmY3OGM4NDQyXkEyXkFqcGdeQXVyNjk4NjM5Nzc@._V1_SX300.jpg
+2018-03-15 13:54:11,153 : DEBUG : imdb_id --> tt5710514
+2018-03-15 13:54:11,153 : DEBUG : director --> Macon Blair
+2018-03-15 13:54:11,153 : DEBUG : released --> 24 Feb 2017
+2018-03-15 13:54:11,153 : DEBUG : awards --> 3 wins & 2 nominations.
+2018-03-15 13:54:11,153 : DEBUG : genre --> Comedy, Crime, Drama
+2018-03-15 13:54:11,153 : DEBUG : response --> True
+2018-03-15 13:54:11,153 : DEBUG : language --> English
+2018-03-15 13:54:11,153 : DEBUG : dvd --> 24 Feb 2017
+2018-03-15 13:54:11,153 : DEBUG : imdb_rating --> 7.0
+2018-03-15 13:54:11,153 : DEBUG : country --> USA
+2018-03-15 13:54:11,153 : DEBUG : runtime --> 93 min
+2018-03-15 13:54:11,153 : DEBUG : box_office --> N/A
+2018-03-15 13:54:11,153 : DEBUG : Finalmente nos queda 
+2018-03-15 13:54:11,153 : DEBUG : anio --> 2017
+2018-03-15 13:54:11,153 : DEBUG : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BYmM5Zjg5ZWEtYmQwOS00NmFmLTgxYzktYTJkZmY3OGM4NDQyXkEyXkFqcGdeQXVyNjk4NjM5Nzc@._V1_SX300.jpg
+2018-03-15 13:54:11,153 : DEBUG : escritor --> Macon Blair
+2018-03-15 13:54:11,153 : DEBUG : director --> Macon Blair
+2018-03-15 13:54:11,153 : DEBUG : titulo --> Ya no me siento a gusto en este mundo
+2018-03-15 13:54:11,153 : DEBUG : actores --> Melanie Lynskey, Chris Doubek, Marilyn Faith Hickey, Jared Roylance
+2018-03-15 13:54:11,153 : DEBUG : pais --> USA
+2018-03-15 13:54:11,153 : DEBUG : titulo_orig --> I Don't Feel at Home in This World Anymore
+2018-03-15 13:54:11,153 : DEBUG : sinopsis --> When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.
+2018-03-15 13:54:11,153 : DEBUG : sinopsis_es --> Cuando una mujer deprimida sufre un robo, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su odioso vecino.
+2018-03-15 13:54:11,153 : DEBUG : generos --> Comedia,Crimen,Drama,Suspense
+2018-03-15 13:54:11,153 : DEBUG : duracion --> None
+2018-03-15 13:54:11,153 : DEBUG : idFicha --> Imdb-tt5710514,movdb-425591
+2018-03-15 13:54:11,153 : DEBUG : {u'anio': u'2017', u'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BYmM5Zjg5ZWEtYmQwOS00NmFmLTgxYzktYTJkZmY3OGM4NDQyXkEyXkFqcGdeQXVyNjk4NjM5Nzc@._V1_SX300.jpg', u'escritor': u'Macon Blair', u'director': u'Macon Blair', u'titulo': u'Ya no me siento a gusto en este mundo', u'actores': u'Melanie Lynskey, Chris Doubek, Marilyn Faith Hickey, Jared Roylance', u'pais': u'USA', u'titulo_orig': u"I Don't Feel at Home in This World Anymore", u'sinopsis': u'When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.', u'sinopsis_es': u'Cuando una mujer deprimida sufre un robo, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su odioso vecino.', u'generos': u'Comedia,Crimen,Drama,Suspense', u'duracion': 93, u'idFicha': u'Imdb-tt5710514,movdb-425591'}
+2018-03-15 13:54:11,153 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-15 13:54:12,061 : DEBUG : Finalmente nos queda 
+2018-03-15 13:54:12,061 : DEBUG : anio --> 2017
+2018-03-15 13:54:12,061 : DEBUG : imagen --> https://pics.filmaffinity.com/i_don_t_feel_at_home_in_this_world_anymore-853360487-mmed.jpg
+2018-03-15 13:54:12,061 : DEBUG : escritor --> None
+2018-03-15 13:54:12,061 : DEBUG : director --> Macon Blair
+2018-03-15 13:54:12,061 : DEBUG : titulo --> Ya no me siento a gusto en este mundo
+2018-03-15 13:54:12,061 : DEBUG : actores --> Melanie Lynskey, Elijah Wood, David Yow, Jane Levy, Devon Graye, Christine Woods, Robert Longstreet, Derek Mears, Gary Anthony Williams, Macon Blair, Taylor Tunes, Jason Manuel Olazabal, Myron Natwick, Jana Lee Hamblin, Dana Millican, Lee Eddy
+2018-03-15 13:54:12,061 : DEBUG : pais --> Estados Unidos
+2018-03-15 13:54:12,061 : DEBUG : titulo_orig --> I Don't Feel at Home in This World Anymore
+2018-03-15 13:54:12,061 : DEBUG : sinopsis --> When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.           
+2018-03-15 13:54:12,061 : DEBUG : sinopsis_es --> Cuando una mujer deprimida sufre un robo en su casa, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su peculiar vecino. (FILMAFFINITY)
+2018-03-15 13:54:12,061 : DEBUG : generos --> Thriller
+2018-03-15 13:54:12,061 : DEBUG : duracion --> 93 min.
+2018-03-15 13:54:12,061 : DEBUG : idFicha --> Film-808372
+2018-03-15 13:54:12,061 : DEBUG : {u'anio': u'2017', u'imagen': 'https://pics.filmaffinity.com/i_don_t_feel_at_home_in_this_world_anymore-853360487-mmed.jpg', u'escritor': None, u'director': u'Macon Blair', u'titulo': u'Ya no me siento a gusto en este mundo', u'actores': u'Melanie Lynskey, Elijah Wood, David Yow, Jane Levy, Devon Graye, Christine Woods, Robert Longstreet, Derek Mears, Gary Anthony Williams, Macon Blair, Taylor Tunes, Jason Manuel Olazabal, Myron Natwick, Jana Lee Hamblin, Dana Millican, Lee Eddy', u'pais': u'Estados Unidos', u'titulo_orig': u"I Don't Feel at Home in This World Anymore", u'sinopsis': u'When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.           ', u'sinopsis_es': u'Cuando una mujer deprimida sufre un robo en su casa, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su peculiar vecino. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'93 min.', u'idFicha': u'Film-808372'}
+2018-03-15 13:54:12,061 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-15 13:54:12,061 : ERROR : No hay parámetros para la busqueda
+2018-03-15 13:54:12,061 : DEBUG : None
+2018-03-15 13:54:12,061 : INFO : ***************** PELICULA ENCONTRADA FINAL ************************
+2018-03-15 13:54:12,061 : INFO : anio --> 2017
+2018-03-15 13:54:12,061 : INFO : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BYmM5Zjg5ZWEtYmQwOS00NmFmLTgxYzktYTJkZmY3OGM4NDQyXkEyXkFqcGdeQXVyNjk4NjM5Nzc@._V1_SX300.jpg
+2018-03-15 13:54:12,061 : INFO : escritor --> Macon Blair
+2018-03-15 13:54:12,061 : INFO : director --> Macon Blair
+2018-03-15 13:54:12,061 : INFO : titulo --> Ya no me siento a gusto en este mundo
+2018-03-15 13:54:12,061 : INFO : actores --> Melanie Lynskey, Chris Doubek, Marilyn Faith Hickey, Jared Roylance
+2018-03-15 13:54:12,061 : INFO : pais --> USA
+2018-03-15 13:54:12,061 : INFO : titulo_orig --> I Don't Feel at Home in This World Anymore
+2018-03-15 13:54:12,061 : INFO : sinopsis --> When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.
+2018-03-15 13:54:12,061 : INFO : sinopsis_es --> Cuando una mujer deprimida sufre un robo, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su odioso vecino.
+2018-03-15 13:54:12,061 : INFO : generos --> Comedia,Crimen,Drama,Suspense
+2018-03-15 13:54:12,061 : INFO : duracion --> None
+2018-03-15 13:54:12,061 : INFO : idFicha --> Imdb-tt5710514,movdb-425591,Film-808372
+2018-03-15 13:54:12,061 : DEBUG : Ficha Encontrada -->
+2018-03-15 13:54:12,061 : DEBUG : anio --> 2017
+2018-03-15 13:54:12,061 : DEBUG : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BYmM5Zjg5ZWEtYmQwOS00NmFmLTgxYzktYTJkZmY3OGM4NDQyXkEyXkFqcGdeQXVyNjk4NjM5Nzc@._V1_SX300.jpg
+2018-03-15 13:54:12,061 : DEBUG : escritor --> Macon Blair
+2018-03-15 13:54:12,061 : DEBUG : director --> Macon Blair
+2018-03-15 13:54:12,061 : DEBUG : titulo --> Ya no me siento a gusto en este mundo
+2018-03-15 13:54:12,061 : DEBUG : actores --> Melanie Lynskey, Chris Doubek, Marilyn Faith Hickey, Jared Roylance
+2018-03-15 13:54:12,061 : DEBUG : pais --> USA
+2018-03-15 13:54:12,061 : DEBUG : titulo_orig --> I Don't Feel at Home in This World Anymore
+2018-03-15 13:54:12,061 : DEBUG : sinopsis --> When a depressed woman is burglarized, she finds a new sense of purpose by tracking down the thieves alongside her obnoxious neighbor. But they soon find themselves dangerously out of their depth against a pack of degenerate criminals.
+2018-03-15 13:54:12,061 : DEBUG : sinopsis_es --> Cuando una mujer deprimida sufre un robo, encuentra un nuevo sentido a su vida persiguiendo a los ladrones junto a su odioso vecino.
+2018-03-15 13:54:12,061 : DEBUG : generos --> Comedia,Crimen,Drama,Suspense
+2018-03-15 13:54:12,061 : DEBUG : duracion --> None
+2018-03-15 13:54:12,061 : DEBUG : idFicha --> Imdb-tt5710514,movdb-425591,Film-808372
+2018-03-15 13:54:12,061 : DEBUG : Imdb-tt5710514,movdb-425591,Film-808372
+2018-03-15 13:54:12,061 : DEBUG : None
+2018-03-15 13:54:12,061 : DEBUG : [u'Imdb-tt5710514', u'movdb-425591', u'Film-808372']
+2018-03-15 13:54:12,061 : DEBUG : 3
+2018-03-15 13:54:12,061 : DEBUG : Imdb-tt5710514
+2018-03-15 13:54:12,061 : ERROR : No se ha encontrado la idfichaImdb-tt5710514,movdb-425591,Film-808372
+2018-03-15 13:54:12,061 : DEBUG : intento nº--> 5
+2018-03-15 13:54:12,061 : DEBUG : Voy a grabar la Ficha
+2018-03-15 13:54:12,061 : DEBUG : *** FICHA DE LA PELICULA ***
+2018-03-15 13:54:12,061 : DEBUG : >-- Pelicula --<
+2018-03-15 13:54:12,061 : DEBUG : Ya no me siento a gusto en este mundo
+2018-03-15 13:54:12,061 : DEBUG : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-15 13:54:12,154 : INFO : Grabada la ficha Ya no me siento a gusto en este mundo - 3761
+2018-03-15 13:54:12,201 : INFO : Actualizada la pelicula YA NO ME SIENTO A GUSTO EN ESTE MUNDO con la ficha 3761
+2018-03-15 13:54:12,201 : DEBUG : grabado el idficha 5
+2018-03-15 13:54:12,201 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-15 13:54:12,201 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:12,201 : DEBUG : Ya no me siento a gusto en este mundo
+2018-03-15 13:54:12,296 : DEBUG : /Imagenes/YANOMESIENTOAGUSTOENESTEMUNDO_3761.jpg
+2018-03-15 13:54:12,326 : DEBUG : Grabo imagen --> YANOMESIENTOAGUSTOENESTEMUNDO_3761
+2018-03-15 13:54:12,436 : DEBUG : Fin del grabado de la imagen en BBDD
+2018-03-15 13:54:27,918 : INFO : Ficha
+2018-03-15 13:54:27,918 : DEBUG : 836
+2018-03-15 13:54:30,279 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:30,279 : DEBUG : Ya no me siento a gusto en este mundo
+2018-03-15 13:54:30,279 : DEBUG : http://newpct1.com/descargar-torrent/92233_ya-no-me-siento-a-gusto-en-este-mundo-blurayrip-ac3-5-1-espaa-ol-castellano-2017
+2018-03-15 13:54:30,279 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-15 13:54:30,279 : DEBUG : Peli que buscamos:
+2018-03-15 13:54:30,279 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:30,279 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-15 13:54:30,279 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:30,279 : DEBUG : >-- Pelicula --<
+2018-03-15 13:54:30,279 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:30,279 : DEBUG : La pelicula ya tiene ficha asignada
+2018-03-15 13:54:52,862 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:52,862 : DEBUG : Ya no me siento a gusto en este mundo
+2018-03-15 13:54:52,862 : DEBUG : http://newpct1.com/descargar-torrent/92233_ya-no-me-siento-a-gusto-en-este-mundo-blurayrip-ac3-5-1-espaa-ol-castellano-2017
+2018-03-15 13:54:52,862 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-15 13:54:52,862 : DEBUG : Peli que buscamos:
+2018-03-15 13:54:52,862 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:52,878 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-15 13:54:52,878 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:52,878 : DEBUG : >-- Pelicula --<
+2018-03-15 13:54:52,878 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:54:52,878 : DEBUG : La pelicula ya tiene ficha asignada
+2018-03-15 13:56:22,387 : INFO : Ficha
+2018-03-15 13:56:22,387 : DEBUG : 836
+2018-03-15 13:56:24,957 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:56:24,957 : DEBUG : Ya no me siento a gusto en este mundo
+2018-03-15 13:56:24,957 : DEBUG : http://newpct1.com/descargar-torrent/92233_ya-no-me-siento-a-gusto-en-este-mundo-blurayrip-ac3-5-1-espaa-ol-castellano-2017
+2018-03-15 13:56:24,957 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-15 13:56:24,957 : DEBUG : Peli que buscamos:
+2018-03-15 13:56:24,957 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:56:24,957 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-15 13:56:24,957 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:56:24,957 : DEBUG : >-- Pelicula --<
+2018-03-15 13:56:24,957 : DEBUG : YA NO ME SIENTO A GUSTO EN ESTE MUNDO
+2018-03-15 13:56:24,957 : DEBUG : La pelicula ya tiene ficha asignada
+2018-03-15 13:58:10,924 : DEBUG : Entro en ModifificarFicha
+2018-03-15 13:59:26,609 : INFO : Ficha
+2018-03-15 13:59:26,609 : DEBUG : 836
+2018-03-15 14:06:11,605 : DEBUG : Entro en ModifificarFicha
+2018-03-15 14:15:52,762 : DEBUG : Entro en ModifificarFicha
+2018-03-15 14:17:16,168 : DEBUG : Entro en ModifificarFicha
+2018-03-15 14:23:31,079 : DEBUG : Entro en ModifificarFicha
+2018-03-15 14:23:57,293 : DEBUG : Entro en ModifificarFicha
+2018-03-15 14:24:49,926 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:05:35,721 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:09:16,934 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:11:27,052 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:12:12,405 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:12:17,075 : INFO : Ficha
+2018-03-15 15:12:17,075 : DEBUG : 836
+2018-03-15 15:14:15,397 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:15:45,877 : INFO : Ficha
+2018-03-15 15:15:45,878 : DEBUG : 836
+2018-03-15 15:15:54,381 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:18:11,131 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:20:40,227 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,227 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,259 : INFO : Ficha
+2018-03-15 15:20:40,259 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,259 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,275 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,275 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,275 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,289 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:20:40,289 : DEBUG : 836
+2018-03-15 15:20:52,609 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:20:57,138 : INFO : Ficha
+2018-03-15 15:20:57,138 : DEBUG : 836
+2018-03-15 15:21:02,539 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:21:51,059 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:23:34,855 : INFO : Ficha
+2018-03-15 15:23:34,855 : DEBUG : 836
+2018-03-15 15:23:40,811 : INFO : Ficha
+2018-03-15 15:23:40,825 : DEBUG : 836
+2018-03-15 15:25:36,096 : INFO : Ficha
+2018-03-15 15:25:36,096 : DEBUG : 836
+2018-03-15 15:25:39,584 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:26:44,171 : INFO : Ficha
+2018-03-15 15:26:44,171 : DEBUG : 836
+2018-03-15 15:27:04,131 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:27:07,538 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:28:55,318 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:29:16,395 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 15:32:24,506 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:34:22,167 : INFO : Ficha
+2018-03-15 15:34:24,596 : INFO : Ficha
+2018-03-15 15:34:28,762 : DEBUG : 836
+2018-03-15 15:34:28,762 : DEBUG : 836
+2018-03-15 15:34:45,388 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:34:51,608 : INFO : Ficha
+2018-03-15 15:34:51,608 : DEBUG : 836
+2018-03-15 15:36:45,700 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:36:56,553 : INFO : Ficha
+2018-03-15 15:36:56,553 : DEBUG : 836
+2018-03-15 15:37:02,934 : INFO : Ficha
+2018-03-15 15:37:02,934 : DEBUG : 836
+2018-03-15 15:37:06,325 : INFO : Ficha
+2018-03-15 15:37:06,325 : DEBUG : 836
+2018-03-15 15:38:01,648 : INFO : Ficha
+2018-03-15 15:38:02,589 : INFO : Ficha
+2018-03-15 15:38:19,786 : INFO : Ficha
+2018-03-15 15:38:25,269 : DEBUG : 836
+2018-03-15 15:38:25,269 : DEBUG : 836
+2018-03-15 15:38:25,269 : DEBUG : 836
+2018-03-15 15:38:47,122 : INFO : Ficha
+2018-03-15 15:38:47,138 : DEBUG : 836
+2018-03-15 15:40:39,848 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:40:48,131 : INFO : Ficha
+2018-03-15 15:40:48,147 : DEBUG : 836
+2018-03-15 15:42:55,796 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:43:04,427 : INFO : Ficha
+2018-03-15 15:43:04,427 : DEBUG : 836
+2018-03-15 15:46:20,309 : DEBUG : Entro en ModifificarFicha
+2018-03-15 15:46:37,686 : INFO : Ficha
+2018-03-15 15:46:37,686 : DEBUG : 836
+2018-03-15 16:05:25,734 : INFO : Ficha
+2018-03-15 16:05:25,750 : DEBUG : 836
+2018-03-15 16:06:47,131 : INFO : Ficha
+2018-03-15 16:06:47,131 : DEBUG : 836
+2018-03-15 16:07:35,631 : INFO : Ficha
+2018-03-15 16:07:35,645 : DEBUG : 836
+2018-03-15 16:07:48,177 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 16:07:54,276 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 16:08:23,109 : INFO : Ficha
+2018-03-15 16:08:23,125 : DEBUG : 836
+2018-03-15 16:13:08,684 : DEBUG : 10 AÏ¿½OS Y DIVORCIADA
+2018-03-15 16:14:18,749 : INFO : Ficha
+2018-03-15 16:14:18,749 : DEBUG : 836
+2018-03-15 16:14:29,880 : DEBUG : 10 AÑOS Y DIVORCIADA
+2018-03-15 16:14:36,654 : DEBUG : 10 AÑOS Y DIVORCIADA
+2018-03-15 16:14:43,029 : DEBUG : 10 AÑOS Y DIVORCIADA
+2018-03-15 16:21:50,438 : INFO : Ficha
+2018-03-15 16:21:50,441 : DEBUG : 836
+2018-03-15 16:25:04,959 : INFO : Ficha
+2018-03-15 16:25:04,959 : DEBUG : 836
+2018-03-15 16:25:58,966 : INFO : Ficha
+2018-03-15 16:25:58,966 : DEBUG : 836
+2018-03-15 16:26:26,371 : INFO : Ficha
+2018-03-15 16:26:26,371 : DEBUG : 836
+2018-03-15 16:31:59,052 : INFO : Ficha
+2018-03-15 16:31:59,056 : DEBUG : 836
+2018-03-15 20:12:36,759 : DEBUG : 10 AÑOS Y DIVORCIADA
+2018-03-15 20:41:00,203 : INFO : Ficha
+2018-03-15 20:41:00,203 : DEBUG : 836
+2018-03-15 21:09:37,279 : INFO : Ficha
+2018-03-15 21:09:37,302 : DEBUG : 836
+2018-03-15 21:31:30,878 : INFO : Ficha
+2018-03-15 21:31:30,881 : DEBUG : 836
+2018-03-15 21:37:36,262 : INFO : Ficha
+2018-03-15 21:37:36,266 : DEBUG : 836
+2018-03-16 22:21:46,371 : INFO : Ficha
+2018-03-16 22:21:46,467 : DEBUG : 836
+2018-03-16 22:23:40,224 : INFO : Ficha
+2018-03-16 22:23:40,226 : DEBUG : 836
+2018-03-16 22:24:29,628 : INFO : Ficha
+2018-03-16 22:24:29,641 : DEBUG : 836
+2018-03-16 22:25:01,223 : INFO : Ficha
+2018-03-16 22:25:01,224 : DEBUG : 836
+2018-03-16 22:26:08,066 : INFO : Ficha
+2018-03-16 22:26:08,069 : DEBUG : 836
+2018-03-16 22:26:10,562 : INFO : Ficha
+2018-03-16 22:26:10,565 : DEBUG : 836
+2018-03-16 22:28:03,776 : INFO : Ficha
+2018-03-16 22:28:03,779 : DEBUG : 836
+2018-03-16 22:28:20,081 : INFO : Ficha
+2018-03-16 22:28:20,085 : DEBUG : 836
+2018-03-16 22:30:09,813 : INFO : Ficha
+2018-03-16 22:30:09,818 : DEBUG : 836
+2018-03-17 13:09:52,154 : DEBUG : entro en busqueda
+2018-03-17 13:10:13,061 : DEBUG : Pagina de Carga
+2018-03-17 13:10:13,061 : DEBUG : Proveedor
+2018-03-17 13:10:18,655 : DEBUG : Pagina de Carga
+2018-03-17 13:10:18,655 : DEBUG : ProveedorNewPct1
+2018-03-17 13:10:18,655 : DEBUG : JSon
+2018-03-17 13:10:18,655 : DEBUG : Paginas antes --> 
+2018-03-17 13:10:18,655 : DEBUG : D:\Proyectos\Viserpel\vi_peli\json/NewPct1.json
+2018-03-17 13:10:18,726 : INFO : Cargado JSON
+2018-03-17 13:11:24,358 : DEBUG : Pagina de Carga
+2018-03-17 13:11:24,358 : DEBUG : ProveedorNewPct1
+2018-03-17 13:11:24,358 : DEBUG : JSon
+2018-03-17 13:11:24,358 : DEBUG : Paginas antes --> 
+2018-03-17 13:11:24,358 : DEBUG : D:\Proyectos\Viserpel\vi_peli\json/NewPct1.json
+2018-03-17 13:11:24,358 : INFO : Cargado JSON
+2018-03-17 13:11:40,170 : DEBUG : Pagina de Carga
+2018-03-17 13:11:40,170 : DEBUG : ProveedorNewPct1
+2018-03-17 13:11:40,170 : DEBUG : JSon
+2018-03-17 13:11:40,170 : DEBUG : Paginas antes --> 
+2018-03-17 13:11:40,170 : DEBUG : D:\Proyectos\Viserpel\vi_peli\json/NewPct1.json
+2018-03-17 13:11:40,170 : INFO : Cargado JSON

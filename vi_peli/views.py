@@ -160,6 +160,8 @@ def listar_pelis (request):
 
 
 def busqueda (request):
+
+
     lista_generos =  Generos.objects.order_by('nom_genero')
     lista_calidad =  Calidades.objects.order_by('id')
     logger.debug ('entro en busqueda')
@@ -169,6 +171,7 @@ def busqueda (request):
     calidad = None
     letra = None
     anio = None
+
 
     titulo = request.GET.get('titulo', '')
     if titulo:
@@ -203,16 +206,13 @@ def busqueda (request):
         anio = anio.strip()
     else:
         anio = None
-    parametros = None
+
+
+
 
     if titulo or letra or anio or generos or calidad:
         resultados = C_Busqueda().busca_bbdd(vtitulo=titulo, vletra=letra, vyear=anio, lgeneros=generos, lcalidad=calidad)
 
-        parametros = request.GET.copy()
-        print (parametros)
-
-        if parametros.has_key('page'):
-            del parametros['page']
 
         """
         paginator = Paginator(resultados, 40)
@@ -234,7 +234,7 @@ def busqueda (request):
             page = 1
             page_act = 1
 
-        p = Paginator2(resultados, 60, request=request)
+        p = Paginator2(resultados, 40, request=request)
         # page = p.page(page)
         page = p.page(page_num)
         page_act = page.number
@@ -242,6 +242,13 @@ def busqueda (request):
     else:
         page = 1
         page_act = 1
+
+
+    parametros = request.GET.copy()
+    print (parametros)
+
+    if parametros.has_key('page'):
+        del parametros['page']
 
 #titulo={{titulo}}&anio={{anio}}&letra={{letra}}&Generos={{generos}}&Calidad
     return render_to_response("vi_peli/busqueda.html", {"page": page, "page_act":page_act ,"lista_generos":lista_generos, "lista_calidad":lista_calidad, "parametros":parametros})
@@ -263,12 +270,11 @@ def pagina_carga(request):
 
         if tipoCarga:
             if proveedor == "NewPct1_HD":
-                url = 'http://newpct1.com/peliculas-hd/'
+                url = 'NewPct1_hd'
                 nombre = 'NewPct1_hd'
                 clase = 'NewPct'
             elif proveedor == "NewPct1":
-                url = 'http://newpct1.com/peliculas/'
-
+                url = 'NewPct1'
                 nombre = 'NewPct1'
                 clase = 'NewPct'
             elif proveedor == "MejorTorrent":
@@ -339,6 +345,7 @@ def pagina_carga(request):
 
     try:
         page_num = request.GET.get('page', 1)
+        print (page_num)
         page_num = int(page_num)
     except PageNotAnInteger:
         page = 1
@@ -348,8 +355,18 @@ def pagina_carga(request):
     # page = p.page(page)
     page = p.page(page_num)
     page_act = page.number
+    print (page_act)
 
-    return render_to_response("vi_peli/pagina_carga.html", {"page": page, "page_act":page_act, "proveedor": proveedor,  "tipoCarga": tipoCarga })
+    parametros = request.GET.copy()
+    print (parametros)
+
+    if parametros.has_key('page'):
+        del parametros['page']
+
+
+
+
+    return render_to_response("vi_peli/pagina_carga.html", {"page": page, "page_act":page_act, "proveedor": proveedor,  "tipoCarga": tipoCarga, "parametros":parametros})
 
 def guarda_total(request, proveedor):
     logger.debug ('Guarda_total- Proveedor: '+ proveedor)
@@ -365,8 +382,6 @@ def guarda_total(request, proveedor):
             #for peli in data:
             #    BBDD().insertar_peli (peli, proveedor)
             #    BBDD().insertar_peli (peli, proveedor)
-
-
 
     else:
         logger.info ("No hay nada para guardar")

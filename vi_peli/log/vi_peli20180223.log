@@ -1,0 +1,187 @@
+2018-02-23 01:15:14,615 : DEBUG : entro en busqueda
+2018-02-23 13:02:59,214 : INFO : Ficha
+2018-02-23 13:02:59,424 : DEBUG : Imdb-tt2380307,movdb-354912
+2018-02-23 13:02:59,424 : INFO : <QuerySet [<Lista_Pelis: COCO>]>
+2018-02-23 13:05:46,802 : INFO : Ficha
+2018-02-23 13:05:46,806 : DEBUG : Imdb-tt1521197,movdb-61891
+2018-02-23 13:05:46,808 : INFO : <QuerySet [<Lista_Pelis: ANONYMOUS>]>
+2018-02-23 17:29:53,477 : DEBUG : entro en busqueda
+2018-02-23 17:31:01,954 : DEBUG : entro en busqueda
+2018-02-23 17:32:20,730 : DEBUG : entro en busqueda
+2018-02-23 17:32:25,752 : DEBUG : entro en busqueda
+2018-02-23 17:32:44,786 : DEBUG : entro en busqueda
+2018-02-23 17:33:40,382 : DEBUG : entro en busqueda
+2018-02-23 17:34:07,584 : DEBUG : entro en busqueda
+2018-02-23 17:37:35,572 : DEBUG : entro en busqueda
+2018-02-23 17:37:58,908 : DEBUG : entro en busqueda
+2018-02-23 17:39:18,464 : DEBUG : entro en busqueda
+2018-02-23 17:43:13,213 : DEBUG : entro en busqueda
+2018-02-23 17:43:58,701 : DEBUG : entro en busqueda
+2018-02-23 17:44:47,903 : DEBUG : entro en busqueda
+2018-02-23 17:45:32,095 : DEBUG : entro en busqueda
+2018-02-23 17:46:19,252 : DEBUG : entro en busqueda
+2018-02-23 17:50:42,438 : DEBUG : entro en busqueda
+2018-02-23 17:52:06,017 : DEBUG : entro en busqueda
+2018-02-23 17:52:32,201 : DEBUG : entro en busqueda
+2018-02-23 17:53:16,148 : DEBUG : entro en busqueda
+2018-02-23 17:54:13,398 : DEBUG : entro en busqueda
+2018-02-23 17:54:54,267 : DEBUG : entro en busqueda
+2018-02-23 17:54:54,267 : DEBUG : anio: 2017
+2018-02-23 17:54:54,269 : DEBUG : entra anio
+2018-02-23 17:57:00,663 : DEBUG : entro en busqueda
+2018-02-23 17:57:00,671 : DEBUG : anio: 2017
+2018-02-23 17:57:00,671 : DEBUG : entra anio
+2018-02-23 17:57:10,894 : DEBUG : entro en busqueda
+2018-02-23 17:59:12,454 : DEBUG : entro en busqueda
+2018-02-23 17:59:12,457 : DEBUG : anio: 2017
+2018-02-23 17:59:12,459 : DEBUG : entra anio
+2018-02-23 17:59:16,450 : DEBUG : entro en busqueda
+2018-02-23 17:59:26,872 : DEBUG : entro en busqueda
+2018-02-23 17:59:26,874 : DEBUG : anio: 2017
+2018-02-23 17:59:26,874 : DEBUG : entra anio
+2018-02-23 17:59:49,286 : DEBUG : entro en busqueda
+2018-02-23 18:02:43,322 : DEBUG : entro en busqueda
+2018-02-23 18:02:43,322 : DEBUG : anio: 2017
+2018-02-23 18:02:43,323 : DEBUG : entra anio
+2018-02-23 18:08:18,849 : DEBUG : entro en busqueda
+2018-02-23 18:08:18,851 : DEBUG : anio: 2017
+2018-02-23 18:08:18,851 : DEBUG : entra anio
+2018-02-23 18:08:31,459 : DEBUG : entro en busqueda
+2018-02-23 18:08:37,506 : DEBUG : entro en busqueda
+2018-02-23 18:09:42,104 : DEBUG : entro en busqueda
+2018-02-23 18:11:21,359 : DEBUG : entro en busqueda
+2018-02-23 18:11:26,252 : DEBUG : entro en busqueda
+2018-02-23 18:11:26,252 : DEBUG : anio: 2017
+2018-02-23 18:11:26,253 : DEBUG : entra anio
+2018-02-23 18:19:00,566 : DEBUG : entro en busqueda
+2018-02-23 18:19:03,693 : DEBUG : entro en busqueda
+2018-02-23 18:19:03,694 : DEBUG : anio: 2017
+2018-02-23 18:19:03,694 : DEBUG : entra anio
+2018-02-23 18:19:07,569 : DEBUG : entro en busqueda
+2018-02-23 18:20:45,194 : DEBUG : entro en busqueda
+2018-02-23 18:20:45,194 : DEBUG : generos:
+2018-02-23 18:20:45,197 : DEBUG : 28
+2018-02-23 18:20:45,198 : DEBUG : entra genero
+2018-02-23 18:20:45,201 : DEBUG : 28
+2018-02-23 18:20:45,201 : DEBUG : [u'Action', u'Acci\xf3n']
+2018-02-23 18:20:51,309 : DEBUG : entro en busqueda
+2018-02-23 18:21:41,108 : DEBUG : entro en busqueda
+2018-02-23 18:21:47,332 : DEBUG : entro en busqueda
+2018-02-23 18:21:47,334 : DEBUG : generos:
+2018-02-23 18:21:47,335 : DEBUG : 878
+2018-02-23 18:21:47,335 : DEBUG : entra genero
+2018-02-23 18:21:47,336 : DEBUG : 878
+2018-02-23 18:21:47,338 : DEBUG : [u'Science Fiction', u'Ciencia ficci\xf3n']
+2018-02-23 18:21:53,418 : DEBUG : entro en busqueda
+2018-02-23 18:21:53,420 : DEBUG : generos:
+2018-02-23 18:21:53,421 : DEBUG : <QuerySet [<Generos: 28>, <Generos: 16>, <Generos: 12>, <Generos: 878>, <Generos: 35>, <Generos: 80>, <Generos: 99>, <Generos: 18>, <Generos: 10751>, <Generos: 14>, <Generos: 10752>, <Generos: 36>, <Generos: 9648>, <Generos: 10402>, <Generos: 10749>, <Generos: 53>, <Generos: 27>, <Generos: 37>, <Generos: 10770>]>
+2018-02-23 18:21:53,421 : DEBUG : entra genero
+2018-02-23 18:26:05,184 : DEBUG : entro en busqueda
+2018-02-23 18:26:05,194 : DEBUG : generos:
+2018-02-23 18:26:05,194 : DEBUG : 878
+2018-02-23 18:26:05,197 : DEBUG : entra genero
+2018-02-23 18:26:05,201 : DEBUG : 878
+2018-02-23 18:26:05,201 : DEBUG : [u'Science Fiction', u'Ciencia ficci\xf3n']
+2018-02-23 18:26:06,914 : DEBUG : entro en busqueda
+2018-02-23 18:26:06,915 : DEBUG : generos:
+2018-02-23 18:26:06,917 : DEBUG : 878
+2018-02-23 18:26:06,917 : DEBUG : entra genero
+2018-02-23 18:26:06,921 : DEBUG : 878
+2018-02-23 18:26:06,921 : DEBUG : [u'Science Fiction', u'Ciencia ficci\xf3n']
+2018-02-23 18:26:09,378 : DEBUG : entro en busqueda
+2018-02-23 18:26:17,404 : DEBUG : entro en busqueda
+2018-02-23 18:26:17,404 : DEBUG : titulo: None
+2018-02-23 18:26:17,405 : DEBUG : anio: 2017
+2018-02-23 18:26:17,405 : DEBUG : entra titulo
+2018-02-23 18:26:17,407 : DEBUG : entra anio
+2018-02-23 18:41:39,108 : DEBUG : entro en busqueda
+2018-02-23 18:43:06,158 : DEBUG : entro en busqueda
+2018-02-23 18:44:16,457 : DEBUG : entro en busqueda
+2018-02-23 18:44:19,628 : DEBUG : entro en busqueda
+2018-02-23 18:44:19,630 : DEBUG : anio: 2017
+2018-02-23 18:44:19,630 : DEBUG : entra anio
+2018-02-23 18:44:23,506 : DEBUG : entro en busqueda
+2018-02-23 18:44:23,507 : DEBUG : anio: 2017
+2018-02-23 18:44:23,509 : DEBUG : entra anio
+2018-02-23 18:44:36,364 : DEBUG : entro en busqueda
+2018-02-23 18:44:36,365 : DEBUG : anio: 2017
+2018-02-23 18:44:36,365 : DEBUG : entra anio
+2018-02-23 18:44:46,433 : DEBUG : entro en busqueda
+2018-02-23 18:44:46,434 : DEBUG : anio: 2017
+2018-02-23 18:44:46,434 : DEBUG : entra anio
+2018-02-23 18:44:51,039 : DEBUG : entro en busqueda
+2018-02-23 18:44:51,039 : DEBUG : anio: 2017
+2018-02-23 18:44:51,039 : DEBUG : entra anio
+2018-02-23 19:54:13,371 : INFO : xrange(1, 288)
+2018-02-23 19:54:42,848 : INFO : xrange(1, 288)
+2018-02-23 19:54:46,318 : INFO : xrange(1, 288)
+2018-02-23 19:54:53,490 : INFO : xrange(1, 288)
+2018-02-23 19:54:55,482 : INFO : xrange(1, 288)
+2018-02-23 19:56:22,875 : INFO : xrange(1, 216)
+2018-02-23 20:03:32,710 : INFO : xrange(1, 216)
+2018-02-23 20:03:58,619 : INFO : xrange(1, 216)
+2018-02-23 20:08:05,457 : INFO : xrange(1, 216)
+2018-02-23 20:08:13,111 : INFO : xrange(1, 216)
+2018-02-23 20:09:03,901 : INFO : xrange(1, 216)
+2018-02-23 20:10:43,295 : INFO : xrange(1, 216)
+2018-02-23 20:10:43,295 : INFO : 10
+2018-02-23 20:11:36,878 : INFO : xrange(1, 216)
+2018-02-23 20:11:55,726 : INFO : xrange(1, 216)
+2018-02-23 20:12:08,565 : INFO : xrange(1, 216)
+2018-02-23 20:12:19,999 : INFO : xrange(1, 216)
+2018-02-23 20:13:01,759 : INFO : xrange(1, 216)
+2018-02-23 20:13:05,494 : INFO : xrange(1, 216)
+2018-02-23 20:13:14,443 : DEBUG : Antología Alien Remasterizada Extendida
+2018-02-23 20:13:14,483 : INFO : 10
+2018-02-23 20:13:14,483 : INFO : 10
+2018-02-23 20:13:14,484 : INFO : None
+2018-02-23 20:13:14,484 : INFO : None
+2018-02-23 20:13:14,486 : INFO : None
+2018-02-23 20:13:14,486 : INFO : 10
+2018-02-23 20:13:14,487 : DEBUG : None
+2018-02-23 20:13:14,493 : DEBUG : http://www.mejortorrent.com/uploads/torrents/peliculas/Antologia_Alien_Remasterizada_Exten_BluRay_1080_px.torrent
+2018-02-23 20:13:14,512 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-02-23 20:13:14,526 : DEBUG : Antología Alien Remasterizada Extendida
+2018-02-23 20:13:14,526 : DEBUG : Comprobamos si existe la ficha.
+2018-02-23 20:13:14,526 : DEBUG : ANTOLOGIAALIENREMASTERIZADAEXTENDIDA
+2018-02-23 20:13:14,542 : DEBUG : intento nº--> 2
+2018-02-23 20:13:14,592 : ERROR : Error en existe_ficha
+2018-02-23 20:13:14,592 : ERROR : (<class 'vi_peli.models.DoesNotExist'>, DoesNotExist('Pelicula matching query does not exist.',), <traceback object at 0x0A1EE7B0>)
+2018-02-23 20:13:16,246 : DEBUG : None
+2018-02-23 20:13:16,609 : DEBUG : None
+2018-02-23 20:13:16,609 : ERROR : No hay parámetros para la busqueda
+2018-02-23 20:13:16,609 : DEBUG : None
+2018-02-23 20:13:16,609 : WARNING : No se ha encontrado
+2018-02-23 20:13:16,609 : DEBUG : None
+2018-02-23 20:13:16,609 : DEBUG : Antología Alien Remasterizada Extendida
+2018-02-23 20:13:16,609 : INFO : 2015
+2018-02-23 20:13:16,625 : DEBUG : Ficha Encontrada -->
+2018-02-23 20:13:16,625 : DEBUG : {'anio': u'2015', 'imagen': None, 'escritor': None, 'director': None, 'titulo': u'Antolog\xeda Alien Remasterizada Extendida', 'actores': None, 'pais': None, 'titulo_orig': None, 'sinopsis': u'<bound method Tag.get_text of <div align="justify">Disco 1: Alien, El Octavo PasajeroUna escalofriante aventura va a tener lugar en la nave espacial \\\\"Nostromo\\\\". Siete astronautas cinco hombres y dos mujeres, ser\\xe1n los protagonistas. De regreso a la Tierra, despu\\xe9s de un vuelo espacial de reconociemiento, el ordenador de a bordo recibe un mensaje de procedancia desconociada que cambiar\\xe1 totalmente el rumbo del regreso. Al aterrizar forzosamente para reparar le m\\xe1quina, detectan una extra\\xf1a forma de vida que lograr\\xe1 introducirsa en la nave. Acaba de subir el 8 pasajero. Es entonces cuando empieza una terrible pesadilla, imposible de imaginar...Disco \\r\\n<br/>\\r\\n2: AliensAlien es el prefecto organismo. Una m\\xe1quina de matar cuya excelencia f\\xedsica s\\xf3lo pude competir con su hostilidad.\\r\\nLa oficial Ripley y la tripulaci\\xf3n de la nave Nostromo se enfrentaron a esa monstruosa criatura. S\\xf3lo Ripley sobrevivi\\xf3 a la masacre.\\r\\n<br/>\\r\\nDespu\\xe9s de vagar por el espacio durante varios a\\xf1os, Ripley es rescatada.Durante ese tiempo L.V. 426, el mundo en donde Ripley se enfrent\\xf3 con el Alien, ha sido colonizado. Cuando se pierde la comunicaci\\xf3n con la colonia , se decide enviar para investigar a un equipo de fornidos marines espaciales, con Ripley a la expedici\\xf3n.Lo que les espera all\\xed no es s\\xf3lo una criatura, son miles. El Alien se ha reproducido y esta vez la lucha es por la supervivencia de la Humanidad.Disco \\r\\n<br/>\\r\\n3: Alien3Un planeta de piojos en un conf\\xedn del sistema solar.\\r\\n<br/>\\r\\nUna refiner\\xeda subterr\\xe1nea que fue campo de trabajos forzados, alberga hoy una comunidad de convictos que eligieron permanecer indefinidamente en la que fu\\xe9 su c\\xe1rcel.\\r\\n<br/>\\r\\nLa teniente Ripley (Sigourney Weaver) aterriza en un veh\\xedculo espacial accidentado. Aparentemente, ella es el\\\\\\\\Pronto descubrir\\xe1n que la nave se encontraba un inoportuno visitante....\\r\\n<br/>\\r\\nDisco 4: Alien Resurrecci\\xf3nHan transcurrido 200 a\\xf1os desde que Ripley hizo el sacrificio supremo en Fiorina 161. Pero durante este tiempo, y despu\\xe9s de sirte espantosos fracasos, los cient\\xedficos han conseguido clonar una r\\xe9plica perfecta de Ripley, una r\\xe9plica que incluye a la reina alien\\xedgena que estaba gestando dentro de ella en el momentos de su muerte. Pero la nueva generaci\\xf3n de alien\\xedgenas es mucho m\\xe1s inteligente que las anteriores, algo de lo que los cient\\xedficos no se percatan hasta despu\\xe9s de la llegada de la nave Betty con un cargamento de humanos que servir\\xe1n para la reproducci\\xf3n de la criatura.\\r\\n<br/>\\n<br/>\\r\\nCompartido por www.newpct1.com</div>>', 'sinopsis_es': u'<bound method Tag.get_text of <div align="justify">Disco 1: Alien, El Octavo PasajeroUna escalofriante aventura va a tener lugar en la nave espacial \\\\"Nostromo\\\\". Siete astronautas cinco hombres y dos mujeres, ser\\xe1n los protagonistas. De regreso a la Tierra, despu\\xe9s de un vuelo espacial de reconociemiento, el ordenador de a bordo recibe un mensaje de procedancia desconociada que cambiar\\xe1 totalmente el rumbo del regreso. Al aterrizar forzosamente para reparar le m\\xe1quina, detectan una extra\\xf1a forma de vida que lograr\\xe1 introducirsa en la nave. Acaba de subir el 8 pasajero. Es entonces cuando empieza una terrible pesadilla, imposible de imaginar...Disco \\r\\n<br/>\\r\\n2: AliensAlien es el prefecto organismo. Una m\\xe1quina de matar cuya excelencia f\\xedsica s\\xf3lo pude competir con su hostilidad.\\r\\nLa oficial Ripley y la tripulaci\\xf3n de la nave Nostromo se enfrentaron a esa monstruosa criatura. S\\xf3lo Ripley sobrevivi\\xf3 a la masacre.\\r\\n<br/>\\r\\nDespu\\xe9s de vagar por el espacio durante varios a\\xf1os, Ripley es rescatada.Durante ese tiempo L.V. 426, el mundo en donde Ripley se enfrent\\xf3 con el Alien, ha sido colonizado. Cuando se pierde la comunicaci\\xf3n con la colonia , se decide enviar para investigar a un equipo de fornidos marines espaciales, con Ripley a la expedici\\xf3n.Lo que les espera all\\xed no es s\\xf3lo una criatura, son miles. El Alien se ha reproducido y esta vez la lucha es por la supervivencia de la Humanidad.Disco \\r\\n<br/>\\r\\n3: Alien3Un planeta de piojos en un conf\\xedn del sistema solar.\\r\\n<br/>\\r\\nUna refiner\\xeda subterr\\xe1nea que fue campo de trabajos forzados, alberga hoy una comunidad de convictos que eligieron permanecer indefinidamente en la que fu\\xe9 su c\\xe1rcel.\\r\\n<br/>\\r\\nLa teniente Ripley (Sigourney Weaver) aterriza en un veh\\xedculo espacial accidentado. Aparentemente, ella es el\\\\\\\\Pronto descubrir\\xe1n que la nave se encontraba un inoportuno visitante....\\r\\n<br/>\\r\\nDisco 4: Alien Resurrecci\\xf3nHan transcurrido 200 a\\xf1os desde que Ripley hizo el sacrificio supremo en Fiorina 161. Pero durante este tiempo, y despu\\xe9s de sirte espantosos fracasos, los cient\\xedficos han conseguido clonar una r\\xe9plica perfecta de Ripley, una r\\xe9plica que incluye a la reina alien\\xedgena que estaba gestando dentro de ella en el momentos de su muerte. Pero la nueva generaci\\xf3n de alien\\xedgenas es mucho m\\xe1s inteligente que las anteriores, algo de lo que los cient\\xedficos no se percatan hasta despu\\xe9s de la llegada de la nave Betty con un cargamento de humanos que servir\\xe1n para la reproducci\\xf3n de la criatura.\\r\\n<br/>\\n<br/>\\r\\nCompartido por www.newpct1.com</div>>', 'generos': None, 'duracion': None, 'idFicha': None}
+2018-02-23 20:13:16,625 : DEBUG : None
+2018-02-23 20:13:16,625 : DEBUG : None
+2018-02-23 20:13:16,625 : ERROR : Error en busqueda de pelicula
+2018-02-23 20:13:16,625 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, NoneType found',), <traceback object at 0x0A23A170>)
+2018-02-23 20:13:16,641 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-02-23 20:13:16,641 : ERROR : Error al actualizar las imagenes.
+2018-02-23 20:13:16,641 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0ACF6D78>)
+2018-02-23 20:23:40,161 : INFO : xrange(1, 216)
+2018-02-23 20:23:40,161 : INFO : None
+2018-02-23 20:44:27,256 : DEBUG : Pagina de Carga
+2018-02-23 20:44:27,256 : DEBUG : Proveedor
+2018-02-24 00:11:58,223 : DEBUG : entro en busqueda
+2018-02-24 00:12:04,030 : DEBUG : entro en busqueda
+2018-02-24 00:12:04,032 : DEBUG : anio: 195
+2018-02-24 00:12:04,032 : DEBUG : entra anio
+2018-02-24 00:12:15,799 : DEBUG : entro en busqueda
+2018-02-24 00:12:15,799 : DEBUG : anio: 2017
+2018-02-24 00:12:15,801 : DEBUG : entra anio
+2018-02-24 00:14:00,970 : DEBUG : entro en busqueda
+2018-02-24 00:14:00,971 : DEBUG : anio: 2017
+2018-02-24 00:14:00,971 : DEBUG : entra anio
+2018-02-24 00:14:07,493 : DEBUG : entro en busqueda
+2018-02-24 00:14:07,493 : DEBUG : anio: 2017
+2018-02-24 00:14:07,493 : DEBUG : entra anio
+2018-02-24 00:14:21,520 : DEBUG : entro en busqueda
+2018-02-24 00:14:21,525 : DEBUG : letra: A
+2018-02-24 00:14:21,526 : DEBUG : entra letra
+2018-02-24 00:36:09,733 : DEBUG : entro en busqueda

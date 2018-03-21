@@ -1,0 +1,2295 @@
+2018-03-08 14:16:34,305 : DEBUG : listar pelis
+2018-03-08 14:16:39,242 : DEBUG : 24 HOURS
+2018-03-08 14:16:39,242 : DEBUG : None
+2018-03-08 14:16:39,242 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:16:39,242 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:16:39,242 : DEBUG : Peli que buscamos:
+2018-03-08 14:16:39,257 : DEBUG : 24 HOURS
+2018-03-08 14:16:39,257 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:16:39,257 : DEBUG : >-- Pelicula --<
+2018-03-08 14:16:39,257 : DEBUG : 24 HOURS
+2018-03-08 14:16:39,257 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:16:39,257 : DEBUG : 24HOURS
+2018-03-08 14:16:39,257 : DEBUG : intento nº--> 2
+2018-03-08 14:16:39,257 : DEBUG : 24HOURS
+2018-03-08 14:16:39,257 : DEBUG : intento nº--> 3
+2018-03-08 14:16:39,257 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:16:40,226 : DEBUG : PELI
+2018-03-08 14:16:40,226 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:16:40,226 : ERROR : (<type 'exceptions.TypeError'>, TypeError('sinacento() takes exactly 2 arguments (1 given)',), <traceback object at 0x06E53A80>)
+2018-03-08 14:16:40,226 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:16:40,226 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:16:40,226 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06E53AA8>)
+2018-03-08 14:18:25,726 : DEBUG : listar pelis
+2018-03-08 14:18:28,930 : DEBUG : 24 HOURS
+2018-03-08 14:18:28,930 : DEBUG : None
+2018-03-08 14:18:28,930 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:18:28,930 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:18:28,930 : DEBUG : Peli que buscamos:
+2018-03-08 14:18:28,930 : DEBUG : 24 HOURS
+2018-03-08 14:18:28,930 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:18:28,930 : DEBUG : >-- Pelicula --<
+2018-03-08 14:18:28,930 : DEBUG : 24 HOURS
+2018-03-08 14:18:28,930 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:18:28,930 : DEBUG : 24HOURS
+2018-03-08 14:18:28,930 : DEBUG : intento nº--> 2
+2018-03-08 14:18:28,930 : DEBUG : 24HOURS
+2018-03-08 14:18:28,930 : DEBUG : intento nº--> 3
+2018-03-08 14:18:28,930 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:18:30,040 : DEBUG : PELI
+2018-03-08 14:18:30,040 : DEBUG : Guardamos el primer registro encontrado
+2018-03-08 14:18:30,227 : DEBUG : {u'poster_path': u'/3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg', u'production_countries': [{u'iso_3166_1': u'PY', u'name': u'Paraguay'}, {u'iso_3166_1': u'ES', u'name': u'Spain'}, {u'iso_3166_1': u'AR', u'name': u'Argentina'}, {u'iso_3166_1': u'CO', u'name': u'Colombia'}, {u'iso_3166_1': u'PE', u'name': u'Peru'}], u'revenue': 0, u'overview': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', u'video': False, u'id': 357156, u'genres': [{u'id': 99, u'name': u'Documental'}], u'title': u'Chicas nuevas 24horas', u'tagline': u'doble o nada', u'vote_count': 0, u'homepage': u'', u'belongs_to_collection': None, u'original_language': u'es', u'status': u'Released', u'spoken_languages': [{u'iso_639_1': u'es', u'name': u'Espa\xf1ol'}], u'imdb_id': u'tt4718872', u'adult': False, u'backdrop_path': None, u'production_companies': [{u'name': u'Televisi\xf3n Espa\xf1ola (TVE)', u'id': 6639}, {u'name': u'Aleph Media', u'id': 10188}, {u'name': u'Puatarara Films', u'id': 62220}, {u'name': u'Mafalda Entertainment', u'id': 62222}, {u'name': u'7Arte Vital', u'id': 62223}, {u'name': u'Hangar Films', u'id': 62224}], u'release_date': u'2015-09-01', u'popularity': 0.30185, u'original_title': u'Chicas nuevas 24horas', u'budget': 0, u'vote_average': 0.0, u'runtime': 0}
+2018-03-08 14:18:30,227 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:18:30,227 : DEBUG : production_countries --> None
+2018-03-08 14:18:30,227 : DEBUG : revenue --> None
+2018-03-08 14:18:30,227 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:18:30,227 : DEBUG : video --> None
+2018-03-08 14:18:30,227 : DEBUG : id --> None
+2018-03-08 14:18:30,227 : DEBUG : genres --> None
+2018-03-08 14:18:30,227 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:18:30,227 : DEBUG : tagline --> doble o nada
+2018-03-08 14:18:30,227 : DEBUG : vote_count --> None
+2018-03-08 14:18:30,227 : DEBUG : homepage --> 
+2018-03-08 14:18:30,227 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:18:30,227 : DEBUG : original_language --> es
+2018-03-08 14:18:30,227 : DEBUG : status --> Released
+2018-03-08 14:18:30,227 : DEBUG : spoken_languages --> None
+2018-03-08 14:18:30,227 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:18:30,227 : DEBUG : adult --> None
+2018-03-08 14:18:30,227 : DEBUG : backdrop_path --> None
+2018-03-08 14:18:30,243 : DEBUG : production_companies --> None
+2018-03-08 14:18:30,243 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:18:30,243 : DEBUG : popularity --> None
+2018-03-08 14:18:30,243 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:18:30,243 : DEBUG : budget --> None
+2018-03-08 14:18:30,243 : DEBUG : vote_average --> None
+2018-03-08 14:18:30,243 : DEBUG : runtime --> None
+2018-03-08 14:18:30,243 : DEBUG : FICHA_IMBD
+2018-03-08 14:18:30,336 : DEBUG : metascore --> N/A
+2018-03-08 14:18:30,336 : DEBUG : year --> 2015
+2018-03-08 14:18:30,338 : DEBUG : plot --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:18:30,338 : DEBUG : rated --> N/A
+2018-03-08 14:18:30,338 : DEBUG : title --> New Girls 24 Hours
+2018-03-08 14:18:30,338 : DEBUG : writer --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:18:30,338 : DEBUG : production --> N/A
+2018-03-08 14:18:30,338 : DEBUG : actors --> N/A
+2018-03-08 14:18:30,339 : DEBUG : imdb_votes --> 7
+2018-03-08 14:18:30,339 : DEBUG : type --> movie
+2018-03-08 14:18:30,339 : DEBUG : website --> N/A
+2018-03-08 14:18:30,341 : DEBUG : poster --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:18:30,342 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:18:30,342 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:18:30,342 : DEBUG : released --> 05 May 2016
+2018-03-08 14:18:30,342 : DEBUG : awards --> 1 win & 2 nominations.
+2018-03-08 14:18:30,344 : DEBUG : genre --> Documentary
+2018-03-08 14:18:30,344 : DEBUG : response --> True
+2018-03-08 14:18:30,345 : DEBUG : language --> Spanish
+2018-03-08 14:18:30,345 : DEBUG : dvd --> N/A
+2018-03-08 14:18:30,345 : DEBUG : imdb_rating --> 5.3
+2018-03-08 14:18:30,345 : DEBUG : country --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:18:30,348 : DEBUG : runtime --> 70 min
+2018-03-08 14:18:30,348 : DEBUG : box_office --> N/A
+2018-03-08 14:18:30,348 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-08 14:18:30,348 : DEBUG : Finalmente nos queda 
+2018-03-08 14:18:30,348 : DEBUG : anio --> 2015
+2018-03-08 14:18:30,349 : DEBUG : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:18:30,349 : DEBUG : escritor --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:18:30,351 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:18:30,351 : DEBUG : titulo --> Chicas nuevas 24horas
+2018-03-08 14:18:30,351 : DEBUG : actores --> N/A
+2018-03-08 14:18:30,351 : DEBUG : pais --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:18:30,351 : DEBUG : titulo_orig --> Chicas nuevas 24horas
+2018-03-08 14:18:30,351 : DEBUG : sinopsis --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:18:30,351 : DEBUG : sinopsis_es --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:18:30,351 : DEBUG : generos --> Documental
+2018-03-08 14:18:30,351 : DEBUG : duracion --> None
+2018-03-08 14:18:30,351 : DEBUG : idFicha --> Imdb-tt4718872,movdb-357156
+2018-03-08 14:18:30,352 : DEBUG : {u'anio': u'2015', u'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg', u'escritor': u'Susana Fern\xe1ndez, Mabel Lozano, Alicia Luna', u'director': u'Mabel Lozano', u'titulo': u'Chicas nuevas 24horas', u'actores': u'N/A', u'pais': u'Argentina, Colombia, Paraguay, Peru, Spain', u'titulo_orig': u'Chicas nuevas 24horas', u'sinopsis': u'A documentary investigation across five countries on the big business of sexual slavery.', u'sinopsis_es': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', u'generos': u'Documental', u'duracion': 0, u'idFicha': u'Imdb-tt4718872,movdb-357156'}
+2018-03-08 14:18:30,354 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 14:18:31,134 : DEBUG : Finalmente nos queda 
+2018-03-08 14:18:31,134 : DEBUG : anio --> 2015
+2018-03-08 14:18:31,134 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 14:18:31,134 : DEBUG : escritor --> None
+2018-03-08 14:18:31,134 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 14:18:31,134 : DEBUG : titulo --> 24 Hours
+2018-03-08 14:18:31,134 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 14:18:31,134 : DEBUG : pais --> Estados Unidos
+2018-03-08 14:18:31,134 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 14:18:31,134 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 14:18:31,134 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 14:18:31,148 : DEBUG : generos --> Thriller
+2018-03-08 14:18:31,148 : DEBUG : duracion --> 96 min.
+2018-03-08 14:18:31,148 : DEBUG : idFicha --> Film-849196
+2018-03-08 14:18:31,148 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 14:18:31,148 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 14:18:31,164 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 14:18:31,164 : DEBUG : rated --> N/A
+2018-03-08 14:18:31,164 : DEBUG : language --> English
+2018-03-08 14:18:31,164 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 14:18:31,164 : DEBUG : year --> 2015–
+2018-03-08 14:18:31,164 : DEBUG : country --> N/A
+2018-03-08 14:18:31,164 : DEBUG : writer --> N/A
+2018-03-08 14:18:31,164 : DEBUG : total_seasons --> N/A
+2018-03-08 14:18:31,164 : DEBUG : metascore --> N/A
+2018-03-08 14:18:31,164 : DEBUG : imdb_id --> tt4649322
+2018-03-08 14:18:31,164 : DEBUG : director --> N/A
+2018-03-08 14:18:31,164 : DEBUG : released --> 28 Apr 2015
+2018-03-08 14:18:31,164 : DEBUG : imdb_rating --> 8.1
+2018-03-08 14:18:31,164 : DEBUG : awards --> N/A
+2018-03-08 14:18:31,164 : DEBUG : poster --> N/A
+2018-03-08 14:18:31,164 : DEBUG : genre --> Documentary
+2018-03-08 14:18:31,164 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 14:18:31,164 : DEBUG : runtime --> 60 min
+2018-03-08 14:18:31,164 : DEBUG : type --> series
+2018-03-08 14:18:31,164 : DEBUG : response --> True
+2018-03-08 14:18:31,164 : DEBUG : imdb_votes --> 42
+2018-03-08 14:18:31,164 : DEBUG : Finalmente nos queda 
+2018-03-08 14:18:31,164 : DEBUG : anio --> 2015–
+2018-03-08 14:18:31,164 : DEBUG : imagen --> N/A
+2018-03-08 14:18:31,164 : DEBUG : escritor --> N/A
+2018-03-08 14:18:31,164 : DEBUG : director --> N/A
+2018-03-08 14:18:31,164 : DEBUG : titulo --> 24 HOURS
+2018-03-08 14:18:31,164 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 14:18:31,164 : DEBUG : pais --> N/A
+2018-03-08 14:18:31,164 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 14:18:31,164 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 14:18:31,164 : DEBUG : sinopsis_es --> 
+2018-03-08 14:18:31,180 : DEBUG : generos --> Documentary
+2018-03-08 14:18:31,180 : DEBUG : duracion --> 60 min
+2018-03-08 14:18:31,180 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 14:18:31,180 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 14:18:31,180 : DEBUG : anio --> 2015
+2018-03-08 14:18:31,180 : DEBUG : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:18:31,180 : DEBUG : escritor --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:18:31,180 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:18:31,180 : DEBUG : titulo --> Chicas nuevas 24horas
+2018-03-08 14:18:31,180 : DEBUG : actores --> N/A
+2018-03-08 14:18:31,180 : DEBUG : pais --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:18:31,180 : DEBUG : titulo_orig --> Chicas nuevas 24horas
+2018-03-08 14:18:31,180 : DEBUG : sinopsis --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:18:31,180 : DEBUG : sinopsis_es --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:18:31,180 : DEBUG : generos --> Documental
+2018-03-08 14:18:31,180 : DEBUG : duracion --> None
+2018-03-08 14:18:31,180 : DEBUG : idFicha --> Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:18:31,180 : DEBUG : Ficha Encontrada -->
+2018-03-08 14:18:31,180 : DEBUG : {u'anio': u'2015', u'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg', u'escritor': u'Susana Fern\xe1ndez, Mabel Lozano, Alicia Luna', u'director': u'Mabel Lozano', u'titulo': u'Chicas nuevas 24horas', u'actores': u'N/A', u'pais': u'Argentina, Colombia, Paraguay, Peru, Spain', u'titulo_orig': u'Chicas nuevas 24horas', u'sinopsis': u'A documentary investigation across five countries on the big business of sexual slavery.', u'sinopsis_es': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', u'generos': u'Documental', u'duracion': 0, u'idFicha': u'Imdb-tt4718872,movdb-357156,Film-849196'}
+2018-03-08 14:18:31,180 : DEBUG : Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:18:31,180 : DEBUG : None
+2018-03-08 14:18:31,180 : DEBUG : [u'Imdb-tt4718872', u'movdb-357156', u'Film-849196']
+2018-03-08 14:18:31,180 : DEBUG : 3
+2018-03-08 14:18:31,180 : DEBUG : Imdb-tt4718872
+2018-03-08 14:18:31,180 : ERROR : No se ha encontrado la idfichaImdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:18:31,180 : DEBUG : intento nº--> 5
+2018-03-08 14:18:31,273 : DEBUG : /Imagenes/Imdb-tt4718872,movdb-357156,Film-849196.jpg
+2018-03-08 14:18:31,349 : DEBUG : Grabo imagen --> Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:18:31,349 : DEBUG : Voy a grabar la Ficha
+2018-03-08 14:18:31,349 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 14:18:31,349 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("BBDD instance has no attribute 'prepara_titu'",), <traceback object at 0x08B78AA8>)
+2018-03-08 14:18:31,349 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:18:31,349 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:18:31,349 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0873CF08>)
+2018-03-08 14:26:53,979 : DEBUG : listar pelis
+2018-03-08 14:26:57,483 : DEBUG : 24 HOURS
+2018-03-08 14:26:57,483 : DEBUG : None
+2018-03-08 14:26:57,483 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:26:57,483 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:26:57,483 : DEBUG : Peli que buscamos:
+2018-03-08 14:26:57,483 : DEBUG : 24 HOURS
+2018-03-08 14:26:57,483 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:26:57,483 : DEBUG : >-- Pelicula --<
+2018-03-08 14:26:57,483 : DEBUG : 24 HOURS
+2018-03-08 14:26:57,483 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:26:57,487 : DEBUG : 24HOURS
+2018-03-08 14:26:57,487 : DEBUG : intento nº--> 2
+2018-03-08 14:26:57,490 : DEBUG : 24HOURS
+2018-03-08 14:26:57,496 : DEBUG : intento nº--> 3
+2018-03-08 14:26:57,499 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:26:58,471 : DEBUG : PELI
+2018-03-08 14:26:58,471 : DEBUG : FICHA 1
+2018-03-08 14:26:58,471 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:26:58,471 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:26:58,471 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:26:58,471 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:26:58,471 : DEBUG : popularity --> None
+2018-03-08 14:26:58,471 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:26:58,471 : DEBUG : backdrop_path --> None
+2018-03-08 14:26:58,471 : DEBUG : vote_count --> None
+2018-03-08 14:26:58,471 : DEBUG : video --> None
+2018-03-08 14:26:58,471 : DEBUG : adult --> None
+2018-03-08 14:26:58,471 : DEBUG : vote_average --> None
+2018-03-08 14:26:58,487 : DEBUG : genre_ids --> None
+2018-03-08 14:26:58,487 : DEBUG : id --> None
+2018-03-08 14:26:58,487 : DEBUG : original_language --> es
+2018-03-08 14:26:58,487 : DEBUG : Guardamos el primer registro encontrado
+2018-03-08 14:26:58,727 : DEBUG : peli1
+2018-03-08 14:26:58,727 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:26:58,727 : DEBUG : production_countries --> None
+2018-03-08 14:26:58,727 : DEBUG : revenue --> None
+2018-03-08 14:26:58,727 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:26:58,743 : DEBUG : video --> None
+2018-03-08 14:26:58,743 : DEBUG : id --> None
+2018-03-08 14:26:58,743 : DEBUG : genres --> None
+2018-03-08 14:26:58,743 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:26:58,743 : DEBUG : tagline --> doble o nada
+2018-03-08 14:26:58,743 : DEBUG : vote_count --> None
+2018-03-08 14:26:58,743 : DEBUG : homepage --> 
+2018-03-08 14:26:58,743 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:26:58,743 : DEBUG : original_language --> es
+2018-03-08 14:26:58,743 : DEBUG : status --> Released
+2018-03-08 14:26:58,743 : DEBUG : spoken_languages --> None
+2018-03-08 14:26:58,743 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:26:58,743 : DEBUG : adult --> None
+2018-03-08 14:26:58,743 : DEBUG : backdrop_path --> None
+2018-03-08 14:26:58,743 : DEBUG : production_companies --> None
+2018-03-08 14:26:58,743 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:26:58,743 : DEBUG : popularity --> None
+2018-03-08 14:26:58,743 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:26:58,743 : DEBUG : budget --> None
+2018-03-08 14:26:58,743 : DEBUG : vote_average --> None
+2018-03-08 14:26:58,743 : DEBUG : runtime --> None
+2018-03-08 14:26:58,743 : DEBUG : FICHA_IMBD
+2018-03-08 14:26:58,805 : DEBUG : metascore --> N/A
+2018-03-08 14:26:58,805 : DEBUG : year --> 2015
+2018-03-08 14:26:58,805 : DEBUG : plot --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:26:58,805 : DEBUG : rated --> N/A
+2018-03-08 14:26:58,805 : DEBUG : title --> New Girls 24 Hours
+2018-03-08 14:26:58,805 : DEBUG : writer --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:26:58,805 : DEBUG : production --> N/A
+2018-03-08 14:26:58,805 : DEBUG : actors --> N/A
+2018-03-08 14:26:58,805 : DEBUG : imdb_votes --> 7
+2018-03-08 14:26:58,805 : DEBUG : type --> movie
+2018-03-08 14:26:58,805 : DEBUG : website --> N/A
+2018-03-08 14:26:58,805 : DEBUG : poster --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:26:58,805 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:26:58,805 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:26:58,805 : DEBUG : released --> 05 May 2016
+2018-03-08 14:26:58,822 : DEBUG : awards --> 1 win & 2 nominations.
+2018-03-08 14:26:58,822 : DEBUG : genre --> Documentary
+2018-03-08 14:26:58,822 : DEBUG : response --> True
+2018-03-08 14:26:58,822 : DEBUG : language --> Spanish
+2018-03-08 14:26:58,822 : DEBUG : dvd --> N/A
+2018-03-08 14:26:58,822 : DEBUG : imdb_rating --> 5.3
+2018-03-08 14:26:58,822 : DEBUG : country --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:26:58,822 : DEBUG : runtime --> 70 min
+2018-03-08 14:26:58,822 : DEBUG : box_office --> N/A
+2018-03-08 14:26:58,822 : DEBUG : FICHA 2
+2018-03-08 14:26:58,822 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:26:58,822 : DEBUG : title --> 24 Horas
+2018-03-08 14:26:58,822 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:26:58,822 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:26:58,822 : DEBUG : popularity --> None
+2018-03-08 14:26:58,822 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:26:58,822 : DEBUG : backdrop_path --> None
+2018-03-08 14:26:58,822 : DEBUG : vote_count --> None
+2018-03-08 14:26:58,822 : DEBUG : video --> None
+2018-03-08 14:26:58,822 : DEBUG : adult --> None
+2018-03-08 14:26:58,822 : DEBUG : vote_average --> None
+2018-03-08 14:26:58,822 : DEBUG : genre_ids --> None
+2018-03-08 14:26:58,822 : DEBUG : id --> None
+2018-03-08 14:26:58,822 : DEBUG : original_language --> es
+2018-03-08 14:26:58,822 : DEBUG : FICHA 3
+2018-03-08 14:26:58,822 : DEBUG : poster_path --> /j8egnRiy53hgBcYAhg7xfS6xajg.jpg
+2018-03-08 14:26:58,822 : DEBUG : title --> Open 24 Hours
+2018-03-08 14:26:58,822 : DEBUG : overview --> 
+2018-03-08 14:26:58,822 : DEBUG : release_date --> 2015-04-23
+2018-03-08 14:26:58,822 : DEBUG : popularity --> None
+2018-03-08 14:26:58,822 : DEBUG : original_title --> Open 24 Hours
+2018-03-08 14:26:58,822 : DEBUG : backdrop_path --> None
+2018-03-08 14:26:58,822 : DEBUG : vote_count --> None
+2018-03-08 14:26:58,822 : DEBUG : video --> None
+2018-03-08 14:26:58,822 : DEBUG : adult --> None
+2018-03-08 14:26:58,822 : DEBUG : vote_average --> None
+2018-03-08 14:26:58,822 : DEBUG : genre_ids --> None
+2018-03-08 14:26:58,822 : DEBUG : id --> None
+2018-03-08 14:26:58,822 : DEBUG : original_language --> en
+2018-03-08 14:26:58,822 : DEBUG : FICHA 4
+2018-03-08 14:26:58,822 : DEBUG : poster_path --> /ez0BKSTVCwOEQBPRIgeF1ESZRJ.jpg
+2018-03-08 14:26:58,822 : DEBUG : title --> 24 Hours of Le Mans Official Review 2015
+2018-03-08 14:26:58,822 : DEBUG : overview --> 
+2018-03-08 14:26:58,822 : DEBUG : release_date --> 2015-08-31
+2018-03-08 14:26:58,822 : DEBUG : popularity --> None
+2018-03-08 14:26:58,822 : DEBUG : original_title --> 24 Hours of Le Mans Official Review 2015
+2018-03-08 14:26:58,822 : DEBUG : backdrop_path --> None
+2018-03-08 14:26:58,822 : DEBUG : vote_count --> None
+2018-03-08 14:26:58,822 : DEBUG : video --> None
+2018-03-08 14:26:58,822 : DEBUG : adult --> None
+2018-03-08 14:26:58,822 : DEBUG : vote_average --> None
+2018-03-08 14:26:58,822 : DEBUG : genre_ids --> None
+2018-03-08 14:26:58,822 : DEBUG : id --> None
+2018-03-08 14:26:58,822 : DEBUG : original_language --> en
+2018-03-08 14:26:58,822 : DEBUG : FICHA 5
+2018-03-08 14:26:58,822 : DEBUG : poster_path --> /m27BYZw1RqIC0feB30MBjK3XGPz.jpg
+2018-03-08 14:26:58,836 : DEBUG : title --> Swat: Unit 887
+2018-03-08 14:26:58,836 : DEBUG : overview --> Un grupo Swat de élite tiene la misión de detener a un terrorista que al parecer planea matar a unos rehenes que tienen en su poder y destruir la ciudad de Los Ángeles. El problema es que ellos tienen solo 24 horas como máximo para poder detener los malvados planes, ahora con el tiempo en su contra deberán hacer uso de sus habilidades para así detener el ataque y poder llevar a los culpables a la justicia…
+2018-03-08 14:26:58,836 : DEBUG : release_date --> 2015-09-29
+2018-03-08 14:26:58,836 : DEBUG : popularity --> None
+2018-03-08 14:26:58,836 : DEBUG : original_title --> Swat: Unit 887
+2018-03-08 14:26:58,836 : DEBUG : backdrop_path --> /5WSsG6dnSPU1Af1123YSFmrZUNY.jpg
+2018-03-08 14:26:58,836 : DEBUG : vote_count --> None
+2018-03-08 14:26:58,836 : DEBUG : video --> None
+2018-03-08 14:26:58,836 : DEBUG : adult --> None
+2018-03-08 14:26:58,836 : DEBUG : vote_average --> None
+2018-03-08 14:26:58,836 : DEBUG : genre_ids --> None
+2018-03-08 14:26:58,836 : DEBUG : id --> None
+2018-03-08 14:26:58,836 : DEBUG : original_language --> en
+2018-03-08 14:26:58,836 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-08 14:26:58,836 : DEBUG : Finalmente nos queda 
+2018-03-08 14:26:58,836 : DEBUG : anio --> 2015
+2018-03-08 14:26:58,836 : DEBUG : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:26:58,836 : DEBUG : escritor --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:26:58,836 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:26:58,836 : DEBUG : titulo --> Chicas nuevas 24horas
+2018-03-08 14:26:58,836 : DEBUG : actores --> N/A
+2018-03-08 14:26:58,836 : DEBUG : pais --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:26:58,836 : DEBUG : titulo_orig --> Chicas nuevas 24horas
+2018-03-08 14:26:58,836 : DEBUG : sinopsis --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:26:58,836 : DEBUG : sinopsis_es --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:26:58,836 : DEBUG : generos --> Documental
+2018-03-08 14:26:58,836 : DEBUG : duracion --> None
+2018-03-08 14:26:58,836 : DEBUG : idFicha --> Imdb-tt4718872,movdb-357156
+2018-03-08 14:26:58,836 : DEBUG : {u'anio': u'2015', u'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg', u'escritor': u'Susana Fern\xe1ndez, Mabel Lozano, Alicia Luna', u'director': u'Mabel Lozano', u'titulo': u'Chicas nuevas 24horas', u'actores': u'N/A', u'pais': u'Argentina, Colombia, Paraguay, Peru, Spain', u'titulo_orig': u'Chicas nuevas 24horas', u'sinopsis': u'A documentary investigation across five countries on the big business of sexual slavery.', u'sinopsis_es': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', u'generos': u'Documental', u'duracion': 0, u'idFicha': u'Imdb-tt4718872,movdb-357156'}
+2018-03-08 14:26:58,836 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 14:26:59,555 : DEBUG : Finalmente nos queda 
+2018-03-08 14:26:59,555 : DEBUG : anio --> 2015
+2018-03-08 14:26:59,555 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 14:26:59,555 : DEBUG : escritor --> None
+2018-03-08 14:26:59,555 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 14:26:59,555 : DEBUG : titulo --> 24 Hours
+2018-03-08 14:26:59,571 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 14:26:59,571 : DEBUG : pais --> Estados Unidos
+2018-03-08 14:26:59,571 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 14:26:59,571 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 14:26:59,571 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 14:26:59,571 : DEBUG : generos --> Thriller
+2018-03-08 14:26:59,571 : DEBUG : duracion --> 96 min.
+2018-03-08 14:26:59,571 : DEBUG : idFicha --> Film-849196
+2018-03-08 14:26:59,571 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 14:26:59,571 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 14:26:59,586 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 14:26:59,586 : DEBUG : rated --> N/A
+2018-03-08 14:26:59,586 : DEBUG : language --> English
+2018-03-08 14:26:59,586 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 14:26:59,586 : DEBUG : year --> 2015–
+2018-03-08 14:26:59,586 : DEBUG : country --> N/A
+2018-03-08 14:26:59,586 : DEBUG : writer --> N/A
+2018-03-08 14:26:59,586 : DEBUG : total_seasons --> N/A
+2018-03-08 14:26:59,586 : DEBUG : metascore --> N/A
+2018-03-08 14:26:59,586 : DEBUG : imdb_id --> tt4649322
+2018-03-08 14:26:59,586 : DEBUG : director --> N/A
+2018-03-08 14:26:59,586 : DEBUG : released --> 28 Apr 2015
+2018-03-08 14:26:59,586 : DEBUG : imdb_rating --> 8.1
+2018-03-08 14:26:59,586 : DEBUG : awards --> N/A
+2018-03-08 14:26:59,586 : DEBUG : poster --> N/A
+2018-03-08 14:26:59,586 : DEBUG : genre --> Documentary
+2018-03-08 14:26:59,586 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 14:26:59,586 : DEBUG : runtime --> 60 min
+2018-03-08 14:26:59,586 : DEBUG : type --> series
+2018-03-08 14:26:59,586 : DEBUG : response --> True
+2018-03-08 14:26:59,586 : DEBUG : imdb_votes --> 42
+2018-03-08 14:26:59,586 : DEBUG : Finalmente nos queda 
+2018-03-08 14:26:59,586 : DEBUG : anio --> 2015–
+2018-03-08 14:26:59,586 : DEBUG : imagen --> N/A
+2018-03-08 14:26:59,586 : DEBUG : escritor --> N/A
+2018-03-08 14:26:59,586 : DEBUG : director --> N/A
+2018-03-08 14:26:59,586 : DEBUG : titulo --> 24 HOURS
+2018-03-08 14:26:59,586 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 14:26:59,586 : DEBUG : pais --> N/A
+2018-03-08 14:26:59,586 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 14:26:59,586 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 14:26:59,586 : DEBUG : sinopsis_es --> 
+2018-03-08 14:26:59,586 : DEBUG : generos --> Documentary
+2018-03-08 14:26:59,586 : DEBUG : duracion --> 60 min
+2018-03-08 14:26:59,586 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 14:26:59,586 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 14:26:59,586 : DEBUG : anio --> 2015
+2018-03-08 14:26:59,586 : DEBUG : imagen --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:26:59,586 : DEBUG : escritor --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:26:59,586 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:26:59,586 : DEBUG : titulo --> Chicas nuevas 24horas
+2018-03-08 14:26:59,586 : DEBUG : actores --> N/A
+2018-03-08 14:26:59,586 : DEBUG : pais --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:26:59,586 : DEBUG : titulo_orig --> Chicas nuevas 24horas
+2018-03-08 14:26:59,601 : DEBUG : sinopsis --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:26:59,601 : DEBUG : sinopsis_es --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:26:59,601 : DEBUG : generos --> Documental
+2018-03-08 14:26:59,601 : DEBUG : duracion --> None
+2018-03-08 14:26:59,601 : DEBUG : idFicha --> Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:26:59,601 : DEBUG : Ficha Encontrada -->
+2018-03-08 14:26:59,601 : DEBUG : {u'anio': u'2015', u'imagen': u'https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg', u'escritor': u'Susana Fern\xe1ndez, Mabel Lozano, Alicia Luna', u'director': u'Mabel Lozano', u'titulo': u'Chicas nuevas 24horas', u'actores': u'N/A', u'pais': u'Argentina, Colombia, Paraguay, Peru, Spain', u'titulo_orig': u'Chicas nuevas 24horas', u'sinopsis': u'A documentary investigation across five countries on the big business of sexual slavery.', u'sinopsis_es': u'Chicas nuevas 24 horas nos muestra paso a paso c\xf3mo montar un negocio que mueve 32 mil millones de d\xf3lares al a\xf1o. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en m\xfaltiples ocasiones durante el mismo d\xeda, incluso contra su voluntad. \xbfQuieres aprender este negocio? \xbfQuieres formar parte de \xe9l? \xbfO \xfanicamente quieres mirar?. Chicas nuevas 24 horas no es un documental \xfanico por mezclar el falso documental con la investigaci\xf3n a trav\xe9s de cinco pa\xedses, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)', u'generos': u'Documental', u'duracion': 0, u'idFicha': u'Imdb-tt4718872,movdb-357156,Film-849196'}
+2018-03-08 14:26:59,601 : DEBUG : Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:26:59,601 : DEBUG : None
+2018-03-08 14:26:59,601 : DEBUG : [u'Imdb-tt4718872', u'movdb-357156', u'Film-849196']
+2018-03-08 14:26:59,601 : DEBUG : 3
+2018-03-08 14:26:59,601 : DEBUG : Imdb-tt4718872
+2018-03-08 14:26:59,601 : ERROR : No se ha encontrado la idfichaImdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:26:59,601 : DEBUG : intento nº--> 5
+2018-03-08 14:26:59,648 : DEBUG : /Imagenes/Imdb-tt4718872,movdb-357156,Film-849196.jpg
+2018-03-08 14:26:59,664 : DEBUG : Grabo imagen --> Imdb-tt4718872,movdb-357156,Film-849196
+2018-03-08 14:26:59,664 : DEBUG : Voy a grabar la Ficha
+2018-03-08 14:26:59,664 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 14:26:59,664 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("BBDD instance has no attribute 'prepara_titu'",), <traceback object at 0x093B9260>)
+2018-03-08 14:26:59,664 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:26:59,664 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:26:59,664 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x09142EE0>)
+2018-03-08 14:32:30,963 : DEBUG : 24 HOURS
+2018-03-08 14:32:30,963 : DEBUG : None
+2018-03-08 14:32:30,963 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:32:30,963 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:32:30,963 : DEBUG : Peli que buscamos:
+2018-03-08 14:32:30,977 : DEBUG : 24 HOURS
+2018-03-08 14:32:30,977 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:32:30,977 : DEBUG : >-- Pelicula --<
+2018-03-08 14:32:30,977 : DEBUG : 24 HOURS
+2018-03-08 14:32:30,977 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:32:30,977 : DEBUG : 24HOURS
+2018-03-08 14:32:30,977 : DEBUG : intento nº--> 2
+2018-03-08 14:32:30,977 : DEBUG : 24HOURS
+2018-03-08 14:32:30,977 : DEBUG : intento nº--> 3
+2018-03-08 14:32:30,977 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:32:31,898 : DEBUG : PELI
+2018-03-08 14:32:31,914 : DEBUG : FICHA 1
+2018-03-08 14:32:31,914 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:32:31,914 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:32:31,914 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:32:31,914 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:32:31,914 : DEBUG : popularity --> None
+2018-03-08 14:32:31,914 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:32:31,914 : DEBUG : backdrop_path --> None
+2018-03-08 14:32:31,914 : DEBUG : vote_count --> None
+2018-03-08 14:32:31,914 : DEBUG : video --> None
+2018-03-08 14:32:31,914 : DEBUG : adult --> None
+2018-03-08 14:32:31,914 : DEBUG : vote_average --> None
+2018-03-08 14:32:31,914 : DEBUG : genre_ids --> None
+2018-03-08 14:32:31,914 : DEBUG : id --> None
+2018-03-08 14:32:31,914 : DEBUG : original_language --> es
+2018-03-08 14:32:31,914 : DEBUG : Guardamos el primer registro encontrado
+2018-03-08 14:32:32,148 : DEBUG : peli1
+2018-03-08 14:32:32,148 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:32:32,148 : DEBUG : production_countries --> None
+2018-03-08 14:32:32,164 : DEBUG : revenue --> None
+2018-03-08 14:32:32,164 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:32:32,164 : DEBUG : video --> None
+2018-03-08 14:32:32,164 : DEBUG : id --> None
+2018-03-08 14:32:32,164 : DEBUG : genres --> None
+2018-03-08 14:32:32,164 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:32:32,164 : DEBUG : tagline --> doble o nada
+2018-03-08 14:32:32,164 : DEBUG : vote_count --> None
+2018-03-08 14:32:32,164 : DEBUG : homepage --> 
+2018-03-08 14:32:32,164 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:32:32,164 : DEBUG : original_language --> es
+2018-03-08 14:32:32,164 : DEBUG : status --> Released
+2018-03-08 14:32:32,164 : DEBUG : spoken_languages --> None
+2018-03-08 14:32:32,164 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:32:32,164 : DEBUG : adult --> None
+2018-03-08 14:32:32,180 : DEBUG : backdrop_path --> None
+2018-03-08 14:32:32,180 : DEBUG : production_companies --> None
+2018-03-08 14:32:32,180 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:32:32,180 : DEBUG : popularity --> None
+2018-03-08 14:32:32,180 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:32:32,180 : DEBUG : budget --> None
+2018-03-08 14:32:32,180 : DEBUG : vote_average --> None
+2018-03-08 14:32:32,180 : DEBUG : runtime --> None
+2018-03-08 14:32:32,180 : DEBUG : FICHA_IMBD
+2018-03-08 14:32:32,273 : DEBUG : metascore --> N/A
+2018-03-08 14:32:32,273 : DEBUG : year --> 2015
+2018-03-08 14:32:32,273 : DEBUG : plot --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:32:32,273 : DEBUG : rated --> N/A
+2018-03-08 14:32:32,273 : DEBUG : title --> New Girls 24 Hours
+2018-03-08 14:32:32,273 : DEBUG : writer --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:32:32,273 : DEBUG : production --> N/A
+2018-03-08 14:32:32,273 : DEBUG : actors --> N/A
+2018-03-08 14:32:32,273 : DEBUG : imdb_votes --> 7
+2018-03-08 14:32:32,273 : DEBUG : type --> movie
+2018-03-08 14:32:32,273 : DEBUG : website --> N/A
+2018-03-08 14:32:32,273 : DEBUG : poster --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:32:32,273 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:32:32,273 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:32:32,273 : DEBUG : released --> 05 May 2016
+2018-03-08 14:32:32,273 : DEBUG : awards --> 1 win & 2 nominations.
+2018-03-08 14:32:32,273 : DEBUG : genre --> Documentary
+2018-03-08 14:32:32,273 : DEBUG : response --> True
+2018-03-08 14:32:32,289 : DEBUG : language --> Spanish
+2018-03-08 14:32:32,289 : DEBUG : dvd --> N/A
+2018-03-08 14:32:32,289 : DEBUG : imdb_rating --> 5.3
+2018-03-08 14:32:32,289 : DEBUG : country --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:32:32,289 : DEBUG : runtime --> 70 min
+2018-03-08 14:32:32,289 : DEBUG : box_office --> N/A
+2018-03-08 14:32:32,289 : DEBUG : FICHA 2
+2018-03-08 14:32:32,289 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:32:32,289 : DEBUG : title --> 24 Horas
+2018-03-08 14:32:32,289 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:32:32,289 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:32:32,289 : DEBUG : popularity --> None
+2018-03-08 14:32:32,289 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:32:32,289 : DEBUG : backdrop_path --> None
+2018-03-08 14:32:32,289 : DEBUG : vote_count --> None
+2018-03-08 14:32:32,289 : DEBUG : video --> None
+2018-03-08 14:32:32,289 : DEBUG : adult --> None
+2018-03-08 14:32:32,289 : DEBUG : vote_average --> None
+2018-03-08 14:32:32,289 : DEBUG : genre_ids --> None
+2018-03-08 14:32:32,289 : DEBUG : id --> None
+2018-03-08 14:32:32,289 : DEBUG : original_language --> es
+2018-03-08 14:32:32,289 : DEBUG : Titulo = al encontrado
+2018-03-08 14:32:32,555 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 14:32:32,555 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:32:32,555 : DEBUG : title --> 24 Horas
+2018-03-08 14:32:32,571 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:32:32,571 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:32:32,571 : DEBUG : popularity --> None
+2018-03-08 14:32:32,571 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:32:32,571 : DEBUG : backdrop_path --> None
+2018-03-08 14:32:32,571 : DEBUG : vote_count --> None
+2018-03-08 14:32:32,571 : DEBUG : video --> None
+2018-03-08 14:32:32,571 : DEBUG : adult --> None
+2018-03-08 14:32:32,571 : DEBUG : vote_average --> None
+2018-03-08 14:32:32,571 : DEBUG : genre_ids --> None
+2018-03-08 14:32:32,571 : DEBUG : id --> None
+2018-03-08 14:32:32,571 : DEBUG : original_language --> es
+2018-03-08 14:32:32,571 : DEBUG : FICHA_IMBD
+2018-03-08 14:32:32,743 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:32:32,743 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError('year',), <traceback object at 0x075F1260>)
+2018-03-08 14:32:32,743 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:32:32,743 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:32:32,743 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x075F1238>)
+2018-03-08 14:44:32,066 : DEBUG : listar pelis
+2018-03-08 14:44:34,453 : DEBUG : 24 HOURS
+2018-03-08 14:44:34,453 : DEBUG : None
+2018-03-08 14:44:34,453 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:44:34,454 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:44:34,454 : DEBUG : Peli que buscamos:
+2018-03-08 14:44:34,454 : DEBUG : 24 HOURS
+2018-03-08 14:44:34,457 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:44:34,457 : DEBUG : >-- Pelicula --<
+2018-03-08 14:44:34,459 : DEBUG : 24 HOURS
+2018-03-08 14:44:34,459 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:44:34,460 : DEBUG : 24HOURS
+2018-03-08 14:44:34,464 : DEBUG : intento nº--> 2
+2018-03-08 14:44:34,464 : DEBUG : 24HOURS
+2018-03-08 14:44:34,470 : DEBUG : intento nº--> 3
+2018-03-08 14:44:34,473 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:44:35,618 : DEBUG : PELI
+2018-03-08 14:44:35,619 : DEBUG : FICHA 1
+2018-03-08 14:44:35,619 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:44:35,619 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:44:35,621 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:44:35,621 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:44:35,621 : DEBUG : popularity --> None
+2018-03-08 14:44:35,621 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:44:35,621 : DEBUG : backdrop_path --> None
+2018-03-08 14:44:35,621 : DEBUG : vote_count --> None
+2018-03-08 14:44:35,622 : DEBUG : video --> None
+2018-03-08 14:44:35,622 : DEBUG : adult --> None
+2018-03-08 14:44:35,622 : DEBUG : vote_average --> None
+2018-03-08 14:44:35,622 : DEBUG : genre_ids --> None
+2018-03-08 14:44:35,624 : DEBUG : id --> None
+2018-03-08 14:44:35,624 : DEBUG : original_language --> es
+2018-03-08 14:44:35,624 : DEBUG : Guardamos el primer registro encontrado
+2018-03-08 14:44:35,871 : DEBUG : peli1
+2018-03-08 14:44:35,871 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:44:35,874 : DEBUG : production_countries --> None
+2018-03-08 14:44:35,875 : DEBUG : revenue --> None
+2018-03-08 14:44:35,875 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:44:35,878 : DEBUG : video --> None
+2018-03-08 14:44:35,878 : DEBUG : id --> None
+2018-03-08 14:44:35,880 : DEBUG : genres --> None
+2018-03-08 14:44:35,881 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:44:35,884 : DEBUG : tagline --> doble o nada
+2018-03-08 14:44:35,885 : DEBUG : vote_count --> None
+2018-03-08 14:44:35,887 : DEBUG : homepage --> 
+2018-03-08 14:44:35,887 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:44:35,888 : DEBUG : original_language --> es
+2018-03-08 14:44:35,888 : DEBUG : status --> Released
+2018-03-08 14:44:35,890 : DEBUG : spoken_languages --> None
+2018-03-08 14:44:35,891 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:44:35,894 : DEBUG : adult --> None
+2018-03-08 14:44:35,897 : DEBUG : backdrop_path --> None
+2018-03-08 14:44:35,898 : DEBUG : production_companies --> None
+2018-03-08 14:44:35,900 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:44:35,901 : DEBUG : popularity --> None
+2018-03-08 14:44:35,901 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:44:35,903 : DEBUG : budget --> None
+2018-03-08 14:44:35,905 : DEBUG : vote_average --> None
+2018-03-08 14:44:35,907 : DEBUG : runtime --> None
+2018-03-08 14:44:35,907 : DEBUG : FICHA_IMBD
+2018-03-08 14:44:35,951 : DEBUG : metascore --> N/A
+2018-03-08 14:44:35,951 : DEBUG : year --> 2015
+2018-03-08 14:44:35,953 : DEBUG : plot --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:44:35,953 : DEBUG : rated --> N/A
+2018-03-08 14:44:35,953 : DEBUG : title --> New Girls 24 Hours
+2018-03-08 14:44:35,954 : DEBUG : writer --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:44:35,956 : DEBUG : production --> N/A
+2018-03-08 14:44:35,956 : DEBUG : actors --> N/A
+2018-03-08 14:44:35,956 : DEBUG : imdb_votes --> 7
+2018-03-08 14:44:35,957 : DEBUG : type --> movie
+2018-03-08 14:44:35,957 : DEBUG : website --> N/A
+2018-03-08 14:44:35,959 : DEBUG : poster --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:44:35,959 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:44:35,960 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:44:35,960 : DEBUG : released --> 05 May 2016
+2018-03-08 14:44:35,961 : DEBUG : awards --> 1 win & 2 nominations.
+2018-03-08 14:44:35,963 : DEBUG : genre --> Documentary
+2018-03-08 14:44:35,963 : DEBUG : response --> True
+2018-03-08 14:44:35,963 : DEBUG : language --> Spanish
+2018-03-08 14:44:35,963 : DEBUG : dvd --> N/A
+2018-03-08 14:44:35,963 : DEBUG : imdb_rating --> 5.3
+2018-03-08 14:44:35,964 : DEBUG : country --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:44:35,964 : DEBUG : runtime --> 70 min
+2018-03-08 14:44:35,966 : DEBUG : box_office --> N/A
+2018-03-08 14:44:35,966 : DEBUG : FICHA 2
+2018-03-08 14:44:35,966 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:44:35,967 : DEBUG : title --> 24 Horas
+2018-03-08 14:44:35,967 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:44:35,967 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:44:35,967 : DEBUG : popularity --> None
+2018-03-08 14:44:35,967 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:44:35,967 : DEBUG : backdrop_path --> None
+2018-03-08 14:44:35,967 : DEBUG : vote_count --> None
+2018-03-08 14:44:35,969 : DEBUG : video --> None
+2018-03-08 14:44:35,969 : DEBUG : adult --> None
+2018-03-08 14:44:35,969 : DEBUG : vote_average --> None
+2018-03-08 14:44:35,970 : DEBUG : genre_ids --> None
+2018-03-08 14:44:35,970 : DEBUG : id --> None
+2018-03-08 14:44:35,970 : DEBUG : original_language --> es
+2018-03-08 14:44:35,973 : DEBUG : Titulo = al encontrado
+2018-03-08 14:44:36,233 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 14:44:36,234 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:44:36,236 : DEBUG : title --> 24 Horas
+2018-03-08 14:44:36,236 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:44:36,236 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:44:36,237 : DEBUG : popularity --> None
+2018-03-08 14:44:36,239 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:44:36,240 : DEBUG : backdrop_path --> None
+2018-03-08 14:44:36,240 : DEBUG : vote_count --> None
+2018-03-08 14:44:36,247 : DEBUG : video --> None
+2018-03-08 14:44:36,249 : DEBUG : adult --> None
+2018-03-08 14:44:36,250 : DEBUG : vote_average --> None
+2018-03-08 14:44:36,252 : DEBUG : genre_ids --> None
+2018-03-08 14:44:36,253 : DEBUG : id --> None
+2018-03-08 14:44:36,253 : DEBUG : original_language --> es
+2018-03-08 14:44:36,253 : DEBUG : FICHA_IMBD
+2018-03-08 14:44:36,273 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:44:36,273 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError('year',), <traceback object at 0x0888F350>)
+2018-03-08 14:44:36,273 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:44:36,276 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:44:36,276 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0888F328>)
+2018-03-08 14:54:39,687 : DEBUG : listar pelis
+2018-03-08 14:54:42,823 : DEBUG : 24 HOURS
+2018-03-08 14:54:42,823 : DEBUG : None
+2018-03-08 14:54:42,825 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:54:42,825 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:54:42,825 : DEBUG : Peli que buscamos:
+2018-03-08 14:54:42,825 : DEBUG : 24 HOURS
+2018-03-08 14:54:42,828 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:54:42,828 : DEBUG : >-- Pelicula --<
+2018-03-08 14:54:42,829 : DEBUG : 24 HOURS
+2018-03-08 14:54:42,829 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:54:42,831 : DEBUG : 24HOURS
+2018-03-08 14:54:42,832 : DEBUG : intento nº--> 2
+2018-03-08 14:54:42,832 : DEBUG : 24HOURS
+2018-03-08 14:54:42,838 : DEBUG : intento nº--> 3
+2018-03-08 14:54:42,841 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:54:43,891 : DEBUG : PELI
+2018-03-08 14:54:43,891 : DEBUG : FICHA 1
+2018-03-08 14:54:43,894 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:54:43,894 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:54:43,894 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:54:43,894 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:54:43,895 : DEBUG : popularity --> None
+2018-03-08 14:54:43,895 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:54:43,895 : DEBUG : backdrop_path --> None
+2018-03-08 14:54:43,895 : DEBUG : vote_count --> None
+2018-03-08 14:54:43,897 : DEBUG : video --> None
+2018-03-08 14:54:43,897 : DEBUG : adult --> None
+2018-03-08 14:54:43,897 : DEBUG : vote_average --> None
+2018-03-08 14:54:43,898 : DEBUG : genre_ids --> None
+2018-03-08 14:54:43,898 : DEBUG : id --> None
+2018-03-08 14:54:43,898 : DEBUG : original_language --> es
+2018-03-08 14:54:43,898 : DEBUG : Guardamos el primer registro encontrado
+2018-03-08 14:54:44,170 : DEBUG : peli1
+2018-03-08 14:54:44,171 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:54:44,171 : DEBUG : production_countries --> None
+2018-03-08 14:54:44,171 : DEBUG : revenue --> None
+2018-03-08 14:54:44,171 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:54:44,173 : DEBUG : video --> None
+2018-03-08 14:54:44,173 : DEBUG : id --> None
+2018-03-08 14:54:44,173 : DEBUG : genres --> None
+2018-03-08 14:54:44,174 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:54:44,174 : DEBUG : tagline --> doble o nada
+2018-03-08 14:54:44,174 : DEBUG : vote_count --> None
+2018-03-08 14:54:44,174 : DEBUG : homepage --> 
+2018-03-08 14:54:44,176 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:54:44,176 : DEBUG : original_language --> es
+2018-03-08 14:54:44,177 : DEBUG : status --> Released
+2018-03-08 14:54:44,177 : DEBUG : spoken_languages --> None
+2018-03-08 14:54:44,177 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:54:44,177 : DEBUG : adult --> None
+2018-03-08 14:54:44,180 : DEBUG : backdrop_path --> None
+2018-03-08 14:54:44,180 : DEBUG : production_companies --> None
+2018-03-08 14:54:44,180 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:54:44,181 : DEBUG : popularity --> None
+2018-03-08 14:54:44,183 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:54:44,183 : DEBUG : budget --> None
+2018-03-08 14:54:44,184 : DEBUG : vote_average --> None
+2018-03-08 14:54:44,184 : DEBUG : runtime --> None
+2018-03-08 14:54:44,184 : DEBUG : FICHA_IMBD
+2018-03-08 14:54:44,252 : DEBUG : metascore --> N/A
+2018-03-08 14:54:44,252 : DEBUG : year --> 2015
+2018-03-08 14:54:44,253 : DEBUG : plot --> A documentary investigation across five countries on the big business of sexual slavery.
+2018-03-08 14:54:44,253 : DEBUG : rated --> N/A
+2018-03-08 14:54:44,253 : DEBUG : title --> New Girls 24 Hours
+2018-03-08 14:54:44,253 : DEBUG : writer --> Susana Fernández, Mabel Lozano, Alicia Luna
+2018-03-08 14:54:44,253 : DEBUG : production --> N/A
+2018-03-08 14:54:44,255 : DEBUG : actors --> N/A
+2018-03-08 14:54:44,255 : DEBUG : imdb_votes --> 7
+2018-03-08 14:54:44,255 : DEBUG : type --> movie
+2018-03-08 14:54:44,256 : DEBUG : website --> N/A
+2018-03-08 14:54:44,256 : DEBUG : poster --> https://images-na.ssl-images-amazon.com/images/M/MV5BNDEyNTRiNTktZTE2Ni00ZWFkLTk2ODMtZTY2MDNiOGVmMDE3XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg
+2018-03-08 14:54:44,256 : DEBUG : imdb_id --> tt4718872
+2018-03-08 14:54:44,256 : DEBUG : director --> Mabel Lozano
+2018-03-08 14:54:44,257 : DEBUG : released --> 05 May 2016
+2018-03-08 14:54:44,257 : DEBUG : awards --> 1 win & 2 nominations.
+2018-03-08 14:54:44,259 : DEBUG : genre --> Documentary
+2018-03-08 14:54:44,259 : DEBUG : response --> True
+2018-03-08 14:54:44,259 : DEBUG : language --> Spanish
+2018-03-08 14:54:44,259 : DEBUG : dvd --> N/A
+2018-03-08 14:54:44,259 : DEBUG : imdb_rating --> 5.3
+2018-03-08 14:54:44,263 : DEBUG : country --> Argentina, Colombia, Paraguay, Peru, Spain
+2018-03-08 14:54:44,263 : DEBUG : runtime --> 70 min
+2018-03-08 14:54:44,263 : DEBUG : box_office --> N/A
+2018-03-08 14:54:44,263 : DEBUG : FICHA 2
+2018-03-08 14:54:44,265 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:54:44,266 : DEBUG : title --> 24 Horas
+2018-03-08 14:54:44,266 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:54:44,266 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:54:44,266 : DEBUG : popularity --> None
+2018-03-08 14:54:44,266 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:54:44,266 : DEBUG : backdrop_path --> None
+2018-03-08 14:54:44,266 : DEBUG : vote_count --> None
+2018-03-08 14:54:44,267 : DEBUG : video --> None
+2018-03-08 14:54:44,267 : DEBUG : adult --> None
+2018-03-08 14:54:44,267 : DEBUG : vote_average --> None
+2018-03-08 14:54:44,267 : DEBUG : genre_ids --> None
+2018-03-08 14:54:44,269 : DEBUG : id --> None
+2018-03-08 14:54:44,269 : DEBUG : original_language --> es
+2018-03-08 14:54:44,269 : DEBUG : Titulo = al encontrado
+2018-03-08 14:54:44,569 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 14:54:44,569 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:54:44,571 : DEBUG : production_countries --> None
+2018-03-08 14:54:44,572 : DEBUG : revenue --> None
+2018-03-08 14:54:44,572 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:54:44,573 : DEBUG : video --> None
+2018-03-08 14:54:44,575 : DEBUG : id --> None
+2018-03-08 14:54:44,576 : DEBUG : genres --> None
+2018-03-08 14:54:44,579 : DEBUG : title --> 24 Horas
+2018-03-08 14:54:44,582 : DEBUG : tagline --> 
+2018-03-08 14:54:44,582 : DEBUG : vote_count --> None
+2018-03-08 14:54:44,584 : DEBUG : homepage --> 
+2018-03-08 14:54:44,585 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:54:44,585 : DEBUG : original_language --> es
+2018-03-08 14:54:44,585 : DEBUG : status --> Released
+2018-03-08 14:54:44,586 : DEBUG : spoken_languages --> None
+2018-03-08 14:54:44,592 : DEBUG : imdb_id --> None
+2018-03-08 14:54:44,592 : DEBUG : adult --> None
+2018-03-08 14:54:44,596 : DEBUG : backdrop_path --> None
+2018-03-08 14:54:44,598 : DEBUG : production_companies --> None
+2018-03-08 14:54:44,599 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:54:44,601 : DEBUG : popularity --> None
+2018-03-08 14:54:44,602 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:54:44,602 : DEBUG : budget --> None
+2018-03-08 14:54:44,604 : DEBUG : vote_average --> None
+2018-03-08 14:54:44,604 : DEBUG : runtime --> None
+2018-03-08 14:54:44,605 : DEBUG : FICHA_IMBD
+2018-03-08 14:54:44,625 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:54:44,625 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError('year',), <traceback object at 0x08C8F508>)
+2018-03-08 14:54:44,625 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:54:44,631 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:54:44,631 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x08C8F4E0>)
+2018-03-08 14:57:49,184 : DEBUG : listar pelis
+2018-03-08 14:57:50,798 : DEBUG : 24 HOURS
+2018-03-08 14:57:50,799 : DEBUG : None
+2018-03-08 14:57:50,799 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:57:50,801 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:57:50,801 : DEBUG : Peli que buscamos:
+2018-03-08 14:57:50,801 : DEBUG : 24 HOURS
+2018-03-08 14:57:50,803 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:57:50,805 : DEBUG : >-- Pelicula --<
+2018-03-08 14:57:50,805 : DEBUG : 24 HOURS
+2018-03-08 14:57:50,805 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:57:50,805 : DEBUG : 24HOURS
+2018-03-08 14:57:50,806 : DEBUG : intento nº--> 2
+2018-03-08 14:57:50,808 : DEBUG : 24HOURS
+2018-03-08 14:57:50,815 : DEBUG : intento nº--> 3
+2018-03-08 14:57:50,818 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:57:51,848 : DEBUG : PELI
+2018-03-08 14:57:51,849 : DEBUG : FICHA 1
+2018-03-08 14:57:51,851 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:57:51,851 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:57:51,852 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:57:51,855 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:57:51,855 : DEBUG : popularity --> None
+2018-03-08 14:57:51,861 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:57:51,861 : DEBUG : backdrop_path --> None
+2018-03-08 14:57:51,862 : DEBUG : vote_count --> None
+2018-03-08 14:57:51,864 : DEBUG : video --> None
+2018-03-08 14:57:51,865 : DEBUG : adult --> None
+2018-03-08 14:57:51,865 : DEBUG : vote_average --> None
+2018-03-08 14:57:51,868 : DEBUG : genre_ids --> None
+2018-03-08 14:57:51,871 : DEBUG : id --> None
+2018-03-08 14:57:51,872 : DEBUG : original_language --> es
+2018-03-08 14:57:51,874 : DEBUG : FICHA 2
+2018-03-08 14:57:51,875 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:57:51,875 : DEBUG : title --> 24 Horas
+2018-03-08 14:57:51,878 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:57:51,878 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:57:51,882 : DEBUG : popularity --> None
+2018-03-08 14:57:51,884 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:57:51,884 : DEBUG : backdrop_path --> None
+2018-03-08 14:57:51,885 : DEBUG : vote_count --> None
+2018-03-08 14:57:51,887 : DEBUG : video --> None
+2018-03-08 14:57:51,888 : DEBUG : adult --> None
+2018-03-08 14:57:51,888 : DEBUG : vote_average --> None
+2018-03-08 14:57:51,888 : DEBUG : genre_ids --> None
+2018-03-08 14:57:51,890 : DEBUG : id --> None
+2018-03-08 14:57:51,891 : DEBUG : original_language --> es
+2018-03-08 14:57:51,891 : DEBUG : Titulo = al encontrado
+2018-03-08 14:57:52,104 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 14:57:52,105 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:57:52,105 : DEBUG : production_countries --> None
+2018-03-08 14:57:52,105 : DEBUG : revenue --> None
+2018-03-08 14:57:52,105 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:57:52,105 : DEBUG : video --> None
+2018-03-08 14:57:52,105 : DEBUG : id --> None
+2018-03-08 14:57:52,105 : DEBUG : genres --> None
+2018-03-08 14:57:52,105 : DEBUG : title --> 24 Horas
+2018-03-08 14:57:52,107 : DEBUG : tagline --> 
+2018-03-08 14:57:52,107 : DEBUG : vote_count --> None
+2018-03-08 14:57:52,107 : DEBUG : homepage --> 
+2018-03-08 14:57:52,107 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:57:52,108 : DEBUG : original_language --> es
+2018-03-08 14:57:52,108 : DEBUG : status --> Released
+2018-03-08 14:57:52,108 : DEBUG : spoken_languages --> None
+2018-03-08 14:57:52,108 : DEBUG : imdb_id --> None
+2018-03-08 14:57:52,108 : DEBUG : adult --> None
+2018-03-08 14:57:52,108 : DEBUG : backdrop_path --> None
+2018-03-08 14:57:52,109 : DEBUG : production_companies --> None
+2018-03-08 14:57:52,109 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:57:52,109 : DEBUG : popularity --> None
+2018-03-08 14:57:52,109 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:57:52,111 : DEBUG : budget --> None
+2018-03-08 14:57:52,111 : DEBUG : vote_average --> None
+2018-03-08 14:57:52,111 : DEBUG : runtime --> None
+2018-03-08 14:57:52,111 : DEBUG : FICHA_IMBD
+2018-03-08 14:57:52,177 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:57:52,177 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError('year',), <traceback object at 0x08AD8530>)
+2018-03-08 14:57:52,177 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:57:52,178 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:57:52,178 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x08AD8738>)
+2018-03-08 14:59:31,259 : DEBUG : listar pelis
+2018-03-08 14:59:34,368 : DEBUG : 24 HOURS
+2018-03-08 14:59:34,368 : DEBUG : None
+2018-03-08 14:59:34,369 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 14:59:34,371 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 14:59:34,371 : DEBUG : Peli que buscamos:
+2018-03-08 14:59:34,371 : DEBUG : 24 HOURS
+2018-03-08 14:59:34,372 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 14:59:34,372 : DEBUG : >-- Pelicula --<
+2018-03-08 14:59:34,372 : DEBUG : 24 HOURS
+2018-03-08 14:59:34,374 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 14:59:34,374 : DEBUG : 24HOURS
+2018-03-08 14:59:34,381 : DEBUG : intento nº--> 2
+2018-03-08 14:59:34,381 : DEBUG : 24HOURS
+2018-03-08 14:59:34,385 : DEBUG : intento nº--> 3
+2018-03-08 14:59:34,388 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 14:59:35,421 : DEBUG : PELI
+2018-03-08 14:59:35,421 : DEBUG : FICHA 1
+2018-03-08 14:59:35,423 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 14:59:35,424 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 14:59:35,424 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 14:59:35,424 : DEBUG : release_date --> 2015-09-01
+2018-03-08 14:59:35,426 : DEBUG : popularity --> None
+2018-03-08 14:59:35,427 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 14:59:35,427 : DEBUG : backdrop_path --> None
+2018-03-08 14:59:35,431 : DEBUG : vote_count --> None
+2018-03-08 14:59:35,433 : DEBUG : video --> None
+2018-03-08 14:59:35,434 : DEBUG : adult --> None
+2018-03-08 14:59:35,434 : DEBUG : vote_average --> None
+2018-03-08 14:59:35,434 : DEBUG : genre_ids --> None
+2018-03-08 14:59:35,436 : DEBUG : id --> None
+2018-03-08 14:59:35,437 : DEBUG : original_language --> es
+2018-03-08 14:59:35,437 : DEBUG : FICHA 2
+2018-03-08 14:59:35,438 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:59:35,443 : DEBUG : title --> 24 Horas
+2018-03-08 14:59:35,444 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:59:35,447 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:59:35,448 : DEBUG : popularity --> None
+2018-03-08 14:59:35,450 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:59:35,450 : DEBUG : backdrop_path --> None
+2018-03-08 14:59:35,451 : DEBUG : vote_count --> None
+2018-03-08 14:59:35,453 : DEBUG : video --> None
+2018-03-08 14:59:35,454 : DEBUG : adult --> None
+2018-03-08 14:59:35,456 : DEBUG : vote_average --> None
+2018-03-08 14:59:35,457 : DEBUG : genre_ids --> None
+2018-03-08 14:59:35,457 : DEBUG : id --> None
+2018-03-08 14:59:35,457 : DEBUG : original_language --> es
+2018-03-08 14:59:35,459 : DEBUG : Titulo = al encontrado
+2018-03-08 14:59:35,677 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 14:59:35,678 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 14:59:35,680 : DEBUG : production_countries --> None
+2018-03-08 14:59:35,680 : DEBUG : revenue --> None
+2018-03-08 14:59:35,681 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 14:59:35,683 : DEBUG : video --> None
+2018-03-08 14:59:35,684 : DEBUG : id --> None
+2018-03-08 14:59:35,684 : DEBUG : genres --> None
+2018-03-08 14:59:35,686 : DEBUG : title --> 24 Horas
+2018-03-08 14:59:35,686 : DEBUG : tagline --> 
+2018-03-08 14:59:35,687 : DEBUG : vote_count --> None
+2018-03-08 14:59:35,690 : DEBUG : homepage --> 
+2018-03-08 14:59:35,690 : DEBUG : belongs_to_collection --> None
+2018-03-08 14:59:35,690 : DEBUG : original_language --> es
+2018-03-08 14:59:35,691 : DEBUG : status --> Released
+2018-03-08 14:59:35,693 : DEBUG : spoken_languages --> None
+2018-03-08 14:59:35,694 : DEBUG : imdb_id --> None
+2018-03-08 14:59:35,696 : DEBUG : adult --> None
+2018-03-08 14:59:35,697 : DEBUG : backdrop_path --> None
+2018-03-08 14:59:35,697 : DEBUG : production_companies --> None
+2018-03-08 14:59:35,698 : DEBUG : release_date --> 2015-09-25
+2018-03-08 14:59:35,700 : DEBUG : popularity --> None
+2018-03-08 14:59:35,701 : DEBUG : original_title --> 24 Hours
+2018-03-08 14:59:35,703 : DEBUG : budget --> None
+2018-03-08 14:59:35,703 : DEBUG : vote_average --> None
+2018-03-08 14:59:35,706 : DEBUG : runtime --> None
+2018-03-08 14:59:35,707 : DEBUG : FICHA_IMBD
+2018-03-08 14:59:35,770 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 14:59:35,772 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError('year',), <traceback object at 0x077426C0>)
+2018-03-08 14:59:35,772 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 14:59:35,773 : ERROR : Error al actualizar las imagenes.
+2018-03-08 14:59:35,773 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x077427D8>)
+2018-03-08 15:00:45,003 : DEBUG : 24 HOURS
+2018-03-08 15:00:45,003 : DEBUG : None
+2018-03-08 15:00:45,003 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 15:00:45,005 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 15:00:45,005 : DEBUG : Peli que buscamos:
+2018-03-08 15:00:45,006 : DEBUG : 24 HOURS
+2018-03-08 15:00:45,006 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 15:00:45,006 : DEBUG : >-- Pelicula --<
+2018-03-08 15:00:45,006 : DEBUG : 24 HOURS
+2018-03-08 15:00:45,007 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 15:00:45,007 : DEBUG : 24HOURS
+2018-03-08 15:00:45,009 : DEBUG : intento nº--> 2
+2018-03-08 15:00:45,013 : DEBUG : 24HOURS
+2018-03-08 15:00:45,016 : DEBUG : intento nº--> 3
+2018-03-08 15:00:45,019 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 15:00:46,030 : DEBUG : PELI
+2018-03-08 15:00:46,032 : DEBUG : FICHA 1
+2018-03-08 15:00:46,032 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 15:00:46,032 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 15:00:46,032 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 15:00:46,032 : DEBUG : release_date --> 2015-09-01
+2018-03-08 15:00:46,033 : DEBUG : popularity --> None
+2018-03-08 15:00:46,033 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 15:00:46,033 : DEBUG : backdrop_path --> None
+2018-03-08 15:00:46,035 : DEBUG : vote_count --> None
+2018-03-08 15:00:46,035 : DEBUG : video --> None
+2018-03-08 15:00:46,035 : DEBUG : adult --> None
+2018-03-08 15:00:46,036 : DEBUG : vote_average --> None
+2018-03-08 15:00:46,036 : DEBUG : genre_ids --> None
+2018-03-08 15:00:46,036 : DEBUG : id --> None
+2018-03-08 15:00:46,036 : DEBUG : original_language --> es
+2018-03-08 15:00:46,036 : DEBUG : FICHA 2
+2018-03-08 15:00:46,038 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:00:46,038 : DEBUG : title --> 24 Horas
+2018-03-08 15:00:46,038 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:00:46,038 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:00:46,039 : DEBUG : popularity --> None
+2018-03-08 15:00:46,039 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:00:46,039 : DEBUG : backdrop_path --> None
+2018-03-08 15:00:46,042 : DEBUG : vote_count --> None
+2018-03-08 15:00:46,043 : DEBUG : video --> None
+2018-03-08 15:00:46,045 : DEBUG : adult --> None
+2018-03-08 15:00:46,045 : DEBUG : vote_average --> None
+2018-03-08 15:00:46,045 : DEBUG : genre_ids --> None
+2018-03-08 15:00:46,046 : DEBUG : id --> None
+2018-03-08 15:00:46,046 : DEBUG : original_language --> es
+2018-03-08 15:00:46,046 : DEBUG : Titulo = al encontrado
+2018-03-08 15:00:46,457 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 15:00:46,459 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:00:46,460 : DEBUG : production_countries --> None
+2018-03-08 15:00:46,467 : DEBUG : revenue --> None
+2018-03-08 15:00:46,470 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:00:46,470 : DEBUG : video --> None
+2018-03-08 15:00:46,471 : DEBUG : id --> None
+2018-03-08 15:00:46,473 : DEBUG : genres --> None
+2018-03-08 15:00:46,474 : DEBUG : title --> 24 Horas
+2018-03-08 15:00:46,476 : DEBUG : tagline --> 
+2018-03-08 15:00:46,480 : DEBUG : vote_count --> None
+2018-03-08 15:00:46,483 : DEBUG : homepage --> 
+2018-03-08 15:00:46,483 : DEBUG : belongs_to_collection --> None
+2018-03-08 15:00:46,484 : DEBUG : original_language --> es
+2018-03-08 15:00:46,486 : DEBUG : status --> Released
+2018-03-08 15:00:46,486 : DEBUG : spoken_languages --> None
+2018-03-08 15:00:46,486 : DEBUG : imdb_id --> None
+2018-03-08 15:00:46,487 : DEBUG : adult --> None
+2018-03-08 15:00:46,487 : DEBUG : backdrop_path --> None
+2018-03-08 15:00:46,487 : DEBUG : production_companies --> None
+2018-03-08 15:00:46,489 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:00:46,489 : DEBUG : popularity --> None
+2018-03-08 15:00:46,490 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:00:46,490 : DEBUG : budget --> None
+2018-03-08 15:00:46,490 : DEBUG : vote_average --> None
+2018-03-08 15:00:46,496 : DEBUG : runtime --> None
+2018-03-08 15:00:46,499 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 15:00:46,499 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'peli_imbd' referenced before assignment",), <traceback object at 0x06F45A08>)
+2018-03-08 15:00:46,500 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 15:00:46,500 : ERROR : Error al actualizar las imagenes.
+2018-03-08 15:00:46,500 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x06F45A30>)
+2018-03-08 15:07:02,849 : DEBUG : listar pelis
+2018-03-08 15:07:05,746 : DEBUG : 24 HOURS
+2018-03-08 15:07:05,746 : DEBUG : None
+2018-03-08 15:07:05,746 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 15:07:05,747 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 15:07:05,747 : DEBUG : Peli que buscamos:
+2018-03-08 15:07:05,749 : DEBUG : 24 HOURS
+2018-03-08 15:07:05,750 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 15:07:05,750 : DEBUG : >-- Pelicula --<
+2018-03-08 15:07:05,750 : DEBUG : 24 HOURS
+2018-03-08 15:07:05,750 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 15:07:05,750 : DEBUG : 24HOURS
+2018-03-08 15:07:05,753 : DEBUG : intento nº--> 2
+2018-03-08 15:07:05,753 : DEBUG : 24HOURS
+2018-03-08 15:07:05,757 : DEBUG : intento nº--> 3
+2018-03-08 15:07:05,759 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 15:07:06,789 : DEBUG : PELI
+2018-03-08 15:07:06,789 : DEBUG : FICHA 1
+2018-03-08 15:07:06,789 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 15:07:06,790 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 15:07:06,792 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 15:07:06,792 : DEBUG : release_date --> 2015-09-01
+2018-03-08 15:07:06,792 : DEBUG : popularity --> None
+2018-03-08 15:07:06,793 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 15:07:06,795 : DEBUG : backdrop_path --> None
+2018-03-08 15:07:06,796 : DEBUG : vote_count --> None
+2018-03-08 15:07:06,796 : DEBUG : video --> None
+2018-03-08 15:07:06,799 : DEBUG : adult --> None
+2018-03-08 15:07:06,801 : DEBUG : vote_average --> None
+2018-03-08 15:07:06,801 : DEBUG : genre_ids --> None
+2018-03-08 15:07:06,802 : DEBUG : id --> None
+2018-03-08 15:07:06,802 : DEBUG : original_language --> es
+2018-03-08 15:07:06,803 : DEBUG : FICHA 2
+2018-03-08 15:07:06,805 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:07:06,805 : DEBUG : title --> 24 Horas
+2018-03-08 15:07:06,805 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:07:06,805 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:07:06,806 : DEBUG : popularity --> None
+2018-03-08 15:07:06,806 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:07:06,808 : DEBUG : backdrop_path --> None
+2018-03-08 15:07:06,812 : DEBUG : vote_count --> None
+2018-03-08 15:07:06,812 : DEBUG : video --> None
+2018-03-08 15:07:06,812 : DEBUG : adult --> None
+2018-03-08 15:07:06,813 : DEBUG : vote_average --> None
+2018-03-08 15:07:06,813 : DEBUG : genre_ids --> None
+2018-03-08 15:07:06,815 : DEBUG : id --> None
+2018-03-08 15:07:06,815 : DEBUG : original_language --> es
+2018-03-08 15:07:06,815 : DEBUG : Titulo = al encontrado
+2018-03-08 15:07:07,325 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 15:07:07,325 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:07:07,325 : DEBUG : production_countries --> None
+2018-03-08 15:07:07,328 : DEBUG : revenue --> None
+2018-03-08 15:07:07,328 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:07:07,328 : DEBUG : video --> None
+2018-03-08 15:07:07,329 : DEBUG : id --> None
+2018-03-08 15:07:07,329 : DEBUG : genres --> None
+2018-03-08 15:07:07,329 : DEBUG : title --> 24 Horas
+2018-03-08 15:07:07,331 : DEBUG : tagline --> 
+2018-03-08 15:07:07,331 : DEBUG : vote_count --> None
+2018-03-08 15:07:07,332 : DEBUG : homepage --> 
+2018-03-08 15:07:07,332 : DEBUG : belongs_to_collection --> None
+2018-03-08 15:07:07,332 : DEBUG : original_language --> es
+2018-03-08 15:07:07,332 : DEBUG : status --> Released
+2018-03-08 15:07:07,332 : DEBUG : spoken_languages --> None
+2018-03-08 15:07:07,332 : DEBUG : imdb_id --> None
+2018-03-08 15:07:07,334 : DEBUG : adult --> None
+2018-03-08 15:07:07,334 : DEBUG : backdrop_path --> None
+2018-03-08 15:07:07,334 : DEBUG : production_companies --> None
+2018-03-08 15:07:07,334 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:07:07,336 : DEBUG : popularity --> None
+2018-03-08 15:07:07,336 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:07:07,338 : DEBUG : budget --> None
+2018-03-08 15:07:07,338 : DEBUG : vote_average --> None
+2018-03-08 15:07:07,338 : DEBUG : runtime --> None
+2018-03-08 15:07:07,338 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 15:07:07,338 : ERROR : (<type 'exceptions.NameError'>, NameError("global name 'peli_imdb' is not defined",), <traceback object at 0x07DD34B8>)
+2018-03-08 15:07:07,339 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 15:07:07,341 : ERROR : Error al actualizar las imagenes.
+2018-03-08 15:07:07,342 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x07DD34E0>)
+2018-03-08 15:10:57,446 : DEBUG : listar pelis
+2018-03-08 15:11:00,394 : DEBUG : 24 HOURS
+2018-03-08 15:11:00,394 : DEBUG : None
+2018-03-08 15:11:00,394 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 15:11:00,394 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 15:11:00,394 : DEBUG : Peli que buscamos:
+2018-03-08 15:11:00,395 : DEBUG : 24 HOURS
+2018-03-08 15:11:00,397 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 15:11:00,397 : DEBUG : >-- Pelicula --<
+2018-03-08 15:11:00,398 : DEBUG : 24 HOURS
+2018-03-08 15:11:00,398 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 15:11:00,398 : DEBUG : 24HOURS
+2018-03-08 15:11:00,401 : DEBUG : intento nº--> 2
+2018-03-08 15:11:00,403 : DEBUG : 24HOURS
+2018-03-08 15:11:00,407 : DEBUG : intento nº--> 3
+2018-03-08 15:11:00,407 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 15:11:01,509 : DEBUG : PELI
+2018-03-08 15:11:01,509 : DEBUG : FICHA 1
+2018-03-08 15:11:01,510 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 15:11:01,510 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 15:11:01,512 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 15:11:01,512 : DEBUG : release_date --> 2015-09-01
+2018-03-08 15:11:01,513 : DEBUG : popularity --> None
+2018-03-08 15:11:01,513 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 15:11:01,513 : DEBUG : backdrop_path --> None
+2018-03-08 15:11:01,513 : DEBUG : vote_count --> None
+2018-03-08 15:11:01,513 : DEBUG : video --> None
+2018-03-08 15:11:01,513 : DEBUG : adult --> None
+2018-03-08 15:11:01,515 : DEBUG : vote_average --> None
+2018-03-08 15:11:01,515 : DEBUG : genre_ids --> None
+2018-03-08 15:11:01,515 : DEBUG : id --> None
+2018-03-08 15:11:01,516 : DEBUG : original_language --> es
+2018-03-08 15:11:01,516 : DEBUG : FICHA 2
+2018-03-08 15:11:01,516 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:11:01,516 : DEBUG : title --> 24 Horas
+2018-03-08 15:11:01,516 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:11:01,516 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:11:01,516 : DEBUG : popularity --> None
+2018-03-08 15:11:01,516 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:11:01,519 : DEBUG : backdrop_path --> None
+2018-03-08 15:11:01,519 : DEBUG : vote_count --> None
+2018-03-08 15:11:01,519 : DEBUG : video --> None
+2018-03-08 15:11:01,520 : DEBUG : adult --> None
+2018-03-08 15:11:01,520 : DEBUG : vote_average --> None
+2018-03-08 15:11:01,520 : DEBUG : genre_ids --> None
+2018-03-08 15:11:01,522 : DEBUG : id --> None
+2018-03-08 15:11:01,522 : DEBUG : original_language --> es
+2018-03-08 15:11:01,522 : DEBUG : Titulo = al encontrado
+2018-03-08 15:11:01,763 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 15:11:01,763 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:11:01,765 : DEBUG : production_countries --> None
+2018-03-08 15:11:01,765 : DEBUG : revenue --> None
+2018-03-08 15:11:01,765 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:11:01,765 : DEBUG : video --> None
+2018-03-08 15:11:01,766 : DEBUG : id --> None
+2018-03-08 15:11:01,766 : DEBUG : genres --> None
+2018-03-08 15:11:01,766 : DEBUG : title --> 24 Horas
+2018-03-08 15:11:01,766 : DEBUG : tagline --> 
+2018-03-08 15:11:01,766 : DEBUG : vote_count --> None
+2018-03-08 15:11:01,766 : DEBUG : homepage --> 
+2018-03-08 15:11:01,766 : DEBUG : belongs_to_collection --> None
+2018-03-08 15:11:01,766 : DEBUG : original_language --> es
+2018-03-08 15:11:01,767 : DEBUG : status --> Released
+2018-03-08 15:11:01,767 : DEBUG : spoken_languages --> None
+2018-03-08 15:11:01,767 : DEBUG : imdb_id --> None
+2018-03-08 15:11:01,767 : DEBUG : adult --> None
+2018-03-08 15:11:01,767 : DEBUG : backdrop_path --> None
+2018-03-08 15:11:01,769 : DEBUG : production_companies --> None
+2018-03-08 15:11:01,769 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:11:01,769 : DEBUG : popularity --> None
+2018-03-08 15:11:01,769 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:11:01,769 : DEBUG : budget --> None
+2018-03-08 15:11:01,769 : DEBUG : vote_average --> None
+2018-03-08 15:11:01,769 : DEBUG : runtime --> None
+2018-03-08 15:11:01,770 : ERROR : Error en busqueda de pelicula tras el intento 3
+2018-03-08 15:11:01,770 : ERROR : (<type 'exceptions.NameError'>, NameError("global name 'peli_imdb' is not defined",), <traceback object at 0x08CC6E90>)
+2018-03-08 15:11:01,770 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 15:11:01,772 : ERROR : Error al actualizar las imagenes.
+2018-03-08 15:11:01,772 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x08CC6EB8>)
+2018-03-08 15:15:27,650 : DEBUG : listar pelis
+2018-03-08 15:15:30,641 : DEBUG : 24 HOURS
+2018-03-08 15:15:30,641 : DEBUG : None
+2018-03-08 15:15:30,642 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 15:15:30,697 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 15:15:30,697 : DEBUG : Peli que buscamos:
+2018-03-08 15:15:30,697 : DEBUG : 24 HOURS
+2018-03-08 15:15:30,700 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 15:15:30,700 : DEBUG : >-- Pelicula --<
+2018-03-08 15:15:30,700 : DEBUG : 24 HOURS
+2018-03-08 15:15:30,700 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 15:15:30,700 : DEBUG : 24HOURS
+2018-03-08 15:15:30,701 : DEBUG : intento nº--> 2
+2018-03-08 15:15:30,701 : DEBUG : 24HOURS
+2018-03-08 15:15:37,859 : DEBUG : intento nº--> 3
+2018-03-08 15:15:37,861 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 15:15:40,229 : DEBUG : PELI
+2018-03-08 15:15:40,229 : DEBUG : FICHA 1
+2018-03-08 15:15:40,229 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 15:15:40,230 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 15:15:40,230 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 15:15:40,230 : DEBUG : release_date --> 2015-09-01
+2018-03-08 15:15:40,230 : DEBUG : popularity --> None
+2018-03-08 15:15:40,230 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 15:15:40,230 : DEBUG : backdrop_path --> None
+2018-03-08 15:15:40,230 : DEBUG : vote_count --> None
+2018-03-08 15:15:40,230 : DEBUG : video --> None
+2018-03-08 15:15:40,230 : DEBUG : adult --> None
+2018-03-08 15:15:40,232 : DEBUG : vote_average --> None
+2018-03-08 15:15:40,232 : DEBUG : genre_ids --> None
+2018-03-08 15:15:40,232 : DEBUG : id --> None
+2018-03-08 15:15:40,232 : DEBUG : original_language --> es
+2018-03-08 15:15:40,233 : DEBUG : FICHA 2
+2018-03-08 15:15:40,233 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:15:40,233 : DEBUG : title --> 24 Horas
+2018-03-08 15:15:40,233 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:15:40,233 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:15:40,233 : DEBUG : popularity --> None
+2018-03-08 15:15:40,233 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:15:40,233 : DEBUG : backdrop_path --> None
+2018-03-08 15:15:40,234 : DEBUG : vote_count --> None
+2018-03-08 15:15:40,234 : DEBUG : video --> None
+2018-03-08 15:15:40,234 : DEBUG : adult --> None
+2018-03-08 15:15:40,234 : DEBUG : vote_average --> None
+2018-03-08 15:15:40,236 : DEBUG : genre_ids --> None
+2018-03-08 15:15:40,236 : DEBUG : id --> None
+2018-03-08 15:15:40,236 : DEBUG : original_language --> es
+2018-03-08 15:15:40,236 : DEBUG : Titulo = al encontrado
+2018-03-08 15:15:40,480 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 15:15:40,480 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:15:40,482 : DEBUG : production_countries --> None
+2018-03-08 15:15:40,482 : DEBUG : revenue --> None
+2018-03-08 15:15:40,483 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:15:40,483 : DEBUG : video --> None
+2018-03-08 15:15:40,483 : DEBUG : id --> None
+2018-03-08 15:15:40,483 : DEBUG : genres --> None
+2018-03-08 15:15:40,484 : DEBUG : title --> 24 Horas
+2018-03-08 15:15:40,484 : DEBUG : tagline --> 
+2018-03-08 15:15:40,484 : DEBUG : vote_count --> None
+2018-03-08 15:15:40,486 : DEBUG : homepage --> 
+2018-03-08 15:15:40,486 : DEBUG : belongs_to_collection --> None
+2018-03-08 15:15:40,486 : DEBUG : original_language --> es
+2018-03-08 15:15:40,486 : DEBUG : status --> Released
+2018-03-08 15:15:40,486 : DEBUG : spoken_languages --> None
+2018-03-08 15:15:40,486 : DEBUG : imdb_id --> None
+2018-03-08 15:15:40,486 : DEBUG : adult --> None
+2018-03-08 15:15:40,486 : DEBUG : backdrop_path --> None
+2018-03-08 15:15:40,486 : DEBUG : production_companies --> None
+2018-03-08 15:15:40,486 : DEBUG : release_date --> 2015-09-25
+2018-03-08 15:15:40,487 : DEBUG : popularity --> None
+2018-03-08 15:15:40,487 : DEBUG : original_title --> 24 Hours
+2018-03-08 15:15:40,487 : DEBUG : budget --> None
+2018-03-08 15:15:40,487 : DEBUG : vote_average --> None
+2018-03-08 15:15:40,487 : DEBUG : runtime --> None
+2018-03-08 15:15:40,490 : DEBUG : Finalmente nos queda 
+2018-03-08 15:15:40,493 : DEBUG : anio --> 2015
+2018-03-08 15:15:40,493 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:15:40,493 : DEBUG : escritor --> None
+2018-03-08 15:15:40,494 : DEBUG : director --> None
+2018-03-08 15:15:40,496 : DEBUG : titulo --> 24 Horas
+2018-03-08 15:15:40,496 : DEBUG : actores --> None
+2018-03-08 15:15:40,496 : DEBUG : pais --> None
+2018-03-08 15:15:40,496 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 15:15:40,496 : DEBUG : sinopsis --> None
+2018-03-08 15:15:40,497 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:15:40,497 : DEBUG : generos --> Acción
+2018-03-08 15:15:40,497 : DEBUG : duracion --> None
+2018-03-08 15:15:40,499 : DEBUG : idFicha --> Imdb-None,movdb-488109
+2018-03-08 15:15:40,499 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'Imdb-None,movdb-488109'}
+2018-03-08 15:15:40,500 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 15:15:42,190 : DEBUG : Finalmente nos queda 
+2018-03-08 15:15:42,190 : DEBUG : anio --> 2015
+2018-03-08 15:15:42,190 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 15:15:42,190 : DEBUG : escritor --> None
+2018-03-08 15:15:42,191 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 15:15:42,191 : DEBUG : titulo --> 24 Hours
+2018-03-08 15:15:42,191 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 15:15:42,191 : DEBUG : pais --> Estados Unidos
+2018-03-08 15:15:42,193 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 15:15:42,193 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 15:15:42,194 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 15:15:42,194 : DEBUG : generos --> Thriller
+2018-03-08 15:15:42,196 : DEBUG : duracion --> 96 min.
+2018-03-08 15:15:42,197 : DEBUG : idFicha --> Film-849196
+2018-03-08 15:15:42,197 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 15:15:42,197 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 15:15:42,250 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 15:15:42,250 : DEBUG : rated --> N/A
+2018-03-08 15:15:42,250 : DEBUG : language --> English
+2018-03-08 15:15:42,250 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 15:15:42,252 : DEBUG : year --> 2015–
+2018-03-08 15:15:42,252 : DEBUG : country --> N/A
+2018-03-08 15:15:42,253 : DEBUG : writer --> N/A
+2018-03-08 15:15:42,253 : DEBUG : total_seasons --> N/A
+2018-03-08 15:15:42,253 : DEBUG : metascore --> N/A
+2018-03-08 15:15:42,253 : DEBUG : imdb_id --> tt4649322
+2018-03-08 15:15:42,255 : DEBUG : director --> N/A
+2018-03-08 15:15:42,255 : DEBUG : released --> 28 Apr 2015
+2018-03-08 15:15:42,256 : DEBUG : imdb_rating --> 8.1
+2018-03-08 15:15:42,256 : DEBUG : awards --> N/A
+2018-03-08 15:15:42,256 : DEBUG : poster --> N/A
+2018-03-08 15:15:42,256 : DEBUG : genre --> Documentary
+2018-03-08 15:15:42,256 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 15:15:42,257 : DEBUG : runtime --> 60 min
+2018-03-08 15:15:42,257 : DEBUG : type --> series
+2018-03-08 15:15:42,262 : DEBUG : response --> True
+2018-03-08 15:15:42,263 : DEBUG : imdb_votes --> 42
+2018-03-08 15:15:42,263 : DEBUG : Finalmente nos queda 
+2018-03-08 15:15:42,263 : DEBUG : anio --> 2015–
+2018-03-08 15:15:42,263 : DEBUG : imagen --> N/A
+2018-03-08 15:15:42,265 : DEBUG : escritor --> N/A
+2018-03-08 15:15:42,266 : DEBUG : director --> N/A
+2018-03-08 15:15:42,266 : DEBUG : titulo --> 24 HOURS
+2018-03-08 15:15:42,266 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 15:15:42,266 : DEBUG : pais --> N/A
+2018-03-08 15:15:42,267 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 15:15:42,267 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 15:15:42,269 : DEBUG : sinopsis_es --> 
+2018-03-08 15:15:42,269 : DEBUG : generos --> Documentary
+2018-03-08 15:15:42,269 : DEBUG : duracion --> 60 min
+2018-03-08 15:15:42,269 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 15:15:42,273 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 15:15:42,273 : DEBUG : anio --> 2015
+2018-03-08 15:15:42,273 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 15:15:42,275 : DEBUG : escritor --> None
+2018-03-08 15:15:42,276 : DEBUG : director --> None
+2018-03-08 15:15:42,276 : DEBUG : titulo --> 24 Horas
+2018-03-08 15:15:42,278 : DEBUG : actores --> None
+2018-03-08 15:15:42,278 : DEBUG : pais --> None
+2018-03-08 15:15:42,279 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 15:15:42,279 : DEBUG : sinopsis --> None
+2018-03-08 15:15:42,279 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 15:15:42,279 : DEBUG : generos --> Acción
+2018-03-08 15:15:42,280 : DEBUG : duracion --> None
+2018-03-08 15:15:42,280 : DEBUG : idFicha --> Imdb-None,movdb-488109,Film-849196
+2018-03-08 15:15:42,285 : DEBUG : Ficha Encontrada -->
+2018-03-08 15:15:42,285 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'Imdb-None,movdb-488109,Film-849196'}
+2018-03-08 15:15:42,286 : DEBUG : Imdb-None,movdb-488109,Film-849196
+2018-03-08 15:15:42,286 : DEBUG : None
+2018-03-08 15:15:42,286 : DEBUG : [u'Imdb-None', u'movdb-488109', u'Film-849196']
+2018-03-08 15:15:42,288 : DEBUG : 3
+2018-03-08 15:15:42,288 : DEBUG : Imdb-None
+2018-03-08 15:15:42,289 : ERROR : No se ha encontrado la idfichaImdb-None,movdb-488109,Film-849196
+2018-03-08 15:15:42,289 : DEBUG : intento nº--> 5
+2018-03-08 15:15:42,424 : DEBUG : /Imagenes/Imdb-None,movdb-488109,Film-849196.jpg
+2018-03-08 15:15:42,483 : DEBUG : Grabo imagen --> Imdb-None,movdb-488109,Film-849196
+2018-03-08 15:15:42,483 : DEBUG : Voy a grabar la Ficha
+2018-03-08 15:15:42,484 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 15:15:42,484 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("BBDD instance has no attribute 'prepara_titu'",), <traceback object at 0x0B07DB70>)
+2018-03-08 15:15:42,486 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 15:15:42,486 : ERROR : Error al actualizar las imagenes.
+2018-03-08 15:15:42,486 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0BE83440>)
+2018-03-08 17:55:27,680 : DEBUG : listar pelis
+2018-03-08 17:55:33,726 : DEBUG : 24 HOURS
+2018-03-08 17:55:33,726 : DEBUG : None
+2018-03-08 17:55:33,726 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 17:55:33,726 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 17:55:33,726 : DEBUG : Peli que buscamos:
+2018-03-08 17:55:33,726 : DEBUG : 24 HOURS
+2018-03-08 17:55:33,726 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 17:55:33,726 : DEBUG : >-- Pelicula --<
+2018-03-08 17:55:33,726 : DEBUG : 24 HOURS
+2018-03-08 17:55:33,726 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 17:55:33,726 : DEBUG : 24HOURS
+2018-03-08 17:55:33,726 : DEBUG : intento nº--> 2
+2018-03-08 17:55:33,726 : DEBUG : 24HOURS
+2018-03-08 17:55:41,506 : DEBUG : intento nº--> 3
+2018-03-08 17:55:41,507 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 17:55:44,398 : DEBUG : PELI
+2018-03-08 17:55:44,398 : DEBUG : FICHA 1
+2018-03-08 17:55:44,398 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 17:55:44,398 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 17:55:44,398 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 17:55:44,398 : DEBUG : release_date --> 2015-09-01
+2018-03-08 17:55:44,398 : DEBUG : popularity --> None
+2018-03-08 17:55:44,398 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 17:55:44,398 : DEBUG : backdrop_path --> None
+2018-03-08 17:55:44,398 : DEBUG : vote_count --> None
+2018-03-08 17:55:44,398 : DEBUG : video --> None
+2018-03-08 17:55:44,413 : DEBUG : adult --> None
+2018-03-08 17:55:44,413 : DEBUG : vote_average --> None
+2018-03-08 17:55:44,413 : DEBUG : genre_ids --> None
+2018-03-08 17:55:44,413 : DEBUG : id --> None
+2018-03-08 17:55:44,413 : DEBUG : original_language --> es
+2018-03-08 17:55:44,413 : DEBUG : FICHA 2
+2018-03-08 17:55:44,413 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 17:55:44,413 : DEBUG : title --> 24 Horas
+2018-03-08 17:55:44,428 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 17:55:44,428 : DEBUG : release_date --> 2015-09-25
+2018-03-08 17:55:44,428 : DEBUG : popularity --> None
+2018-03-08 17:55:44,428 : DEBUG : original_title --> 24 Hours
+2018-03-08 17:55:44,428 : DEBUG : backdrop_path --> None
+2018-03-08 17:55:44,428 : DEBUG : vote_count --> None
+2018-03-08 17:55:44,428 : DEBUG : video --> None
+2018-03-08 17:55:44,428 : DEBUG : adult --> None
+2018-03-08 17:55:44,444 : DEBUG : vote_average --> None
+2018-03-08 17:55:44,444 : DEBUG : genre_ids --> None
+2018-03-08 17:55:44,444 : DEBUG : id --> None
+2018-03-08 17:55:44,444 : DEBUG : original_language --> es
+2018-03-08 17:55:44,444 : DEBUG : Titulo = al encontrado
+2018-03-08 17:55:44,664 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 17:55:44,664 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 17:55:44,664 : DEBUG : production_countries --> None
+2018-03-08 17:55:44,664 : DEBUG : revenue --> None
+2018-03-08 17:55:44,664 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 17:55:44,680 : DEBUG : video --> None
+2018-03-08 17:55:44,680 : DEBUG : id --> None
+2018-03-08 17:55:44,680 : DEBUG : genres --> None
+2018-03-08 17:55:44,680 : DEBUG : title --> 24 Horas
+2018-03-08 17:55:44,680 : DEBUG : tagline --> 
+2018-03-08 17:55:44,680 : DEBUG : vote_count --> None
+2018-03-08 17:55:44,680 : DEBUG : homepage --> 
+2018-03-08 17:55:44,680 : DEBUG : belongs_to_collection --> None
+2018-03-08 17:55:44,680 : DEBUG : original_language --> es
+2018-03-08 17:55:44,680 : DEBUG : status --> Released
+2018-03-08 17:55:44,680 : DEBUG : spoken_languages --> None
+2018-03-08 17:55:44,680 : DEBUG : imdb_id --> None
+2018-03-08 17:55:44,680 : DEBUG : adult --> None
+2018-03-08 17:55:44,680 : DEBUG : backdrop_path --> None
+2018-03-08 17:55:44,680 : DEBUG : production_companies --> None
+2018-03-08 17:55:44,696 : DEBUG : release_date --> 2015-09-25
+2018-03-08 17:55:44,696 : DEBUG : popularity --> None
+2018-03-08 17:55:44,696 : DEBUG : original_title --> 24 Hours
+2018-03-08 17:55:44,696 : DEBUG : budget --> None
+2018-03-08 17:55:44,696 : DEBUG : vote_average --> None
+2018-03-08 17:55:44,696 : DEBUG : runtime --> None
+2018-03-08 17:55:44,696 : DEBUG : Finalmente nos queda 
+2018-03-08 17:55:44,696 : DEBUG : anio --> 2015
+2018-03-08 17:55:44,710 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 17:55:44,710 : DEBUG : escritor --> None
+2018-03-08 17:55:44,710 : DEBUG : director --> None
+2018-03-08 17:55:44,710 : DEBUG : titulo --> 24 Horas
+2018-03-08 17:55:44,710 : DEBUG : actores --> None
+2018-03-08 17:55:44,710 : DEBUG : pais --> None
+2018-03-08 17:55:44,710 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 17:55:44,710 : DEBUG : sinopsis --> None
+2018-03-08 17:55:44,710 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 17:55:44,710 : DEBUG : generos --> Acción
+2018-03-08 17:55:44,710 : DEBUG : duracion --> None
+2018-03-08 17:55:44,710 : DEBUG : idFicha --> movdb-488109
+2018-03-08 17:55:44,710 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'movdb-488109'}
+2018-03-08 17:55:44,710 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 17:55:46,007 : DEBUG : Finalmente nos queda 
+2018-03-08 17:55:46,007 : DEBUG : anio --> 2015
+2018-03-08 17:55:46,007 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 17:55:46,007 : DEBUG : escritor --> None
+2018-03-08 17:55:46,007 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 17:55:46,007 : DEBUG : titulo --> 24 Hours
+2018-03-08 17:55:46,007 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 17:55:46,007 : DEBUG : pais --> Estados Unidos
+2018-03-08 17:55:46,007 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 17:55:46,007 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 17:55:46,007 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 17:55:46,007 : DEBUG : generos --> Thriller
+2018-03-08 17:55:46,007 : DEBUG : duracion --> 96 min.
+2018-03-08 17:55:46,007 : DEBUG : idFicha --> Film-849196
+2018-03-08 17:55:46,007 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 17:55:46,007 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 17:55:46,211 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 17:55:46,211 : DEBUG : rated --> N/A
+2018-03-08 17:55:46,211 : DEBUG : language --> English
+2018-03-08 17:55:46,211 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 17:55:46,211 : DEBUG : year --> 2015–
+2018-03-08 17:55:46,211 : DEBUG : country --> N/A
+2018-03-08 17:55:46,226 : DEBUG : writer --> N/A
+2018-03-08 17:55:46,226 : DEBUG : total_seasons --> N/A
+2018-03-08 17:55:46,226 : DEBUG : metascore --> N/A
+2018-03-08 17:55:46,226 : DEBUG : imdb_id --> tt4649322
+2018-03-08 17:55:46,226 : DEBUG : director --> N/A
+2018-03-08 17:55:46,226 : DEBUG : released --> 28 Apr 2015
+2018-03-08 17:55:46,226 : DEBUG : imdb_rating --> 8.1
+2018-03-08 17:55:46,226 : DEBUG : awards --> N/A
+2018-03-08 17:55:46,226 : DEBUG : poster --> N/A
+2018-03-08 17:55:46,226 : DEBUG : genre --> Documentary
+2018-03-08 17:55:46,226 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 17:55:46,226 : DEBUG : runtime --> 60 min
+2018-03-08 17:55:46,226 : DEBUG : type --> series
+2018-03-08 17:55:46,226 : DEBUG : response --> True
+2018-03-08 17:55:46,226 : DEBUG : imdb_votes --> 42
+2018-03-08 17:55:46,226 : DEBUG : Finalmente nos queda 
+2018-03-08 17:55:46,226 : DEBUG : anio --> 2015–
+2018-03-08 17:55:46,226 : DEBUG : imagen --> N/A
+2018-03-08 17:55:46,226 : DEBUG : escritor --> N/A
+2018-03-08 17:55:46,226 : DEBUG : director --> N/A
+2018-03-08 17:55:46,226 : DEBUG : titulo --> 24 HOURS
+2018-03-08 17:55:46,226 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 17:55:46,226 : DEBUG : pais --> N/A
+2018-03-08 17:55:46,226 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 17:55:46,226 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 17:55:46,243 : DEBUG : sinopsis_es --> 
+2018-03-08 17:55:46,243 : DEBUG : generos --> Documentary
+2018-03-08 17:55:46,243 : DEBUG : duracion --> 60 min
+2018-03-08 17:55:46,243 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 17:55:46,243 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 17:55:46,243 : DEBUG : anio --> 2015
+2018-03-08 17:55:46,243 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 17:55:46,243 : DEBUG : escritor --> None
+2018-03-08 17:55:46,243 : DEBUG : director --> None
+2018-03-08 17:55:46,243 : DEBUG : titulo --> 24 Horas
+2018-03-08 17:55:46,243 : DEBUG : actores --> None
+2018-03-08 17:55:46,243 : DEBUG : pais --> None
+2018-03-08 17:55:46,243 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 17:55:46,243 : DEBUG : sinopsis --> None
+2018-03-08 17:55:46,243 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 17:55:46,257 : DEBUG : generos --> Acción
+2018-03-08 17:55:46,257 : DEBUG : duracion --> None
+2018-03-08 17:55:46,257 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 17:55:46,257 : DEBUG : Ficha Encontrada -->
+2018-03-08 17:55:46,257 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'movdb-488109,Film-849196'}
+2018-03-08 17:55:46,257 : DEBUG : movdb-488109,Film-849196
+2018-03-08 17:55:46,257 : DEBUG : None
+2018-03-08 17:55:46,257 : DEBUG : [u'movdb-488109', u'Film-849196']
+2018-03-08 17:55:46,257 : DEBUG : 2
+2018-03-08 17:55:46,257 : DEBUG : movdb-488109
+2018-03-08 17:55:46,257 : ERROR : No se ha encontrado la idfichamovdb-488109,Film-849196
+2018-03-08 17:55:46,257 : DEBUG : intento nº--> 5
+2018-03-08 17:55:46,413 : DEBUG : /Imagenes/movdb-488109,Film-849196.jpg
+2018-03-08 17:55:46,710 : DEBUG : Grabo imagen --> movdb-488109,Film-849196
+2018-03-08 17:55:46,710 : DEBUG : Voy a grabar la Ficha
+2018-03-08 17:55:46,710 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 17:55:46,710 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x0895EA30>)
+2018-03-08 17:55:46,710 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 17:55:46,710 : ERROR : Error al actualizar las imagenes.
+2018-03-08 17:55:46,710 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x088756E8>)
+2018-03-08 18:03:11,789 : DEBUG : listar pelis
+2018-03-08 18:03:15,196 : DEBUG : 24 HOURS
+2018-03-08 18:03:15,210 : DEBUG : None
+2018-03-08 18:03:15,210 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 18:03:15,210 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 18:03:15,210 : DEBUG : Peli que buscamos:
+2018-03-08 18:03:15,210 : DEBUG : 24 HOURS
+2018-03-08 18:03:15,210 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 18:03:15,210 : DEBUG : >-- Pelicula --<
+2018-03-08 18:03:15,210 : DEBUG : 24 HOURS
+2018-03-08 18:03:15,210 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 18:03:15,210 : DEBUG : 24HOURS
+2018-03-08 18:03:15,210 : DEBUG : intento nº--> 2
+2018-03-08 18:03:15,210 : DEBUG : 24HOURS
+2018-03-08 18:03:15,210 : DEBUG : intento nº--> 3
+2018-03-08 18:03:15,210 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 18:03:16,196 : DEBUG : PELI
+2018-03-08 18:03:16,196 : DEBUG : FICHA 1
+2018-03-08 18:03:16,196 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 18:03:16,196 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 18:03:16,196 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 18:03:16,196 : DEBUG : release_date --> 2015-09-01
+2018-03-08 18:03:16,196 : DEBUG : popularity --> None
+2018-03-08 18:03:16,196 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 18:03:16,196 : DEBUG : backdrop_path --> None
+2018-03-08 18:03:16,196 : DEBUG : vote_count --> None
+2018-03-08 18:03:16,196 : DEBUG : video --> None
+2018-03-08 18:03:16,196 : DEBUG : adult --> None
+2018-03-08 18:03:16,210 : DEBUG : vote_average --> None
+2018-03-08 18:03:16,210 : DEBUG : genre_ids --> None
+2018-03-08 18:03:16,210 : DEBUG : id --> None
+2018-03-08 18:03:16,210 : DEBUG : original_language --> es
+2018-03-08 18:03:16,210 : DEBUG : FICHA 2
+2018-03-08 18:03:16,210 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:03:16,210 : DEBUG : title --> 24 Horas
+2018-03-08 18:03:16,210 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:03:16,210 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:03:16,210 : DEBUG : popularity --> None
+2018-03-08 18:03:16,210 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:03:16,210 : DEBUG : backdrop_path --> None
+2018-03-08 18:03:16,210 : DEBUG : vote_count --> None
+2018-03-08 18:03:16,210 : DEBUG : video --> None
+2018-03-08 18:03:16,210 : DEBUG : adult --> None
+2018-03-08 18:03:16,210 : DEBUG : vote_average --> None
+2018-03-08 18:03:16,210 : DEBUG : genre_ids --> None
+2018-03-08 18:03:16,210 : DEBUG : id --> None
+2018-03-08 18:03:16,210 : DEBUG : original_language --> es
+2018-03-08 18:03:16,210 : DEBUG : Titulo = al encontrado
+2018-03-08 18:03:16,460 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 18:03:16,460 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:03:16,460 : DEBUG : production_countries --> None
+2018-03-08 18:03:16,460 : DEBUG : revenue --> None
+2018-03-08 18:03:16,460 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:03:16,460 : DEBUG : video --> None
+2018-03-08 18:03:16,460 : DEBUG : id --> None
+2018-03-08 18:03:16,460 : DEBUG : genres --> None
+2018-03-08 18:03:16,460 : DEBUG : title --> 24 Horas
+2018-03-08 18:03:16,460 : DEBUG : tagline --> 
+2018-03-08 18:03:16,476 : DEBUG : vote_count --> None
+2018-03-08 18:03:16,476 : DEBUG : homepage --> 
+2018-03-08 18:03:16,476 : DEBUG : belongs_to_collection --> None
+2018-03-08 18:03:16,476 : DEBUG : original_language --> es
+2018-03-08 18:03:16,476 : DEBUG : status --> Released
+2018-03-08 18:03:16,476 : DEBUG : spoken_languages --> None
+2018-03-08 18:03:16,490 : DEBUG : imdb_id --> None
+2018-03-08 18:03:16,496 : DEBUG : adult --> None
+2018-03-08 18:03:16,497 : DEBUG : backdrop_path --> None
+2018-03-08 18:03:16,499 : DEBUG : production_companies --> None
+2018-03-08 18:03:16,500 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:03:16,503 : DEBUG : popularity --> None
+2018-03-08 18:03:16,506 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:03:16,506 : DEBUG : budget --> None
+2018-03-08 18:03:16,507 : DEBUG : vote_average --> None
+2018-03-08 18:03:16,507 : DEBUG : runtime --> None
+2018-03-08 18:03:16,507 : DEBUG : Finalmente nos queda 
+2018-03-08 18:03:16,507 : DEBUG : anio --> 2015
+2018-03-08 18:03:16,507 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:03:16,507 : DEBUG : escritor --> None
+2018-03-08 18:03:16,507 : DEBUG : director --> None
+2018-03-08 18:03:16,507 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:03:16,507 : DEBUG : actores --> None
+2018-03-08 18:03:16,507 : DEBUG : pais --> None
+2018-03-08 18:03:16,507 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:03:16,507 : DEBUG : sinopsis --> None
+2018-03-08 18:03:16,523 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:03:16,523 : DEBUG : generos --> Acción
+2018-03-08 18:03:16,523 : DEBUG : duracion --> None
+2018-03-08 18:03:16,523 : DEBUG : idFicha --> movdb-488109
+2018-03-08 18:03:16,523 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'movdb-488109'}
+2018-03-08 18:03:16,523 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 18:03:17,384 : DEBUG : Finalmente nos queda 
+2018-03-08 18:03:17,384 : DEBUG : anio --> 2015
+2018-03-08 18:03:17,384 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 18:03:17,384 : DEBUG : escritor --> None
+2018-03-08 18:03:17,384 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 18:03:17,384 : DEBUG : titulo --> 24 Hours
+2018-03-08 18:03:17,384 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 18:03:17,384 : DEBUG : pais --> Estados Unidos
+2018-03-08 18:03:17,384 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:03:17,384 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 18:03:17,384 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 18:03:17,384 : DEBUG : generos --> Thriller
+2018-03-08 18:03:17,384 : DEBUG : duracion --> 96 min.
+2018-03-08 18:03:17,384 : DEBUG : idFicha --> Film-849196
+2018-03-08 18:03:17,384 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 18:03:17,384 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 18:03:17,414 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:03:17,414 : DEBUG : rated --> N/A
+2018-03-08 18:03:17,414 : DEBUG : language --> English
+2018-03-08 18:03:17,414 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 18:03:17,414 : DEBUG : year --> 2015–
+2018-03-08 18:03:17,414 : DEBUG : country --> N/A
+2018-03-08 18:03:17,414 : DEBUG : writer --> N/A
+2018-03-08 18:03:17,414 : DEBUG : total_seasons --> N/A
+2018-03-08 18:03:17,414 : DEBUG : metascore --> N/A
+2018-03-08 18:03:17,430 : DEBUG : imdb_id --> tt4649322
+2018-03-08 18:03:17,430 : DEBUG : director --> N/A
+2018-03-08 18:03:17,430 : DEBUG : released --> 28 Apr 2015
+2018-03-08 18:03:17,430 : DEBUG : imdb_rating --> 8.1
+2018-03-08 18:03:17,430 : DEBUG : awards --> N/A
+2018-03-08 18:03:17,430 : DEBUG : poster --> N/A
+2018-03-08 18:03:17,430 : DEBUG : genre --> Documentary
+2018-03-08 18:03:17,430 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:03:17,430 : DEBUG : runtime --> 60 min
+2018-03-08 18:03:17,430 : DEBUG : type --> series
+2018-03-08 18:03:17,430 : DEBUG : response --> True
+2018-03-08 18:03:17,430 : DEBUG : imdb_votes --> 42
+2018-03-08 18:03:17,430 : DEBUG : Finalmente nos queda 
+2018-03-08 18:03:17,430 : DEBUG : anio --> 2015–
+2018-03-08 18:03:17,430 : DEBUG : imagen --> N/A
+2018-03-08 18:03:17,430 : DEBUG : escritor --> N/A
+2018-03-08 18:03:17,430 : DEBUG : director --> N/A
+2018-03-08 18:03:17,430 : DEBUG : titulo --> 24 HOURS
+2018-03-08 18:03:17,430 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:03:17,430 : DEBUG : pais --> N/A
+2018-03-08 18:03:17,430 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 18:03:17,430 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:03:17,430 : DEBUG : sinopsis_es --> 
+2018-03-08 18:03:17,430 : DEBUG : generos --> Documentary
+2018-03-08 18:03:17,430 : DEBUG : duracion --> 60 min
+2018-03-08 18:03:17,430 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 18:03:17,430 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 18:03:17,430 : DEBUG : anio --> 2015
+2018-03-08 18:03:17,430 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:03:17,430 : DEBUG : escritor --> None
+2018-03-08 18:03:17,430 : DEBUG : director --> None
+2018-03-08 18:03:17,430 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:03:17,430 : DEBUG : actores --> None
+2018-03-08 18:03:17,430 : DEBUG : pais --> None
+2018-03-08 18:03:17,430 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:03:17,430 : DEBUG : sinopsis --> None
+2018-03-08 18:03:17,447 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:03:17,447 : DEBUG : generos --> Acción
+2018-03-08 18:03:17,447 : DEBUG : duracion --> None
+2018-03-08 18:03:17,447 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:03:17,447 : DEBUG : Ficha Encontrada -->
+2018-03-08 18:03:17,447 : DEBUG : anio --> 2015
+2018-03-08 18:03:17,447 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:03:17,447 : DEBUG : escritor --> None
+2018-03-08 18:03:17,447 : DEBUG : director --> None
+2018-03-08 18:03:17,447 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:03:17,447 : DEBUG : actores --> None
+2018-03-08 18:03:17,447 : DEBUG : pais --> None
+2018-03-08 18:03:17,447 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:03:17,447 : DEBUG : sinopsis --> None
+2018-03-08 18:03:17,447 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:03:17,447 : DEBUG : generos --> Acción
+2018-03-08 18:03:17,447 : DEBUG : duracion --> None
+2018-03-08 18:03:17,447 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:03:17,447 : DEBUG : movdb-488109,Film-849196
+2018-03-08 18:03:17,447 : DEBUG : None
+2018-03-08 18:03:17,447 : DEBUG : [u'movdb-488109', u'Film-849196']
+2018-03-08 18:03:17,447 : DEBUG : 2
+2018-03-08 18:03:17,447 : DEBUG : movdb-488109
+2018-03-08 18:03:17,447 : ERROR : No se ha encontrado la idfichamovdb-488109,Film-849196
+2018-03-08 18:03:17,447 : DEBUG : intento nº--> 5
+2018-03-08 18:03:17,507 : DEBUG : /Imagenes/movdb-488109,Film-849196.jpg
+2018-03-08 18:03:17,523 : DEBUG : Grabo imagen --> movdb-488109,Film-849196
+2018-03-08 18:03:17,523 : DEBUG : Voy a grabar la Ficha
+2018-03-08 18:03:17,523 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 18:03:17,523 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x08B134E0>)
+2018-03-08 18:03:17,523 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 18:03:17,523 : ERROR : Error al actualizar las imagenes.
+2018-03-08 18:03:17,523 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x089BF440>)
+2018-03-08 18:05:44,727 : DEBUG : listar pelis
+2018-03-08 18:05:47,757 : DEBUG : 24 HOURS
+2018-03-08 18:05:47,757 : DEBUG : None
+2018-03-08 18:05:47,757 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 18:05:47,757 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 18:05:47,757 : DEBUG : Peli que buscamos:
+2018-03-08 18:05:47,757 : DEBUG : 24 HOURS
+2018-03-08 18:05:47,757 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 18:05:47,757 : DEBUG : >-- Pelicula --<
+2018-03-08 18:05:47,757 : DEBUG : 24 HOURS
+2018-03-08 18:05:47,757 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 18:05:47,757 : DEBUG : 24HOURS
+2018-03-08 18:05:47,757 : DEBUG : intento nº--> 2
+2018-03-08 18:05:47,757 : DEBUG : 24HOURS
+2018-03-08 18:05:47,757 : DEBUG : intento nº--> 3
+2018-03-08 18:05:47,757 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 18:05:48,742 : DEBUG : PELI
+2018-03-08 18:05:48,742 : DEBUG : FICHA 1
+2018-03-08 18:05:48,742 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 18:05:48,742 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 18:05:48,742 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 18:05:48,742 : DEBUG : release_date --> 2015-09-01
+2018-03-08 18:05:48,742 : DEBUG : popularity --> None
+2018-03-08 18:05:48,742 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 18:05:48,742 : DEBUG : backdrop_path --> None
+2018-03-08 18:05:48,742 : DEBUG : vote_count --> None
+2018-03-08 18:05:48,742 : DEBUG : video --> None
+2018-03-08 18:05:48,742 : DEBUG : adult --> None
+2018-03-08 18:05:48,742 : DEBUG : vote_average --> None
+2018-03-08 18:05:48,742 : DEBUG : genre_ids --> None
+2018-03-08 18:05:48,742 : DEBUG : id --> None
+2018-03-08 18:05:48,742 : DEBUG : original_language --> es
+2018-03-08 18:05:48,742 : DEBUG : FICHA 2
+2018-03-08 18:05:48,742 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:05:48,742 : DEBUG : title --> 24 Horas
+2018-03-08 18:05:48,742 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:05:48,742 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:05:48,742 : DEBUG : popularity --> None
+2018-03-08 18:05:48,742 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:05:48,742 : DEBUG : backdrop_path --> None
+2018-03-08 18:05:48,757 : DEBUG : vote_count --> None
+2018-03-08 18:05:48,757 : DEBUG : video --> None
+2018-03-08 18:05:48,757 : DEBUG : adult --> None
+2018-03-08 18:05:48,757 : DEBUG : vote_average --> None
+2018-03-08 18:05:48,757 : DEBUG : genre_ids --> None
+2018-03-08 18:05:48,757 : DEBUG : id --> None
+2018-03-08 18:05:48,757 : DEBUG : original_language --> es
+2018-03-08 18:05:48,757 : DEBUG : Titulo = al encontrado
+2018-03-08 18:05:48,992 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 18:05:48,992 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:05:48,992 : DEBUG : production_countries --> None
+2018-03-08 18:05:48,992 : DEBUG : revenue --> None
+2018-03-08 18:05:49,006 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:05:49,006 : DEBUG : video --> None
+2018-03-08 18:05:49,006 : DEBUG : id --> None
+2018-03-08 18:05:49,006 : DEBUG : genres --> None
+2018-03-08 18:05:49,006 : DEBUG : title --> 24 Horas
+2018-03-08 18:05:49,006 : DEBUG : tagline --> 
+2018-03-08 18:05:49,006 : DEBUG : vote_count --> None
+2018-03-08 18:05:49,006 : DEBUG : homepage --> 
+2018-03-08 18:05:49,006 : DEBUG : belongs_to_collection --> None
+2018-03-08 18:05:49,006 : DEBUG : original_language --> es
+2018-03-08 18:05:49,006 : DEBUG : status --> Released
+2018-03-08 18:05:49,023 : DEBUG : spoken_languages --> None
+2018-03-08 18:05:49,023 : DEBUG : imdb_id --> None
+2018-03-08 18:05:49,023 : DEBUG : adult --> None
+2018-03-08 18:05:49,023 : DEBUG : backdrop_path --> None
+2018-03-08 18:05:49,023 : DEBUG : production_companies --> None
+2018-03-08 18:05:49,023 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:05:49,023 : DEBUG : popularity --> None
+2018-03-08 18:05:49,038 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:05:49,038 : DEBUG : budget --> None
+2018-03-08 18:05:49,038 : DEBUG : vote_average --> None
+2018-03-08 18:05:49,038 : DEBUG : runtime --> None
+2018-03-08 18:05:49,053 : DEBUG : Finalmente nos queda 
+2018-03-08 18:05:49,053 : DEBUG : anio --> 2015
+2018-03-08 18:05:49,053 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:05:49,053 : DEBUG : escritor --> None
+2018-03-08 18:05:49,053 : DEBUG : director --> None
+2018-03-08 18:05:49,053 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:05:49,053 : DEBUG : actores --> None
+2018-03-08 18:05:49,053 : DEBUG : pais --> None
+2018-03-08 18:05:49,053 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:05:49,053 : DEBUG : sinopsis --> None
+2018-03-08 18:05:49,053 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:05:49,053 : DEBUG : generos --> Acción
+2018-03-08 18:05:49,053 : DEBUG : duracion --> None
+2018-03-08 18:05:49,053 : DEBUG : idFicha --> movdb-488109
+2018-03-08 18:05:49,053 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'movdb-488109'}
+2018-03-08 18:05:49,053 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 18:05:49,805 : DEBUG : Finalmente nos queda 
+2018-03-08 18:05:49,805 : DEBUG : anio --> 2015
+2018-03-08 18:05:49,805 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 18:05:49,805 : DEBUG : escritor --> None
+2018-03-08 18:05:49,805 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 18:05:49,805 : DEBUG : titulo --> 24 Hours
+2018-03-08 18:05:49,805 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 18:05:49,805 : DEBUG : pais --> Estados Unidos
+2018-03-08 18:05:49,805 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:05:49,805 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 18:05:49,805 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 18:05:49,805 : DEBUG : generos --> Thriller
+2018-03-08 18:05:49,805 : DEBUG : duracion --> 96 min.
+2018-03-08 18:05:49,805 : DEBUG : idFicha --> Film-849196
+2018-03-08 18:05:49,805 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 18:05:49,805 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 18:05:49,851 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:05:49,851 : DEBUG : rated --> N/A
+2018-03-08 18:05:49,851 : DEBUG : language --> English
+2018-03-08 18:05:49,851 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 18:05:49,851 : DEBUG : year --> 2015–
+2018-03-08 18:05:49,851 : DEBUG : country --> N/A
+2018-03-08 18:05:49,851 : DEBUG : writer --> N/A
+2018-03-08 18:05:49,851 : DEBUG : total_seasons --> N/A
+2018-03-08 18:05:49,851 : DEBUG : metascore --> N/A
+2018-03-08 18:05:49,851 : DEBUG : imdb_id --> tt4649322
+2018-03-08 18:05:49,851 : DEBUG : director --> N/A
+2018-03-08 18:05:49,851 : DEBUG : released --> 28 Apr 2015
+2018-03-08 18:05:49,851 : DEBUG : imdb_rating --> 8.1
+2018-03-08 18:05:49,851 : DEBUG : awards --> N/A
+2018-03-08 18:05:49,851 : DEBUG : poster --> N/A
+2018-03-08 18:05:49,851 : DEBUG : genre --> Documentary
+2018-03-08 18:05:49,851 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:05:49,851 : DEBUG : runtime --> 60 min
+2018-03-08 18:05:49,851 : DEBUG : type --> series
+2018-03-08 18:05:49,851 : DEBUG : response --> True
+2018-03-08 18:05:49,851 : DEBUG : imdb_votes --> 42
+2018-03-08 18:05:49,851 : DEBUG : Finalmente nos queda 
+2018-03-08 18:05:49,851 : DEBUG : anio --> 2015–
+2018-03-08 18:05:49,851 : DEBUG : imagen --> N/A
+2018-03-08 18:05:49,851 : DEBUG : escritor --> N/A
+2018-03-08 18:05:49,851 : DEBUG : director --> N/A
+2018-03-08 18:05:49,851 : DEBUG : titulo --> 24 HOURS
+2018-03-08 18:05:49,851 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:05:49,851 : DEBUG : pais --> N/A
+2018-03-08 18:05:49,851 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 18:05:49,851 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:05:49,851 : DEBUG : sinopsis_es --> 
+2018-03-08 18:05:49,851 : DEBUG : generos --> Documentary
+2018-03-08 18:05:49,851 : DEBUG : duracion --> 60 min
+2018-03-08 18:05:49,851 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 18:05:49,851 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 18:05:49,851 : DEBUG : anio --> 2015
+2018-03-08 18:05:49,851 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:05:49,851 : DEBUG : escritor --> None
+2018-03-08 18:05:49,851 : DEBUG : director --> None
+2018-03-08 18:05:49,851 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:05:49,851 : DEBUG : actores --> None
+2018-03-08 18:05:49,851 : DEBUG : pais --> None
+2018-03-08 18:05:49,851 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:05:49,851 : DEBUG : sinopsis --> None
+2018-03-08 18:05:49,867 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:05:49,867 : DEBUG : generos --> Acción
+2018-03-08 18:05:49,867 : DEBUG : duracion --> None
+2018-03-08 18:05:49,867 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:05:49,867 : DEBUG : Ficha Encontrada -->
+2018-03-08 18:05:49,867 : DEBUG : anio --> 2015
+2018-03-08 18:05:49,867 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:05:49,867 : DEBUG : escritor --> None
+2018-03-08 18:05:49,867 : DEBUG : director --> None
+2018-03-08 18:05:49,867 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:05:49,867 : DEBUG : actores --> None
+2018-03-08 18:05:49,867 : DEBUG : pais --> None
+2018-03-08 18:05:49,867 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:05:49,867 : DEBUG : sinopsis --> None
+2018-03-08 18:05:49,867 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:05:49,867 : DEBUG : generos --> Acción
+2018-03-08 18:05:49,867 : DEBUG : duracion --> None
+2018-03-08 18:05:49,867 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:05:49,867 : DEBUG : movdb-488109,Film-849196
+2018-03-08 18:05:49,867 : DEBUG : None
+2018-03-08 18:05:49,867 : DEBUG : [u'movdb-488109', u'Film-849196']
+2018-03-08 18:05:49,867 : DEBUG : 2
+2018-03-08 18:05:49,867 : DEBUG : movdb-488109
+2018-03-08 18:05:49,867 : ERROR : No se ha encontrado la idfichamovdb-488109,Film-849196
+2018-03-08 18:05:49,867 : DEBUG : intento nº--> 5
+2018-03-08 18:05:49,930 : DEBUG : /Imagenes/movdb-488109,Film-849196.jpg
+2018-03-08 18:05:49,944 : DEBUG : Grabo imagen --> movdb-488109,Film-849196
+2018-03-08 18:05:49,944 : DEBUG : Voy a grabar la Ficha
+2018-03-08 18:05:49,944 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 18:05:49,944 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Lista_Pelis' object has no attribute '__getitem__'",), <traceback object at 0x08796440>)
+2018-03-08 18:05:49,944 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 18:05:49,944 : ERROR : Error al actualizar las imagenes.
+2018-03-08 18:05:49,944 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x0890D260>)
+2018-03-08 18:07:07,164 : DEBUG : listar pelis
+2018-03-08 18:07:10,427 : DEBUG : 24 HOURS
+2018-03-08 18:07:10,427 : DEBUG : None
+2018-03-08 18:07:10,427 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 18:07:10,427 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 18:07:10,427 : DEBUG : Peli que buscamos:
+2018-03-08 18:07:10,427 : DEBUG : 24 HOURS
+2018-03-08 18:07:10,427 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 18:07:10,427 : DEBUG : >-- Pelicula --<
+2018-03-08 18:07:10,427 : DEBUG : 24 HOURS
+2018-03-08 18:07:10,427 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 18:07:10,427 : DEBUG : 24HOURS
+2018-03-08 18:07:10,427 : DEBUG : intento nº--> 2
+2018-03-08 18:07:10,427 : DEBUG : 24HOURS
+2018-03-08 18:07:10,427 : DEBUG : intento nº--> 3
+2018-03-08 18:07:10,444 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 18:07:11,413 : DEBUG : PELI
+2018-03-08 18:07:11,413 : DEBUG : FICHA 1
+2018-03-08 18:07:11,413 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 18:07:11,428 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 18:07:11,428 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 18:07:11,428 : DEBUG : release_date --> 2015-09-01
+2018-03-08 18:07:11,428 : DEBUG : popularity --> None
+2018-03-08 18:07:11,428 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 18:07:11,428 : DEBUG : backdrop_path --> None
+2018-03-08 18:07:11,428 : DEBUG : vote_count --> None
+2018-03-08 18:07:11,428 : DEBUG : video --> None
+2018-03-08 18:07:11,428 : DEBUG : adult --> None
+2018-03-08 18:07:11,428 : DEBUG : vote_average --> None
+2018-03-08 18:07:11,428 : DEBUG : genre_ids --> None
+2018-03-08 18:07:11,428 : DEBUG : id --> None
+2018-03-08 18:07:11,428 : DEBUG : original_language --> es
+2018-03-08 18:07:11,428 : DEBUG : FICHA 2
+2018-03-08 18:07:11,428 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:07:11,428 : DEBUG : title --> 24 Horas
+2018-03-08 18:07:11,428 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:07:11,428 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:07:11,428 : DEBUG : popularity --> None
+2018-03-08 18:07:11,428 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:07:11,428 : DEBUG : backdrop_path --> None
+2018-03-08 18:07:11,444 : DEBUG : vote_count --> None
+2018-03-08 18:07:11,444 : DEBUG : video --> None
+2018-03-08 18:07:11,444 : DEBUG : adult --> None
+2018-03-08 18:07:11,444 : DEBUG : vote_average --> None
+2018-03-08 18:07:11,444 : DEBUG : genre_ids --> None
+2018-03-08 18:07:11,444 : DEBUG : id --> None
+2018-03-08 18:07:11,444 : DEBUG : original_language --> es
+2018-03-08 18:07:11,444 : DEBUG : Titulo = al encontrado
+2018-03-08 18:07:11,664 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 18:07:11,680 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:07:11,680 : DEBUG : production_countries --> None
+2018-03-08 18:07:11,680 : DEBUG : revenue --> None
+2018-03-08 18:07:11,680 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:07:11,680 : DEBUG : video --> None
+2018-03-08 18:07:11,680 : DEBUG : id --> None
+2018-03-08 18:07:11,680 : DEBUG : genres --> None
+2018-03-08 18:07:11,680 : DEBUG : title --> 24 Horas
+2018-03-08 18:07:11,680 : DEBUG : tagline --> 
+2018-03-08 18:07:11,680 : DEBUG : vote_count --> None
+2018-03-08 18:07:11,680 : DEBUG : homepage --> 
+2018-03-08 18:07:11,680 : DEBUG : belongs_to_collection --> None
+2018-03-08 18:07:11,680 : DEBUG : original_language --> es
+2018-03-08 18:07:11,680 : DEBUG : status --> Released
+2018-03-08 18:07:11,680 : DEBUG : spoken_languages --> None
+2018-03-08 18:07:11,680 : DEBUG : imdb_id --> None
+2018-03-08 18:07:11,680 : DEBUG : adult --> None
+2018-03-08 18:07:11,680 : DEBUG : backdrop_path --> None
+2018-03-08 18:07:11,680 : DEBUG : production_companies --> None
+2018-03-08 18:07:11,680 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:07:11,694 : DEBUG : popularity --> None
+2018-03-08 18:07:11,694 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:07:11,694 : DEBUG : budget --> None
+2018-03-08 18:07:11,694 : DEBUG : vote_average --> None
+2018-03-08 18:07:11,694 : DEBUG : runtime --> None
+2018-03-08 18:07:11,694 : DEBUG : Finalmente nos queda 
+2018-03-08 18:07:11,694 : DEBUG : anio --> 2015
+2018-03-08 18:07:11,694 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:07:11,694 : DEBUG : escritor --> None
+2018-03-08 18:07:11,694 : DEBUG : director --> None
+2018-03-08 18:07:11,694 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:07:11,694 : DEBUG : actores --> None
+2018-03-08 18:07:11,710 : DEBUG : pais --> None
+2018-03-08 18:07:11,710 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:07:11,710 : DEBUG : sinopsis --> None
+2018-03-08 18:07:11,710 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:07:11,710 : DEBUG : generos --> Acción
+2018-03-08 18:07:11,710 : DEBUG : duracion --> None
+2018-03-08 18:07:11,710 : DEBUG : idFicha --> movdb-488109
+2018-03-08 18:07:11,710 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'movdb-488109'}
+2018-03-08 18:07:11,710 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 18:07:12,523 : DEBUG : Finalmente nos queda 
+2018-03-08 18:07:12,523 : DEBUG : anio --> 2015
+2018-03-08 18:07:12,523 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 18:07:12,523 : DEBUG : escritor --> None
+2018-03-08 18:07:12,523 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 18:07:12,523 : DEBUG : titulo --> 24 Hours
+2018-03-08 18:07:12,523 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 18:07:12,523 : DEBUG : pais --> Estados Unidos
+2018-03-08 18:07:12,523 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:07:12,523 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 18:07:12,523 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 18:07:12,523 : DEBUG : generos --> Thriller
+2018-03-08 18:07:12,523 : DEBUG : duracion --> 96 min.
+2018-03-08 18:07:12,523 : DEBUG : idFicha --> Film-849196
+2018-03-08 18:07:12,539 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 18:07:12,539 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 18:07:12,586 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:07:12,586 : DEBUG : rated --> N/A
+2018-03-08 18:07:12,586 : DEBUG : language --> English
+2018-03-08 18:07:12,586 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 18:07:12,586 : DEBUG : year --> 2015–
+2018-03-08 18:07:12,586 : DEBUG : country --> N/A
+2018-03-08 18:07:12,586 : DEBUG : writer --> N/A
+2018-03-08 18:07:12,586 : DEBUG : total_seasons --> N/A
+2018-03-08 18:07:12,586 : DEBUG : metascore --> N/A
+2018-03-08 18:07:12,586 : DEBUG : imdb_id --> tt4649322
+2018-03-08 18:07:12,586 : DEBUG : director --> N/A
+2018-03-08 18:07:12,586 : DEBUG : released --> 28 Apr 2015
+2018-03-08 18:07:12,586 : DEBUG : imdb_rating --> 8.1
+2018-03-08 18:07:12,586 : DEBUG : awards --> N/A
+2018-03-08 18:07:12,586 : DEBUG : poster --> N/A
+2018-03-08 18:07:12,586 : DEBUG : genre --> Documentary
+2018-03-08 18:07:12,601 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:07:12,601 : DEBUG : runtime --> 60 min
+2018-03-08 18:07:12,601 : DEBUG : type --> series
+2018-03-08 18:07:12,601 : DEBUG : response --> True
+2018-03-08 18:07:12,601 : DEBUG : imdb_votes --> 42
+2018-03-08 18:07:12,601 : DEBUG : Finalmente nos queda 
+2018-03-08 18:07:12,601 : DEBUG : anio --> 2015–
+2018-03-08 18:07:12,601 : DEBUG : imagen --> N/A
+2018-03-08 18:07:12,601 : DEBUG : escritor --> N/A
+2018-03-08 18:07:12,601 : DEBUG : director --> N/A
+2018-03-08 18:07:12,601 : DEBUG : titulo --> 24 HOURS
+2018-03-08 18:07:12,601 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:07:12,601 : DEBUG : pais --> N/A
+2018-03-08 18:07:12,601 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 18:07:12,601 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:07:12,601 : DEBUG : sinopsis_es --> 
+2018-03-08 18:07:12,601 : DEBUG : generos --> Documentary
+2018-03-08 18:07:12,601 : DEBUG : duracion --> 60 min
+2018-03-08 18:07:12,601 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 18:07:12,601 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 18:07:12,601 : DEBUG : anio --> 2015
+2018-03-08 18:07:12,601 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:07:12,601 : DEBUG : escritor --> None
+2018-03-08 18:07:12,601 : DEBUG : director --> None
+2018-03-08 18:07:12,601 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:07:12,601 : DEBUG : actores --> None
+2018-03-08 18:07:12,601 : DEBUG : pais --> None
+2018-03-08 18:07:12,601 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:07:12,601 : DEBUG : sinopsis --> None
+2018-03-08 18:07:12,601 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:07:12,601 : DEBUG : generos --> Acción
+2018-03-08 18:07:12,601 : DEBUG : duracion --> None
+2018-03-08 18:07:12,601 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:07:12,601 : DEBUG : Ficha Encontrada -->
+2018-03-08 18:07:12,601 : DEBUG : anio --> 2015
+2018-03-08 18:07:12,601 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:07:12,601 : DEBUG : escritor --> None
+2018-03-08 18:07:12,601 : DEBUG : director --> None
+2018-03-08 18:07:12,601 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:07:12,601 : DEBUG : actores --> None
+2018-03-08 18:07:12,601 : DEBUG : pais --> None
+2018-03-08 18:07:12,601 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:07:12,601 : DEBUG : sinopsis --> None
+2018-03-08 18:07:12,601 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:07:12,601 : DEBUG : generos --> Acción
+2018-03-08 18:07:12,618 : DEBUG : duracion --> None
+2018-03-08 18:07:12,618 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:07:12,618 : DEBUG : movdb-488109,Film-849196
+2018-03-08 18:07:12,618 : DEBUG : None
+2018-03-08 18:07:12,618 : DEBUG : [u'movdb-488109', u'Film-849196']
+2018-03-08 18:07:12,618 : DEBUG : 2
+2018-03-08 18:07:12,618 : DEBUG : movdb-488109
+2018-03-08 18:07:12,618 : ERROR : No se ha encontrado la idfichamovdb-488109,Film-849196
+2018-03-08 18:07:12,618 : DEBUG : intento nº--> 5
+2018-03-08 18:07:12,696 : DEBUG : /Imagenes/movdb-488109,Film-849196.jpg
+2018-03-08 18:07:12,711 : DEBUG : Grabo imagen --> movdb-488109,Film-849196
+2018-03-08 18:07:12,711 : DEBUG : Voy a grabar la Ficha
+2018-03-08 18:07:12,711 : DEBUG : 24 Horas
+2018-03-08 18:07:12,711 : DEBUG : FICHA DE LA PELICULA
+2018-03-08 18:07:12,711 : DEBUG : >-- Pelicula --<
+2018-03-08 18:07:12,711 : DEBUG : 24 Horas
+2018-03-08 18:07:12,711 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-08 18:07:12,821 : INFO : Grabado en PELICULA
+2018-03-08 18:07:12,821 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-08 18:07:12,821 : ERROR : Error en busqueda de pelicula tras el intento 5
+2018-03-08 18:07:12,821 : ERROR : (<type 'exceptions.ValueError'>, ValueError(u'Cannot assign "\'829\'": "Lista_Pelis.idFicha" must be a "Pelicula" instance.',), <traceback object at 0x0885C1E8>)
+2018-03-08 18:07:12,821 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-08 18:12:31,211 : DEBUG : listar pelis
+2018-03-08 18:12:33,946 : DEBUG : 24 HOURS
+2018-03-08 18:12:33,946 : DEBUG : None
+2018-03-08 18:12:33,946 : DEBUG : http://newpct1.com/descargar-torrent/101566_24-hours-blurayrip-aca-a-2-0-espaa-a-ol-castellano-2017
+2018-03-08 18:12:33,946 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-08 18:12:33,946 : DEBUG : Peli que buscamos:
+2018-03-08 18:12:33,946 : DEBUG : 24 HOURS
+2018-03-08 18:12:33,946 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-08 18:12:33,946 : DEBUG : >-- Pelicula --<
+2018-03-08 18:12:33,946 : DEBUG : 24 HOURS
+2018-03-08 18:12:33,963 : DEBUG : Comprobamos si existe la ficha.
+2018-03-08 18:12:33,963 : DEBUG : 24HOURS
+2018-03-08 18:12:33,963 : DEBUG : intento nº--> 2
+2018-03-08 18:12:33,963 : DEBUG : 24HOURS
+2018-03-08 18:12:33,971 : DEBUG : intento nº--> 3
+2018-03-08 18:12:33,974 : DEBUG : >-- Pelicula --<
+2018-03-08 18:12:33,976 : DEBUG : 24 Horas
+2018-03-08 18:12:33,976 : ERROR : Error en existe_ficha
+2018-03-08 18:12:33,976 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'QuerySet' object has no attribute 'id'",), <traceback object at 0x071EABC0>)
+2018-03-08 18:12:33,976 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-08 18:12:34,944 : DEBUG : PELI
+2018-03-08 18:12:34,944 : DEBUG : FICHA 1
+2018-03-08 18:12:34,944 : DEBUG : poster_path --> /3vk4vJETkMfmx1xhnqe8ihTY9l3.jpg
+2018-03-08 18:12:34,944 : DEBUG : title --> Chicas nuevas 24horas
+2018-03-08 18:12:34,944 : DEBUG : overview --> Chicas nuevas 24 horas nos muestra paso a paso cómo montar un negocio que mueve 32 mil millones de dólares al año. Un negocio en el que todo son ganancias, pues el cuerpo de una mujer, si es joven y se cuida, puede llegar a venderse en múltiples ocasiones durante el mismo día, incluso contra su voluntad. ¿Quieres aprender este negocio? ¿Quieres formar parte de él? ¿O únicamente quieres mirar?. Chicas nuevas 24 horas no es un documental único por mezclar el falso documental con la investigación a través de cinco países, sino por colocar el punto de vista en la mirada perversa del gran negocio que significa la esclavitud sexual. (FILMAFFINITY)
+2018-03-08 18:12:34,944 : DEBUG : release_date --> 2015-09-01
+2018-03-08 18:12:34,944 : DEBUG : popularity --> None
+2018-03-08 18:12:34,944 : DEBUG : original_title --> Chicas nuevas 24horas
+2018-03-08 18:12:34,944 : DEBUG : backdrop_path --> None
+2018-03-08 18:12:34,944 : DEBUG : vote_count --> None
+2018-03-08 18:12:34,960 : DEBUG : video --> None
+2018-03-08 18:12:34,960 : DEBUG : adult --> None
+2018-03-08 18:12:34,960 : DEBUG : vote_average --> None
+2018-03-08 18:12:34,960 : DEBUG : genre_ids --> None
+2018-03-08 18:12:34,960 : DEBUG : id --> None
+2018-03-08 18:12:34,976 : DEBUG : original_language --> es
+2018-03-08 18:12:34,976 : DEBUG : FICHA 2
+2018-03-08 18:12:34,976 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:12:34,976 : DEBUG : title --> 24 Horas
+2018-03-08 18:12:34,976 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:12:34,976 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:12:34,976 : DEBUG : popularity --> None
+2018-03-08 18:12:34,976 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:12:34,992 : DEBUG : backdrop_path --> None
+2018-03-08 18:12:34,992 : DEBUG : vote_count --> None
+2018-03-08 18:12:34,992 : DEBUG : video --> None
+2018-03-08 18:12:34,992 : DEBUG : adult --> None
+2018-03-08 18:12:34,992 : DEBUG : vote_average --> None
+2018-03-08 18:12:34,992 : DEBUG : genre_ids --> None
+2018-03-08 18:12:34,992 : DEBUG : id --> None
+2018-03-08 18:12:34,992 : DEBUG : original_language --> es
+2018-03-08 18:12:34,992 : DEBUG : Titulo = al encontrado
+2018-03-08 18:12:35,194 : DEBUG : FICHA QUE COINCIDE EL TITULO COMPLETO
+2018-03-08 18:12:35,194 : DEBUG : poster_path --> /kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:12:35,194 : DEBUG : production_countries --> None
+2018-03-08 18:12:35,194 : DEBUG : revenue --> None
+2018-03-08 18:12:35,194 : DEBUG : overview --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:12:35,194 : DEBUG : video --> None
+2018-03-08 18:12:35,194 : DEBUG : id --> None
+2018-03-08 18:12:35,194 : DEBUG : genres --> None
+2018-03-08 18:12:35,194 : DEBUG : title --> 24 Horas
+2018-03-08 18:12:35,194 : DEBUG : tagline --> 
+2018-03-08 18:12:35,194 : DEBUG : vote_count --> None
+2018-03-08 18:12:35,194 : DEBUG : homepage --> 
+2018-03-08 18:12:35,194 : DEBUG : belongs_to_collection --> None
+2018-03-08 18:12:35,194 : DEBUG : original_language --> es
+2018-03-08 18:12:35,194 : DEBUG : status --> Released
+2018-03-08 18:12:35,194 : DEBUG : spoken_languages --> None
+2018-03-08 18:12:35,194 : DEBUG : imdb_id --> None
+2018-03-08 18:12:35,194 : DEBUG : adult --> None
+2018-03-08 18:12:35,194 : DEBUG : backdrop_path --> None
+2018-03-08 18:12:35,194 : DEBUG : production_companies --> None
+2018-03-08 18:12:35,194 : DEBUG : release_date --> 2015-09-25
+2018-03-08 18:12:35,194 : DEBUG : popularity --> None
+2018-03-08 18:12:35,194 : DEBUG : original_title --> 24 Hours
+2018-03-08 18:12:35,194 : DEBUG : budget --> None
+2018-03-08 18:12:35,194 : DEBUG : vote_average --> None
+2018-03-08 18:12:35,194 : DEBUG : runtime --> None
+2018-03-08 18:12:35,194 : DEBUG : Finalmente nos queda 
+2018-03-08 18:12:35,194 : DEBUG : anio --> 2015
+2018-03-08 18:12:35,194 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:12:35,194 : DEBUG : escritor --> None
+2018-03-08 18:12:35,194 : DEBUG : director --> None
+2018-03-08 18:12:35,194 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:12:35,194 : DEBUG : actores --> None
+2018-03-08 18:12:35,194 : DEBUG : pais --> None
+2018-03-08 18:12:35,194 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:12:35,194 : DEBUG : sinopsis --> None
+2018-03-08 18:12:35,194 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:12:35,194 : DEBUG : generos --> Acción
+2018-03-08 18:12:35,194 : DEBUG : duracion --> None
+2018-03-08 18:12:35,194 : DEBUG : idFicha --> movdb-488109
+2018-03-08 18:12:35,194 : DEBUG : {u'anio': u'2015', u'imagen': u'https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg', u'escritor': None, u'director': None, u'titulo': u'24 Horas', u'actores': None, u'pais': None, u'titulo_orig': u'24 Hours', u'sinopsis': u'None', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia.', u'generos': u'Acci\xf3n', u'duracion': 0, u'idFicha': u'movdb-488109'}
+2018-03-08 18:12:35,194 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-08 18:12:35,960 : DEBUG : Finalmente nos queda 
+2018-03-08 18:12:35,960 : DEBUG : anio --> 2015
+2018-03-08 18:12:35,960 : DEBUG : imagen --> https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg
+2018-03-08 18:12:35,960 : DEBUG : escritor --> None
+2018-03-08 18:12:35,960 : DEBUG : director --> Timothy Woodward Jr.
+2018-03-08 18:12:35,960 : DEBUG : titulo --> 24 Hours
+2018-03-08 18:12:35,960 : DEBUG : actores --> Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Paré, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco
+2018-03-08 18:12:35,960 : DEBUG : pais --> Estados Unidos
+2018-03-08 18:12:35,960 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:12:35,960 : DEBUG : sinopsis --> Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. 
+2018-03-08 18:12:35,960 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia. (FILMAFFINITY)
+2018-03-08 18:12:35,960 : DEBUG : generos --> Thriller
+2018-03-08 18:12:35,960 : DEBUG : duracion --> 96 min.
+2018-03-08 18:12:35,960 : DEBUG : idFicha --> Film-849196
+2018-03-08 18:12:35,960 : DEBUG : {u'anio': u'2015', u'imagen': 'https://pics.filmaffinity.com/24_hours-592805571-mmed.jpg', u'escritor': None, u'director': u'Timothy Woodward Jr.', u'titulo': u'24 Hours', u'actores': u'Tom Sizemore, Timothy Woodward Jr., Mischa Barton, Michael Par\xe9, Jayde Rossi, Marlon Young, Jeremy London, Aria London, Said Faraj, Catherine Fetsco', u'pais': u'Estados Unidos', u'titulo_orig': u'24 Hours', u'sinopsis': u'Attack on an event hosted by a local government official, the kidnapping of several public figures, and the threat of the detonation of a biological weapon. Despite the recent loss of his partner, one detective must race against the clock to save the hostages and prevent a major outbreak of a deadly disease. ', u'sinopsis_es': u'Un equipo SWAT de \xe9lite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los \xc1ngeles y as\xed hacer justicia. (FILMAFFINITY)', u'generos': u'Thriller', u'duracion': u'96 min.', u'idFicha': u'Film-849196'}
+2018-03-08 18:12:35,960 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-08 18:12:35,993 : DEBUG : plot --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:12:35,993 : DEBUG : rated --> N/A
+2018-03-08 18:12:35,993 : DEBUG : language --> English
+2018-03-08 18:12:35,993 : DEBUG : title --> 24 Hours in the Past
+2018-03-08 18:12:35,993 : DEBUG : year --> 2015–
+2018-03-08 18:12:35,993 : DEBUG : country --> N/A
+2018-03-08 18:12:35,993 : DEBUG : writer --> N/A
+2018-03-08 18:12:35,993 : DEBUG : total_seasons --> N/A
+2018-03-08 18:12:35,993 : DEBUG : metascore --> N/A
+2018-03-08 18:12:35,993 : DEBUG : imdb_id --> tt4649322
+2018-03-08 18:12:35,993 : DEBUG : director --> N/A
+2018-03-08 18:12:35,993 : DEBUG : released --> 28 Apr 2015
+2018-03-08 18:12:35,993 : DEBUG : imdb_rating --> 8.1
+2018-03-08 18:12:35,993 : DEBUG : awards --> N/A
+2018-03-08 18:12:35,993 : DEBUG : poster --> N/A
+2018-03-08 18:12:35,993 : DEBUG : genre --> Documentary
+2018-03-08 18:12:35,993 : DEBUG : actors --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:12:35,993 : DEBUG : runtime --> 60 min
+2018-03-08 18:12:35,993 : DEBUG : type --> series
+2018-03-08 18:12:35,993 : DEBUG : response --> True
+2018-03-08 18:12:35,993 : DEBUG : imdb_votes --> 42
+2018-03-08 18:12:35,993 : DEBUG : Finalmente nos queda 
+2018-03-08 18:12:35,993 : DEBUG : anio --> 2015–
+2018-03-08 18:12:35,993 : DEBUG : imagen --> N/A
+2018-03-08 18:12:35,993 : DEBUG : escritor --> N/A
+2018-03-08 18:12:35,993 : DEBUG : director --> N/A
+2018-03-08 18:12:35,993 : DEBUG : titulo --> 24 HOURS
+2018-03-08 18:12:35,993 : DEBUG : actores --> Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson
+2018-03-08 18:12:35,993 : DEBUG : pais --> N/A
+2018-03-08 18:12:35,993 : DEBUG : titulo_orig --> 24 Hours in the Past
+2018-03-08 18:12:35,993 : DEBUG : sinopsis --> Living history show. Six celebrities experience the relentless graft of Victorian Britain.
+2018-03-08 18:12:35,993 : DEBUG : sinopsis_es --> 
+2018-03-08 18:12:35,993 : DEBUG : generos --> Documentary
+2018-03-08 18:12:35,993 : DEBUG : duracion --> 60 min
+2018-03-08 18:12:35,993 : DEBUG : idFicha --> Imdb-tt4649322
+2018-03-08 18:12:35,993 : DEBUG : {u'anio': u'2015\u2013', u'imagen': u'N/A', u'escritor': u'N/A', u'director': u'N/A', u'titulo': u'24 HOURS', u'actores': u'Tyger Drew-Honey, Fi Glover, Ruth Goodman, Colin Jackson', u'pais': u'N/A', u'titulo_orig': u'24 Hours in the Past', u'sinopsis': u'Living history show. Six celebrities experience the relentless graft of Victorian Britain.', u'sinopsis_es': u'', u'generos': u'Documentary', u'duracion': u'60 min', u'idFicha': u'Imdb-tt4649322'}
+2018-03-08 18:12:36,007 : DEBUG : anio --> 2015
+2018-03-08 18:12:36,007 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:12:36,007 : DEBUG : escritor --> None
+2018-03-08 18:12:36,007 : DEBUG : director --> None
+2018-03-08 18:12:36,007 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:12:36,007 : DEBUG : actores --> None
+2018-03-08 18:12:36,007 : DEBUG : pais --> None
+2018-03-08 18:12:36,007 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:12:36,007 : DEBUG : sinopsis --> None
+2018-03-08 18:12:36,007 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:12:36,007 : DEBUG : generos --> Acción
+2018-03-08 18:12:36,007 : DEBUG : duracion --> None
+2018-03-08 18:12:36,007 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:12:36,007 : DEBUG : Ficha Encontrada -->
+2018-03-08 18:12:36,007 : DEBUG : anio --> 2015
+2018-03-08 18:12:36,007 : DEBUG : imagen --> https://image.tmdb.org/t/p/w300_and_h450_bestv2/kajdXSzMfsl3Ofw2kCDP83CUhrz.jpg
+2018-03-08 18:12:36,007 : DEBUG : escritor --> None
+2018-03-08 18:12:36,007 : DEBUG : director --> None
+2018-03-08 18:12:36,007 : DEBUG : titulo --> 24 Horas
+2018-03-08 18:12:36,007 : DEBUG : actores --> None
+2018-03-08 18:12:36,007 : DEBUG : pais --> None
+2018-03-08 18:12:36,007 : DEBUG : titulo_orig --> 24 Hours
+2018-03-08 18:12:36,007 : DEBUG : sinopsis --> None
+2018-03-08 18:12:36,007 : DEBUG : sinopsis_es --> Un equipo SWAT de élite tiene apenas 24 horas para impedir que un terrorista mate a personas inocentes parando un ataque en Los Ángeles y así hacer justicia.
+2018-03-08 18:12:36,007 : DEBUG : generos --> Acción
+2018-03-08 18:12:36,007 : DEBUG : duracion --> None
+2018-03-08 18:12:36,007 : DEBUG : idFicha --> movdb-488109,Film-849196
+2018-03-08 18:12:36,007 : DEBUG : movdb-488109,Film-849196
+2018-03-08 18:12:36,007 : DEBUG : None
+2018-03-08 18:12:36,007 : DEBUG : [u'movdb-488109', u'Film-849196']
+2018-03-08 18:12:36,007 : DEBUG : 2
+2018-03-08 18:12:36,007 : DEBUG : movdb-488109
+2018-03-08 18:12:36,007 : ERROR : No se ha encontrado la idfichamovdb-488109,Film-849196
+2018-03-08 18:12:36,007 : DEBUG : intento nº--> 5
+2018-03-08 18:12:36,071 : DEBUG : /Imagenes/movdb-488109,Film-849196.jpg
+2018-03-08 18:12:36,085 : DEBUG : Grabo imagen --> movdb-488109,Film-849196
+2018-03-08 18:12:36,085 : DEBUG : Voy a grabar la Ficha
+2018-03-08 18:12:36,085 : DEBUG : 24 Horas
+2018-03-08 18:12:36,085 : DEBUG : FICHA DE LA PELICULA
+2018-03-08 18:12:36,085 : DEBUG : >-- Pelicula --<
+2018-03-08 18:12:36,085 : DEBUG : 24 Horas
+2018-03-08 18:12:36,085 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-08 18:12:36,118 : INFO : Grabado en PELICULA
+2018-03-08 18:12:36,118 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-08 18:12:36,196 : DEBUG : grabado el idficha 5
+2018-03-08 18:12:36,196 : DEBUG : Comienzo el actualizar Imagenes Final

@@ -1,0 +1,58 @@
+2018-02-25 20:10:21,934 : DEBUG : entro en busqueda
+2018-02-25 20:11:49,747 : DEBUG : entro en busqueda
+2018-02-25 20:13:18,400 : DEBUG : entro en busqueda
+2018-02-25 20:13:29,655 : DEBUG : entro en busqueda
+2018-02-25 20:14:31,415 : DEBUG : entro en busqueda
+2018-02-25 20:15:46,890 : DEBUG : entro en busqueda
+2018-02-25 20:19:33,661 : DEBUG : entro en busqueda
+2018-02-25 20:19:43,190 : DEBUG : entro en busqueda
+2018-02-25 20:19:43,190 : DEBUG : anio: 2018
+2018-02-25 20:19:43,190 : DEBUG : entra anio
+2018-02-25 20:19:48,132 : DEBUG : entro en busqueda
+2018-02-25 20:19:48,132 : DEBUG : anio: 2017
+2018-02-25 20:19:48,132 : DEBUG : entra anio
+2018-02-25 20:19:50,022 : DEBUG : entro en busqueda
+2018-02-25 20:19:55,953 : DEBUG : entro en busqueda
+2018-02-25 20:19:55,953 : DEBUG : anio: 2017
+2018-02-25 20:19:55,953 : DEBUG : entra anio
+2018-02-25 20:21:14,653 : DEBUG : entro en busqueda
+2018-02-25 20:21:14,653 : DEBUG : anio: 2017
+2018-02-25 20:21:14,653 : DEBUG : entra anio
+2018-02-25 20:21:23,766 : DEBUG : entro en busqueda
+2018-02-25 20:21:23,766 : DEBUG : anio: 2017
+2018-02-25 20:21:23,766 : DEBUG : entra anio
+2018-02-25 20:21:25,437 : DEBUG : entro en busqueda
+2018-02-25 20:21:25,437 : DEBUG : anio: 2017
+2018-02-25 20:21:25,437 : DEBUG : entra anio
+2018-02-25 20:21:26,648 : DEBUG : entro en busqueda
+2018-02-25 20:21:26,648 : DEBUG : anio: 2017
+2018-02-25 20:21:26,648 : DEBUG : entra anio
+2018-02-25 20:21:36,746 : DEBUG : entro en busqueda
+2018-02-25 20:21:36,746 : DEBUG : anio: 2015
+2018-02-25 20:21:36,746 : DEBUG : entra anio
+2018-02-25 20:22:22,065 : DEBUG : entro en busqueda
+2018-02-25 20:22:22,065 : DEBUG : anio: 2017
+2018-02-25 20:22:22,065 : DEBUG : entra anio
+2018-02-25 20:23:18,849 : DEBUG : entro en busqueda
+2018-02-25 20:23:18,849 : DEBUG : anio: 2017
+2018-02-25 20:23:18,849 : DEBUG : entra anio
+2018-02-25 20:23:28,171 : DEBUG : entro en busqueda
+2018-02-25 20:23:28,171 : DEBUG : anio: 2018
+2018-02-25 20:23:28,171 : DEBUG : entra anio
+2018-02-25 20:37:12,345 : DEBUG : Pagina de Carga
+2018-02-25 20:37:12,377 : DEBUG : Proveedor
+2018-02-25 20:37:21,316 : DEBUG : Pagina de Carga
+2018-02-25 20:37:21,318 : DEBUG : ProveedorNewPct1
+2018-02-25 20:37:21,318 : DEBUG : JSon
+2018-02-25 20:37:21,319 : DEBUG : Paginas antes --> 
+2018-02-25 20:37:21,319 : DEBUG : D:\Proyectos\Viserpel\vi_peli\json/NewPct1.json
+2018-02-25 20:37:21,351 : INFO : Cargado JSON
+2018-02-25 20:37:31,845 : DEBUG : Pagina de Carga
+2018-02-25 20:37:31,845 : DEBUG : ProveedorMejorTorrent_Todo
+2018-02-25 20:37:31,845 : DEBUG : JSon
+2018-02-25 20:37:31,845 : DEBUG : Paginas antes --> 
+2018-02-25 20:37:31,845 : DEBUG : D:\Proyectos\Viserpel\vi_peli\json/MejorTorrent_Todo.json
+2018-02-25 20:37:32,253 : INFO : Cargado JSON
+2018-02-25 21:50:27,664 : INFO : Ficha
+2018-02-25 21:50:27,680 : DEBUG : Imdb-tt2990126,movdb-334532
+2018-02-25 21:50:27,680 : INFO : <QuerySet [<Lista_Pelis: 100 CALLES>]>

@@ -1,0 +1,998 @@
+2018-03-09 19:03:29,369 : DEBUG : listar pelis
+2018-03-09 19:03:42,469 : DEBUG : 10 000 DIAS
+2018-03-09 19:03:42,470 : DEBUG : None
+2018-03-09 19:03:42,470 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:03:42,470 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:03:42,470 : DEBUG : Peli que buscamos:
+2018-03-09 19:03:42,470 : DEBUG : 10 000 DIAS
+2018-03-09 19:03:42,473 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:03:42,473 : DEBUG : >-- Pelicula --<
+2018-03-09 19:03:42,473 : DEBUG : 10 000 DIAS
+2018-03-09 19:03:42,473 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:03:42,473 : DEBUG : 10000DIAS
+2018-03-09 19:03:42,476 : DEBUG : intento nº--> 2
+2018-03-09 19:03:42,477 : DEBUG : 10000DIAS
+2018-03-09 19:03:42,996 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-09 19:03:44,219 : DEBUG : PELI
+2018-03-09 19:03:44,219 : DEBUG : FICHA 1
+2018-03-09 19:03:44,219 : DEBUG : poster_path --> /vxrdHZqbF0YCcDtlwTVi4fzwuKS.jpg
+2018-03-09 19:03:44,219 : DEBUG : title --> 10,000 Days
+2018-03-09 19:03:44,219 : DEBUG : overview --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades.
+2018-03-09 19:03:44,219 : DEBUG : release_date --> 2014-11-23
+2018-03-09 19:03:44,219 : DEBUG : popularity --> None
+2018-03-09 19:03:44,219 : DEBUG : original_title --> 10,000 Days
+2018-03-09 19:03:44,219 : DEBUG : backdrop_path --> /kT4JzPaRNnw0zv8asYRB2Kb7IO5.jpg
+2018-03-09 19:03:44,219 : DEBUG : vote_count --> None
+2018-03-09 19:03:44,219 : DEBUG : video --> None
+2018-03-09 19:03:44,219 : DEBUG : adult --> None
+2018-03-09 19:03:44,219 : DEBUG : vote_average --> None
+2018-03-09 19:03:44,219 : DEBUG : genre_ids --> None
+2018-03-09 19:03:44,219 : DEBUG : id --> None
+2018-03-09 19:03:44,219 : DEBUG : original_language --> en
+2018-03-09 19:03:44,219 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-09 19:03:44,219 : DEBUG : None
+2018-03-09 19:03:44,219 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-09 19:03:45,138 : DEBUG : Finalmente nos queda 
+2018-03-09 19:03:45,138 : DEBUG : anio --> 2014
+2018-03-09 19:03:45,138 : DEBUG : imagen --> https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg
+2018-03-09 19:03:45,138 : DEBUG : escritor --> None
+2018-03-09 19:03:45,138 : DEBUG : director --> Eric Small
+2018-03-09 19:03:45,138 : DEBUG : titulo --> 10.000 días
+2018-03-09 19:03:45,138 : DEBUG : actores --> John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders
+2018-03-09 19:03:45,138 : DEBUG : pais --> Estados Unidos
+2018-03-09 19:03:45,138 : DEBUG : titulo_orig --> 10,000 Days
+2018-03-09 19:03:45,138 : DEBUG : sinopsis --> 10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice—a choice that can either save them or destroy them.
+2018-03-09 19:03:45,154 : DEBUG : sinopsis_es --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades. (FILMAFFINITY)
+2018-03-09 19:03:45,154 : DEBUG : generos --> Ciencia ficción
+2018-03-09 19:03:45,154 : DEBUG : duracion --> 91 min.
+2018-03-09 19:03:45,170 : DEBUG : idFicha --> Film-548951
+2018-03-09 19:03:45,170 : DEBUG : {u'anio': u'2014', u'imagen': 'https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg', u'escritor': None, u'director': u'Eric Small', u'titulo': u'10.000 d\xedas', u'actores': u'John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders', u'pais': u'Estados Unidos', u'titulo_orig': u'10,000 Days', u'sinopsis': u"10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice\u2014a choice that can either save them or destroy them.", u'sinopsis_es': u'Hace 10.000 d\xedas, un cometa impact\xf3 con la Tierra en pleno oc\xe9ano Pac\xedfico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivi\xf3, comenzando una terrible odisea frente al fr\xedo y las adversidades. (FILMAFFINITY)', u'generos': u'Ciencia ficci\xf3n', u'duracion': u'91 min.', u'idFicha': u'Film-548951'}
+2018-03-09 19:03:45,170 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-09 19:03:45,170 : ERROR : No hay parámetros para la busqueda
+2018-03-09 19:03:45,170 : DEBUG : None
+2018-03-09 19:03:45,170 : DEBUG : anio --> 2014
+2018-03-09 19:03:45,170 : DEBUG : imagen --> https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg
+2018-03-09 19:03:45,170 : DEBUG : escritor --> None
+2018-03-09 19:03:45,170 : DEBUG : director --> Eric Small
+2018-03-09 19:03:45,170 : DEBUG : titulo --> 10.000 días
+2018-03-09 19:03:45,170 : DEBUG : actores --> John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders
+2018-03-09 19:03:45,170 : DEBUG : pais --> Estados Unidos
+2018-03-09 19:03:45,170 : DEBUG : titulo_orig --> 10,000 Days
+2018-03-09 19:03:45,170 : DEBUG : sinopsis --> 10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice—a choice that can either save them or destroy them.
+2018-03-09 19:03:45,170 : DEBUG : sinopsis_es --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades. (FILMAFFINITY)
+2018-03-09 19:03:45,170 : DEBUG : generos --> Ciencia ficción
+2018-03-09 19:03:45,170 : DEBUG : duracion --> 91 min.
+2018-03-09 19:03:45,170 : DEBUG : idFicha --> Film-548951
+2018-03-09 19:03:45,170 : DEBUG : Ficha Encontrada -->
+2018-03-09 19:03:45,170 : DEBUG : anio --> 2014
+2018-03-09 19:03:45,170 : DEBUG : imagen --> https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg
+2018-03-09 19:03:45,170 : DEBUG : escritor --> None
+2018-03-09 19:03:45,170 : DEBUG : director --> Eric Small
+2018-03-09 19:03:45,170 : DEBUG : titulo --> 10.000 días
+2018-03-09 19:03:45,170 : DEBUG : actores --> John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders
+2018-03-09 19:03:45,170 : DEBUG : pais --> Estados Unidos
+2018-03-09 19:03:45,170 : DEBUG : titulo_orig --> 10,000 Days
+2018-03-09 19:03:45,170 : DEBUG : sinopsis --> 10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice—a choice that can either save them or destroy them.
+2018-03-09 19:03:45,170 : DEBUG : sinopsis_es --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades. (FILMAFFINITY)
+2018-03-09 19:03:45,170 : DEBUG : generos --> Ciencia ficción
+2018-03-09 19:03:45,170 : DEBUG : duracion --> 91 min.
+2018-03-09 19:03:45,170 : DEBUG : idFicha --> Film-548951
+2018-03-09 19:03:45,170 : DEBUG : Film-548951
+2018-03-09 19:03:45,170 : DEBUG : None
+2018-03-09 19:03:45,170 : DEBUG : [u'Film-548951']
+2018-03-09 19:03:45,170 : DEBUG : 1
+2018-03-09 19:03:45,170 : DEBUG : Film-548951
+2018-03-09 19:03:45,184 : ERROR : No se ha encontrado la idfichaFilm-548951
+2018-03-09 19:03:45,184 : DEBUG : intento nº--> 5
+2018-03-09 19:03:45,232 : DEBUG : /Imagenes/Film-548951.jpg
+2018-03-09 19:03:45,279 : DEBUG : Grabo imagen --> Film-548951
+2018-03-09 19:03:45,279 : DEBUG : Voy a grabar la Ficha
+2018-03-09 19:03:45,279 : DEBUG : 10.000 días
+2018-03-09 19:03:45,279 : DEBUG : FICHA DE LA PELICULA
+2018-03-09 19:03:45,279 : DEBUG : >-- Pelicula --<
+2018-03-09 19:03:45,295 : DEBUG : 10.000 días
+2018-03-09 19:03:45,295 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-09 19:03:45,365 : INFO : Grabado en PELICULA
+2018-03-09 19:03:45,365 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-09 19:03:45,486 : DEBUG : grabado el idficha 5
+2018-03-09 19:03:45,487 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 19:15:19,793 : DEBUG : 10 000 DIAS
+2018-03-09 19:15:19,793 : DEBUG : 10.000 días
+2018-03-09 19:15:19,793 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:15:19,793 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:15:19,793 : DEBUG : Peli que buscamos:
+2018-03-09 19:15:19,793 : DEBUG : 10 000 DIAS
+2018-03-09 19:15:19,793 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:15:19,793 : DEBUG : >-- Pelicula --<
+2018-03-09 19:15:19,793 : DEBUG : 10 000 DIAS
+2018-03-09 19:15:19,793 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:15:19,793 : DEBUG : 10000DIAS
+2018-03-09 19:15:19,809 : DEBUG : intento nº--> 1
+2018-03-09 19:15:19,809 : DEBUG : 10.000 días
+2018-03-09 19:15:19,809 : ERROR : Error en existe_ficha
+2018-03-09 19:15:19,809 : ERROR : (<type 'exceptions.TypeError'>, TypeError("int() argument must be a string or a number, not 'Pelicula'",), <traceback object at 0x0893A170>)
+2018-03-09 19:15:19,809 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-09 19:15:20,270 : DEBUG : PELI
+2018-03-09 19:15:20,270 : DEBUG : FICHA 1
+2018-03-09 19:15:20,270 : DEBUG : poster_path --> /vxrdHZqbF0YCcDtlwTVi4fzwuKS.jpg
+2018-03-09 19:15:20,270 : DEBUG : title --> 10,000 Days
+2018-03-09 19:15:20,270 : DEBUG : overview --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades.
+2018-03-09 19:15:20,270 : DEBUG : release_date --> 2014-11-23
+2018-03-09 19:15:20,270 : DEBUG : popularity --> None
+2018-03-09 19:15:20,270 : DEBUG : original_title --> 10,000 Days
+2018-03-09 19:15:20,270 : DEBUG : backdrop_path --> /kT4JzPaRNnw0zv8asYRB2Kb7IO5.jpg
+2018-03-09 19:15:20,270 : DEBUG : vote_count --> None
+2018-03-09 19:15:20,270 : DEBUG : video --> None
+2018-03-09 19:15:20,270 : DEBUG : adult --> None
+2018-03-09 19:15:20,270 : DEBUG : vote_average --> None
+2018-03-09 19:15:20,270 : DEBUG : genre_ids --> None
+2018-03-09 19:15:20,270 : DEBUG : id --> None
+2018-03-09 19:15:20,270 : DEBUG : original_language --> en
+2018-03-09 19:15:20,270 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-09 19:15:20,270 : DEBUG : None
+2018-03-09 19:15:20,270 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-09 19:15:21,154 : DEBUG : Finalmente nos queda 
+2018-03-09 19:15:21,154 : DEBUG : anio --> 2014
+2018-03-09 19:15:21,154 : DEBUG : imagen --> https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg
+2018-03-09 19:15:21,154 : DEBUG : escritor --> None
+2018-03-09 19:15:21,154 : DEBUG : director --> Eric Small
+2018-03-09 19:15:21,154 : DEBUG : titulo --> 10.000 días
+2018-03-09 19:15:21,154 : DEBUG : actores --> John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders
+2018-03-09 19:15:21,154 : DEBUG : pais --> Estados Unidos
+2018-03-09 19:15:21,154 : DEBUG : titulo_orig --> 10,000 Days
+2018-03-09 19:15:21,154 : DEBUG : sinopsis --> 10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice—a choice that can either save them or destroy them.
+2018-03-09 19:15:21,154 : DEBUG : sinopsis_es --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades. (FILMAFFINITY)
+2018-03-09 19:15:21,154 : DEBUG : generos --> Ciencia ficción
+2018-03-09 19:15:21,154 : DEBUG : duracion --> 91 min.
+2018-03-09 19:15:21,154 : DEBUG : idFicha --> Film-548951
+2018-03-09 19:15:21,154 : DEBUG : {u'anio': u'2014', u'imagen': 'https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg', u'escritor': None, u'director': u'Eric Small', u'titulo': u'10.000 d\xedas', u'actores': u'John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders', u'pais': u'Estados Unidos', u'titulo_orig': u'10,000 Days', u'sinopsis': u"10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice\u2014a choice that can either save them or destroy them.", u'sinopsis_es': u'Hace 10.000 d\xedas, un cometa impact\xf3 con la Tierra en pleno oc\xe9ano Pac\xedfico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivi\xf3, comenzando una terrible odisea frente al fr\xedo y las adversidades. (FILMAFFINITY)', u'generos': u'Ciencia ficci\xf3n', u'duracion': u'91 min.', u'idFicha': u'Film-548951'}
+2018-03-09 19:15:21,154 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-09 19:15:21,154 : ERROR : No hay parámetros para la busqueda
+2018-03-09 19:15:21,154 : DEBUG : None
+2018-03-09 19:15:21,154 : DEBUG : anio --> 2014
+2018-03-09 19:15:21,154 : DEBUG : imagen --> https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg
+2018-03-09 19:15:21,154 : DEBUG : escritor --> None
+2018-03-09 19:15:21,154 : DEBUG : director --> Eric Small
+2018-03-09 19:15:21,154 : DEBUG : titulo --> 10.000 días
+2018-03-09 19:15:21,170 : DEBUG : actores --> John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders
+2018-03-09 19:15:21,170 : DEBUG : pais --> Estados Unidos
+2018-03-09 19:15:21,170 : DEBUG : titulo_orig --> 10,000 Days
+2018-03-09 19:15:21,170 : DEBUG : sinopsis --> 10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice—a choice that can either save them or destroy them.
+2018-03-09 19:15:21,170 : DEBUG : sinopsis_es --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades. (FILMAFFINITY)
+2018-03-09 19:15:21,170 : DEBUG : generos --> Ciencia ficción
+2018-03-09 19:15:21,170 : DEBUG : duracion --> 91 min.
+2018-03-09 19:15:21,170 : DEBUG : idFicha --> Film-548951
+2018-03-09 19:15:21,170 : DEBUG : Ficha Encontrada -->
+2018-03-09 19:15:21,170 : DEBUG : anio --> 2014
+2018-03-09 19:15:21,170 : DEBUG : imagen --> https://pics.filmaffinity.com/10_000_days-299770893-mmed.jpg
+2018-03-09 19:15:21,170 : DEBUG : escritor --> None
+2018-03-09 19:15:21,170 : DEBUG : director --> Eric Small
+2018-03-09 19:15:21,170 : DEBUG : titulo --> 10.000 días
+2018-03-09 19:15:21,170 : DEBUG : actores --> John Schneider, Peter Wingfield, James Harvey Ward, Kim Myers, Lisa Pelikan, Kenneth Meseroll, Riley Smith, Jill Remez, Jay Montalvo, Jules Willcox, Kelsey Sanders, Kasey Campbell, Blake Randall, Lydia Look, Lewis Tan, Kalani Queypo, Cedric Sanders
+2018-03-09 19:15:21,170 : DEBUG : pais --> Estados Unidos
+2018-03-09 19:15:21,170 : DEBUG : titulo_orig --> 10,000 Days
+2018-03-09 19:15:21,170 : DEBUG : sinopsis --> 10,000 days ago, Comet 23 struck the Pacific Ocean with the magnitude of all the nuclear weapons in the world. The Beck family was among the lucky few who survived the heat blast and firestorms. And then the freezing began. The comet knocked the Earth away from the sun, encasing the planet in snow and ice. For those who survived, life is violent and dangerous. The daily battle isn't just against the punishing climate but against each other for the basic necessities that mean life or death. Still, the weather is growing colder and the ice is expanding. Villages are being crushed by violent tremors. And then the Becks find an object from the past, buried deep in the ice. And with it comes a choice—a choice that can either save them or destroy them.
+2018-03-09 19:15:21,170 : DEBUG : sinopsis_es --> Hace 10.000 días, un cometa impactó con la Tierra en pleno océano Pacífico con la fuerza de incontables bombas nucleares, sumiendo al planeta en nieve y hielo. La familia Beck fue una de las pocas que sobrevivió, comenzando una terrible odisea frente al frío y las adversidades. (FILMAFFINITY)
+2018-03-09 19:15:21,170 : DEBUG : generos --> Ciencia ficción
+2018-03-09 19:15:21,170 : DEBUG : duracion --> 91 min.
+2018-03-09 19:15:21,170 : DEBUG : idFicha --> Film-548951
+2018-03-09 19:15:21,170 : DEBUG : Film-548951
+2018-03-09 19:15:21,170 : DEBUG : 10.000 días
+2018-03-09 19:15:21,170 : DEBUG : [u'Film-548951']
+2018-03-09 19:15:21,170 : DEBUG : 1
+2018-03-09 19:15:21,170 : DEBUG : Film-548951
+2018-03-09 19:15:21,170 : ERROR : No se ha encontrado la idfichaFilm-548951
+2018-03-09 19:15:21,170 : DEBUG : intento nº--> 5
+2018-03-09 19:15:21,217 : DEBUG : /Imagenes/Film-548951.jpg
+2018-03-09 19:15:21,232 : DEBUG : Grabo imagen --> Film-548951
+2018-03-09 19:15:21,232 : DEBUG : Voy a grabar la Ficha
+2018-03-09 19:15:21,232 : DEBUG : 10.000 días
+2018-03-09 19:15:21,232 : DEBUG : FICHA DE LA PELICULA
+2018-03-09 19:15:21,232 : DEBUG : >-- Pelicula --<
+2018-03-09 19:15:21,232 : DEBUG : 10.000 días
+2018-03-09 19:15:21,232 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-09 19:15:21,325 : INFO : Grabado en PELICULA
+2018-03-09 19:15:21,325 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-09 19:15:21,404 : DEBUG : grabado el idficha 5
+2018-03-09 19:15:21,404 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 19:27:44,950 : DEBUG : listar pelis
+2018-03-09 19:28:36,653 : DEBUG : listar pelis
+2018-03-09 19:29:00,561 : DEBUG : 10 000 DIAS
+2018-03-09 19:29:00,592 : DEBUG : 10.000 días
+2018-03-09 19:29:00,592 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:29:00,592 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:29:00,592 : DEBUG : Peli que buscamos:
+2018-03-09 19:29:00,592 : DEBUG : 10 000 DIAS
+2018-03-09 19:29:00,592 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:29:00,592 : DEBUG : >-- Pelicula --<
+2018-03-09 19:29:00,592 : DEBUG : 10 000 DIAS
+2018-03-09 19:29:00,592 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:29:00,592 : DEBUG : 10000DIAS
+2018-03-09 19:29:00,608 : DEBUG : intento nº--> 1
+2018-03-09 19:29:00,608 : DEBUG : 10.000 días
+2018-03-09 19:29:00,608 : ERROR : Error en existe_ficha
+2018-03-09 19:29:00,608 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'Lista_Pelis' object has no attribute 'lista_pelis_set'",), <traceback object at 0x083E8B70>)
+2018-03-09 19:29:00,608 : DEBUG : Salimos ya que hemos encontrado la ficha en al principio 1
+2018-03-09 19:29:00,608 : ERROR : Error en busqueda de pelicula tras el intento 1
+2018-03-09 19:29:00,608 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'existe_ficha' referenced before assignment",), <traceback object at 0x083E8918>)
+2018-03-09 19:29:00,608 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 19:29:00,608 : ERROR : Error al actualizar las imagenes.
+2018-03-09 19:29:00,608 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x083E8B70>)
+2018-03-09 19:31:20,638 : DEBUG : listar pelis
+2018-03-09 19:31:35,490 : DEBUG : listar pelis
+2018-03-09 19:31:45,184 : DEBUG : 10 000 DIAS
+2018-03-09 19:31:45,184 : DEBUG : 10.000 días
+2018-03-09 19:31:45,184 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:31:45,184 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:31:45,184 : DEBUG : Peli que buscamos:
+2018-03-09 19:31:45,184 : DEBUG : 10 000 DIAS
+2018-03-09 19:31:45,184 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:31:45,184 : DEBUG : >-- Pelicula --<
+2018-03-09 19:31:45,184 : DEBUG : 10 000 DIAS
+2018-03-09 19:31:45,184 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:31:45,184 : DEBUG : 10000DIAS
+2018-03-09 19:31:45,184 : DEBUG : intento nº--> 1
+2018-03-09 19:31:45,184 : DEBUG : 10.000 días
+2018-03-09 19:31:45,184 : DEBUG : 832
+2018-03-09 19:31:45,184 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 19:31:45,200 : DEBUG : >-- Pelicula --<
+2018-03-09 19:31:45,200 : DEBUG : 10.000 días
+2018-03-09 19:31:45,200 : ERROR : Error en existe_ficha
+2018-03-09 19:31:45,200 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Pelicula' object does not support indexing",), <traceback object at 0x08485530>)
+2018-03-09 19:31:45,200 : DEBUG : Salimos ya que hemos encontrado la ficha en al principio 1
+2018-03-09 19:31:45,200 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 19:31:45,200 : ERROR : Error al actualizar las imagenes.
+2018-03-09 19:31:45,200 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x08485C60>)
+2018-03-09 19:43:26,871 : DEBUG : listar pelis
+2018-03-09 19:43:38,433 : DEBUG : 10 000 DIAS
+2018-03-09 19:43:38,433 : DEBUG : 10.000 días
+2018-03-09 19:43:38,433 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:43:38,433 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:43:38,433 : DEBUG : Peli que buscamos:
+2018-03-09 19:43:38,433 : DEBUG : 10 000 DIAS
+2018-03-09 19:43:38,433 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:43:38,433 : DEBUG : >-- Pelicula --<
+2018-03-09 19:43:38,433 : DEBUG : 10 000 DIAS
+2018-03-09 19:43:38,433 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:43:38,433 : DEBUG : 10000DIAS
+2018-03-09 19:43:38,433 : DEBUG : intento nº--> 1
+2018-03-09 19:43:38,433 : DEBUG : 10.000 días
+2018-03-09 19:43:38,433 : DEBUG : 832
+2018-03-09 19:43:38,433 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 19:43:38,447 : DEBUG : >-- Pelicula --<
+2018-03-09 19:43:38,447 : DEBUG : 10.000 días
+2018-03-09 19:43:38,447 : DEBUG : Fichas encontradas --> 1
+2018-03-09 19:43:38,447 : ERROR : Error en existe_ficha
+2018-03-09 19:43:38,447 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Pelicula' object is not iterable",), <traceback object at 0x07271AA8>)
+2018-03-09 19:43:38,447 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 19:43:38,447 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 19:43:38,447 : ERROR : Error al actualizar las imagenes.
+2018-03-09 19:43:38,447 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x07465850>)
+2018-03-09 19:46:11,575 : DEBUG : listar pelis
+2018-03-09 19:46:14,338 : DEBUG : 10 000 DIAS
+2018-03-09 19:46:14,354 : DEBUG : 10.000 días
+2018-03-09 19:46:14,354 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:46:14,354 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:46:14,354 : DEBUG : Peli que buscamos:
+2018-03-09 19:46:14,354 : DEBUG : 10 000 DIAS
+2018-03-09 19:46:14,354 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:46:14,354 : DEBUG : >-- Pelicula --<
+2018-03-09 19:46:14,354 : DEBUG : 10 000 DIAS
+2018-03-09 19:46:14,354 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:46:14,354 : DEBUG : 10000DIAS
+2018-03-09 19:46:14,354 : DEBUG : intento nº--> 1
+2018-03-09 19:46:14,354 : DEBUG : 10.000 días
+2018-03-09 19:46:14,354 : DEBUG : 832
+2018-03-09 19:46:14,354 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 19:46:14,354 : DEBUG : >-- Pelicula --<
+2018-03-09 19:46:14,354 : DEBUG : 10.000 días
+2018-03-09 19:46:14,354 : DEBUG : Fichas encontradas --> 1
+2018-03-09 19:46:14,354 : ERROR : Error en existe_ficha
+2018-03-09 19:46:14,354 : ERROR : (<type 'exceptions.TypeError'>, TypeError("'Pelicula' object is not iterable",), <traceback object at 0x0A309C38>)
+2018-03-09 19:46:14,369 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 19:53:26,901 : DEBUG : listar pelis
+2018-03-09 19:53:33,072 : DEBUG : 10 000 DIAS
+2018-03-09 19:53:33,073 : DEBUG : 10.000 días
+2018-03-09 19:53:33,073 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 19:53:33,073 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 19:53:33,075 : DEBUG : Peli que buscamos:
+2018-03-09 19:53:33,075 : DEBUG : 10 000 DIAS
+2018-03-09 19:53:33,076 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 19:53:33,078 : DEBUG : >-- Pelicula --<
+2018-03-09 19:53:33,078 : DEBUG : 10 000 DIAS
+2018-03-09 19:53:33,078 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 19:53:33,079 : DEBUG : 10000DIAS
+2018-03-09 19:53:33,082 : DEBUG : intento nº--> 1
+2018-03-09 19:53:33,084 : DEBUG : 10.000 días
+2018-03-09 19:53:33,085 : DEBUG : 832
+2018-03-09 19:53:33,085 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 19:53:33,089 : DEBUG : >-- Pelicula --<
+2018-03-09 19:53:33,089 : DEBUG : 10.000 días
+2018-03-09 19:53:33,091 : DEBUG : Fichas encontradas --> 1
+2018-03-09 19:53:33,091 : DEBUG : Solo hemos encontrado una ficha
+2018-03-09 19:53:33,092 : ERROR : Error en existe_ficha
+2018-03-09 19:53:33,092 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, Pelicula found',), <traceback object at 0x0ABBFFD0>)
+2018-03-09 19:53:33,092 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 20:07:11,825 : DEBUG : listar pelis
+2018-03-09 20:07:17,471 : DEBUG : 10 000 DIAS
+2018-03-09 20:07:17,496 : DEBUG : 10.000 días
+2018-03-09 20:07:17,496 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:07:17,512 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:07:17,512 : DEBUG : Peli que buscamos:
+2018-03-09 20:07:17,512 : DEBUG : 10 000 DIAS
+2018-03-09 20:07:17,512 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:07:17,512 : DEBUG : >-- Pelicula --<
+2018-03-09 20:07:17,512 : DEBUG : 10 000 DIAS
+2018-03-09 20:07:17,512 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:07:17,512 : DEBUG : 10000DIAS
+2018-03-09 20:07:17,512 : DEBUG : intento nº--> 1
+2018-03-09 20:07:17,512 : DEBUG : 10.000 días
+2018-03-09 20:07:17,512 : DEBUG : 832
+2018-03-09 20:07:17,512 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:07:17,512 : DEBUG : >-- Pelicula --<
+2018-03-09 20:07:17,512 : DEBUG : 10.000 días
+2018-03-09 20:07:17,512 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:07:17,512 : DEBUG : 10.000 días
+2018-03-09 20:07:17,512 : DEBUG : Solo hemos encontrado una ficha
+2018-03-09 20:07:17,512 : ERROR : Error en existe_ficha
+2018-03-09 20:07:17,528 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, Pelicula found',), <traceback object at 0x0A9BBFD0>)
+2018-03-09 20:07:17,528 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 20:13:18,453 : DEBUG : listar pelis
+2018-03-09 20:13:21,042 : DEBUG : 10 000 DIAS
+2018-03-09 20:13:21,042 : DEBUG : 10.000 días
+2018-03-09 20:13:21,043 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:13:21,043 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:13:21,043 : DEBUG : Peli que buscamos:
+2018-03-09 20:13:21,045 : DEBUG : 10 000 DIAS
+2018-03-09 20:13:21,046 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:13:21,046 : DEBUG : >-- Pelicula --<
+2018-03-09 20:13:21,046 : DEBUG : 10 000 DIAS
+2018-03-09 20:13:21,046 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:13:21,046 : DEBUG : 10000DIAS
+2018-03-09 20:13:21,052 : DEBUG : intento nº--> 1
+2018-03-09 20:13:21,052 : DEBUG : 10.000 días
+2018-03-09 20:13:21,052 : DEBUG : 832
+2018-03-09 20:13:21,053 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:13:21,055 : DEBUG : 10.000 días
+2018-03-09 20:13:21,055 : DEBUG : 832
+2018-03-09 20:13:21,056 : DEBUG : >-- Pelicula --<
+2018-03-09 20:13:21,056 : DEBUG : 10.000 días
+2018-03-09 20:13:21,056 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:13:21,058 : DEBUG : 10.000 días
+2018-03-09 20:13:21,058 : DEBUG : Solo hemos encontrado una ficha
+2018-03-09 20:13:21,058 : ERROR : Error en existe_ficha
+2018-03-09 20:13:21,058 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, Pelicula found',), <traceback object at 0x0728C800>)
+2018-03-09 20:13:21,059 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 20:18:12,971 : DEBUG : listar pelis
+2018-03-09 20:18:17,717 : DEBUG : 10 000 DIAS
+2018-03-09 20:18:17,720 : DEBUG : 10.000 días
+2018-03-09 20:18:17,720 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:18:17,720 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:18:17,721 : DEBUG : Peli que buscamos:
+2018-03-09 20:18:17,721 : DEBUG : 10 000 DIAS
+2018-03-09 20:18:17,723 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:18:17,723 : DEBUG : >-- Pelicula --<
+2018-03-09 20:18:17,724 : DEBUG : 10 000 DIAS
+2018-03-09 20:18:17,724 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:18:17,724 : DEBUG : 10000DIAS
+2018-03-09 20:18:17,727 : DEBUG : intento nº--> 1
+2018-03-09 20:18:17,729 : DEBUG : 10.000 días
+2018-03-09 20:18:17,729 : DEBUG : 832
+2018-03-09 20:18:17,730 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:18:17,739 : DEBUG : >-- Pelicula --<
+2018-03-09 20:18:17,740 : DEBUG : 10.000 días
+2018-03-09 20:18:17,740 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:18:17,740 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:18:17,740 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 20:18:17,740 : ERROR : Error en existe_ficha
+2018-03-09 20:18:17,740 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, Pelicula found',), <traceback object at 0x08ED3B70>)
+2018-03-09 20:18:17,740 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 20:22:17,187 : DEBUG : listar pelis
+2018-03-09 20:22:21,813 : DEBUG : 10 000 DIAS
+2018-03-09 20:22:21,813 : DEBUG : 10.000 días
+2018-03-09 20:22:21,829 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:22:21,829 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:22:21,829 : DEBUG : Peli que buscamos:
+2018-03-09 20:22:21,829 : DEBUG : 10 000 DIAS
+2018-03-09 20:22:21,829 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:22:21,829 : DEBUG : >-- Pelicula --<
+2018-03-09 20:22:21,829 : DEBUG : 10 000 DIAS
+2018-03-09 20:22:21,829 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:22:21,829 : DEBUG : 10000DIAS
+2018-03-09 20:22:21,829 : DEBUG : intento nº--> 1
+2018-03-09 20:22:21,829 : DEBUG : 10.000 días
+2018-03-09 20:22:21,829 : DEBUG : 832
+2018-03-09 20:22:21,829 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:22:21,829 : DEBUG : >-- Pelicula --<
+2018-03-09 20:22:21,829 : DEBUG : 10.000 días
+2018-03-09 20:22:21,829 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:22:21,829 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:22:21,829 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 20:22:21,829 : DEBUG : 10.000 días
+2018-03-09 20:22:21,829 : ERROR : Error en existe_ficha
+2018-03-09 20:22:21,829 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, int found',), <traceback object at 0x08B62BE8>)
+2018-03-09 20:22:21,829 : DEBUG : Salimos porque se ha producido un error tras el intento 1
+2018-03-09 20:24:04,473 : DEBUG : listar pelis
+2018-03-09 20:24:14,421 : DEBUG : 10 000 DIAS
+2018-03-09 20:24:14,421 : DEBUG : 10.000 días
+2018-03-09 20:24:14,421 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:24:14,421 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:24:14,421 : DEBUG : Peli que buscamos:
+2018-03-09 20:24:14,421 : DEBUG : 10 000 DIAS
+2018-03-09 20:24:14,421 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:24:14,421 : DEBUG : >-- Pelicula --<
+2018-03-09 20:24:14,421 : DEBUG : 10 000 DIAS
+2018-03-09 20:24:14,421 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:24:14,421 : DEBUG : 10000DIAS
+2018-03-09 20:24:14,436 : DEBUG : intento nº--> 1
+2018-03-09 20:24:14,436 : DEBUG : 10.000 días
+2018-03-09 20:24:14,436 : DEBUG : 832
+2018-03-09 20:24:14,436 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:24:14,436 : DEBUG : >-- Pelicula --<
+2018-03-09 20:24:14,436 : DEBUG : 10.000 días
+2018-03-09 20:24:14,436 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:24:14,436 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:24:14,436 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 20:24:14,436 : DEBUG : 10.000 días
+2018-03-09 20:24:14,436 : DEBUG : La pelicula tiene ficha asignada --> 832
+2018-03-09 20:24:14,436 : DEBUG : Salimos ya que hemos encontrado la ficha en al principio 1
+2018-03-09 20:24:14,436 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 20:24:14,436 : ERROR : Error al actualizar las imagenes.
+2018-03-09 20:24:14,436 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'QuerySet' object has no attribute 'save'",), <traceback object at 0x08CF7D50>)
+2018-03-09 20:33:30,516 : DEBUG : listar pelis
+2018-03-09 20:33:33,875 : DEBUG : 10 000 DIAS
+2018-03-09 20:33:33,877 : DEBUG : 10.000 días
+2018-03-09 20:33:33,878 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:33:33,878 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:33:33,878 : DEBUG : Peli que buscamos:
+2018-03-09 20:33:33,878 : DEBUG : 10 000 DIAS
+2018-03-09 20:33:33,880 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:33:33,880 : DEBUG : >-- Pelicula --<
+2018-03-09 20:33:33,881 : DEBUG : 10 000 DIAS
+2018-03-09 20:33:33,881 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:33:33,881 : DEBUG : 10000DIAS
+2018-03-09 20:33:33,881 : DEBUG : intento nº--> 1
+2018-03-09 20:33:33,881 : DEBUG : 10.000 días
+2018-03-09 20:33:33,881 : DEBUG : 832
+2018-03-09 20:33:33,884 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:33:33,888 : DEBUG : >-- Pelicula --<
+2018-03-09 20:33:33,888 : DEBUG : 10.000 días
+2018-03-09 20:33:33,888 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:33:33,888 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:33:33,888 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 20:33:33,888 : DEBUG : 10.000 días
+2018-03-09 20:33:33,888 : DEBUG : La pelicula tiene ficha asignada --> 832
+2018-03-09 20:33:33,888 : DEBUG : Salimos ya que hemos encontrado la ficha en al principio 1
+2018-03-09 20:33:33,888 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 20:33:33,888 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:33:33,888 : DEBUG : 10.000 días
+2018-03-09 20:33:33,888 : ERROR : Error al actualizar las imagenes.
+2018-03-09 20:33:33,888 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'QuerySet' object has no attribute 'imagen'",), <traceback object at 0x088230D0>)
+2018-03-09 20:39:57,852 : DEBUG : listar pelis
+2018-03-09 20:40:00,861 : DEBUG : 10 000 DIAS
+2018-03-09 20:40:00,862 : DEBUG : 10.000 días
+2018-03-09 20:40:00,862 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 20:40:00,862 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:40:00,864 : DEBUG : Peli que buscamos:
+2018-03-09 20:40:00,864 : DEBUG : 10 000 DIAS
+2018-03-09 20:40:00,865 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:40:00,865 : DEBUG : 10 000 DIAS
+2018-03-09 20:40:00,865 : DEBUG : >-- Pelicula --<
+2018-03-09 20:40:00,865 : DEBUG : 10 000 DIAS
+2018-03-09 20:40:00,865 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:40:00,867 : DEBUG : 10000DIAS
+2018-03-09 20:40:00,869 : DEBUG : intento nº--> 1
+2018-03-09 20:40:00,869 : DEBUG : 10.000 días
+2018-03-09 20:40:00,869 : DEBUG : 832
+2018-03-09 20:40:00,869 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:40:00,872 : DEBUG : >-- Pelicula --<
+2018-03-09 20:40:00,874 : DEBUG : 10.000 días
+2018-03-09 20:40:00,874 : DEBUG : Fichas encontradas --> 1
+2018-03-09 20:40:00,874 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 20:40:00,874 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 20:40:00,874 : DEBUG : 10.000 días
+2018-03-09 20:40:00,874 : DEBUG : La pelicula tiene ficha asignada --> 832
+2018-03-09 20:40:00,874 : DEBUG : Salimos ya que hemos encontrado la ficha en al principio 1
+2018-03-09 20:40:00,874 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 20:40:00,874 : DEBUG : 10 000 DIAS
+2018-03-09 20:40:00,875 : DEBUG : 10.000 días
+2018-03-09 20:40:16,835 : DEBUG : 10.000 AC
+2018-03-09 20:40:16,835 : DEBUG : None
+2018-03-09 20:40:16,835 : DEBUG : http://newpct1.com/descargar-torrent/97658_10-000-ac-bluray-1080p-hevc-x265-ac3-5-1-castellano-truehd-5-1-ingles-subs-es-en
+2018-03-09 20:40:16,835 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:40:16,835 : DEBUG : Peli que buscamos:
+2018-03-09 20:40:16,851 : DEBUG : 10.000 AC
+2018-03-09 20:40:16,851 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:40:16,851 : DEBUG : 10.000 AC
+2018-03-09 20:40:16,851 : DEBUG : >-- Pelicula --<
+2018-03-09 20:40:16,851 : DEBUG : 10.000 AC
+2018-03-09 20:40:16,851 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:40:16,851 : DEBUG : 10.000AC
+2018-03-09 20:40:16,851 : DEBUG : intento nº--> 2
+2018-03-09 20:40:16,851 : DEBUG : 10.000AC
+2018-03-09 20:40:16,851 : DEBUG : <QuerySet []>
+2018-03-09 20:40:17,292 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-09 20:40:18,398 : DEBUG : PELI
+2018-03-09 20:40:18,398 : DEBUG : FICHA 1
+2018-03-09 20:40:18,398 : DEBUG : poster_path --> /ppmuv4z5hhXGUYAdCqvLX6J3qql.jpg
+2018-03-09 20:40:18,398 : DEBUG : title --> 10.000
+2018-03-09 20:40:18,398 : DEBUG : overview --> Era la época en la que el hombre y la bestia eran salvajes y el gran mamut recorría la Tierra. Una época en la que nacieron las ideas y las creencias que forjaron a la humanidad para siempre. "10.000" narra la historia de un joven cazador (Steven Strait) en su misión de guiar a un ejército a través de un vasto desierto, luchando contra tigres dientes de sable y depredadores prehistóricos, mientras descubre una civilización perdida e intenta rescatar a la mujer que ama.
+2018-03-09 20:40:18,398 : DEBUG : release_date --> 2008-02-22
+2018-03-09 20:40:18,398 : DEBUG : popularity --> None
+2018-03-09 20:40:18,398 : DEBUG : original_title --> 10,000 BC
+2018-03-09 20:40:18,398 : DEBUG : backdrop_path --> /x449jyGofRwbnkYgUnS9VLdPkmu.jpg
+2018-03-09 20:40:18,398 : DEBUG : vote_count --> None
+2018-03-09 20:40:18,414 : DEBUG : video --> None
+2018-03-09 20:40:18,414 : DEBUG : adult --> None
+2018-03-09 20:40:18,414 : DEBUG : vote_average --> None
+2018-03-09 20:40:18,414 : DEBUG : genre_ids --> None
+2018-03-09 20:40:18,414 : DEBUG : id --> None
+2018-03-09 20:40:18,414 : DEBUG : original_language --> en
+2018-03-09 20:40:18,414 : DEBUG : FICHA 2
+2018-03-09 20:40:18,414 : DEBUG : poster_path --> /yos08hmYsyxg2fT5k1NcHY5X3a.jpg
+2018-03-09 20:40:18,414 : DEBUG : title --> Viaje al 10.000 a.C.
+2018-03-09 20:40:18,414 : DEBUG : overview --> Hace 12000 años el hombre luchaba por sobrevivir y por expandirse, descubre en este documental como vivian en el 10000 antes de Cristo.
+2018-03-09 20:40:18,414 : DEBUG : release_date --> 2009-01-01
+2018-03-09 20:40:18,414 : DEBUG : popularity --> None
+2018-03-09 20:40:18,414 : DEBUG : original_title --> Journey to 10,000 BC
+2018-03-09 20:40:18,414 : DEBUG : backdrop_path --> /gwKab7ZUxu0Iq52Kv7hkUMx6o5S.jpg
+2018-03-09 20:40:18,414 : DEBUG : vote_count --> None
+2018-03-09 20:40:18,414 : DEBUG : video --> None
+2018-03-09 20:40:18,414 : DEBUG : adult --> None
+2018-03-09 20:40:18,414 : DEBUG : vote_average --> None
+2018-03-09 20:40:18,414 : DEBUG : genre_ids --> None
+2018-03-09 20:40:18,430 : DEBUG : id --> None
+2018-03-09 20:40:18,430 : DEBUG : original_language --> en
+2018-03-09 20:40:18,430 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-09 20:40:18,430 : DEBUG : None
+2018-03-09 20:40:18,430 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-09 20:40:18,664 : DEBUG : None
+2018-03-09 20:40:18,664 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-09 20:40:18,664 : ERROR : No hay parámetros para la busqueda
+2018-03-09 20:40:18,680 : DEBUG : None
+2018-03-09 20:40:18,680 : WARNING : No se ha encontrado
+2018-03-09 20:40:18,680 : DEBUG : None
+2018-03-09 20:40:18,680 : DEBUG : 10.000 AC
+2018-03-09 20:40:18,680 : INFO : None
+2018-03-09 20:40:18,680 : DEBUG : anio --> None
+2018-03-09 20:40:18,680 : DEBUG : imagen --> None
+2018-03-09 20:40:18,680 : DEBUG : escritor --> None
+2018-03-09 20:40:18,680 : DEBUG : director --> None
+2018-03-09 20:40:18,680 : DEBUG : titulo --> 10.000 AC
+2018-03-09 20:40:18,680 : DEBUG : actores --> None
+2018-03-09 20:40:18,680 : DEBUG : pais --> None
+2018-03-09 20:40:18,680 : DEBUG : titulo_orig --> None
+2018-03-09 20:40:18,680 : DEBUG : sinopsis --> 
+2018-03-09 20:40:18,680 : DEBUG : sinopsis_es --> 
+2018-03-09 20:40:18,680 : DEBUG : generos --> None
+2018-03-09 20:40:18,680 : DEBUG : duracion --> None
+2018-03-09 20:40:18,680 : DEBUG : idFicha --> None
+2018-03-09 20:40:18,680 : DEBUG : Ficha Encontrada -->
+2018-03-09 20:40:18,680 : DEBUG : anio --> None
+2018-03-09 20:40:18,680 : DEBUG : imagen --> None
+2018-03-09 20:40:18,680 : DEBUG : escritor --> None
+2018-03-09 20:40:18,680 : DEBUG : director --> None
+2018-03-09 20:40:18,680 : DEBUG : titulo --> 10.000 AC
+2018-03-09 20:40:18,680 : DEBUG : actores --> None
+2018-03-09 20:40:18,680 : DEBUG : pais --> None
+2018-03-09 20:40:18,680 : DEBUG : titulo_orig --> None
+2018-03-09 20:40:18,680 : DEBUG : sinopsis --> 
+2018-03-09 20:40:18,680 : DEBUG : sinopsis_es --> 
+2018-03-09 20:40:18,680 : DEBUG : generos --> None
+2018-03-09 20:40:18,680 : DEBUG : duracion --> None
+2018-03-09 20:40:18,680 : DEBUG : idFicha --> None
+2018-03-09 20:40:18,680 : DEBUG : None
+2018-03-09 20:40:18,680 : DEBUG : None
+2018-03-09 20:40:18,680 : ERROR : Error en busqueda de pelicula tras el intento 2
+2018-03-09 20:40:18,680 : ERROR : (<type 'exceptions.TypeError'>, TypeError('coercing to Unicode: need string or buffer, NoneType found',), <traceback object at 0x08DECAF8>)
+2018-03-09 20:40:18,680 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 20:40:18,680 : DEBUG : 10.000 AC
+2018-03-09 20:40:18,680 : ERROR : Error al actualizar las imagenes.
+2018-03-09 20:40:18,680 : ERROR : (<type 'exceptions.UnboundLocalError'>, UnboundLocalError("local variable 'ficha_ins' referenced before assignment",), <traceback object at 0x071BB3F0>)
+2018-03-09 20:57:22,398 : DEBUG : 10.000 AC
+2018-03-09 20:57:22,398 : DEBUG : None
+2018-03-09 20:57:22,398 : DEBUG : http://newpct1.com/descargar-torrent/97658_10-000-ac-bluray-1080p-hevc-x265-ac3-5-1-castellano-truehd-5-1-ingles-subs-es-en
+2018-03-09 20:57:22,398 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 20:57:22,398 : DEBUG : Peli que buscamos:
+2018-03-09 20:57:22,398 : DEBUG : 10.000 AC
+2018-03-09 20:57:22,398 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 20:57:22,398 : DEBUG : 10.000 AC
+2018-03-09 20:57:22,398 : DEBUG : >-- Pelicula --<
+2018-03-09 20:57:22,398 : DEBUG : 10.000 AC
+2018-03-09 20:57:22,398 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 20:57:22,398 : DEBUG : 10.000AC
+2018-03-09 20:57:22,398 : DEBUG : intento nº--> 2
+2018-03-09 20:57:22,398 : DEBUG : 10.000AC
+2018-03-09 20:57:22,398 : DEBUG : <QuerySet []>
+2018-03-09 20:57:22,757 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-09 20:57:23,664 : DEBUG : PELI
+2018-03-09 20:57:23,664 : DEBUG : FICHA 1
+2018-03-09 20:57:23,664 : DEBUG : poster_path --> /ppmuv4z5hhXGUYAdCqvLX6J3qql.jpg
+2018-03-09 20:57:23,664 : DEBUG : title --> 10.000
+2018-03-09 20:57:23,664 : DEBUG : overview --> Era la época en la que el hombre y la bestia eran salvajes y el gran mamut recorría la Tierra. Una época en la que nacieron las ideas y las creencias que forjaron a la humanidad para siempre. "10.000" narra la historia de un joven cazador (Steven Strait) en su misión de guiar a un ejército a través de un vasto desierto, luchando contra tigres dientes de sable y depredadores prehistóricos, mientras descubre una civilización perdida e intenta rescatar a la mujer que ama.
+2018-03-09 20:57:23,664 : DEBUG : release_date --> 2008-02-22
+2018-03-09 20:57:23,664 : DEBUG : popularity --> None
+2018-03-09 20:57:23,664 : DEBUG : original_title --> 10,000 BC
+2018-03-09 20:57:23,664 : DEBUG : backdrop_path --> /x449jyGofRwbnkYgUnS9VLdPkmu.jpg
+2018-03-09 20:57:23,664 : DEBUG : vote_count --> None
+2018-03-09 20:57:23,664 : DEBUG : video --> None
+2018-03-09 20:57:23,664 : DEBUG : adult --> None
+2018-03-09 20:57:23,664 : DEBUG : vote_average --> None
+2018-03-09 20:57:23,664 : DEBUG : genre_ids --> None
+2018-03-09 20:57:23,664 : DEBUG : id --> None
+2018-03-09 20:57:23,664 : DEBUG : original_language --> en
+2018-03-09 20:57:23,664 : DEBUG : FICHA 2
+2018-03-09 20:57:23,664 : DEBUG : poster_path --> /yos08hmYsyxg2fT5k1NcHY5X3a.jpg
+2018-03-09 20:57:23,664 : DEBUG : title --> Viaje al 10.000 a.C.
+2018-03-09 20:57:23,664 : DEBUG : overview --> Hace 12000 años el hombre luchaba por sobrevivir y por expandirse, descubre en este documental como vivian en el 10000 antes de Cristo.
+2018-03-09 20:57:23,664 : DEBUG : release_date --> 2009-01-01
+2018-03-09 20:57:23,664 : DEBUG : popularity --> None
+2018-03-09 20:57:23,664 : DEBUG : original_title --> Journey to 10,000 BC
+2018-03-09 20:57:23,664 : DEBUG : backdrop_path --> /gwKab7ZUxu0Iq52Kv7hkUMx6o5S.jpg
+2018-03-09 20:57:23,664 : DEBUG : vote_count --> None
+2018-03-09 20:57:23,664 : DEBUG : video --> None
+2018-03-09 20:57:23,664 : DEBUG : adult --> None
+2018-03-09 20:57:23,664 : DEBUG : vote_average --> None
+2018-03-09 20:57:23,664 : DEBUG : genre_ids --> None
+2018-03-09 20:57:23,664 : DEBUG : id --> None
+2018-03-09 20:57:23,664 : DEBUG : original_language --> en
+2018-03-09 20:57:23,664 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-09 20:57:23,664 : DEBUG : None
+2018-03-09 20:57:23,664 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-09 20:57:23,819 : DEBUG : None
+2018-03-09 20:57:23,819 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-09 20:57:23,819 : ERROR : No hay parámetros para la busqueda
+2018-03-09 20:57:23,819 : DEBUG : None
+2018-03-09 20:57:23,819 : WARNING : No se ha encontrado
+2018-03-09 20:57:23,819 : DEBUG : None
+2018-03-09 20:57:23,819 : DEBUG : 10.000 AC
+2018-03-09 20:57:23,819 : INFO : None
+2018-03-09 20:57:23,819 : DEBUG : anio --> None
+2018-03-09 20:57:23,819 : DEBUG : imagen --> None
+2018-03-09 20:57:23,819 : DEBUG : escritor --> None
+2018-03-09 20:57:23,819 : DEBUG : director --> None
+2018-03-09 20:57:23,819 : DEBUG : titulo --> 10.000 AC
+2018-03-09 20:57:23,819 : DEBUG : actores --> None
+2018-03-09 20:57:23,819 : DEBUG : pais --> None
+2018-03-09 20:57:23,819 : DEBUG : titulo_orig --> None
+2018-03-09 20:57:23,819 : DEBUG : sinopsis --> 
+2018-03-09 20:57:23,819 : DEBUG : sinopsis_es --> 
+2018-03-09 20:57:23,819 : DEBUG : generos --> None
+2018-03-09 20:57:23,819 : DEBUG : duracion --> None
+2018-03-09 20:57:23,819 : DEBUG : idFicha --> None
+2018-03-09 20:57:23,819 : DEBUG : Ficha Encontrada -->
+2018-03-09 20:57:23,819 : DEBUG : anio --> None
+2018-03-09 20:57:23,819 : DEBUG : imagen --> None
+2018-03-09 20:57:23,819 : DEBUG : escritor --> None
+2018-03-09 20:57:23,819 : DEBUG : director --> None
+2018-03-09 20:57:23,819 : DEBUG : titulo --> 10.000 AC
+2018-03-09 20:57:23,819 : DEBUG : actores --> None
+2018-03-09 20:57:23,819 : DEBUG : pais --> None
+2018-03-09 20:57:23,819 : DEBUG : titulo_orig --> None
+2018-03-09 20:57:23,819 : DEBUG : sinopsis --> 
+2018-03-09 20:57:23,819 : DEBUG : sinopsis_es --> 
+2018-03-09 20:57:23,819 : DEBUG : generos --> None
+2018-03-09 20:57:23,819 : DEBUG : duracion --> None
+2018-03-09 20:57:23,819 : DEBUG : idFicha --> None
+2018-03-09 20:57:23,819 : DEBUG : intento nº--> 5
+2018-03-09 20:57:23,819 : DEBUG : Voy a grabar la Ficha
+2018-03-09 20:57:23,819 : DEBUG : 10.000 AC
+2018-03-09 20:57:23,819 : DEBUG : FICHA DE LA PELICULA
+2018-03-09 20:57:23,819 : DEBUG : >-- Pelicula --<
+2018-03-09 20:57:23,819 : DEBUG : 10.000 AC
+2018-03-09 20:57:23,819 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-09 20:57:23,944 : INFO : Grabado en PELICULA
+2018-03-09 20:57:23,944 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-09 20:57:24,055 : DEBUG : grabado el idficha 5
+2018-03-09 20:57:24,055 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 20:57:24,055 : DEBUG : 10.000 AC
+2018-03-09 20:57:24,055 : DEBUG : 10.000 AC
+2018-03-09 20:57:24,117 : DEBUG : /Imagenes/10.000AC_10.000 AC.jpg
+2018-03-09 20:57:24,194 : DEBUG : Grabo imagen --> 10.000AC_10.000 AC
+2018-03-09 20:57:24,194 : ERROR : Error al actualizar las imagenes.
+2018-03-09 20:57:24,194 : ERROR : (<type 'exceptions.AttributeError'>, AttributeError("'NoneType' object has no attribute 'find'",), <traceback object at 0x06EE3440>)
+2018-03-09 21:01:58,437 : DEBUG : listar pelis
+2018-03-09 21:02:02,371 : DEBUG : 10.000 AC
+2018-03-09 21:02:02,371 : DEBUG : 10.000 AC
+2018-03-09 21:02:02,372 : DEBUG : http://newpct1.com/descargar-torrent/97658_10-000-ac-bluray-1080p-hevc-x265-ac3-5-1-castellano-truehd-5-1-ingles-subs-es-en
+2018-03-09 21:02:02,372 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 21:02:02,374 : DEBUG : Peli que buscamos:
+2018-03-09 21:02:02,374 : DEBUG : 10.000 AC
+2018-03-09 21:02:02,375 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 21:02:02,375 : DEBUG : 10.000 AC
+2018-03-09 21:02:02,375 : DEBUG : >-- Pelicula --<
+2018-03-09 21:02:02,375 : DEBUG : 10.000 AC
+2018-03-09 21:02:02,375 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 21:02:02,375 : DEBUG : 10.000AC
+2018-03-09 21:02:02,378 : DEBUG : intento nº--> 1
+2018-03-09 21:02:02,378 : DEBUG : 10.000 AC
+2018-03-09 21:02:02,380 : DEBUG : 833
+2018-03-09 21:02:02,380 : DEBUG : <QuerySet []>
+2018-03-09 21:02:02,381 : DEBUG : intento nº--> 2
+2018-03-09 21:02:02,381 : DEBUG : 10.000AC
+2018-03-09 21:02:02,381 : DEBUG : <QuerySet []>
+2018-03-09 21:02:02,390 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-09 21:02:03,404 : DEBUG : PELI
+2018-03-09 21:02:03,404 : DEBUG : FICHA 1
+2018-03-09 21:02:03,404 : DEBUG : poster_path --> /ppmuv4z5hhXGUYAdCqvLX6J3qql.jpg
+2018-03-09 21:02:03,404 : DEBUG : title --> 10.000
+2018-03-09 21:02:03,405 : DEBUG : overview --> Era la época en la que el hombre y la bestia eran salvajes y el gran mamut recorría la Tierra. Una época en la que nacieron las ideas y las creencias que forjaron a la humanidad para siempre. "10.000" narra la historia de un joven cazador (Steven Strait) en su misión de guiar a un ejército a través de un vasto desierto, luchando contra tigres dientes de sable y depredadores prehistóricos, mientras descubre una civilización perdida e intenta rescatar a la mujer que ama.
+2018-03-09 21:02:03,405 : DEBUG : release_date --> 2008-02-22
+2018-03-09 21:02:03,405 : DEBUG : popularity --> None
+2018-03-09 21:02:03,407 : DEBUG : original_title --> 10,000 BC
+2018-03-09 21:02:03,407 : DEBUG : backdrop_path --> /x449jyGofRwbnkYgUnS9VLdPkmu.jpg
+2018-03-09 21:02:03,407 : DEBUG : vote_count --> None
+2018-03-09 21:02:03,407 : DEBUG : video --> None
+2018-03-09 21:02:03,407 : DEBUG : adult --> None
+2018-03-09 21:02:03,407 : DEBUG : vote_average --> None
+2018-03-09 21:02:03,407 : DEBUG : genre_ids --> None
+2018-03-09 21:02:03,407 : DEBUG : id --> None
+2018-03-09 21:02:03,408 : DEBUG : original_language --> en
+2018-03-09 21:02:03,408 : DEBUG : FICHA 2
+2018-03-09 21:02:03,408 : DEBUG : poster_path --> /yos08hmYsyxg2fT5k1NcHY5X3a.jpg
+2018-03-09 21:02:03,408 : DEBUG : title --> Viaje al 10.000 a.C.
+2018-03-09 21:02:03,410 : DEBUG : overview --> Hace 12000 años el hombre luchaba por sobrevivir y por expandirse, descubre en este documental como vivian en el 10000 antes de Cristo.
+2018-03-09 21:02:03,410 : DEBUG : release_date --> 2009-01-01
+2018-03-09 21:02:03,410 : DEBUG : popularity --> None
+2018-03-09 21:02:03,411 : DEBUG : original_title --> Journey to 10,000 BC
+2018-03-09 21:02:03,411 : DEBUG : backdrop_path --> /gwKab7ZUxu0Iq52Kv7hkUMx6o5S.jpg
+2018-03-09 21:02:03,411 : DEBUG : vote_count --> None
+2018-03-09 21:02:03,411 : DEBUG : video --> None
+2018-03-09 21:02:03,411 : DEBUG : adult --> None
+2018-03-09 21:02:03,411 : DEBUG : vote_average --> None
+2018-03-09 21:02:03,411 : DEBUG : genre_ids --> None
+2018-03-09 21:02:03,411 : DEBUG : id --> None
+2018-03-09 21:02:03,413 : DEBUG : original_language --> en
+2018-03-09 21:02:03,417 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-09 21:02:03,420 : DEBUG : None
+2018-03-09 21:02:03,421 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-09 21:02:03,553 : DEBUG : None
+2018-03-09 21:02:03,553 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-09 21:02:03,555 : ERROR : No hay parámetros para la busqueda
+2018-03-09 21:02:03,555 : DEBUG : None
+2018-03-09 21:02:03,555 : WARNING : No se ha encontrado
+2018-03-09 21:02:03,555 : DEBUG : None
+2018-03-09 21:02:03,556 : DEBUG : 10.000 AC
+2018-03-09 21:02:03,556 : INFO : None
+2018-03-09 21:02:03,556 : DEBUG : anio --> None
+2018-03-09 21:02:03,556 : DEBUG : imagen --> None
+2018-03-09 21:02:03,556 : DEBUG : escritor --> None
+2018-03-09 21:02:03,556 : DEBUG : director --> None
+2018-03-09 21:02:03,556 : DEBUG : titulo --> 10.000 AC
+2018-03-09 21:02:03,556 : DEBUG : actores --> None
+2018-03-09 21:02:03,558 : DEBUG : pais --> None
+2018-03-09 21:02:03,558 : DEBUG : titulo_orig --> None
+2018-03-09 21:02:03,558 : DEBUG : sinopsis --> 
+2018-03-09 21:02:03,558 : DEBUG : sinopsis_es --> 
+2018-03-09 21:02:03,558 : DEBUG : generos --> None
+2018-03-09 21:02:03,558 : DEBUG : duracion --> None
+2018-03-09 21:02:03,558 : DEBUG : idFicha --> None
+2018-03-09 21:02:03,558 : DEBUG : Ficha Encontrada -->
+2018-03-09 21:02:03,558 : DEBUG : anio --> None
+2018-03-09 21:02:03,558 : DEBUG : imagen --> None
+2018-03-09 21:02:03,559 : DEBUG : escritor --> None
+2018-03-09 21:02:03,559 : DEBUG : director --> None
+2018-03-09 21:02:03,559 : DEBUG : titulo --> 10.000 AC
+2018-03-09 21:02:03,559 : DEBUG : actores --> None
+2018-03-09 21:02:03,559 : DEBUG : pais --> None
+2018-03-09 21:02:03,559 : DEBUG : titulo_orig --> None
+2018-03-09 21:02:03,559 : DEBUG : sinopsis --> 
+2018-03-09 21:02:03,559 : DEBUG : sinopsis_es --> 
+2018-03-09 21:02:03,559 : DEBUG : generos --> None
+2018-03-09 21:02:03,559 : DEBUG : duracion --> None
+2018-03-09 21:02:03,559 : DEBUG : idFicha --> None
+2018-03-09 21:02:03,559 : DEBUG : intento nº--> 5
+2018-03-09 21:02:03,559 : DEBUG : Voy a grabar la Ficha
+2018-03-09 21:02:03,559 : DEBUG : 10.000 AC
+2018-03-09 21:02:03,559 : DEBUG : FICHA DE LA PELICULA
+2018-03-09 21:02:03,559 : DEBUG : >-- Pelicula --<
+2018-03-09 21:02:03,559 : DEBUG : 10.000 AC
+2018-03-09 21:02:03,559 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-09 21:02:03,618 : INFO : Grabado en PELICULA
+2018-03-09 21:02:03,618 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-09 21:02:03,667 : DEBUG : grabado el idficha 5
+2018-03-09 21:02:03,668 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 21:02:03,668 : DEBUG : 10.000 AC
+2018-03-09 21:02:03,670 : DEBUG : 10.000 AC
+2018-03-09 21:02:03,723 : DEBUG : /Imagenes/10.000AC_10.000 AC.jpg
+2018-03-09 21:02:03,730 : DEBUG : Grabo imagen --> 10.000AC_10.000 AC
+2018-03-09 21:19:42,214 : DEBUG : 10 000 DIAS
+2018-03-09 21:19:42,230 : DEBUG : 10.000 días
+2018-03-09 21:19:42,230 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 21:19:42,230 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 21:19:42,230 : DEBUG : Peli que buscamos:
+2018-03-09 21:19:42,230 : DEBUG : 10 000 DIAS
+2018-03-09 21:19:42,230 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 21:19:42,230 : DEBUG : 10 000 DIAS
+2018-03-09 21:19:42,230 : DEBUG : >-- Pelicula --<
+2018-03-09 21:19:42,230 : DEBUG : 10 000 DIAS
+2018-03-09 21:19:42,230 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 21:19:42,230 : DEBUG : 10000DIAS
+2018-03-09 21:19:42,230 : DEBUG : intento nº--> 1
+2018-03-09 21:19:42,230 : DEBUG : 10.000 días
+2018-03-09 21:19:42,230 : DEBUG : 832
+2018-03-09 21:19:42,230 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 21:19:42,230 : DEBUG : >-- Pelicula --<
+2018-03-09 21:19:42,230 : DEBUG : 10.000 días
+2018-03-09 21:19:42,230 : DEBUG : Fichas encontradas --> 1
+2018-03-09 21:19:42,230 : DEBUG : <QuerySet [<Pelicula: 10.000 días>]>
+2018-03-09 21:19:42,230 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 21:19:42,230 : DEBUG : 10.000 días
+2018-03-09 21:19:42,230 : DEBUG : La pelicula tiene ficha asignada --> 832
+2018-03-09 21:19:42,230 : DEBUG : Salimos ya que hemos encontrado la ficha en el principio 1
+2018-03-09 21:19:42,230 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 21:19:42,230 : DEBUG : 10 000 DIAS
+2018-03-09 21:19:42,230 : DEBUG : 10.000 días
+2018-03-09 21:19:42,230 : DEBUG : Fin del grabado de la imagen en BBDD
+2018-03-09 21:20:13,842 : DEBUG : 10.000 AC
+2018-03-09 21:20:13,842 : DEBUG : 10.000 AC
+2018-03-09 21:20:13,842 : DEBUG : http://newpct1.com/descargar-torrent/97658_10-000-ac-bluray-1080p-hevc-x265-ac3-5-1-castellano-truehd-5-1-ingles-subs-es-en
+2018-03-09 21:20:13,842 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 21:20:13,842 : DEBUG : Peli que buscamos:
+2018-03-09 21:20:13,842 : DEBUG : 10.000 AC
+2018-03-09 21:20:13,842 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 21:20:13,842 : DEBUG : 10.000 AC
+2018-03-09 21:20:13,842 : DEBUG : >-- Pelicula --<
+2018-03-09 21:20:13,842 : DEBUG : 10.000 AC
+2018-03-09 21:20:13,842 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 21:20:13,842 : DEBUG : 10.000AC
+2018-03-09 21:20:13,842 : DEBUG : intento nº--> 1
+2018-03-09 21:20:13,842 : DEBUG : 10.000 AC
+2018-03-09 21:20:13,842 : DEBUG : 834
+2018-03-09 21:20:13,842 : DEBUG : <QuerySet []>
+2018-03-09 21:20:13,842 : DEBUG : intento nº--> 2
+2018-03-09 21:20:13,842 : DEBUG : 10.000AC
+2018-03-09 21:20:13,842 : DEBUG : <QuerySet []>
+2018-03-09 21:20:13,842 : DEBUG : -------------- BUSCAMOS EN MOVIEDB --------------------
+2018-03-09 21:20:14,811 : DEBUG : PELI
+2018-03-09 21:20:14,825 : DEBUG : FICHA 1
+2018-03-09 21:20:14,825 : DEBUG : poster_path --> /ppmuv4z5hhXGUYAdCqvLX6J3qql.jpg
+2018-03-09 21:20:14,825 : DEBUG : title --> 10.000
+2018-03-09 21:20:14,825 : DEBUG : overview --> Era la época en la que el hombre y la bestia eran salvajes y el gran mamut recorría la Tierra. Una época en la que nacieron las ideas y las creencias que forjaron a la humanidad para siempre. "10.000" narra la historia de un joven cazador (Steven Strait) en su misión de guiar a un ejército a través de un vasto desierto, luchando contra tigres dientes de sable y depredadores prehistóricos, mientras descubre una civilización perdida e intenta rescatar a la mujer que ama.
+2018-03-09 21:20:14,825 : DEBUG : release_date --> 2008-02-22
+2018-03-09 21:20:14,825 : DEBUG : popularity --> None
+2018-03-09 21:20:14,825 : DEBUG : original_title --> 10,000 BC
+2018-03-09 21:20:14,825 : DEBUG : backdrop_path --> /x449jyGofRwbnkYgUnS9VLdPkmu.jpg
+2018-03-09 21:20:14,825 : DEBUG : vote_count --> None
+2018-03-09 21:20:14,825 : DEBUG : video --> None
+2018-03-09 21:20:14,825 : DEBUG : adult --> None
+2018-03-09 21:20:14,825 : DEBUG : vote_average --> None
+2018-03-09 21:20:14,825 : DEBUG : genre_ids --> None
+2018-03-09 21:20:14,825 : DEBUG : id --> None
+2018-03-09 21:20:14,825 : DEBUG : original_language --> en
+2018-03-09 21:20:14,825 : DEBUG : FICHA 2
+2018-03-09 21:20:14,825 : DEBUG : poster_path --> /yos08hmYsyxg2fT5k1NcHY5X3a.jpg
+2018-03-09 21:20:14,825 : DEBUG : title --> Viaje al 10.000 a.C.
+2018-03-09 21:20:14,825 : DEBUG : overview --> Hace 12000 años el hombre luchaba por sobrevivir y por expandirse, descubre en este documental como vivian en el 10000 antes de Cristo.
+2018-03-09 21:20:14,825 : DEBUG : release_date --> 2009-01-01
+2018-03-09 21:20:14,825 : DEBUG : popularity --> None
+2018-03-09 21:20:14,825 : DEBUG : original_title --> Journey to 10,000 BC
+2018-03-09 21:20:14,825 : DEBUG : backdrop_path --> /gwKab7ZUxu0Iq52Kv7hkUMx6o5S.jpg
+2018-03-09 21:20:14,825 : DEBUG : vote_count --> None
+2018-03-09 21:20:14,825 : DEBUG : video --> None
+2018-03-09 21:20:14,825 : DEBUG : adult --> None
+2018-03-09 21:20:14,825 : DEBUG : vote_average --> None
+2018-03-09 21:20:14,825 : DEBUG : genre_ids --> None
+2018-03-09 21:20:14,825 : DEBUG : id --> None
+2018-03-09 21:20:14,825 : DEBUG : original_language --> en
+2018-03-09 21:20:14,825 : WARNING : CUIDADO!! Quizás no coicida la pelicula
+2018-03-09 21:20:14,842 : DEBUG : None
+2018-03-09 21:20:14,842 : DEBUG : -------------- BUSCAMOS EN FILMAFFINITY --------------------
+2018-03-09 21:20:15,075 : DEBUG : None
+2018-03-09 21:20:15,075 : DEBUG : -------------- BUSCAMOS EN IMBD --------------------
+2018-03-09 21:20:15,075 : ERROR : No hay parámetros para la busqueda
+2018-03-09 21:20:15,075 : DEBUG : None
+2018-03-09 21:20:15,075 : WARNING : No se ha encontrado
+2018-03-09 21:20:15,075 : DEBUG : None
+2018-03-09 21:20:15,075 : DEBUG : 10.000 AC
+2018-03-09 21:20:15,075 : INFO : None
+2018-03-09 21:20:15,075 : DEBUG : anio --> None
+2018-03-09 21:20:15,075 : DEBUG : imagen --> None
+2018-03-09 21:20:15,075 : DEBUG : escritor --> None
+2018-03-09 21:20:15,075 : DEBUG : director --> None
+2018-03-09 21:20:15,075 : DEBUG : titulo --> 10.000 AC
+2018-03-09 21:20:15,075 : DEBUG : actores --> None
+2018-03-09 21:20:15,075 : DEBUG : pais --> None
+2018-03-09 21:20:15,075 : DEBUG : titulo_orig --> None
+2018-03-09 21:20:15,075 : DEBUG : sinopsis --> 
+2018-03-09 21:20:15,075 : DEBUG : sinopsis_es --> 
+2018-03-09 21:20:15,075 : DEBUG : generos --> None
+2018-03-09 21:20:15,075 : DEBUG : duracion --> None
+2018-03-09 21:20:15,075 : DEBUG : idFicha --> None
+2018-03-09 21:20:15,075 : DEBUG : Ficha Encontrada -->
+2018-03-09 21:20:15,075 : DEBUG : anio --> None
+2018-03-09 21:20:15,075 : DEBUG : imagen --> None
+2018-03-09 21:20:15,075 : DEBUG : escritor --> None
+2018-03-09 21:20:15,075 : DEBUG : director --> None
+2018-03-09 21:20:15,075 : DEBUG : titulo --> 10.000 AC
+2018-03-09 21:20:15,075 : DEBUG : actores --> None
+2018-03-09 21:20:15,075 : DEBUG : pais --> None
+2018-03-09 21:20:15,075 : DEBUG : titulo_orig --> None
+2018-03-09 21:20:15,075 : DEBUG : sinopsis --> 
+2018-03-09 21:20:15,075 : DEBUG : sinopsis_es --> 
+2018-03-09 21:20:15,075 : DEBUG : generos --> None
+2018-03-09 21:20:15,075 : DEBUG : duracion --> None
+2018-03-09 21:20:15,075 : DEBUG : idFicha --> None
+2018-03-09 21:20:15,075 : DEBUG : intento nº--> 5
+2018-03-09 21:20:15,075 : DEBUG : Voy a grabar la Ficha
+2018-03-09 21:20:15,075 : DEBUG : 10.000 AC
+2018-03-09 21:20:15,075 : DEBUG : FICHA DE LA PELICULA
+2018-03-09 21:20:15,075 : DEBUG : >-- Pelicula --<
+2018-03-09 21:20:15,075 : DEBUG : 10.000 AC
+2018-03-09 21:20:15,075 : INFO : VAMOS A GRABAR LA FICHA DE LA PELICULA
+2018-03-09 21:20:15,154 : INFO : Grabado en PELICULA
+2018-03-09 21:20:15,154 : INFO : Actualizo la pelicula con el id de la ficha
+2018-03-09 21:20:15,217 : DEBUG : grabado el idficha 5
+2018-03-09 21:20:15,217 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 21:20:15,217 : DEBUG : 10.000 AC
+2018-03-09 21:20:15,217 : DEBUG : 10.000 AC
+2018-03-09 21:20:15,233 : ERROR : Se ha producido un error al guardar la Imagen de la pelicula
+2018-03-09 21:20:15,233 : ERROR : (<type 'exceptions.IOError'>, IOError(2, 'El sistema no puede encontrar la ruta especificada'), <traceback object at 0x0784B3F0>)
+2018-03-09 21:20:15,233 : ERROR : Error al grabar la imagen
+2018-03-09 21:20:15,233 : DEBUG : Grabo imagen --> 10.000AC_835
+2018-03-09 21:20:15,233 : DEBUG : /Imagenes/10.000AC_10.000 AC.jpg
+2018-03-09 21:20:15,263 : DEBUG : Fin del grabado de la imagen en BBDD
+2018-03-09 21:26:46,039 : DEBUG : 10.000 AC
+2018-03-09 21:26:46,039 : DEBUG : 10.000 AC
+2018-03-09 21:26:46,039 : DEBUG : http://newpct1.com/descargar-torrent/97658_10-000-ac-bluray-1080p-hevc-x265-ac3-5-1-castellano-truehd-5-1-ingles-subs-es-en
+2018-03-09 21:26:46,039 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 21:26:46,039 : DEBUG : Peli que buscamos:
+2018-03-09 21:26:46,039 : DEBUG : 10.000 AC
+2018-03-09 21:26:46,039 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 21:26:46,039 : DEBUG : 10.000 AC
+2018-03-09 21:26:46,039 : DEBUG : >-- Pelicula --<
+2018-03-09 21:26:46,039 : DEBUG : 10.000 AC
+2018-03-09 21:26:46,039 : DEBUG : La pelicula ya tiene ficha asignada
+2018-03-09 21:45:30,062 : DEBUG : 10 000 DIAS
+2018-03-09 21:45:30,062 : DEBUG : 10.000 días
+2018-03-09 21:45:30,062 : DEBUG : http://newpct1.com/descargar-torrent/98383_10-000-dias-bluray-rip-ac3-2-0-espaa-a-ol-castellano-2017
+2018-03-09 21:45:30,062 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 21:45:30,062 : DEBUG : Peli que buscamos:
+2018-03-09 21:45:30,062 : DEBUG : 10 000 DIAS
+2018-03-09 21:45:30,062 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 21:45:30,062 : DEBUG : 10 000 DIAS
+2018-03-09 21:45:30,062 : DEBUG : >-- Pelicula --<
+2018-03-09 21:45:30,062 : DEBUG : 10 000 DIAS
+2018-03-09 21:45:30,062 : DEBUG : La pelicula ya tiene ficha asignada
+2018-03-09 21:55:37,447 : INFO : Ficha
+2018-03-09 21:55:37,447 : DEBUG : 765
+2018-03-09 21:55:41,029 : INFO : Ficha
+2018-03-09 21:55:41,032 : DEBUG : 341
+2018-03-09 21:55:44,296 : INFO : Ficha
+2018-03-09 21:55:44,312 : DEBUG : 831
+2018-03-09 21:55:48,530 : INFO : Ficha
+2018-03-09 21:55:48,530 : DEBUG : 832
+2018-03-09 22:06:44,286 : INFO : Ficha
+2018-03-09 22:06:44,289 : DEBUG : 254
+2018-03-09 22:17:12,828 : DEBUG : listar pelis
+2018-03-09 22:17:24,844 : DEBUG : listar pelis
+2018-03-09 22:19:58,302 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,302 : DEBUG : None
+2018-03-09 22:19:58,302 : DEBUG : http://newpct1.com/descargar-torrent/102608_a-47-metros-bluray-rip-ac3-5-1-espaa-a-ol-castellano-2017
+2018-03-09 22:19:58,302 : DEBUG : --------------------------------------INSERTA FICHA---------------------------------------------
+2018-03-09 22:19:58,302 : DEBUG : Peli que buscamos:
+2018-03-09 22:19:58,302 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,305 : DEBUG : Pelicula encontrada en LISTA_PELIS
+2018-03-09 22:19:58,305 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,305 : DEBUG : >-- Pelicula --<
+2018-03-09 22:19:58,305 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,305 : DEBUG : Comprobamos si existe la ficha.
+2018-03-09 22:19:58,305 : DEBUG : A47METROS
+2018-03-09 22:19:58,305 : DEBUG : intento nº--> 2
+2018-03-09 22:19:58,306 : DEBUG : A47METROS
+2018-03-09 22:19:58,306 : DEBUG : <QuerySet [<Pelicula: A 47 METROS>]>
+2018-03-09 22:19:58,313 : DEBUG : >-- Pelicula --<
+2018-03-09 22:19:58,313 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,313 : DEBUG : Fichas encontradas --> 1
+2018-03-09 22:19:58,315 : DEBUG : <QuerySet [<Pelicula: A 47 METROS>]>
+2018-03-09 22:19:58,315 : DEBUG : La ficha de la peli ya existe, cogemos la primera, grabamos en Lista_Pelis el idFicha = ficha.id
+2018-03-09 22:19:58,315 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,315 : DEBUG : La pelicula no tiene ficha asignada, la asignamos
+2018-03-09 22:19:58,342 : DEBUG : Salimos ya que hemos encontrado la ficha en el principio 2
+2018-03-09 22:19:58,342 : DEBUG : Comienzo el actualizar Imagenes Final
+2018-03-09 22:19:58,342 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,342 : DEBUG : A 47 METROS
+2018-03-09 22:19:58,380 : DEBUG : Fin del grabado de la imagen en BBDD
+2018-03-09 22:20:30,703 : DEBUG : listar pelis
+2018-03-09 22:20:55,831 : DEBUG : listar pelis
+2018-03-09 22:21:00,164 : DEBUG : listar pelis
